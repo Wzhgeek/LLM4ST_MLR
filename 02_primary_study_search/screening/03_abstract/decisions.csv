@@ -1,0 +1,275 @@
+﻿record_id,title,decision,primary_condition,review_scope,reviewer_1,reviewer_2,decision_mode,reviewer_note
+merged_0002,LiSSA: Toward Generic Traceability Link Recovery Through Retrieval- Augmented Generation,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0004,Embedding Traceability in Large Language Model Code Generation: Towards Trustworthy AI-Augmented Software Engineering,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0007,Who's Who? LLM-assisted Software Traceability with Architecture Entity Recognition,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0008,Real-World Traceability Patterns for Generative AI Systems: With Insights from the Safa Dataset,EXCLUDE,E5,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0009,A Hybrid Approach Combining Information Retrieval and Large Language Models for Traceability Link Recovery,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_0014,Tracing Domain Services in Application Code using Generative AI,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0019,Promptware Engineering: Software Engineering for Prompt-Enabled Systems,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0037,From Specifications to Implementation in the Gen-AI Era: Lessons from a Project-Based Software Engineering Course,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_0038,"Multi-LLM Persona Generation for Virtual Focus Groups in Software Engineering: A Controlled, Multi-domain Study of Emotional Requirements Elicitation",EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0045,Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_0048,Toward Responsible Autonomy: The Opportunities and Obstacles of Large Language Models in Software Engineering,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_0065,CPEMH: An Agentic Framework for Prompt-Driven Behavior Evaluation and Assurance in Foundation-Model Systems for Mental Health Screening,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0075,An LLM-based Approach to Recover Traceability Links between Security Requirements and Goal Models,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0077,Evaluating the Use of LLMs for Documentation to Code Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0079,LinkAnchor: An Autonomous LLM-Based Agent for Issue-to-Commit Link Recovery,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0082,Building LLM-Based Voice Agents for Requirements Elicitation: An Experience Report on Early Prototypes,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0105,Requirement Bot: Enhancing Software User Requirement List Through Retrieval-Augmented Human–AI Co-Authoring,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0110,REST-at: An LLM-Based Tool for Automating Traceability between Requirements and Test Cases,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0125,Requirement Mapping for Complex Equipment: An LLM-Enhanced GQFD Method,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_0126,Class Model Generation from Requirements using Large Language Models,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0131,LLM-Assisted Knowledge Graph Construction and Dual-Layer Reasoning for Defect Repair Planning: A Neo4j-Based Demo,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_0133,Getting Inspiration for Feature Elicitation: App Store- vs. LLM-based Approach,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0139,Using Distinct LLMs to Generate an Initial Software Functional Requirements List in Multiple Interactions,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0140,OntoScope: Using a Divergent-Convergent Interaction Framework to Support LLM-based Ontology Scoping,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_0141,A Comparative Study of Large Language Models for Goal Model Extraction,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_0163,Scenario-Guided LLM-based Mobile App GUI Testing,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0168,From Business Meetings to Requirement Artifacts: An Agentic AI Approach with MARARE,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0172,Do LLMs Agree on Microservice Decompositions? A Multi–Model Study from Textual Requirements,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0173,A DSL for Testing LLMs for Fairness and Bias,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0174,"Feature Request Analysis and Processing: Tasks, Techniques, and Trends",EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0175,Applying a Schema-Constrained LLM Verification Pipeline to the Evaluation of Complex System Designs,EXCLUDE,E1,摘要,R1,R2,协商一致,案例研究对象为快餐产品线和复杂航空系统设计，未建立可核验的软件制品关系。
+merged_0176,Beyond Input Maturity: Evolving LLM-Based Test Generation,EXCLUDE,E7,摘要,R1,R2,协商一致,仅处理单一软件制品，未建立可核验的制品关系。
+merged_0183,Beyond Microservices: Testing Web-Scale RCA Methods on GPU-Driven LLM Workloads,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_0185,An Empirical Analysis of Large Language Models for Sector Classification of Crowd-Based Software Requirements,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0187,From Bugs to Benefits: Improving User Stories by Leveraging Crowd Knowledge with CrUISE-AC,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0191,Smart Grid Assistive AI in Requirement Engineering: Improving the Modeling of Use Cases and Architecture Models with LLMs,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0203,A Large-Scale Empirical Evaluation of LLMs for Automated Self-Admitted Technical Debt Repayment,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0206,Evaluating Large Language Models for Requirements Question Answering in Industrial Aerospace Software,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0224,Reflection-in-the-Loop: An AI-Augmented Visual Environment for Early-Stage Interface Design,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0225,Validating Network Protocol Parsers with Traceable RFC Document Interpretation,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0228,A Vision for Operationalising Diversity and Inclusion in AI,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_0256,Supporting High-Level to Low-Level Requirements Coverage Reviewing with Large Language Models,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_0273,RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0298,In-IDE Toolkit for Developers of AI-Based Features,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_0302,AI Assisted Domain Modeling Explainability and Traceability,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0309,Cost and Benefit of Tracing Features with Embedded Annotations,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_0317,SimStep: Human-in-the-Loop Authoring of Interactive Educational Simulations Through Task-Level Abstractions,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_0349,Where is it? Tracing the Vulnerability-relevant Files from Vulnerability Reports,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0351,Ethical Prompt Engineering for AI-driven SE: Evidence-informed Interaction-time Governance Roadmap to 2030,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_0373,Toward Bridging the Tool Gap: Equipping Large Language Models with Tools to Answer Programmers’ Questions,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0387,Towards a Semi-Automated Pipeline for User Story Curation and Classification,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_0391,Adaptive Self-Improvement for Smarter Energy Systems Using Agentic Policy Search,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_0505,PatchFinder: A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open-Source Software,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_0714,wBPF: Efficient Edge-Case Observability for CXL Pooling systems via eBPF,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1111,"LLMography: Transforming Human-AI Conversations into Traceability, Oversight, and Auditability Indicators",EXCLUDE,E1,摘要,R1,R2,协商一致,"The study is about general Human-AI interaction provenance and educational/technical auditability, not software-lifecycle artifact traceability"
+merged_1114,Trust-Aware Multi-Agent Traceability: Confidence-Calibrated Knowledge Graphs for Consistent Software Artifact Management,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1118,"From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative AI, Agentic Systems, and Engineering Accountability",EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1119,Think Harder and Don't Overlook Your Options: Revisiting Issue-Commit Linking with LLM-Assisted Retrieval,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1121,R2Code: A Self-Reflective LLM Framework for Requirements-to-Code Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1122,Shift-Up: A Framework for Software Engineering Guardrails in AI-native Software Development -- Initial Findings,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1125,IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution,EXCLUDE,E1,摘要,R1,R2,协商一致,研究对象为芯片 RTL/Verilog 硬件设计；论文也明确将该工作定位为软件可追溯性向硬件设计的迁移。
+merged_1127,An Industrial-Scale Retrieval-Augmented Generation Framework for Requirements Engineering: Empirical Evaluation with Automotive Manufacturing Data,EXCLUDE,E1,摘要,R1,R2,协商一致,研究处理制造规范、供应商资格和合规矩阵，属于工业制造合规，不是软件制品可追溯性。
+merged_1128,VibeContract: The Missing Quality Assurance Piece in Vibe Coding,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1129,ReqToCode: Embedding Requirements Traceability as a Structural Property of the Codebase,EXCLUDE,E2,摘要,R1,R2,协商一致,现代大语言模型未直接参与软件追溯任务。
+merged_1130,"ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code",EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1131,ESAA: Event Sourcing for Autonomous Agents in LLM-Based Software Engineering,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1132,Generative AI in Systems Engineering: A Framework for Risk Assessment of Large Language Models,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1133,TraceLLM: Leveraging Large Language Models with Prompt Engineering for Enhanced Requirements Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1135,Agentic Pipelines in Embedded Software Engineering: Emerging Practices and Challenges,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1136,Evidence-Driven Decision Support for AI Model Selection in Research Software Engineering,EXCLUDE,E2,摘要,R1,R2,协商一致,Software-engineering context alone is insufficient; the reported traceability is recommendation/evidence transparency
+merged_1137,DOCUEVAL: An LLM-based AI Engineering Tool for Building Customisable Document Evaluation Workflows,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1138,Traceability and Accountability in Role-Specialized Multi-Agent LLM Pipelines,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1139,ErrorPrism: Reconstructing Error Propagation Paths in Cloud Service Systems,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1140,Synergistic Enhancement of Requirement-to-Code Traceability: A Framework Combining Large Language Model based Data Augmentation and an Advanced Encoder,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1141,Prompts as Software Engineering Artifacts: A Research Agenda and Preliminary Findings,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1142,Natural Language-Programming Language Software Traceability Link Recovery Needs More than Textual Similarity,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1143,Generative Goal Modeling,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1144,Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1146,From Inductive to Deductive: LLMs-Based Qualitative Data Analysis in Requirements Engineering,EXCLUDE,E7,摘要,R1,R2,协商一致,实证任务是对单条需求进行定性标签分类；领域模型和可追溯关系仅作为潜在下游用途，未被建立或评价。
+merged_1147,How Effective are Generative Large Language Models in Performing Requirements Classification?,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1148,"An LLM-Integrated Framework for Completion, Management, and Tracing of STPA",INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1149,Classifier or Prompt: A Case Study on Legal Requirements Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1150,On the Impact of Requirements Smells in Prompts: The Case of Automated Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1151,Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1152,Prompts Matter: Insights and Strategies for Prompt Engineering in Automated Software Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1154,Specification-Driven Development Benchmark: Security Knowledge Transition,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1155,Knowledge Automation and Requirements Analysis in E-Commerce Fraud Detection,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1156,Code Gradients: Towards Automated Traceability of LLM-Generated Code,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1158,"REFSQ 2025 - Joint Proceedings of REFSQ 2025 Workshops, Doctoral Symposium, Posters and Tools Track, and Education and Training Track, co-located with 31st International Conference on Requirements Engineering: Foundation for Software Quality, REFSQ 2025",EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1159,LDIR: Low-Dimensional Dense and Interpretable Text Embeddings with Relative Representations,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1161,"Proceedings - 31st IEEE International Requirements Engineering Conference Workshops, REW 2023",EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1162,Exploring Intelligent Document Processing Technology for Discovering Requirements Debt in Systems Engineering Management Plans,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1163,ENHANCING AGILE REQUIREMENT DISCOVERY WITH AI-DRIVEN MULTIMODAL SYSTEMS AND SYNTHETIC USER STORY GENERATION,EXCLUDE,E7,摘要,R1,R2,协商一致,仅处理单一软件制品，未建立可核验的制品关系。
+merged_1164,Toward Reliable LLM-Integrated Web Architectures for Teacher-Aligned Automatic Student Grading,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1165,Incorporating evidence into mental health Q&A: a novel method to use generative language models for validated clinical content extraction,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1167,Automated formal-specification-to-code trace links recovery using multi-dimensional similarity measures,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1168,TERE4AI: A Knowledge Graph-Based Tool for Generating EU AI Act Compliant Requirements,EXCLUDE,E7,摘要,R1,R2,协商一致,The tool primarily generates regulatory requirements and legal citations; it does not implement or evaluate traceability between qualifying software lifecycle artifacts
+merged_1169,An LLM-Based System for Accessible and Personalized Scientific Communication,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1171,Requirements Elicitation for Machine Learning Applications: A Research Preview,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1172,Automated Extraction and Cross-Document Analysis of Aerospace Project Requirements Using LLMs,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1173,Knowledge Graph Construction and Quality Optimization for Airborne Software Requirement Generation,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1175,Investigating Automated Change Analysis in FinTech Regulations,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1176,DetectorsForge: A Software Product Line for Transfer-learning in Code Smells Detection,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1179,TriGen: A Semantic-Feedback Collaborative LLM Test Case Generation Model,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1180,AI–Augmented Real-Time Collaborative Blended Modeling Framework for Automotive Embedded Systems,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1181,APPLICATION OF ARTIFICIAL INTELLIGENCE FOR DECISION SUPPORT WITHIN CRISIS MANAGEMENT,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1183,Retraining a BERT Model for Transfer Learning in Requirements Engineering: A Preliminary Study,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1184,PyMethods2Test: A Dataset of Python Tests Mapped to Focal Methods,EXCLUDE,E5,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1185,Agentic RAG for Software Testing with Hybrid Vector-Graph and Multi-Agent Orchestration,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1186,Compliance-by-Construction Argument Graphs: Using Generative AI to Produce Evidence-Linked Formal Arguments for Certification-Grade Accountability,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1187,"29th International Conference on Fundamental Approaches to Software Engineering, FASE 2026, held as part of the International Joint Conferences on Theory and Practice of Software, ETAPS 2026",EXCLUDE,E5,摘要,R1,R2,协商一致,"This record is an entire proceedings volume, not a primary study. LusGen is separately indexed and screened as merged_1241"
+merged_1188,"Proceedings - 2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results, ICSE-NIER 2025",EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1189,An Application for Model-Based Guided Engineering,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1190,Risk-Aware Requirements Engineering for Generative AI-Enabled Software Systems: A Framework and Empirical Validation,EXCLUDE,E2,摘要,R1,R2,协商一致,"The traceability topic is relevant, but this is not an LLM-based traceability method under I4"
+merged_1191,Towards Generating High Quality Requirements For Space Missions Using RAG and Knowledge Graphs,EXCLUDE,E8,摘要,R1,R2,协商一致,只有路线图、概念框架或愿景，当前没有可提取的 LLM4ST 方法、实现、案例或实证结果。
+merged_1192,Reimagining Requirements Engineering for Automotive Systems: Boosting Efficiency with a Generative AI Assistant,EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1193,"18th International Symposium on Theoretical Aspects of Software Engineering, TASE 2024",EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1194,From Causal Graphs to Problem Diagrams: Enhancing Safety Requirement Modeling with LLM,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1195,Affordance-Driven Requirements Specification and Scenario Generation,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1196,LLM-Driven MDA Pipeline for Generating UML Class Diagrams and Code,EXCLUDE,E3,摘要,R1,R2,协商一致,研究未使用符合范围的现代大语言模型。
+merged_1197,Requirement Gathering Through AI-based tools For Better knowledge Management,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1198,Impact analysis of regulatory requirement changes on business process compliance,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1199,From Pre-labeling to Production: Engineering Lessons from a Machine Learning Pipeline in the Public Sector,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1200,Optimizing Soft Prompt Tuning via Structural Evolution,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1201,Automatic Test Case Generation Mechanism With Natural Language-Based Korean Requirement Specifications,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1204,RESEARCH NOTES: Multiclass Classification for Self-Admitted Technical Debt via Large Pre-Trained Language Model,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1205,Enabling Trustable Financing: A Verifiable Privacy-Preserving Cross-Chain Protocol,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1206,Application of AI in Software Architecture Development at Volvo Construction Equipment,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1207,"Designing a Haptic Boot for Space With Prompt Engineering: Process, Insights, and Implications",EXCLUDE,E1,摘要,R1,R2,协商一致,研究对象不属于软件工程可追溯性。
+merged_1208,AI-Augmented Software Engineering: Revolutionizing or Challenging Software Quality and Testing?,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1211,Prompt-Optimized LLMs for Requirements Architecture Construction: Empowering Scalable Requirement Analysis in Autonomous Transportation Systems,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1212,Intelligent Traceability to Support Software Maintainability and Accountability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1213,Beyond Retrieval: A Study of Using LLM Ensembles for Candidate Filtering in Requirements Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1214,Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1215,TVR: Automotive System Requirements Traceability Validation and Recovery Through Retrieval-Augmented Generation,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1216,LLM-based Approach to Automatically Establish Traceability between Requirements and MBSE,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1217,Cross-Level Requirements Tracing Based on Large Language Models,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1218,Navigating through Work Items in Issue Tracking Systems via Natural Language Queries,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1219,Generating Context-Aware Learning Materials for Software Security via LLM Agents and Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1220,Constructing Cross-Level Traceability Links in the Automotive Domain: A Case Study,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1221,Automatic Prompt Engineering: The Case of Requirements Classification,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1222,Can we use LLMs to recover Trace Links between Source Code and Security Requirements?,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1223,Methods for integrating large language models into requirements management in agile methodologies,EXCLUDE,E8,摘要,R1,R2,协商一致,缺少可提取的方法或实证证据。
+merged_1224,Behavioral Augmentation of UML Class Diagrams: An Empirical Study of Large Language Models for Method Generation,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1225,Tracing Feature Tests to Textual Requirements,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1227,Semantic Mastery: Enhancing LLMs with Advanced Natural Language Understanding,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1228,Automated Identification and Representation of System Requirements Based on Large Language Models and Knowledge Graphs,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1229,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1230,On the Effectiveness of Zero-Shot and Few-Shot Pretrained Language Models for Software Requirement Classification,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1231,Generative AI as a Cognitive Abstraction in Software Engineering: Evidence from Academic and Industrial Practice,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1232,"Conversational Assistants for Software Development: Integration, Traceability and Coordination",EXCLUDE,E6,摘要,R1,R2,协商一致,ENASE 2024 会议版本已被 2026 年扩展正式版本 merged_1261 完整替代。
+merged_1233,Prompting LLM for Embedded SRS Generation: A Case Study of Elder Care System,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1235,Welcome to the Twelfth International Workshop on Evolving Security and Privacy Requirements Engineering (ESPRE'25),EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1236,DDD-Enforcer: An AI-Powered Multi-Agent System for Real-Time Domain-Driven Design Enforcement,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1237,CTQRS-Based Reinforcement Learning Framework for Reliable Bug Report Generation Using Open-Source Large Language Models,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1238,Iterative Requirements-Driven Business Process Modeling and Verification with Large Language Models,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1240,Hybrid Usability Evaluation of an Automotive REM Tool: Human and LLM-Based Heuristic Assessment of IBM Doors Next,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1241,LusGen: Leveraging LLMs for Safety-Critical Lustre Design and Requirements Traceability,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1243,RAG to RichEs: Bridging RE Automation Pains with RAG Gains: Keynote Abstract,EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1244,AI-Driven Approaches to System Requirements and Test Case Generation: A New Paradigm in Software Engineering,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1245,Smells Like Trouble: Investigating the Impact of Requirements Quality on LLM-Supported Software Engineering,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1246,Leveraging Language Models for Automated Requirements to Design Transformation in MDA,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1247,Closed-Loop Multi-Agent Framework for Airborne Systems MBSE Requirements Standardization,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1248,Enhancing Regulation-Adherent Requirement Engineering with Contextual AI: An Industrial Study,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1249,Towards Standards-Compliant Assistive Technology Product Specifications via LLMs,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1250,The Ethical Requirements Stack: Operationalizing Adaptive Ethical Requirements with Human-AI Collaboration and GPT-Based LLMs,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1251,The Impact of Input Structure on Creating Quality Requirements: A Gemini Case,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1252,Challenges of Digitizing Reality into a Connected Metaverse - The Complexity of Data Requirements of Distributed Digital Twins,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1253,A Context-Aware Multi-agent Approach to Enhancing User Story Management in Agile Software Development,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1254,Leveraging Retrieval-Augmented Generation for Reliable Medical Question Answering Using Large Language Models,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1255,Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1256,RHLMA: A Role-Hierarchical LLM Multi-Agent Framework for Airborne Software Requirement Review,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1257,"LLM-Based MaSE, A Software Development Framework for Developing Multi-agent Systems",EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1258,Source Code Error Categorization and Explanation by Retrieval Augmented Generation,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1259,Trust and Hallucinations: A Study of 39 Experts on AI-Assisted Requirements Reverse Engineering,EXCLUDE,E2,摘要,R1,R2,协商一致,"The empirical focus is practitioner trust and hallucination in AI-assisted requirements reverse engineering, not an implemented or evaluated software-traceability method"
+merged_1260,ArgRE: Formal Argumentation for Conflict Resolution in Multi-Agent Requirements Negotiation,EXCLUDE,E7,摘要,R1,R2,协商一致,仅处理单一软件制品，未建立可核验的制品关系。
+merged_1261,Integrating Conversational Assistants Within Software Development Environments: An Extensible Approach,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1263,A GraphRAG-Based Dual-Path Structural Diffusion Retrieval Framework for Requirement-Code Traceability Link Recovery,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1264,SELink: A semantic-enhanced modular framework for issue–commit link recovery,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1265,Requirements Classification for Traceability Link Recovery,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1266,Requirements Traceability Link Recovery via Retrieval-Augmented Generation,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1267,Evaluation-Driven Development and Operations of LLM Agents: A Process Model and Reference Architecture,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1268,Enabling Architecture Traceability by LLM-based Architecture Component Name Extraction,EXCLUDE,E6,摘要,R1,R2,协商一致,同一研究的早期版本，已由首选版本替代。
+merged_1269,"26th International Conference on Product-Focused Software Process Improvement, PROFES 2025",EXCLUDE,E5,摘要,R1,R2,协商一致,"This record is an entire proceedings volume, not a primary study; each contained paper must be screened separately"
+merged_1270,HGTRTracer: Advancing Requirements-Code Traceability with LLM-Augmented Attribution Reasoning and Heterogeneous Graph Transformer,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1271,Enhancing Requirement Traceability Through Data Augmentation Using Large Language Models,EXCLUDE,E6,摘要,R1,R2,协商一致,同一研究的早期版本，已由首选版本替代。
+merged_1273,Towards Connecting Requirements with Developer Artifacts in a Local Context,EXCLUDE,E3,摘要,R1,R2,协商一致,研究未使用符合范围的现代大语言模型。
+merged_1274,Enhancing Requirement-to-Code Traceability via Chain-of-Thought Prompting in Large Language Models,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1275,Evaluating the Capabilities of LLMs in Traceability Maintenance for Automotive System and Software Requirements,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1283,Retrieval-Augmented Large Language Models for Traceability Link Recovery,EXCLUDE,E5,摘要,R1,R2,协商一致,Master's Thesis
+merged_1290,EVALUATING TRANSFORMER AND LLM CONSTRAINTS FOR TRACEABILITY LINK RECOVERY,EXCLUDE,E5,摘要,R1,R2,协商一致,"The technical topic fits LLM4ST, but the item is a master's thesis and the current protocol excludes theses/grey academic reports from the primary-study corpus"
+merged_1293,Improving software development traceability with structured prompting,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1295,Exploring LLM-Based Semantic Representations in a Hybrid Approach for Automated Trace Link Recovery,EXCLUDE,E5,摘要,R1,R2,协商一致,Utrecht Student Thesis
+merged_1302,SpecMap: Hierarchical LLM Agent for Datasheet-to-Code Traceability Link Recovery in Systems Engineering,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1304,Utilizing Large Language Models to Improve Requirements Tracing in the Nuclear Energy Domain,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1307,LLM-Based Requirement Traceability Matrix Generator from SRS Documents,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1312,From requirements to code: Understanding developer practices in llm-assisted software engineering,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1316,"Enhancing requirements engineering with large language models: From elicitation and classification to traceability, ambiguity management and api recommendation",EXCLUDE,E5,摘要,R1,R2,协商一致,来源是学位论文或学生论文，不满足本协议的原始研究来源类型要求。
+merged_1318,Requirements are all you need: From requirements to code with llms,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1323,Who Broke the Pipeline? Traceability andAccountability in Multi-Agent LLM SoftwareEngineering Pipelines,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1336,A Review on Detecting and Managing Documentation Drift in Software Development,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1338,Towards Improving the Reliability of LLMs in Requirements Engineering with Structured Confidence and Tag Governance,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1339,Traceability-Aware Retrieval-Augmented Question Answering for Fuzzy Queries in Engineering O&M,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1340,Mitigating Hallucinations in SysML v2 Generation Using LLMs and a Tri-Layered Knowledge Graph Reasoning Framework,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1341,A Formal Framework for Requirements Engineering in Large Language Model-Integrated Cyber-Physical Systems,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1342,Automating Voice-Based Conversations into Formal User Stories Using LLM and Speech Recognition,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1343,A Guideline for the Adoption of Generative AI to Support Secure Software Development Life Cycle (SSDLC): A Case Study of ChatGPT,EXCLUDE,E7,摘要,R1,R2,协商一致,仅处理单一软件制品，未建立可核验的制品关系。
+merged_1344,LLM/VLM-Driven Integrated Testing Framework for Autonomous Driving Assistance Systems: From Requirements to Failure Attribution,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1345,"KNSE-Code: A Knowledge-Aware, Safety-Enhanced, Rule-Driven Framework for Aviation Safety-Critical Software Code Generation",INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1346,Multi-Label Requirements Classification with Large Taxonomies,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1347,"Agentic SDLC Automation for ERP Release Readiness: Design Patterns, Governance Guardrails, and Measurable Operational Outcomes",EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1348,A Knowledge-Grounded and Generative Framework for Personalized Academic Advising,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1349,"Assessing Compliance of Software System Designs to Laws, Regulations, and their Underlying Values",EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1350,XAI-Enabled Inspection Agent for Automated Defect Detection and Intelligent Reporting in the field of Non-Destructive Testing and Smart Manufacturing Systems,EXCLUDE,E1,摘要,R1,R2,协商一致,"The LLM supports manufacturing inspection reporting, not software traceability"
+merged_1352,CM-MRAG: A multimodal retrieval-augmented framework for content moderation,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1358,Using GenAI and blockchain for enhanced user experience in Metaverse-based therapy sessions,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1359,"From Documents to Decisions: Enterprise-Grade LLM Systems for Zero-Hallucination, Attributed Generation, and Regulatory Alignment",EXCLUDE,E4,摘要,R1,R2,协商一致,This is explicitly a review article and its traceability is enterprise attribution/governance rather than software traceability
+merged_1360,Early Depression Detection in Social Media: Monitoring of Individual Nighttime Dynamics and Large Language Model Analysis,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1361,Technology opportunity analysis for creating innovative solutions: A framework for cross-field insights using patent data,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1365,MTLink: Adaptive multi-task learning based pre-trained language model for traceability link recovery between issues and commits,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1367,Enhancing Power Enterprise Inspection and Supervision: A LoRA-Based Lightweight LLM Framework Integrating Retrieval-Augmented Generation and Prompt Engineering,EXCLUDE,E1,摘要,R1,R2,协商一致,"The LLM method is empirical but operates in power-enterprise inspection, not software engineering artifact traceability"
+merged_1371,Ethical Considerations and Fundamental Principles of Large Language Models in Medical Education: Viewpoint,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1378,Artificial intelligence in cardiovascular care for internal medicine: from promising algorithms to useful clinical services,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1379,"LLM experimentation through knowledge graphs: Towards improved management, repeatability, and verification",EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1382,A framework for creating an IoT system specification with ChatGPT,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1385,DSAD: A dual-stream aligned detection framework for LLM-generated exam answers,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1392,TraceAwareness and dual-strategy fuzz testing: Enhancing path coverage and crash localization with stochastic science and large language models,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1393,Designing an LLM-based copilot for manufacturing equipment selection,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1394,A knowledge-driven and interpretable fine-tuning LLMs framework for energy retrofit decision support in commercial buildings,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1395,Regression test optimization for software of the cellular network base stations: A language-based approach,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1396,"Security, privacy, and ethical risks in OpenClaw",EXCLUDE,E2,摘要,R1,R2,协商一致,虽然提到 LLM 或 traceability，但 LLM 没有直接执行软件制品关系的建立、验证、维护或解释；可追溯性仅是治理、背景、日志或泛化属性。
+merged_1398,EffiLens: Explainable energy efficiency diagnosis for thermal power units via LLM-powered visual analytics,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1399,Semantic Feedback Processing with LLMs: Automating Issue Detection and Prioritization in DevOps,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1402,Chapter 3 - Responsibility gaps in autonomous agentic AI: Legal and ethical blind spots in multiagent and multideveloper systems,EXCLUDE,E2,摘要,R1,R2,协商一致,A conceptual legal/ethical chapter with no implemented or evaluated LLM-based software-traceability method
+merged_1404,Making waves: A conceptual framework exploring how large language model-based multi-agent systems could reshape water engineering,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1405,LangBiTe: An open-source platform to automate bias testing of large language models,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1406,Elevating ISO compliance: harnessing generative AI for auditing and quality excellence,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1408,Tracing the legitimacy of Artificial Intelligence: A longitudinal analysis of media discourse,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1409,Threat Modeling a Solution Integrating Blockchain and Artificial Intelligence for Agro-Food Traceability,EXCLUDE,E1,摘要,R1,R2,协商一致,"Traceability is agro-food supply-chain provenance, not software traceability"
+merged_1410,Empowering digital twins with large language models for global temporal feature learning,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1411,Leveraging blockchain and LLMs for patient–clinical trial matching,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1412,Traceable LLM-based validation of statements in knowledge graphs,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1413,Chapter 8 - Artificial intelligence and machine learning in the fat and oil processing industry,EXCLUDE,E1,摘要,R1,R2,协商一致,Food processing and supply-chain traceability is outside software traceability; this is also a broad book chapter rather than an LLM4ST primary study
+merged_1423,Good Practices in Fisheries and Aquaculture,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1426,Data Interoperability in European Product Conformity Management for Circular Supply Chains: Digital Twins and a Legal Knowledge & Data Model for linking law making and product manufacturing,EXCLUDE,E1,摘要,R1,R2,协商一致,"The traceability target is product conformity and circular supply chains, not software lifecycle artifacts"
+merged_1427,Computer Vision on the Edge: A Scalable Auto-ID Solution for Industrial Logistics,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1431,"14th International Conference on Model-Based Software and Systems Engineering, MODELSWARD 2026",EXCLUDE,E5,摘要,R1,R2,协商一致,"This record is an entire proceedings volume, not a primary study; potentially relevant contained papers require separate records and separate I/E screening"
+merged_1432,The dual-encoder detector for AI-generated go code,EXCLUDE,E3,摘要,R1,R2,协商一致,方法使用传统 IR/ML、LDA 或 encoder-only PLM（如 BERT、CodeBERT、CodeT5），没有合格的现代生成式/指令跟随 LLM 直接参与。
+merged_1433,A Multi-agent System for Automating SDLC Documentation in IoT Environments,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1435,Handbook on Natural Language Processing for Requirements Engineering: Overview,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1437,Handbook on Natural Language Processing for Requirements Engineering,EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1439,Towards Optimised Detection of Smart Contract Vulnerabilities using Large Language Models,EXCLUDE,E1,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1440,Leveraging AI-driven requirements for SysML modeling of the IoBT: A comprehensive investigation,EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1441,LHGLink: LLM—Enhanced Heterogeneous Graph Learning for Issue–Issue Link Prediction,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1443,Rich Data Versus Quantity of Data in Code Generation AI: A Paradigm Shift for Healthcare,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1445,LLMs for Requirements Engineering: A Meta-Analysis on Trends and Challenges,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1450,Using ChatGPT in Requirements Engineering Processes: Preliminary Report,EXCLUDE,E9,摘要,R1,R2,协商一致,全文证据不足，无法确认全部纳入条件。
+merged_1451,Using Large Language Models for Natural Language Processing Tasks in Requirements Engineering: A Systematic Guideline,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1454,Are prompts all you need? Evaluating prompt-based Large Language Models (LLM)s for software requirements classification,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1456,Addressing trust requirements in the design of an open-source multi-agent LLM-based domain-specific chatbot,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1461,Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1478,Prompt Engineering Guidelines for Using Large Language Models in Requirements Engineering,EXCLUDE,E4,摘要,R1,R2,协商一致,文献是综述、Meta-analysis、systematic guideline、position/vision、editorial 或其他二次/三次研究，不是原始研究。
+merged_1484,A design science research approach to Large Language Model-Based Agents for Requirements Specification (LLMBA4RS) in low-code applications,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1486,Requirements Engineering Using Generative AI: Prompts and Prompting Patterns,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选
+merged_1495,From issue titles to requirements: an empirical study of large language models and prompt engineering strategies,EXCLUDE,E7,摘要,R1,R2,协商一致,仅处理单一软件制品，未建立可核验的制品关系。
+merged_1496,ReqRAG: Enhancing Software Release Management through Retrieval-Augmented LLMs: An Industrial Study,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1501,Towards Multi-Agent Systems in Requirements Engineering: A Proof-of-Concept Study Using Large Language Models,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_1504,Supporting Stakeholder Requirements Expression with LLM Revisions: An Empirical Evaluation,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1516,Dealing with Data for RE: Mitigating Challenges While Using NLP and Generative AI,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1529,Leveraging Large Language Models for Ontology Requirements Engineering,EXCLUDE,E1,摘要,R1,R2,协商一致,目标主要是非软件工程领域或非软件制品关系，无法映射到本研究的软件可追溯性范围。
+merged_1530,From Online User Feedback to Requirements: Evaluating Large Language Models for Classification and Specification Tasks,EXCLUDE,E2,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_1581,Synthline: A Product Line Approach for Synthetic Requirements Engineering Data Generation Using Large Language Models,EXCLUDE,E7,摘要,R1,R2,协商一致,LLM 只处理单一软件制品或单一 RE 任务，未建立、评估或维护两个及以上软件制品之间的可追溯关系。
+merged_2035,Generative Artificial Intelligence for Software Engineering—A Research Agenda,EXCLUDE,E4,摘要,R1,R2,协商一致,摘要证据不满足该主要条件。
+merged_2048,Enhancing Requirements via Structured Formalization and Process-State Consistency Validation: An LLM-Assisted Test-Driven Framework,INCLUDE,,摘要,R1,R2,协商一致,进入全文筛选

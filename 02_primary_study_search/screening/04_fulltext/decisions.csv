@@ -1,0 +1,64 @@
+﻿record_id,title,decision,primary_condition,review_scope,reviewer_1,reviewer_2,decision_mode,reviewer_note
+merged_0002,LiSSA: Toward Generic Traceability Link Recovery Through Retrieval- Augmented Generation,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0004,Embedding Traceability in Large Language Model Code Generation: Towards Trustworthy AI-Augmented Software Engineering,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0007,Who's Who? LLM-assisted Software Traceability with Architecture Entity Recognition,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0014,Tracing Domain Services in Application Code using Generative AI,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0075,An LLM-based Approach to Recover Traceability Links between Security Requirements and Goal Models,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0077,Evaluating the Use of LLMs for Documentation to Code Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0079,LinkAnchor: An Autonomous LLM-Based Agent for Issue-to-Commit Link Recovery,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0110,REST-at: An LLM-Based Tool for Automating Traceability between Requirements and Test Cases,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_0126,Class Model Generation from Requirements using Large Language Models,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。其他适用条件：E7。
+merged_0172,Do LLMs Agree on Microservice Decompositions? A Multi–Model Study from Textual Requirements,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_0225,Validating Network Protocol Parsers with Traceable RFC Document Interpretation,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_0256,Supporting High-Level to Low-Level Requirements Coverage Reviewing with Large Language Models,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1114,Trust-Aware Multi-Agent Traceability: Confidence-Calibrated Knowledge Graphs for Consistent Software Artifact Management,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1119,Think Harder and Don't Overlook Your Options: Revisiting Issue-Commit Linking with LLM-Assisted Retrieval,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1121,R2Code: A Self-Reflective LLM Framework for Requirements-to-Code Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1122,Shift-Up: A Framework for Software Engineering Guardrails in AI-native Software Development -- Initial Findings,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_1133,TraceLLM: Leveraging Large Language Models with Prompt Engineering for Enhanced Requirements Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1139,ErrorPrism: Reconstructing Error Propagation Paths in Cloud Service Systems,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_1140,Synergistic Enhancement of Requirement-to-Code Traceability: A Framework Combining Large Language Model based Data Augmentation and an Advanced Encoder,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1142,Natural Language-Programming Language Software Traceability Link Recovery Needs More than Textual Similarity,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1143,Generative Goal Modeling,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1144,Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1148,"An LLM-Integrated Framework for Completion, Management, and Tracing of STPA",INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1149,Classifier or Prompt: A Case Study on Legal Requirements Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1150,On the Impact of Requirements Smells in Prompts: The Case of Automated Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1151,Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1152,Prompts Matter: Insights and Strategies for Prompt Engineering in Automated Software Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1154,Specification-Driven Development Benchmark: Security Knowledge Transition,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1156,Code Gradients: Towards Automated Traceability of LLM-Generated Code,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1172,Automated Extraction and Cross-Document Analysis of Aerospace Project Requirements Using LLMs,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1185,Agentic RAG for Software Testing with Hybrid Vector-Graph and Multi-Agent Orchestration,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1212,Intelligent Traceability to Support Software Maintainability and Accountability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1213,Beyond Retrieval: A Study of Using LLM Ensembles for Candidate Filtering in Requirements Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1214,Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1215,TVR: Automotive System Requirements Traceability Validation and Recovery Through Retrieval-Augmented Generation,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1218,Navigating through Work Items in Issue Tracking Systems via Natural Language Queries,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1219,Generating Context-Aware Learning Materials for Software Security via LLM Agents and Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1220,Constructing Cross-Level Traceability Links in the Automotive Domain: A Case Study,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1222,Can we use LLMs to recover Trace Links between Source Code and Security Requirements?,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1224,Behavioral Augmentation of UML Class Diagrams: An Empirical Study of Large Language Models for Method Generation,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1225,Tracing Feature Tests to Textual Requirements,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1229,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1236,DDD-Enforcer: An AI-Powered Multi-Agent System for Real-Time Domain-Driven Design Enforcement,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1238,Iterative Requirements-Driven Business Process Modeling and Verification with Large Language Models,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1241,LusGen: Leveraging LLMs for Safety-Critical Lustre Design and Requirements Traceability,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1244,AI-Driven Approaches to System Requirements and Test Case Generation: A New Paradigm in Software Engineering,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_1245,Smells Like Trouble: Investigating the Impact of Requirements Quality on LLM-Supported Software Engineering,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1261,Integrating Conversational Assistants Within Software Development Environments: An Extensible Approach,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。其他适用条件：E2、E6。
+merged_1263,A GraphRAG-Based Dual-Path Structural Diffusion Retrieval Framework for Requirement-Code Traceability Link Recovery,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1264,SELink: A semantic-enhanced modular framework for issue–commit link recovery,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1266,Requirements Traceability Link Recovery via Retrieval-Augmented Generation,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1270,HGTRTracer: Advancing Requirements-Code Traceability with LLM-Augmented Attribution Reasoning and Heterogeneous Graph Transformer,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1274,Enhancing Requirement-to-Code Traceability via Chain-of-Thought Prompting in Large Language Models,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1275,Evaluating the Capabilities of LLMs in Traceability Maintenance for Automotive System and Software Requirements,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1293,Improving software development traceability with structured prompting,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1302,SpecMap: Hierarchical LLM Agent for Datasheet-to-Code Traceability Link Recovery in Systems Engineering,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1312,From requirements to code: Understanding developer practices in llm-assisted software engineering,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_1318,Requirements are all you need: From requirements to code with llms,EXCLUDE,E7,全文,R1,R2,协商一致,阅读全文后确认该研究仅执行需求到设计、测试和代码的渐进式生成，未建立、维护或验证可识别的软件工件追溯关系；追溯性仅作为可能收益提及
+merged_1345,"KNSE-Code: A Knowledge-Aware, Safety-Enhanced, Rule-Driven Framework for Aviation Safety-Critical Software Code Generation",EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。
+merged_1441,LHGLink: LLM—Enhanced Heterogeneous Graph Learning for Issue–Issue Link Prediction,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_1461,Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs,EXCLUDE,E2,全文,R1,R2,协商一致,阅读全文后确认该研究广泛讨论LLM对需求工程活动的支持，未实现或评估软件工件间追溯关系的建立、维护或使用
+merged_1486,Requirements Engineering Using Generative AI: Prompts and Prompting Patterns,INCLUDE,,全文,R1,R2,协商一致,阅读全文后纳入
+merged_2048,Enhancing Requirements via Structured Formalization and Process-State Consistency Validation: An LLM-Assisted Test-Driven Framework,EXCLUDE,E1,全文,R1,R2,协商一致,主要排除条件：E1。

@@ -1,0 +1,62 @@
+﻿study_id,citation_key,resource_type,access_location,access_status
+S01,merged_0002,Replication package,https://doi.org/10.5281/zenodo.14714706,Public
+S02,merged_0007,Replication package,https://figshare.com/s/d061a78ccc60eb7dff22; https://doi.org/10.5281/ZENODO.14506935,Public
+S03,merged_0014,Dataset,https://www.csa.iisc.ac.in/~raghavan/icsme2016/; https://sourceforge.net/projects/jallinone/,Public
+S04,merged_0075,--,--,Not reported
+S05,merged_0077,Replication package,https://github.com/Alor-e/evaluating-llm-doc-code-traceability,Public
+S06,merged_0079,Replication package,https://figshare.com/s/4cefb94b0a1817f2c1bb,Public
+S07,merged_0110,Replication package,https://github.com/BaoLindgren/REST-at/,Public
+S08,merged_0256,Replication package,https://doi.org/10.5281/zenodo.10149490,Public
+S09,merged_1114,--,--,Not reported
+S10,merged_1119,Replication package,https://figshare.com/s/3b9673176afe92929398,Public
+S11,merged_1121,--,--,Not reported
+S12,merged_1133,Dataset; Replication package,https://anonymous.4open.science/r/TraceLLM-4C72/; http://sarec.nd.edu/coest/datasets/EasyClinic.zip,Public
+S13,merged_1140,Replication package,https://figshare.com/s/db6b8b237d0fddfbdd30,Public
+S14,merged_1142,Prompt; Replication package,https://github.com/ZZYG0g0g0/NLPL-TLR; embedded in paper,Public
+S15,merged_1143,Replication package,https://github.com/cmu-relab/goalgeneration,Public
+S16,merged_1144,Replication package,https://figshare.com/s/d495f11c4cc5c1c72e68,Public
+S17,merged_1148,Code,https://github.com/blueskysolarracing/stpa,Public
+S18,merged_1149,Replication package,https://figshare.com/s/769b925bd426285e463b,Public
+S19,merged_1150,Replication package,https://doi.org/10.6084/m9.figshare.27153441,Public
+S20,merged_1151,--,--,Not reported
+S21,merged_1152,--,--,Not reported
+S22,merged_1154,--,--,Not reported
+S23,merged_1156,--,--,Not reported
+S24,merged_1172,Prompt,Embedded in appendix,Public
+S25,merged_1185,--,--,Not reported
+S26,merged_1212,--,--,Not reported
+S27,merged_1213,Replication package,https://zenodo.org/doi/10.5281/zenodo.15837231,Public
+S28,merged_1214,Code,https://github.com/junaidiiith/nl2codeTrace,Public
+S29,merged_1215,Replication package,https://github.com/feifeiniu-se/TVR,Public
+S30,merged_1218,Code; Dataset; Replication package,https://doi.org/10.5281/zenodo.15804044; https://gist.githubusercontent.com/tomasonjo/08dc8ba0e19d592c4c3cde40dd6abcc3/raw/e90b0c9386bf8be15b199e8ac8f83fc265a2ac57/microservices.json,Public
+S31,merged_1219,--,--,Not reported
+S32,merged_1220,--,--,Not reported
+S33,merged_1222,Code (plugin),"Mentioned, no link","Mentioned, no URL"
+S34,merged_1224,Replication package,https://github.com/Djaber1979/-Behavioral-Augmentation-of-UML-Class-Diagrams,Public
+S35,merged_1225,Dataset,https://github.com/uclibs/ucrate/tree/develop/spec/features; https://github.com/uclibs/scholar_use_cases,Public
+S36,merged_1236,Code,https://github.com/barandincoguz/DDD-Enforcer,Public
+S37,merged_1238,Code; Dataset; Prompt; Tool,Embedded in paper; https://github.com/xhluca/bm25s; https://github.com/taoxiaotao6/bpmn_converter; https://bpmn.io/toolkit/bPMn-js/; on request,Public; request required
+S38,merged_1241,Dataset,https://github.com/jiangyili446/LusGen-Benchmark.git,Public
+S39,merged_1245,--,--,Not reported
+S40,merged_1263,Code; Dataset,"Third-party benchmarks (SMOS, ETOUR, ITRUST, and DRONOLOGY); code on request",Public; request required
+S41,merged_1264,Replication package,https://zenodo.org/records/17313282,Public
+S42,merged_1266,Replication package,https://doi.org/10.5281/zenodo.14779457,Public
+S43,merged_1270,Code,https://anonymous.4open.science/r/APSEC-5865/,Public
+S44,merged_1274,Dataset,http://sarec.nd.edu/coest/datasets.html,Public
+S45,merged_1275,Replication package,https://github.com/VibhaHippargi/CaseStudyonChatGPTforRE,Public
+S46,merged_1293,Replication package,"GitHub mentioned, no URL given","Mentioned, no URL"
+S47,merged_1302,--,--,Not reported
+S48,merged_1441,Replication package,https://github.com/rain-so/LHGLink,Public
+S49,merged_1486,Code,https://github.com/beatrizcabdan/GenAI4REtasks,Public
+S50,snowball_00068,Replication package,Not publicly available,Private
+S51,snowball_00085,Replication package,https://github.com/lreinpold/ONCON24_Requirements_Verification_by_LLM,Public
+S52,snowball_00095,Supplementary material,https://zenodo.org/records/11403244,Public
+S53,merged_1229,Replication package,https://github.com/Ionut-Gabriel-Otelea/Evaluating-LLMs-for-Automated-Requirement-and-Test-Case-Generation-in-Railway-Signaling-Systems,Public; not independently verified
+G1,G1,--,No resource link reported,Not reported
+G2,G2,Product and community,https://www.verisian.com/; https://www.verisian.com/community,Information link
+G3,G3,--,No resource link reported,Not reported
+G4,G4,Recorded webinar,https://www.vector.com/en/product/vectorcast/vectorcast-ai/,Information link
+G5,G5,--,No resource link reported,Not reported
+G6,G6,--,No resource link reported,Not reported
+G7,G7,Tool and project mentioned,https://www.ocxconf.org/; direct project link not recorded,Information link
+G8,G8,Demonstrated instance,"Demonstrated instance private; no code, data, or prompts offered",Private instance

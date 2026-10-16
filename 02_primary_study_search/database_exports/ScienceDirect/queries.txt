@@ -1,0 +1,35 @@
+SD1
+(software OR requirement OR issue)
+AND
+(traceability OR "trace link" OR "artifact link")
+AND
+("large language model" OR LLM OR "generative AI")
+
+77篇
+
+SD2
+(software OR requirement OR issue)
+AND
+(traceability OR "trace link" OR "artifact link")
+AND
+(ChatGPT OR GPT OR Codex)
+
+17篇
+
+SD3
+(software OR requirement OR issue)
+AND
+(traceability OR "trace link" OR "artifact link")
+AND
+(Llama OR Claude OR Gemini)
+
+6篇
+
+SD4
+(software OR requirement OR issue)
+AND
+(traceability OR "trace link" OR "artifact link")
+AND
+("foundation model" OR "retrieval augmented generation")
+
+15篇

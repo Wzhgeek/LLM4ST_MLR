@@ -1,0 +1,544 @@
+1
+00:00:01,439 --> 00:00:04,319
+hi everyone, welcome to this demo of recrace,
+
+2
+00:00:01,439 --> 00:00:04,319
+大家好，欢迎观看 Recrace 演示，
+
+3
+00:00:04,319 --> 00:00:06,560
+a graph-based requirements traceability
+
+4
+00:00:04,319 --> 00:00:06,560
+这是一个基于图的需求追踪
+
+5
+00:00:06,560 --> 00:00:08,800
+platform built using fast api,
+
+6
+00:00:06,560 --> 00:00:08,800
+平台，使用 FastAPI、
+
+7
+00:00:08,800 --> 00:00:09,679
+neo4j,
+
+8
+00:00:08,800 --> 00:00:09,679
+Neo4j
+
+9
+00:00:09,679 --> 00:00:10,960
+and react.
+
+10
+00:00:09,679 --> 00:00:10,960
+和 React 构建。
+
+11
+00:00:10,960 --> 00:00:14,639
+our goal with recrace is to make it easier for teams to trace,
+
+12
+00:00:10,960 --> 00:00:14,639
+Recrace 的目标是帮助团队更轻松地追踪、
+
+13
+00:00:14,639 --> 00:00:17,760
+analyze, and visualize relationships between requirements,
+
+14
+00:00:14,639 --> 00:00:17,760
+分析并可视化需求、
+
+15
+00:00:17,760 --> 00:00:23,199
+audio transcripts, and derived artifacts all in one unified workspace.
+
+16
+00:00:17,760 --> 00:00:23,199
+音频转录文本和衍生工件之间的关系，并将所有内容整合到一个统一的工作区中。
+
+17
+00:00:23,199 --> 00:00:25,439
+let's start with the authentication system.
+
+18
+00:00:23,199 --> 00:00:25,439
+我们先从身份验证系统开始。
+
+19
+00:00:25,439 --> 00:00:30,400
+recrace supports secure user signup and login with googlebased authentication.
+
+20
+00:00:25,439 --> 00:00:30,400
+ReqTrace 支持通过基于 Google 的身份验证安全地注册和登录用户。
+
+21
+00:00:30,400 --> 00:00:36,960
+to maintain security, the software currently only allows ncsu domain emails to log into the system.
+
+22
+00:00:30,400 --> 00:00:36,960
+为确保安全，当前软件仅允许使用 NCSU 域名邮箱登录系统。
+
+23
+00:00:36,960 --> 00:00:39,840
+once logged in, you're taken to the project dashboard.
+
+24
+00:00:36,960 --> 00:00:39,840
+登录后，您将进入项目仪表板。
+
+25
+00:00:39,840 --> 00:00:43,440
+from here, you can upload a new audio file, for example, a stakeholder
+
+26
+00:00:39,840 --> 00:00:43,440
+在这里，您可以上传新的音频文件，例如利益相关者
+
+27
+00:00:43,440 --> 00:00:45,680
+interview or meeting recording.
+
+28
+00:00:43,440 --> 00:00:45,680
+访谈录音或会议录音。
+
+29
+00:00:45,680 --> 00:00:47,760
+when i upload the audio, our transcription
+
+30
+00:00:45,680 --> 00:00:47,760
+上传音频后，我们的转录
+
+31
+00:00:47,760 --> 00:00:48,719
+module automatically
+
+32
+00:00:47,760 --> 00:00:48,719
+模块会自动[[end]]
+
+33
+00:00:48,719 --> 00:00:51,600
+converts it to text using open ai whisper.
+
+34
+00:00:48,719 --> 00:00:51,600
+使用 OpenAI Whisper 将其转换为文本。
+
+35
+00:00:51,600 --> 00:00:54,879
+once the transcript is generated, it appears below the upload box.
+
+36
+00:00:51,600 --> 00:00:54,879
+生成转录文本后，它会显示在上传框下方。
+
+37
+00:00:54,879 --> 00:00:58,280
+ready for vectorization.
+
+38
+00:00:54,879 --> 00:00:58,280
+已准备好进行向量化。
+
+39
+00:01:04,000 --> 00:01:08,799
+next, we pass this transcript through our vector service powered by phase embeddings.
+
+40
+00:01:04,000 --> 00:01:08,799
+接下来，我们将这份转录文本传入由 Phase Embeddings 驱动的向量服务。
+
+41
+00:01:08,799 --> 00:01:14,159
+this steps allows the system to understand the semantic meaning of each requirement statement.
+
+42
+00:01:08,799 --> 00:01:14,159
+这一步使系统能够理解每条需求陈述的语义。
+
+43
+00:01:14,159 --> 00:01:17,520
+users can chat directly with the system asking questions like
+
+44
+00:01:14,159 --> 00:01:17,520
+用户可以直接与系统聊天，提出诸如
+
+45
+00:01:17,520 --> 00:01:18,560
+who are the stakeholders
+
+46
+00:01:17,520 --> 00:01:18,560
+利益相关者有哪些
+
+47
+00:01:18,560 --> 00:01:20,560
+and what are the constraints.
+
+48
+00:01:18,560 --> 00:01:20,560
+以及有哪些约束条件。
+
+49
+00:01:20,560 --> 00:01:26,640
+they can then receive precise contextawware answers derived from the conversation.
+
+50
+00:01:20,560 --> 00:01:26,640
+然后，他们就能根据对话内容，获得精准且结合上下文的回答。
+
+51
+00:01:26,640 --> 00:01:32,880
+all extracted requirements and their interconnections are visualized dynamically using neo4j and react flow.
+
+52
+00:01:26,640 --> 00:01:32,880
+所有提取出的需求及其相互关系，都会通过 Neo4j 和 React Flow 动态呈现。
+
+53
+00:01:32,880 --> 00:01:39,200
+each node represents a requirement, stakeholder, test case, feature, constraint, team or entity.
+
+54
+00:01:32,880 --> 00:01:39,200
+每个节点代表一项需求、一个利益相关者、一个测试用例、一项功能、一条约束、一个团队或一个实体。
+
+55
+00:01:39,200 --> 00:01:41,280
+edges represent traceability links.
+
+56
+00:01:39,200 --> 00:01:41,280
+边表示可追溯关系。
+
+57
+00:01:41,280 --> 00:01:46,240
+for example, how a user can needs to connect to a system, feature or test case.
+
+58
+00:01:41,280 --> 00:01:46,240
+例如，用户需求需要如何关联到系统、功能或测试用例。
+
+59
+00:01:46,240 --> 00:01:51,280
+by hovering on an edge, we can see what the dependency is.
+
+60
+00:01:46,240 --> 00:01:51,280
+将鼠标悬停在边上，就能查看依赖关系。
+
+61
+00:01:51,280 --> 00:01:52,240
+you can drag,
+
+62
+00:01:51,280 --> 00:01:52,240
+你可以拖动、
+
+63
+00:01:52,240 --> 00:01:54,960
+zoom, and explore this graph to analyze dependencies
+
+64
+00:01:52,240 --> 00:01:54,960
+缩放并探索这张图，以分析依赖关系。
+
+65
+00:01:54,960 --> 00:01:58,159
+or missing links between the artifacts.
+
+66
+00:01:54,960 --> 00:01:58,159
+或工件之间缺失的链接。
+
+67
+00:01:58,159 --> 00:01:59,040
+you can also filter
+
+68
+00:01:58,159 --> 00:01:59,040
+你还可以筛选
+
+69
+00:01:59,040 --> 00:01:59,600
+out different
+
+70
+00:01:59,040 --> 00:01:59,600
+不同的
+
+71
+00:01:59,600 --> 00:02:00,000
+components
+
+72
+00:01:59,600 --> 00:02:00,000
+组件
+
+73
+00:02:00,000 --> 00:02:00,640
+of the graph
+
+74
+00:02:00,000 --> 00:02:00,640
+图中的
+
+75
+00:02:00,640 --> 00:02:05,159
+based on the view that you want to see.
+
+76
+00:02:00,640 --> 00:02:05,159
+内容，具体取决于你想查看的视图。
+
+77
+00:02:05,520 --> 00:02:11,360
+on the back end, the system exposes modular fast api endpoints for authentication,
+
+78
+00:02:05,520 --> 00:02:11,360
+在后端，系统通过模块化的 FastAPI 端点提供身份验证、
+
+79
+00:02:11,360 --> 00:02:15,520
+audio processing, vectorization, and graph management.
+
+80
+00:02:11,360 --> 00:02:15,520
+音频处理、向量化和图管理功能。
+
+81
+00:02:15,520 --> 00:02:16,560
+after transcription,
+
+82
+00:02:15,520 --> 00:02:16,560
+转录完成后，
+
+83
+00:02:16,560 --> 00:02:17,680
+we pass the transcript
+
+84
+00:02:16,560 --> 00:02:17,680
+我们将转录文本
+
+85
+00:02:17,680 --> 00:02:19,200
+through a name entity recognition
+
+86
+00:02:17,680 --> 00:02:19,200
+输入命名实体识别
+
+87
+00:02:19,200 --> 00:02:19,760
+system
+
+88
+00:02:19,200 --> 00:02:19,760
+系统
+
+89
+00:02:19,760 --> 00:02:20,800
+or an ne
+
+90
+00:02:19,760 --> 00:02:20,800
+或 NE
+
+91
+00:02:20,800 --> 00:02:22,959
+that extracts entities like stakeholders,
+
+92
+00:02:20,800 --> 00:02:22,959
+以提取利益相关者等实体、
+
+93
+00:02:22,959 --> 00:02:24,239
+features, constraints,
+
+94
+00:02:22,959 --> 00:02:24,239
+功能、约束条件，
+
+95
+00:02:24,239 --> 00:02:24,959
+etc.
+
+96
+00:02:24,239 --> 00:02:24,959
+等等。
+
+97
+00:02:24,959 --> 00:02:28,319
+and relationships like depends on, refineses, validates,
+
+98
+00:02:24,959 --> 00:02:28,319
+以及 depends on、refineses、validates 等关系，
+
+99
+00:02:28,319 --> 00:02:31,680
+etc. from the transcripts before we pass this to the neo4j
+
+100
+00:02:28,319 --> 00:02:31,680
+在将其传递给 Neo4j
+
+101
+00:02:31,680 --> 00:02:33,360
+system.
+
+102
+00:02:31,680 --> 00:02:33,360
+系统之前，我们会先从转录内容中提取这些信息。
+
+103
+00:02:33,360 --> 00:02:36,400
+next, let's explore the about page.
+
+104
+00:02:33,360 --> 00:02:36,400
+接下来，我们来看看“关于”页面。
+
+105
+00:02:36,400 --> 00:02:40,480
+the about page basically tells us everything about the software that we need to know.
+
+106
+00:02:36,400 --> 00:02:40,480
+“关于”页面基本上会告诉我们所需了解的有关该软件的一切。
+
+107
+00:02:40,480 --> 00:02:45,519
+for example, key features, the tech stack, target stakeholders, documentation and resources,
+
+108
+00:02:40,480 --> 00:02:45,519
+例如，主要功能、技术栈、目标利益相关者、文档和资源，
+
+109
+00:02:45,519 --> 00:02:47,280
+how you can get support
+
+110
+00:02:45,519 --> 00:02:47,280
+如何获得支持
+
+111
+00:02:47,280 --> 00:02:49,840
+and project information.
+
+112
+00:02:47,280 --> 00:02:49,840
+以及项目信息。
+
+113
+00:02:49,840 --> 00:02:51,920
+moving on to the help page, we've included
+
+114
+00:02:49,840 --> 00:02:51,920
+接下来是帮助页面，我们添加了
+
+115
+00:02:51,920 --> 00:02:56,080
+a place where the users can ask help from us, the developers.
+
+116
+00:02:51,920 --> 00:02:56,080
+一个方便用户向我们开发者寻求帮助的地方。
+
+117
+00:02:56,080 --> 00:02:58,720
+when you press the contact support button, you're redirected
+
+118
+00:02:56,080 --> 00:02:58,720
+点击“联系支持”按钮后，你会跳转到
+
+119
+00:02:58,720 --> 00:02:59,840
+to a google form
+
+120
+00:02:58,720 --> 00:02:59,840
+一个 Google 表单
+
+121
+00:02:59,840 --> 00:03:01,760
+that allows you to tell us
+
+122
+00:02:59,840 --> 00:03:01,760
+通过它可以告诉我们
+
+123
+00:03:01,760 --> 00:03:03,040
+what your problem is.
+
+124
+00:03:01,760 --> 00:03:03,040
+你遇到了什么问题。
+
+125
+00:03:03,040 --> 00:03:07,840
+is it a bug report, feature request, documentation issue, or just a general question?
+
+126
+00:03:03,040 --> 00:03:07,840
+是 bug 报告、功能请求、文档问题，还是一般性疑问？
+
+127
+00:03:07,840 --> 00:03:12,920
+we will usually get back to you in five business days.
+
+128
+00:03:07,840 --> 00:03:12,920
+我们通常会在五个工作日内回复你。
+
+129
+00:03:13,519 --> 00:03:19,599
+to sum up, ret trace brings together audio transcription, semantic analysis, graph visualization
+
+130
+00:03:13,519 --> 00:03:19,599
+总而言之，Ret Trace 融合了音频转录、语义分析和图表可视化功能
+
+131
+00:03:19,599 --> 00:03:23,599
+to create an intelligent end-to-end requirements engineering assistant.
+
+132
+00:03:19,599 --> 00:03:23,599
+打造出一款智能的端到端需求工程助手。
+
+133
+00:03:23,599 --> 00:03:30,080
+it helps teams maintain traceability effortlessly from raw discussions to structured actionable insights.
+
+134
+00:03:23,599 --> 00:03:30,080
+它帮助团队轻松实现从原始讨论到结构化、可执行见解的全程可追溯。
+
+135
+00:03:30,080 --> 00:03:30,640
+thank you for watching.
+
+136
+00:03:30,080 --> 00:03:30,640
+感谢观看。
+

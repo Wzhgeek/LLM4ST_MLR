@@ -1,0 +1,18 @@
+Google Scholar top-100 BibTeX build audit
+===========================================
+Query: ("software traceability" OR "software trace" OR "software tracing") AND ("systematic literature review" OR "mapping study" OR "survey" OR "review")
+Acquisition: Google Scholar browser results (no official public Scholar API; direct HTTP was rate-limited)
+Year filter: none
+Retrieval date: 2026-07-20
+Sort: relevance
+Pages: 5; results per page: 20
+Patents: excluded; citations: included
+Input records: 100
+Output BibTeX entries: 100
+Unique normalized titles: 100
+Duplicate-title rank groups retained: none
+Metadata source counts: crossref=70, local=1, scholar=29
+Crossref was used only for metadata enrichment after strict title validation; Scholar rank was unchanged
+Ranks missing year: [79, 98]
+Ranks missing author: none
+First-page screenshot validation: passed

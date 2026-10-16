@@ -1,0 +1,61 @@
+﻿record_id,title,year,doi,source_stage,final_decision
+manual_snowball_00006,{From Descriptive to Predictive: Forecasting Emerging Research Areas in Software Traceability Using NLP from Systematic Studies},2023,10.5220/0011964100003464,bidirectional snowballing,INCLUDE
+review_unique_0004,Software traceability: trends and future directions,2014,10.1145/2593882.2593891,database screening,INCLUDE
+review_unique_0005,Guidelines for benchmarking automated software traceability techniques,2015,10.1109/sst.2015.13,database screening,INCLUDE
+review_unique_0137,"{SoK: Systematizing Software Artifacts Traceability via Associations, Techniques, and Applications}",2026,10.48550/arxiv.2603.16208,database screening,INCLUDE
+review_unique_0138,{The Impact of Traceability on Software Maintenance and Evolution: A Mapping Study},2021,10.1002/smr.2374,database screening,INCLUDE
+review_unique_0139,Machine learning approaches for automated software traceability: A systematic literature review,2025,10.1016/j.jss.2025.112536,database screening,INCLUDE
+review_unique_0140,A Systematic Literature Review of Software Traceability Links Automation Techniques; [软件跟踪链自动化技术研究综述],2023,10.11897/sp.j.1016.2023.01919,database screening,INCLUDE
+review_unique_0141,Applications of natural language processing in software traceability: A systematic mapping study?,2023,10.1016/j.jss.2023.111616,database screening,INCLUDE
+review_unique_0142,A Systematic Mapping Study of Machine Learning Techniques Applied to Software Traceability,2023,10.1109/smc53992.2023.10394446,database screening,INCLUDE
+review_unique_0144,Empirical studies on software traceability: A mapping study,2021,10.1002/smr.2294,database screening,INCLUDE
+review_unique_0145,Beyond the Systematic: Forecasting Importance and Emergence of Research Areas in Applications of Software Traceability Using NLP,2024,10.1007/978-3-031-64182-4_6,database screening,INCLUDE
+review_unique_0146,A Survey-driven Feature Model for Software Traceability Approaches,2022,10.1007/978-3-030-99429-7_2,database screening,INCLUDE
+review_unique_0151,Software traceability in the automotive domain: Challenges and solutions,2018,10.1016/j.jss.2018.03.060,database screening,INCLUDE
+review_unique_0152,Recovering from a decade: a systematic mapping of information retrieval approaches to software traceability,2014,10.1007/s10664-013-9255-y,database screening,INCLUDE
+review_unique_0153,Achievements and challenges in state-of-the-art software traceability between test and code artifacts,2014,10.1109/tr.2014.2338254,database screening,INCLUDE
+review_unique_0155,"Datasets from Fifteen Years of Automated Requirements Traceability Research: Current State, Characteristics, and Quality",2017,10.1109/re.2017.80,database screening,INCLUDE
+review_unique_0156,IR in software traceability: From a bird's eye view,2013,10.1109/esem.2013.39,database screening,INCLUDE
+review_unique_0157,Traceability establishment and visualization of Software Artefacts in DevOps Practice: A survey,2019,10.14569/ijacsa.2019.0100711,database screening,INCLUDE
+review_unique_0159,A comparison of software product line traceability approaches from end-to-end traceability perspectives,2014,10.1142/s0218194014500260,database screening,INCLUDE
+review_unique_0160,A systematic literature review of issue-based requirement traceability,2023,10.1109/access.2023.3242294,database screening,INCLUDE
+review_unique_0161,A literature review of automatic traceability links recovery for software change impact analysis,2020,10.1145/3387904.3389251,database screening,INCLUDE
+review_unique_0162,A systematic review of requirement traceability techniques and tools,2017,10.1109/icsrs.2017.8272863,database screening,INCLUDE
+review_unique_0163,Software product lines traceability: A systematic mapping study,2017,10.1016/j.infsof.2016.12.004,database screening,INCLUDE
+review_unique_0164,The need for traceability in heterogeneous systems: a systematic literature review,2017,10.1109/compsac.2017.237,database screening,INCLUDE
+review_unique_0165,Requirements traceability technologies and technology transfer decision support: A systematic review,2018,10.1016/j.jss.2018.09.001,database screening,INCLUDE
+review_unique_0167,A Systematic Mapping Review: Tracking the Relationships Between Software Artifacts using NLP,2025,10.37936/ecti-cit.2025192.258621,database screening,INCLUDE
+review_unique_0170,Software traceability: a roadmap,2005,10.1142/5785,database screening,INCLUDE
+review_unique_0172,Comparative Study of Requirements Traceability in Facing Requirements Change: Systematic Literature Study and Survey,2019,,database screening,INCLUDE
+review_unique_0173,A Systematic Mapping Study on Quality Attribute Traceability,2022,10.13052/jwe1540-9589.2165,database screening,INCLUDE
+review_unique_0176,Model-driven engineering as a new landscape for traceability management: A systematic literature review,2012,10.1016/j.infsof.2012.07.008,database screening,INCLUDE
+review_unique_0178,A systematic literature review of pre-requirements specification traceability,2024,10.1007/s00766-023-00412-z,database screening,INCLUDE
+review_unique_0180,Advancements in bug traceability: A systematic mapping study,2024,10.1109/smc54092.2024.10831060,database screening,INCLUDE
+review_unique_0181,Applications of Machine Learning in Requirements Traceability: A Systematic Mapping Study (S).,2023,10.18293/seke2023-135,database screening,INCLUDE
+review_unique_0182,A systematic mapping study of information retrieval approaches applied to requirements trace recovery.,2022,10.18293/seke2022-098,database screening,INCLUDE
+review_unique_0184,Requirements Traceability Tools and Issues in Very Small Entities: A Systematic Literature Review and a Tool Proposal,2023,10.1109/conisoft58849.2023.00018,database screening,INCLUDE
+review_unique_0185,Mapping Study on Traceability Between BPMN Models and Source Code,2022,10.18517/ijaseit.12.1.16170,database screening,INCLUDE
+review_unique_0192,A Systematic Review of Tracing Solutions in Software Product Lines,2018,,database screening,INCLUDE
+review_unique_0193,What have we learnt from the challenges of (semi‐) automated requirements traceability? A discussion on blockchain applicability,2021,10.1049/sfw2.12035,database screening,INCLUDE
+review_unique_0194,Information retrieval based requirement traceability recovery approaches-a systematic literature review,2018,,database screening,INCLUDE
+review_unique_0197,A Multivocal Mapping Study on Artifact Traceability Complexities in Practice.,2025,10.5220/0013458400003928,database screening,INCLUDE
+review_unique_0198,TraceBoK: Toward a software requirements traceability body of knowledge,2016,10.1109/re.2016.32,database screening,INCLUDE
+review_unique_0203,Software Traceability Across SDLC: A Comprehensive Survey,2024,,database screening,INCLUDE
+review_unique_0204,Auxiliary Artifacts in Requirements Traceability: A Systematic Mapping Study,2025,,database screening,INCLUDE
+review_unique_0207,The quest for ubiquity: A roadmap for software and systems traceability research,2012,10.1109/re.2012.6345841,database screening,INCLUDE
+review_unique_0234,Unlocking the Potential of the Prompt Engineering Paradigm in Software Engineering: A Systematic Literature Review,2025,10.3390/ai6090206,database screening,INCLUDE
+review_unique_0244,A systematic mapping study of information retrieval-based requirements traceability methods,2025,10.1016/j.ipm.2025.104287,database screening,INCLUDE
+review_unique_0279,An empirical study on the state-of-the-art methods for requirement-to-code traceability link recovery,2024,10.1016/j.jksuci.2024.102118,database screening,INCLUDE
+review_unique_0286,Tracing Safety- and Security-Critical Artifacts and Where to Find Them,2026,10.1016/j.jss.2026.112968,database screening,INCLUDE
+review_unique_0569,Traceability-Why Do It?,2012,10.1007/978-3-642-30439-2_15,database screening,INCLUDE
+snowball_S1,A Survey of Traceability in Requirements Engineering and Model-Driven Development,2010,10.1007/s10270-009-0145-0,bidirectional snowballing,INCLUDE
+snowball_S18,Preliminary Systematic Literature Review of Software and Systems Traceability,2017,10.1016/j.procs.2017.08.152,bidirectional snowballing,INCLUDE
+snowball_S2,Requirements Traceability: A Systematic Review and Industry Case Study,2012,10.1142/s021819401250009x,bidirectional snowballing,INCLUDE
+snowball_S24,A Systematic Literature Review of Traceability Approaches between Software Architecture and Source Code,2014,10.1145/2601248.2601278,bidirectional snowballing,INCLUDE
+snowball_S3,A Review of Traceability Research at the Requirements Engineering Conference RE@21,2013,10.1109/re.2013.6636722,bidirectional snowballing,INCLUDE
+snowball_S31,A Systematic Mapping on Supporting Approaches for Requirements Traceability in the Context of Software Projects,2015,,bidirectional snowballing,INCLUDE
+snowball_S35,The Grand Challenge of Traceability (v1.0),2012,10.1007/978-1-4471-2239-5_16,bidirectional snowballing,INCLUDE
+snowball_S36,Analyzing Tools and Techniques for Evaluating Requirements Traceability,2023,10.1109/inmic60434.2023.10465703,bidirectional snowballing,INCLUDE
+snowball_S39,Factors Impacting the Inputs of Traceability Recovery Approaches,2012,10.1007/978-1-4471-2239-5_5,bidirectional snowballing,INCLUDE
+snowball_S40,Natural Language Processing for Requirements Traceability,2025,10.1007/978-3-031-73143-3_4,bidirectional snowballing,INCLUDE
+snowball_S48,PLM Traceability Approaches Along the V-Model - A Systematic Literature Review,2025,10.1007/978-3-031-93323-3_21,bidirectional snowballing,INCLUDE

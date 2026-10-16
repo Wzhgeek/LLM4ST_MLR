@@ -1,0 +1,7456 @@
+1
+00:00:07,080 --> 00:00:11,440
+thank you very much for everyone to actually come here and be here in person it's
+
+2
+00:00:07,080 --> 00:00:11,440
+非常感谢大家亲自来到这里
+
+3
+00:00:11,440 --> 00:00:14,679
+great to see all of you a great honor to present our work today
+
+4
+00:00:11,440 --> 00:00:14,679
+很高兴见到各位，今天能介绍我们的工作，我深感荣幸
+
+5
+00:00:14,679 --> 00:00:15,799
+also thanks to everyone
+
+6
+00:00:14,679 --> 00:00:15,799
+也感谢大家
+
+7
+00:00:15,799 --> 00:00:19,800
+who's on the live stream and watching and spending their time with us virtually
+
+8
+00:00:15,799 --> 00:00:19,800
+通过直播观看，并在线上与我们共度时光
+
+9
+00:00:19,800 --> 00:00:22,359
+um i want to present today
+
+10
+00:00:19,800 --> 00:00:22,359
+嗯，今天我想介绍一下
+
+11
+00:00:22,359 --> 00:00:25,039
+what we've been working on at veran
+
+12
+00:00:22,359 --> 00:00:25,039
+我们在 Veran 一直在做的工作
+
+13
+00:00:25,039 --> 00:00:28,359
+and at this point in time i think it can be best summarized
+
+14
+00:00:25,039 --> 00:00:28,359
+我认为，此时此刻，最好的概括方式是
+
+15
+00:00:28,359 --> 00:00:30,160
+by this title which is why we chose it
+
+16
+00:00:28,359 --> 00:00:30,160
+用这个标题来概括，这也是我们选择它的原因
+
+17
+00:00:30,160 --> 00:00:32,399
+which is that we're working with traceability
+
+18
+00:00:30,160 --> 00:00:32,399
+也就是说，我们正在利用可追溯性
+
+19
+00:00:32,399 --> 00:00:35,640
+and ai for better understanding communication
+
+20
+00:00:32,399 --> 00:00:35,640
+以及人工智能，来更好地理解沟通和试验质量控制
+
+21
+00:00:35,640 --> 00:00:41,480
+and qc of trials that is the tactical stage as richard was referring to
+
+22
+00:00:35,640 --> 00:00:41,480
+这就是理查德提到的战术阶段
+
+23
+00:00:41,480 --> 00:00:46,360
+um but i'll drop a few hints at the strategic outlook as well
+
+24
+00:00:41,480 --> 00:00:46,360
+嗯，不过我也会稍微谈谈战略展望
+
+25
+00:00:46,360 --> 00:00:49,520
+so all of this for us started with a very basic question
+
+26
+00:00:46,360 --> 00:00:49,520
+对我们来说，这一切都始于一个非常基本的问题
+
+27
+00:00:49,520 --> 00:00:53,199
+which also richard already hinted at which is why can't we release a drug immediately
+
+28
+00:00:49,520 --> 00:00:53,199
+理查德也已经提到过这个问题：为什么我们不能在最后一项关键性试验结束后
+
+29
+00:00:53,199 --> 00:00:54,960
+after the last pivotal trial
+
+30
+00:00:53,199 --> 00:00:54,960
+立即上市一种药物
+
+31
+00:00:54,960 --> 00:00:59,399
+or as i would like to say as soon as the science is actually done
+
+32
+00:00:54,960 --> 00:00:59,399
+或者正如我想说的那样，在科学研究真正完成后就立即上市
+
+33
+00:00:59,399 --> 00:01:03,760
+and we have conducted a lot of interviews i think we're now at 600
+
+34
+00:00:59,399 --> 00:01:03,760
+我们已经进行了大量访谈，我想现在已经有 600 次了
+
+35
+00:01:03,760 --> 00:01:10,560
+and plus across the industry across the great variety of stakeholders that participate in this
+
+36
+00:01:03,760 --> 00:01:10,560
+而且涉及整个行业，以及参与其中的各种各样的利益相关方
+
+37
+00:01:10,560 --> 00:01:14,320
+and the answer is that well the process is just massively complex
+
+38
+00:01:10,560 --> 00:01:14,320
+答案是，这个流程确实极其复杂
+
+39
+00:01:14,320 --> 00:01:15,640
+and there's
+
+40
+00:01:14,320 --> 00:01:15,640
+而且有
+
+41
+00:01:15,640 --> 00:01:17,560
+an intense
+
+42
+00:01:15,640 --> 00:01:17,560
+数量惊人的
+
+43
+00:01:17,560 --> 00:01:21,040
+number of stakeholders that have to communicate
+
+44
+00:01:17,560 --> 00:01:21,040
+利益相关方需要相互沟通
+
+45
+00:01:21,040 --> 00:01:23,759
+very often across the borders of companies
+
+46
+00:01:21,040 --> 00:01:23,759
+而且沟通往往要跨越公司的边界
+
+47
+00:01:23,759 --> 00:01:25,880
+parts of the organization
+
+48
+00:01:23,759 --> 00:01:25,880
+以及组织的不同部门
+
+49
+00:01:25,880 --> 00:01:30,880
+and so it's just complicated that's one of the one of the answers however
+
+50
+00:01:25,880 --> 00:01:30,880
+所以这件事就是很复杂，这只是其中一种答案，不过
+
+51
+00:01:30,880 --> 00:01:33,720
+a lot of these processes have developed over time of course
+
+52
+00:01:30,880 --> 00:01:33,720
+当然，很多流程都是随着时间推移逐渐发展起来的
+
+53
+00:01:33,720 --> 00:01:37,640
+which you know during the time they developed there were technical limitations
+
+54
+00:01:33,720 --> 00:01:37,640
+你知道，在它们发展的过程中，曾经存在一些技术限制
+
+55
+00:01:37,640 --> 00:01:39,479
+which no longer exist
+
+56
+00:01:37,640 --> 00:01:39,479
+而这些限制如今已经不复存在
+
+57
+00:01:39,479 --> 00:01:41,159
+um some things were decided
+
+58
+00:01:39,479 --> 00:01:41,159
+嗯，有些事情当时做出了决定
+
+59
+00:01:41,159 --> 00:01:43,119
+and tried out when they kind of stuck
+
+60
+00:01:41,159 --> 00:01:43,119
+也尝试过一些做法，后来就这么延续了下来
+
+61
+00:01:43,119 --> 00:01:45,520
+and may not be optimal
+
+62
+00:01:43,119 --> 00:01:45,520
+而且可能并非最优
+
+63
+00:01:45,520 --> 00:01:46,600
+and the question is
+
+64
+00:01:45,520 --> 00:01:46,600
+问题就在于
+
+65
+00:01:46,600 --> 00:01:48,799
+what are we going to do about it
+
+66
+00:01:46,600 --> 00:01:48,799
+我们要怎么处理这个问题
+
+67
+00:01:48,799 --> 00:01:49,799
+now
+
+68
+00:01:48,799 --> 00:01:49,799
+现在
+
+69
+00:01:49,799 --> 00:01:51,280
+what i like to do in these situations
+
+70
+00:01:49,799 --> 00:01:51,280
+遇到这种情况，我喜欢做的事
+
+71
+00:01:51,280 --> 00:01:54,799
+is just to zoom out as much as possible and just think about the absolute
+
+72
+00:01:51,280 --> 00:01:54,799
+就是尽可能拉远视角，思考我们在这里所做之事的
+
+73
+00:01:54,799 --> 00:01:57,039
+fundamental truth of what we're doing here
+
+74
+00:01:54,799 --> 00:01:57,039
+绝对根本的真相
+
+75
+00:01:57,039 --> 00:02:03,399
+which is that really the challenge is to understand data and code and how they interact
+
+76
+00:01:57,039 --> 00:02:03,399
+也就是，真正的挑战在于理解数据和代码，以及它们如何相互作用
+
+77
+00:02:03,399 --> 00:02:04,759
+so why do i say that it's
+
+78
+00:02:03,399 --> 00:02:04,759
+那我为什么这么说呢？
+
+79
+00:02:04,759 --> 00:02:09,959
+because we're going to make the ultimate decision of whether something is efficacious
+
+80
+00:02:04,759 --> 00:02:09,959
+因为我们最终要决定某件事是否有效
+
+81
+00:02:09,959 --> 00:02:13,720
+and safe based on data that we transform
+
+82
+00:02:09,959 --> 00:02:13,720
+并且基于我们转换的数据，确保安全
+
+83
+00:02:13,720 --> 00:02:15,239
+and then outputs that we generate
+
+84
+00:02:13,720 --> 00:02:15,239
+然后生成我们所需的输出
+
+85
+00:02:15,239 --> 00:02:20,280
+and based on those we're going to make our decisions that's really what this is about
+
+86
+00:02:15,239 --> 00:02:20,280
+并根据这些输出做出决策，这才是这一切的核心
+
+87
+00:02:20,280 --> 00:02:22,800
+so once data are actually collected
+
+88
+00:02:20,280 --> 00:02:22,800
+所以，一旦实际收集到数据
+
+89
+00:02:22,800 --> 00:02:26,560
+what is a clinical trial well it's data analysis code
+
+90
+00:02:22,800 --> 00:02:26,560
+什么是临床试验？其实就是数据分析代码
+
+91
+00:02:26,560 --> 00:02:30,640
+and then our outputs are tlfs in this case
+
+92
+00:02:26,560 --> 00:02:30,640
+在这种情况下，我们的输出是 TLF
+
+93
+00:02:30,640 --> 00:02:31,160
+and
+
+94
+00:02:30,640 --> 00:02:31,160
+以及
+
+95
+00:02:31,160 --> 00:02:31,720
+so
+
+96
+00:02:31,160 --> 00:02:31,720
+所以
+
+97
+00:02:31,720 --> 00:02:38,680
+what we've done is we've expanded on this core by adding the data standards
+
+98
+00:02:31,720 --> 00:02:38,680
+我们所做的是在这个核心基础上进行了扩展，加入了数据标准
+
+99
+00:02:38,680 --> 00:02:40,599
+which have certain advantages
+
+100
+00:02:38,680 --> 00:02:40,599
+这些标准有一些优势
+
+101
+00:02:40,599 --> 00:02:42,120
+so we all know roughly
+
+102
+00:02:40,599 --> 00:02:42,120
+所以我们都大致清楚
+
+103
+00:02:42,120 --> 00:02:43,360
+which data can be found
+
+104
+00:02:42,120 --> 00:02:43,360
+能找到哪些数据
+
+105
+00:02:43,360 --> 00:02:47,920
+where we are now across the industry fairly standardized
+
+106
+00:02:43,360 --> 00:02:47,920
+目前整个行业的标准化程度已经相当高
+
+107
+00:02:47,920 --> 00:02:50,920
+putting aside the fact that of course you can interpret data standards
+
+108
+00:02:47,920 --> 00:02:50,920
+当然，数据标准可以有不同的解读方式，这一点先放在一边
+
+109
+00:02:50,920 --> 00:02:53,280
+in a variety of ways and there's a lot of leeway
+
+110
+00:02:50,920 --> 00:02:53,280
+而且其中有很大的自由发挥空间
+
+111
+00:02:53,280 --> 00:02:54,879
+and you know creativity
+
+112
+00:02:53,280 --> 00:02:54,879
+也能发挥创造力
+
+113
+00:02:54,879 --> 00:02:57,800
+which is the way it will always be with data standards
+
+114
+00:02:54,879 --> 00:02:57,800
+这就是数据标准始终会面临的情况
+
+115
+00:02:57,800 --> 00:03:00,720
+at least we roughly have a have a
+
+116
+00:02:57,800 --> 00:03:00,720
+至少我们大致有一个
+
+117
+00:03:00,720 --> 00:03:07,400
+organization on top of that the standards capture the data statically of course
+
+118
+00:03:00,720 --> 00:03:07,400
+组织架构，而且标准当然是静态地捕获数据
+
+119
+00:03:07,400 --> 00:03:10,400
+but the meaning of data is actually not in the data itself
+
+120
+00:03:07,400 --> 00:03:10,400
+但数据的含义实际上并不在数据本身
+
+121
+00:03:10,400 --> 00:03:11,879
+it's usually in the transformations
+
+122
+00:03:10,400 --> 00:03:11,879
+通常体现在生成数据的
+
+123
+00:03:11,879 --> 00:03:13,640
+that generate the data
+
+124
+00:03:11,879 --> 00:03:13,640
+转换过程中
+
+125
+00:03:13,640 --> 00:03:15,840
+so the answer for
+
+126
+00:03:13,640 --> 00:03:15,840
+所以，对于
+
+127
+00:03:15,840 --> 00:03:20,799
+what age actually is in a dm data set can be very boring
+
+128
+00:03:15,840 --> 00:03:20,799
+DM 数据集中年龄到底代表什么，答案可能会很无聊
+
+129
+00:03:20,799 --> 00:03:23,239
+but there are different interpretations you can calculate differently
+
+130
+00:03:20,799 --> 00:03:23,239
+但存在不同的解读方式，你可以用不同的方法计算
+
+131
+00:03:23,239 --> 00:03:25,480
+and in that case it means something different
+
+132
+00:03:23,239 --> 00:03:25,480
+在这种情况下，它的含义也不同
+
+133
+00:03:25,480 --> 00:03:29,760
+so because of that we have additional documentation
+
+134
+00:03:25,480 --> 00:03:29,760
+因此，我们有额外的文档说明
+
+135
+00:03:29,760 --> 00:03:32,239
+so we have the sdrg adg defined xml
+
+136
+00:03:29,760 --> 00:03:32,239
+所以我们有定义好的 SDRG ADG XML
+
+137
+00:03:32,239 --> 00:03:35,159
+and all of those are trying to capture this additional information
+
+138
+00:03:32,239 --> 00:03:35,159
+所有这些都是为了收录这些额外信息
+
+139
+00:03:35,159 --> 00:03:37,000
+and if you look into the igs
+
+140
+00:03:35,159 --> 00:03:37,000
+如果你查看 IGS
+
+141
+00:03:37,000 --> 00:03:41,280
+it literally says well this is basically duplicated information it's derivative information
+
+142
+00:03:37,000 --> 00:03:41,280
+上面确实写着，这基本上是重复的信息，是衍生信息
+
+143
+00:03:41,280 --> 00:03:43,239
+it's you're trying to describe what's in the code
+
+144
+00:03:41,280 --> 00:03:43,239
+你是在尝试描述代码中的内容
+
+145
+00:03:43,239 --> 00:03:45,439
+the code is trying to describe what's in the sap
+
+146
+00:03:43,239 --> 00:03:45,439
+代码试图描述 SAP 中的内容
+
+147
+00:03:45,439 --> 00:03:48,439
+you're trying to you know refer back to what's in the sap
+
+148
+00:03:45,439 --> 00:03:48,439
+你是在尝试，你知道的，指回 SAP 中的内容
+
+149
+00:03:48,439 --> 00:03:50,840
+it's just a different view on the same thing
+
+150
+00:03:48,439 --> 00:03:50,840
+这只是对同一事物的另一种看法
+
+151
+00:03:50,840 --> 00:03:54,560
+and it's there for communication that's what it's there for
+
+152
+00:03:50,840 --> 00:03:54,560
+它是为了沟通而存在的，这就是它的用途
+
+153
+00:03:54,560 --> 00:03:55,959
+so why data standards
+
+154
+00:03:54,560 --> 00:03:55,959
+那么，为什么需要数据标准？
+
+155
+00:03:55,959 --> 00:03:59,239
+as i said well we've standardized it so we roughly know where stuff is
+
+156
+00:03:55,959 --> 00:03:59,239
+就像我说的，我们已经对它进行了标准化，所以大致知道各类内容在哪里
+
+157
+00:03:59,239 --> 00:04:02,120
+it gives us structural understanding of the data
+
+158
+00:03:59,239 --> 00:04:02,120
+它让我们能够从结构上理解数据
+
+159
+00:04:02,120 --> 00:04:02,840
+and
+
+160
+00:04:02,120 --> 00:04:02,840
+还有
+
+161
+00:04:02,840 --> 00:04:06,640
+what we say with manual metadata traceability is basically well you write down
+
+162
+00:04:02,840 --> 00:04:06,640
+我们所说的手动元数据可追溯性，基本上就是：你把自己做过的事情记录下来
+
+163
+00:04:06,640 --> 00:04:07,680
+what you've done
+
+164
+00:04:06,640 --> 00:04:07,680
+你做过什么
+
+165
+00:04:07,680 --> 00:04:09,799
+which is sort of what the sap is about
+
+166
+00:04:07,680 --> 00:04:09,799
+这大致就是统计分析计划（SAP）所要说明的内容
+
+167
+00:04:09,799 --> 00:04:11,120
+what you're going to do
+
+168
+00:04:09,799 --> 00:04:11,120
+你打算做什么
+
+169
+00:04:11,120 --> 00:04:14,400
+and then you write it down again at the end when you submit
+
+170
+00:04:11,120 --> 00:04:14,400
+然后在提交时，你再把它记录一遍
+
+171
+00:04:14,400 --> 00:04:16,358
+which hopefully is still consistent with the sap
+
+172
+00:04:14,400 --> 00:04:16,358
+希望这时记录的内容仍与统计分析计划（SAP）一致
+
+173
+00:04:16,358 --> 00:04:17,959
+and what was actually implemented
+
+174
+00:04:16,358 --> 00:04:17,959
+并且与实际实施的内容一致
+
+175
+00:04:17,959 --> 00:04:20,040
+and it's just for
+
+176
+00:04:17,959 --> 00:04:20,040
+而这只是为了
+
+177
+00:04:20,040 --> 00:04:22,240
+communication
+
+178
+00:04:20,040 --> 00:04:22,240
+沟通
+
+179
+00:04:22,240 --> 00:04:23,240
+so
+
+180
+00:04:22,240 --> 00:04:23,240
+所以
+
+181
+00:04:23,240 --> 00:04:28,000
+if you now go to any kind of meetings like this
+
+182
+00:04:23,240 --> 00:04:28,000
+如果你现在去参加这种会议
+
+183
+00:04:28,000 --> 00:04:32,479
+you'll see a lot of the industry presenting the problem space like this
+
+184
+00:04:28,000 --> 00:04:32,479
+你会看到业内很多人都这样介绍问题空间
+
+185
+00:04:32,479 --> 00:04:37,280
+which is that in a study there's a number of derivations that you have to do
+
+186
+00:04:32,479 --> 00:04:37,280
+也就是说，在一项研究中，你必须进行一系列推导
+
+187
+00:04:37,280 --> 00:04:38,520
+and most of these are common
+
+188
+00:04:37,280 --> 00:04:38,520
+其中大多数都很常见
+
+189
+00:04:38,520 --> 00:04:39,759
+or they're standardized
+
+190
+00:04:38,520 --> 00:04:39,759
+或者已经标准化了
+
+191
+00:04:39,759 --> 00:04:41,479
+so let's say that's the boring part
+
+192
+00:04:39,759 --> 00:04:41,479
+所以我们姑且把这部分称为枯燥的部分
+
+193
+00:04:41,479 --> 00:04:46,280
+and some people will claim 70% some people will claim 90%
+
+194
+00:04:41,479 --> 00:04:46,280
+有些人会说是 70%，有些人会说是 90%
+
+195
+00:04:46,280 --> 00:04:50,199
+um and there's only this small small little bit which is study specific
+
+196
+00:04:46,280 --> 00:04:50,199
+嗯，只有很小很小的一部分是针对具体研究的
+
+197
+00:04:50,199 --> 00:04:52,880
+um which will always be there so we're in medicine
+
+198
+00:04:50,199 --> 00:04:52,880
+嗯，这部分会一直存在，所以我们从事的是医学领域
+
+199
+00:04:52,880 --> 00:04:56,560
+let's all hope that medicine doesn't stop there will be continuously innovation
+
+200
+00:04:52,880 --> 00:04:56,560
+让我们都希望医学不会止步不前，创新会持续不断地涌现。
+
+201
+00:04:56,560 --> 00:05:00,800
+new ways of gathering data new ways of analyzing it new stud designs
+
+202
+00:04:56,560 --> 00:05:00,800
+全新的数据采集方式、全新的数据分析方式、全新的研究设计
+
+203
+00:05:00,800 --> 00:05:04,880
+so this is the ever moving edge it should never disappear it will never disappear
+
+204
+00:05:00,800 --> 00:05:04,880
+所以，这就是不断变化的前沿。它不应该消失，也永远不会消失。
+
+205
+00:05:04,880 --> 00:05:08,000
+otherwise we really have a problem
+
+206
+00:05:04,880 --> 00:05:08,000
+否则我们就真的有麻烦了。
+
+207
+00:05:08,000 --> 00:05:11,720
+and this by definition is not covered by standards right it's the edge
+
+208
+00:05:08,000 --> 00:05:11,720
+按定义，这些内容不在标准涵盖范围内，对吧？它们属于前沿。
+
+209
+00:05:11,720 --> 00:05:15,240
+so by the time something is a standard it's fairly boring
+
+210
+00:05:11,720 --> 00:05:15,240
+所以，等某件事成为标准时，它就已经相当乏味了。
+
+211
+00:05:15,240 --> 00:05:17,000
+and everyone knows what it means
+
+212
+00:05:15,240 --> 00:05:17,000
+而且每个人都知道它意味着什么。
+
+213
+00:05:17,000 --> 00:05:20,280
+and therefore you don't have to worry about it much
+
+214
+00:05:17,000 --> 00:05:20,280
+因此，你不必太担心它。
+
+215
+00:05:20,280 --> 00:05:21,880
+now i'm going to put this at the quotation marks
+
+216
+00:05:20,280 --> 00:05:21,880
+现在我要把它放进引号里。
+
+217
+00:05:21,880 --> 00:05:23,600
+because all of this stuff can be automated
+
+218
+00:05:21,880 --> 00:05:23,600
+因为这些事情都可以自动化
+
+219
+00:05:23,600 --> 00:05:24,360
+so theoretically
+
+220
+00:05:23,600 --> 00:05:24,360
+所以理论上
+
+221
+00:05:24,360 --> 00:05:27,400
+yes there are very few companies actually have the resources
+
+222
+00:05:24,360 --> 00:05:27,400
+是的，实际上只有极少数公司拥有这样的资源
+
+223
+00:05:27,400 --> 00:05:30,840
+and have so far had the time to proper automate this
+
+224
+00:05:27,400 --> 00:05:30,840
+而且迄今为止有时间妥善实现自动化的也只有这些公司
+
+225
+00:05:30,840 --> 00:05:35,520
+and even those will admit well the vast majority of what can be automated is automated
+
+226
+00:05:30,840 --> 00:05:35,520
+即便是它们也会承认，嗯，绝大多数可以自动化的事情都已经实现了自动化
+
+227
+00:05:35,520 --> 00:05:37,199
+but not all of it yet
+
+228
+00:05:35,520 --> 00:05:37,199
+但还没有全部自动化
+
+229
+00:05:37,199 --> 00:05:39,680
+um that is to say though anyway of course it's useful
+
+230
+00:05:37,199 --> 00:05:39,680
+嗯，也就是说，不管怎样，当然，投入这方面是有用的
+
+231
+00:05:39,680 --> 00:05:42,400
+to invest in this because then you don't have to worry about it anymore
+
+232
+00:05:39,680 --> 00:05:42,400
+因为这样你就不用再为此操心了
+
+233
+00:05:42,400 --> 00:05:45,360
+the point being however that if you look at the workload
+
+234
+00:05:42,400 --> 00:05:45,360
+不过，关键在于，如果你看看工作量
+
+235
+00:05:45,360 --> 00:05:49,039
+and the actual problem of you doing the work
+
+236
+00:05:45,360 --> 00:05:49,039
+以及你实际执行这项工作的难题
+
+237
+00:05:49,039 --> 00:05:51,400
+so where all of the actual thinking happens
+
+238
+00:05:49,039 --> 00:05:51,400
+也就是所有真正需要动脑筋的地方
+
+239
+00:05:51,400 --> 00:05:54,919
+where it's not so standardized that everyone knows what you're doing anyway
+
+240
+00:05:51,400 --> 00:05:54,919
+这些工作并没有标准化到人人都知道你在做什么
+
+241
+00:05:54,919 --> 00:05:57,319
+which means those are the points where you have to communicate
+
+242
+00:05:54,919 --> 00:05:57,319
+这意味着这些环节正是你必须进行沟通的地方
+
+243
+00:05:57,319 --> 00:05:59,479
+and align with regulators
+
+244
+00:05:57,319 --> 00:05:59,479
+并与监管机构达成一致
+
+245
+00:05:59,479 --> 00:06:02,160
+what well that's obviously in the part that's not standardized
+
+246
+00:05:59,479 --> 00:06:02,160
+嗯，这显然是在非标准化的部分
+
+247
+00:06:02,160 --> 00:06:05,960
+and that's usually in the domains that actually matter for decision- making
+
+248
+00:06:02,160 --> 00:06:05,960
+而这通常是在对决策真正重要的领域
+
+249
+00:06:05,960 --> 00:06:10,680
+so the lower part is the way i look at the industry
+
+250
+00:06:05,960 --> 00:06:10,680
+因此，下半部分是我看待这个行业的方式
+
+251
+00:06:10,680 --> 00:06:13,680
+so what's a clinical trial it has a structural component
+
+252
+00:06:10,680 --> 00:06:13,680
+那么，什么是临床试验？它包含一个结构性部分
+
+253
+00:06:13,680 --> 00:06:15,919
+which is there for ease of organization
+
+254
+00:06:13,680 --> 00:06:15,919
+这是为了便于组织
+
+255
+00:06:15,919 --> 00:06:17,240
+and communication
+
+256
+00:06:15,919 --> 00:06:17,240
+和沟通
+
+257
+00:06:17,240 --> 00:06:19,440
+and it has the content component
+
+258
+00:06:17,240 --> 00:06:19,440
+它还包含内容部分
+
+259
+00:06:19,440 --> 00:06:22,120
+which is very very hard to understand
+
+260
+00:06:19,440 --> 00:06:22,120
+而这部分非常非常难懂
+
+261
+00:06:22,120 --> 00:06:26,960
+so that's why there's a specific job description for people that do just that
+
+262
+00:06:22,120 --> 00:06:26,960
+所以才会有专门的岗位，让人们只负责做这件事
+
+263
+00:06:26,960 --> 00:06:30,919
+and therefore by definition they become a bottleneck
+
+264
+00:06:26,960 --> 00:06:30,919
+因此，按定义来说，他们就成了瓶颈
+
+265
+00:06:30,919 --> 00:06:31,919
+the analysis code
+
+266
+00:06:30,919 --> 00:06:31,919
+分析代码
+
+267
+00:06:31,919 --> 00:06:34,720
+however is the source of truth of content of what happens in the study
+
+268
+00:06:31,919 --> 00:06:34,720
+然而，它才是研究中实际发生情况内容的唯一依据
+
+269
+00:06:34,720 --> 00:06:35,840
+it reads in the data
+
+270
+00:06:34,720 --> 00:06:35,840
+它读取数据
+
+271
+00:06:35,840 --> 00:06:38,960
+so you have a reflection of what the data actually looks like it contains
+
+272
+00:06:35,840 --> 00:06:38,960
+因此，你可以看到数据实际包含的内容
+
+273
+00:06:38,960 --> 00:06:40,280
+all of the transformations
+
+274
+00:06:38,960 --> 00:06:40,280
+所有转换
+
+275
+00:06:40,280 --> 00:06:42,199
+it produces all of the outputs
+
+276
+00:06:40,280 --> 00:06:42,199
+它会生成所有输出
+
+277
+00:06:42,199 --> 00:06:43,199
+and as richard shows
+
+278
+00:06:42,199 --> 00:06:43,199
+正如 Richard 所展示的
+
+279
+00:06:43,199 --> 00:06:44,400
+if you do know
+
+280
+00:06:43,199 --> 00:06:44,400
+如果你确实知道
+
+281
+00:06:44,400 --> 00:06:45,280
+what says uses
+
+282
+00:06:44,400 --> 00:06:45,280
+说的是“uses”
+
+283
+00:06:45,280 --> 00:06:50,520
+or r for the final output then it actually tells you which statistical test was applied
+
+284
+00:06:45,280 --> 00:06:50,520
+或者最终输出中的“r”，然后它会告诉你具体采用了哪种统计检验
+
+285
+00:06:50,520 --> 00:06:51,280
+and how
+
+286
+00:06:50,520 --> 00:06:51,280
+以及如何
+
+287
+00:06:51,280 --> 00:06:53,400
+and therefore you know what it
+
+288
+00:06:51,280 --> 00:06:53,400
+所以你就知道它
+
+289
+00:06:53,400 --> 00:06:58,000
+means of course i'm just going to keep spouting sort of the obvious thing
+
+290
+00:06:53,400 --> 00:06:58,000
+是什么意思。当然，我只是会一直说一些显而易见的事情
+
+291
+00:06:58,000 --> 00:07:00,680
+we're going to make decisions on the content of the study
+
+292
+00:06:58,000 --> 00:07:00,680
+我们将根据研究内容
+
+293
+00:07:00,680 --> 00:07:01,840
+not on the structure
+
+294
+00:07:00,680 --> 00:07:01,840
+而不是结构来做决定
+
+295
+00:07:01,840 --> 00:07:06,639
+right we make decisions on whether the drug is or the treatment is effective
+
+296
+00:07:01,840 --> 00:07:06,639
+对，我们要判断药物或治疗是否有效
+
+297
+00:07:06,639 --> 00:07:12,319
+and whether it's safe not on whether yourm is in accordance with guidelines
+
+298
+00:07:06,639 --> 00:07:12,319
+以及它是否安全，并不取决于你的 m 是否符合指南
+
+299
+00:07:12,319 --> 00:07:15,960
+but the structure is of course immensely useful
+
+300
+00:07:12,319 --> 00:07:15,960
+不过，这种结构当然非常有用
+
+301
+00:07:15,960 --> 00:07:16,960
+um
+
+302
+00:07:15,960 --> 00:07:16,960
+嗯
+
+303
+00:07:16,960 --> 00:07:19,160
+most of the content however
+
+304
+00:07:16,960 --> 00:07:19,160
+然而，大多数内容
+
+305
+00:07:19,160 --> 00:07:24,800
+that is used for decision- making falls into this non-standard study specific scientific innovation category
+
+306
+00:07:19,160 --> 00:07:24,800
+用于决策的内容都属于这种非标准的、针对特定研究的科学创新类别
+
+307
+00:07:24,800 --> 00:07:27,280
+so we have to do something about this
+
+308
+00:07:24,800 --> 00:07:27,280
+所以我们必须对此采取措施
+
+309
+00:07:27,280 --> 00:07:28,800
+and the core of our technology
+
+310
+00:07:27,280 --> 00:07:28,800
+而我们技术的核心
+
+311
+00:07:28,800 --> 00:07:32,160
+that i would like to present present today is what we call code traceability
+
+312
+00:07:28,800 --> 00:07:32,160
+我今天想介绍的是我们所说的代码可追溯性
+
+313
+00:07:32,160 --> 00:07:38,599
+which is a way to trace the content interactions between data code and the results
+
+314
+00:07:32,160 --> 00:07:38,599
+这是一种追踪数据代码与结果之间内容交互的方式
+
+315
+00:07:38,599 --> 00:07:42,280
+and just to be very clear this is independent of standards
+
+316
+00:07:38,599 --> 00:07:42,280
+需要特别说明的是，这与标准无关
+
+317
+00:07:42,280 --> 00:07:45,560
+so it is applicable also to real world data
+
+318
+00:07:42,280 --> 00:07:45,560
+因此也适用于现实世界的数据
+
+319
+00:07:45,560 --> 00:07:49,560
+it is applicable to older studies that were done before
+
+320
+00:07:45,560 --> 00:07:49,560
+也适用于此前开展的较早研究
+
+321
+00:07:49,560 --> 00:07:51,479
+the ceda standards were around
+
+322
+00:07:49,560 --> 00:07:51,479
+那时 CEDA 标准还没有出现
+
+323
+00:07:51,479 --> 00:07:53,560
+and it's also independent of of languages
+
+324
+00:07:51,479 --> 00:07:53,560
+而且也不受语言限制
+
+325
+00:07:53,560 --> 00:07:54,759
+so we're starting with sas
+
+326
+00:07:53,560 --> 00:07:54,759
+所以我们从 SAS 开始
+
+327
+00:07:54,759 --> 00:08:00,680
+because it is the de facto industry standard very few companies again have had the resources motivation
+
+328
+00:07:54,759 --> 00:08:00,680
+因为它是事实上的行业标准，而真正具备资源和动力的公司寥寥无几
+
+329
+00:08:00,680 --> 00:08:02,639
+and persistence to push r
+
+330
+00:08:00,680 --> 00:08:02,639
+以及坚持不懈地推动 R
+
+331
+00:08:02,639 --> 00:08:03,639
+um close to submission
+
+332
+00:08:02,639 --> 00:08:03,639
+嗯，接近提交
+
+333
+00:08:03,639 --> 00:08:05,680
+or even to submission
+
+334
+00:08:03,639 --> 00:08:05,680
+甚至直接提交
+
+335
+00:08:05,680 --> 00:08:08,360
+um but it is everything that i'll show you is directly transferable
+
+336
+00:08:05,680 --> 00:08:08,360
+嗯，不过我接下来要给你展示的所有内容都可以直接迁移使用
+
+337
+00:08:08,360 --> 00:08:10,560
+to r is also transferable to python
+
+338
+00:08:08,360 --> 00:08:10,560
+到 R 上，也同样可以迁移到 Python 上
+
+339
+00:08:10,560 --> 00:08:14,879
+or whatever your favorite language might be in the next 3 to five years
+
+340
+00:08:10,560 --> 00:08:14,879
+或者你未来三到五年最喜欢的任何语言
+
+341
+00:08:14,879 --> 00:08:16,639
+cod traceability by definition
+
+342
+00:08:14,879 --> 00:08:16,639
+代码可追溯性，顾名思义，
+
+343
+00:08:16,639 --> 00:08:20,280
+because it looks at code covers everything that is done in code
+
+344
+00:08:16,639 --> 00:08:20,280
+因为它关注代码，涵盖代码中完成的所有工作
+
+345
+00:08:20,280 --> 00:08:22,560
+it doesn't matter if it's part of the standardized
+
+346
+00:08:20,280 --> 00:08:22,560
+它是否属于标准化内容并不重要
+
+347
+00:08:22,560 --> 00:08:24,360
+stuff the common derivations
+
+348
+00:08:22,560 --> 00:08:24,360
+以及常见的推导内容
+
+349
+00:08:24,360 --> 00:08:27,560
+anything that's in code is
+
+350
+00:08:24,360 --> 00:08:27,560
+任何写在代码里的东西都
+
+351
+00:08:27,560 --> 00:08:28,560
+covered
+
+352
+00:08:27,560 --> 00:08:28,560
+涵盖在内
+
+353
+00:08:28,560 --> 00:08:33,399
+all you need to establish code traceability are in the case of sas the logs
+
+354
+00:08:28,560 --> 00:08:33,399
+要建立代码可追溯性，SAS 的情况只需要日志
+
+355
+00:08:33,399 --> 00:08:36,559
+in the case of our other languages just the code
+
+356
+00:08:33,399 --> 00:08:36,559
+其他语言的情况只需要代码
+
+357
+00:08:36,559 --> 00:08:38,399
+so for sas
+
+358
+00:08:36,559 --> 00:08:38,399
+所以对于 SAS
+
+359
+00:08:38,399 --> 00:08:42,240
+the way it works right now is you upload you execute your your code
+
+360
+00:08:38,399 --> 00:08:42,240
+目前的工作方式是，你上传并执行你的代码
+
+361
+00:08:42,240 --> 00:08:44,039
+you turn on a couple of options like imprint
+
+362
+00:08:42,240 --> 00:08:44,039
+你开启几个选项，比如 imprint
+
+363
+00:08:44,039 --> 00:08:46,200
+so that we can resolve macros
+
+364
+00:08:44,039 --> 00:08:46,200
+这样我们就能解析宏
+
+365
+00:08:46,200 --> 00:08:48,160
+and you throw it into our platform
+
+366
+00:08:46,200 --> 00:08:48,160
+然后把它放进我们的平台
+
+367
+00:08:48,160 --> 00:08:52,120
+and what happens is that every single line of code gets analyzed
+
+368
+00:08:48,160 --> 00:08:52,120
+接下来，每一行代码都会被分析
+
+369
+00:08:52,120 --> 00:08:54,839
+every format every variable every data set
+
+370
+00:08:52,120 --> 00:08:54,839
+每种格式、每个变量、每个数据集
+
+371
+00:08:54,839 --> 00:08:58,240
+every code list applied all of these transformations we capture
+
+372
+00:08:54,839 --> 00:08:58,240
+应用于每个代码列表的所有这些转换，我们都会捕获
+
+373
+00:08:58,240 --> 00:09:01,079
+and we put into a very large data structure
+
+374
+00:08:58,240 --> 00:09:01,079
+并将其存入一个非常庞大的数据结构中
+
+375
+00:09:01,079 --> 00:09:03,320
+which happens to be a graph
+
+376
+00:09:01,079 --> 00:09:03,320
+而这种数据结构恰好是一个图表
+
+377
+00:09:03,320 --> 00:09:03,760
+and
+
+378
+00:09:03,320 --> 00:09:03,760
+还有
+
+379
+00:09:03,760 --> 00:09:06,440
+if you were to look at this it would be absolutely
+
+380
+00:09:03,760 --> 00:09:06,440
+如果你看一下这个，你肯定会
+
+381
+00:09:06,440 --> 00:09:07,800
+and entirely overwhelming
+
+382
+00:09:06,440 --> 00:09:07,800
+感到完全不知所措
+
+383
+00:09:07,800 --> 00:09:08,839
+because it's literally
+
+384
+00:09:07,800 --> 00:09:08,839
+因为这简直就像
+
+385
+00:09:08,839 --> 00:09:12,640
+like looking at every single piece of information that's contained in every line of code
+
+386
+00:09:08,839 --> 00:09:12,640
+在查看每一行代码中包含的所有信息
+
+387
+00:09:12,640 --> 00:09:14,800
+which is impossible to understand
+
+388
+00:09:12,640 --> 00:09:14,800
+这根本无法理解
+
+389
+00:09:14,800 --> 00:09:19,160
+and impossible to navigate the point then of course becomes
+
+390
+00:09:14,800 --> 00:09:19,160
+也无从浏览。那么问题自然就变成了：
+
+391
+00:09:19,160 --> 00:09:23,240
+how do we slice this all of this information to answer questions that you have
+
+392
+00:09:19,160 --> 00:09:23,240
+我们如何对这些信息进行切分，以回答你提出的问题，
+
+393
+00:09:23,240 --> 00:09:25,320
+and make this useful
+
+394
+00:09:23,240 --> 00:09:25,320
+并让这些信息变得有用呢？
+
+395
+00:09:25,320 --> 00:09:26,680
+so a quick
+
+396
+00:09:25,320 --> 00:09:26,680
+那就快速
+
+397
+00:09:26,680 --> 00:09:31,680
+demo to give you an indication for what this looks like in real life
+
+398
+00:09:26,680 --> 00:09:31,680
+演示一下，让你了解它在现实生活中是什么样子
+
+399
+00:09:31,680 --> 00:09:34,800
+if you want to try this out you can go to demo. varan.com everything
+
+400
+00:09:31,680 --> 00:09:34,800
+如果你想试试，可以访问 demo. varan.com，一切尽在其中
+
+401
+00:09:34,800 --> 00:09:38,120
+that i'll show you is freely available there for you to play around with
+
+402
+00:09:34,800 --> 00:09:38,120
+我接下来给你们展示的内容可以免费获取，你们可以随意试用。
+
+403
+00:09:38,120 --> 00:09:39,320
+this is a demo study
+
+404
+00:09:38,120 --> 00:09:39,320
+这是一个演示研究。
+
+405
+00:09:39,320 --> 00:09:42,320
+so it's a fake one we generate the data ourselves
+
+406
+00:09:39,320 --> 00:09:42,320
+所以这是虚拟的，我们自行生成数据。
+
+407
+00:09:42,320 --> 00:09:43,760
+but it illustrates
+
+408
+00:09:42,320 --> 00:09:43,760
+不过它展示了
+
+409
+00:09:43,760 --> 00:09:44,600
+how it works
+
+410
+00:09:43,760 --> 00:09:44,600
+它是如何运作的。
+
+411
+00:09:44,600 --> 00:09:48,440
+and it works identically even with larger studies we have phase three trials
+
+412
+00:09:44,600 --> 00:09:48,440
+而且即使面对规模更大的研究，效果也完全相同。我们还有三期临床试验。
+
+413
+00:09:48,440 --> 00:09:52,880
+um so so like just in terms of volume much larger trials in here already
+
+414
+00:09:48,440 --> 00:09:52,880
+嗯，就数据量而言，这里已经有规模大得多的试验了。
+
+415
+00:09:52,880 --> 00:09:55,240
+so just to give you an idea
+
+416
+00:09:52,880 --> 00:09:55,240
+只是想让你们有个概念。
+
+417
+00:09:55,240 --> 00:09:58,440
+and more details will follow in the presentation
+
+418
+00:09:55,240 --> 00:09:58,440
+更多详情将在演示中介绍
+
+419
+00:09:58,440 --> 00:10:01,279
+let's say your interest is in a in a result
+
+420
+00:09:58,440 --> 00:10:01,279
+假设你关注的是某个结果
+
+421
+00:10:01,279 --> 00:10:04,440
+the way this works is that on the right side we'll show you the graph
+
+422
+00:10:01,279 --> 00:10:04,440
+其运作方式是，我们会在右侧向你展示图表
+
+423
+00:10:04,440 --> 00:10:06,720
+which contains that abstraction layer
+
+424
+00:10:04,440 --> 00:10:06,720
+其中包含这一抽象层
+
+425
+00:10:06,720 --> 00:10:07,680
+which is useful for
+
+426
+00:10:06,720 --> 00:10:07,680
+它有助于
+
+427
+00:10:07,680 --> 00:10:09,440
+what you're asking about right now
+
+428
+00:10:07,680 --> 00:10:09,440
+解答你现在提出的问题
+
+429
+00:10:09,440 --> 00:10:10,040
+and on the left
+
+430
+00:10:09,440 --> 00:10:10,040
+而在左
+
+431
+00:10:10,040 --> 00:10:10,959
+side we show you the code
+
+432
+00:10:10,040 --> 00:10:10,959
+侧，我们会向你展示代码
+
+433
+00:10:10,959 --> 00:10:12,079
+which is the source of truth
+
+434
+00:10:10,959 --> 00:10:12,079
+这是真实数据源
+
+435
+00:10:12,079 --> 00:10:12,920
+from which we generate
+
+436
+00:10:12,079 --> 00:10:12,920
+我们从中生成
+
+437
+00:10:12,920 --> 00:10:14,519
+and and do everything
+
+438
+00:10:12,920 --> 00:10:14,519
+并完成所有工作
+
+439
+00:10:14,519 --> 00:10:18,440
+so if you look at the at the life test proc here procedure
+
+440
+00:10:14,519 --> 00:10:18,440
+所以，如果你看这里的生命测试流程
+
+441
+00:10:18,440 --> 00:10:21,640
+we'll highlight the code that generate the procedure
+
+442
+00:10:18,440 --> 00:10:21,640
+我们会突出显示生成该流程的代码
+
+443
+00:10:21,640 --> 00:10:23,200
+and we will show you
+
+444
+00:10:21,640 --> 00:10:23,200
+并向你展示
+
+445
+00:10:23,200 --> 00:10:27,240
+which data sets are required to produce this output
+
+446
+00:10:23,200 --> 00:10:27,240
+生成此输出需要哪些数据集
+
+447
+00:10:27,240 --> 00:10:28,440
+now this is fairly
+
+448
+00:10:27,240 --> 00:10:28,440
+现在这相当
+
+449
+00:10:28,440 --> 00:10:31,360
+easy now because it's all in one file and you're like well that's obvious
+
+450
+00:10:28,440 --> 00:10:31,360
+现在很简单，因为所有内容都在一个文件里，你可能会觉得这显而易见
+
+451
+00:10:31,360 --> 00:10:33,760
+but what's interesting is that we can
+
+452
+00:10:31,360 --> 00:10:33,760
+但有趣的是，我们可以
+
+453
+00:10:33,760 --> 00:10:34,440
+now expand
+
+454
+00:10:33,760 --> 00:10:34,440
+进一步展开
+
+455
+00:10:34,440 --> 00:10:36,839
+and say okay i want to know everything about this data set
+
+456
+00:10:34,440 --> 00:10:36,839
+并说，好吧，我想了解这个数据集的所有信息
+
+457
+00:10:36,839 --> 00:10:38,279
+which is what i just did
+
+458
+00:10:36,839 --> 00:10:38,279
+这正是我刚才做的
+
+459
+00:10:38,279 --> 00:10:41,680
+and whenever you select the data set it will jump exactly to
+
+460
+00:10:38,279 --> 00:10:41,680
+每当你选中这个数据集时，它就会准确跳转到
+
+461
+00:10:41,680 --> 00:10:43,800
+the code that generate the data set
+
+462
+00:10:41,680 --> 00:10:43,800
+生成该数据集的代码
+
+463
+00:10:43,800 --> 00:10:47,160
+and if you keep going on this you'll see that adsl goes in here in adf
+
+464
+00:10:43,800 --> 00:10:47,160
+如果你继续看下去，就会发现 ADSL 会在 ADF 中被调用。
+
+465
+00:10:47,160 --> 00:10:49,680
+so let's just keep expanding this
+
+466
+00:10:47,160 --> 00:10:49,680
+所以我们就继续扩展这个
+
+467
+00:10:49,680 --> 00:10:50,160
+and
+
+468
+00:10:49,680 --> 00:10:50,160
+还有
+
+469
+00:10:50,160 --> 00:10:50,560
+um
+
+470
+00:10:50,160 --> 00:10:50,560
+嗯
+
+471
+00:10:50,560 --> 00:10:51,000
+because i've done
+
+472
+00:10:50,560 --> 00:10:51,000
+因为我已经做过
+
+473
+00:10:51,000 --> 00:10:51,560
+this a few times
+
+474
+00:10:51,000 --> 00:10:51,560
+几次了
+
+475
+00:10:51,560 --> 00:10:52,160
+i roughly know what
+
+476
+00:10:51,560 --> 00:10:52,160
+大致知道
+
+477
+00:10:52,160 --> 00:10:53,480
+the graph is going to look like
+
+478
+00:10:52,160 --> 00:10:53,480
+图表会是什么样子
+
+479
+00:10:53,480 --> 00:10:59,720
+we can keep doing this until we reach
+
+480
+00:10:53,480 --> 00:10:59,720
+我们可以一直这样做，直到达到
+
+481
+00:10:59,720 --> 00:11:01,800
+stm level
+
+482
+00:10:59,720 --> 00:11:01,800
+STM 级别
+
+483
+00:11:01,800 --> 00:11:08,000
+and ultimately until we reach the raw our source data
+
+484
+00:11:01,800 --> 00:11:08,000
+最终直到抵达原始源数据
+
+485
+00:11:08,000 --> 00:11:09,160
+which is back here
+
+486
+00:11:08,000 --> 00:11:09,160
+它就在这儿
+
+487
+00:11:09,160 --> 00:11:15,920
+so we've just traversed within a few seconds seven files several thousand lines of code
+
+488
+00:11:09,160 --> 00:11:15,920
+所以，我们刚才只用了几秒钟，就遍历了七个文件、数千行代码
+
+489
+00:11:15,920 --> 00:11:18,440
+and you will only be shown exactly the lines of code
+
+490
+00:11:15,920 --> 00:11:18,440
+而你只会看到恰好这些代码行
+
+491
+00:11:18,440 --> 00:11:21,160
+which are required to produce this output
+
+492
+00:11:18,440 --> 00:11:21,160
+它们是生成这个输出所必需的
+
+493
+00:11:21,160 --> 00:11:24,320
+the abstraction layer that i've just shown you is data sets
+
+494
+00:11:21,160 --> 00:11:24,320
+我刚才展示给你们的抽象层就是数据集
+
+495
+00:11:24,320 --> 00:11:27,600
+so you click on a data set you see the code that defines the data set
+
+496
+00:11:24,320 --> 00:11:27,600
+点击一个数据集，就能看到定义该数据集的代码
+
+497
+00:11:27,600 --> 00:11:31,040
+now obviously all of you are like can we do this for variables
+
+498
+00:11:27,600 --> 00:11:31,040
+现在，显然你们所有人都在想：变量也能这样处理吗？
+
+499
+00:11:31,040 --> 00:11:32,760
+and guess what yes
+
+500
+00:11:31,040 --> 00:11:32,760
+猜猜看？可以。
+
+501
+00:11:32,760 --> 00:11:35,399
+um the point here is that for an output
+
+502
+00:11:32,760 --> 00:11:35,399
+嗯，这里的重点是，对于输出
+
+503
+00:11:35,399 --> 00:11:37,440
+of course you don't usually throw in the whole data set
+
+504
+00:11:35,399 --> 00:11:37,440
+当然，你通常不会把整个数据集都放进去
+
+505
+00:11:37,440 --> 00:11:39,959
+like you have your atom level and then you pick out a couple variables
+
+506
+00:11:37,440 --> 00:11:39,959
+比如，你有原子层级的数据，然后挑出几个变量
+
+507
+00:11:39,959 --> 00:11:41,839
+maybe three depending on your test
+
+508
+00:11:39,959 --> 00:11:41,839
+具体几个要看你的测试，可能是三个
+
+509
+00:11:41,839 --> 00:11:44,720
+and this is what you're what you're interested in
+
+510
+00:11:41,839 --> 00:11:44,720
+这就是你感兴趣的内容
+
+511
+00:11:44,720 --> 00:11:45,040
+and
+
+512
+00:11:44,720 --> 00:11:45,040
+还有
+
+513
+00:11:45,040 --> 00:11:45,440
+so
+
+514
+00:11:45,040 --> 00:11:45,440
+所以
+
+515
+00:11:45,440 --> 00:11:46,680
+what we could do
+
+516
+00:11:45,440 --> 00:11:46,680
+我们可以
+
+517
+00:11:46,680 --> 00:11:48,440
+um is quickly jump to another module
+
+518
+00:11:46,680 --> 00:11:48,440
+嗯，快速跳到另一个模块
+
+519
+00:11:48,440 --> 00:11:50,760
+which is the results validation
+
+520
+00:11:48,440 --> 00:11:50,760
+也就是结果验证
+
+521
+00:11:50,760 --> 00:11:55,079
+because it shows it in a in a bit more focused vers focused way
+
+522
+00:11:50,760 --> 00:11:55,079
+因为这样能以更聚焦的方式呈现出来
+
+523
+00:11:55,079 --> 00:11:59,480
+so we grab all of the outputs generated in this demo study you can select them
+
+524
+00:11:55,079 --> 00:11:59,480
+所以，我们可以获取这项演示研究生成的所有输出，你可以选择这些输出
+
+525
+00:11:59,480 --> 00:12:00,480
+um it will tell you
+
+526
+00:11:59,480 --> 00:12:00,480
+嗯，它会告诉你
+
+527
+00:12:00,480 --> 00:12:04,399
+which variables go into this result it will display the result
+
+528
+00:12:00,480 --> 00:12:04,399
+哪些变量会纳入这个结果，并显示结果
+
+529
+00:12:04,399 --> 00:12:07,880
+soon there'll be quite a bit more information that we display on top of it
+
+530
+00:12:04,399 --> 00:12:07,880
+很快，我们还会在此基础上展示更多信息
+
+531
+00:12:07,880 --> 00:12:09,760
+but let's say you're interested in ttpn
+
+532
+00:12:07,880 --> 00:12:09,760
+不过，假设你对 TTPN 感兴趣
+
+533
+00:12:09,760 --> 00:12:13,600
+which is one of the main variables that goes into this output you select it
+
+534
+00:12:09,760 --> 00:12:13,600
+它是纳入此输出的主要变量之一，你可以选择它
+
+535
+00:12:13,600 --> 00:12:17,040
+and you get the variable level trace
+
+536
+00:12:13,600 --> 00:12:17,040
+然后就能看到变量级别的追踪信息
+
+537
+00:12:17,040 --> 00:12:17,480
+which means
+
+538
+00:12:17,040 --> 00:12:17,480
+也就是说
+
+539
+00:12:17,480 --> 00:12:19,199
+now you only look at the lines of code
+
+540
+00:12:17,480 --> 00:12:19,199
+现在你只需要查看那些代码行
+
+541
+00:12:19,199 --> 00:12:21,440
+which are required to produce that variable
+
+542
+00:12:19,199 --> 00:12:21,440
+它们是生成该变量所必需的
+
+543
+00:12:21,440 --> 00:12:24,480
+so we cut it down again from searching across files
+
+544
+00:12:21,440 --> 00:12:24,480
+所以我们再次缩小了范围，从跨文件搜索
+
+545
+00:12:24,480 --> 00:12:28,480
+and maybe showing 900 lines of code down to 25
+
+546
+00:12:24,480 --> 00:12:28,480
+以及可能显示 900 行代码，缩减到 25 行
+
+547
+00:12:28,480 --> 00:12:31,160
+and you can do this very varable variable by variable
+
+548
+00:12:28,480 --> 00:12:31,160
+你可以逐个变量地这样做
+
+549
+00:12:31,160 --> 00:12:36,600
+so the amount of information that you have to process when you review something is incredibly much lower
+
+550
+00:12:31,160 --> 00:12:36,600
+因此，你在审查某些内容时需要处理的信息量会大幅减少
+
+551
+00:12:36,600 --> 00:12:38,639
+the other thing that the results validation
+
+552
+00:12:36,600 --> 00:12:38,639
+另一件事是结果验证
+
+553
+00:12:38,639 --> 00:12:40,839
+contains is that it's integrated with the data itself
+
+554
+00:12:38,639 --> 00:12:40,839
+它的特点在于与数据本身集成在一起
+
+555
+00:12:40,839 --> 00:12:47,560
+so you can look at the values of the data as it is transformed
+
+556
+00:12:40,839 --> 00:12:47,560
+因此，你可以查看数据在转换过程中的取值
+
+557
+00:12:47,560 --> 00:12:50,639
+so for example the source
+
+558
+00:12:47,560 --> 00:12:50,639
+例如，源数据
+
+559
+00:12:50,639 --> 00:12:56,040
+you can have have a view of what the data looks like on source level at sctm level
+
+560
+00:12:50,639 --> 00:12:56,040
+你可以查看数据在源级别、SCTM 级别上的样子
+
+561
+00:12:56,040 --> 00:13:00,880
+and then ultimately at the level where it goes into the result
+
+562
+00:12:56,040 --> 00:13:00,880
+最终也可以查看数据进入结果时的样子
+
+563
+00:13:00,880 --> 00:13:06,760
+now this is just to give you an idea of what code traceability means
+
+564
+00:13:00,880 --> 00:13:06,760
+这只是为了让你了解代码可追溯性意味着什么
+
+565
+00:13:06,760 --> 00:13:11,839
+it's already extremely useful for certain use cases for example let's say you're a statistical programmer
+
+566
+00:13:06,760 --> 00:13:11,839
+它对某些使用场景已经非常有用。比如，假设你是一名统计程序员
+
+567
+00:13:11,839 --> 00:13:16,000
+and you go into a study that you're not familiar with and you have to do ro cross analysis
+
+568
+00:13:11,839 --> 00:13:16,000
+你接手了一项自己并不熟悉的研究，需要进行 RO 交叉分析
+
+569
+00:13:16,000 --> 00:13:17,480
+um i don't know how it is for you guys i've written
+
+570
+00:13:16,000 --> 00:13:17,480
+嗯，我不知道你们是什么情况，我这辈子写过
+
+571
+00:13:17,480 --> 00:13:18,880
+a lot of code in my life
+
+572
+00:13:17,480 --> 00:13:18,880
+很多代码。
+
+573
+00:13:18,880 --> 00:13:22,120
+um even looking at my own code that i wrote three months ago
+
+574
+00:13:18,880 --> 00:13:22,120
+嗯，就连看我三个月前写的代码，
+
+575
+00:13:22,120 --> 00:13:25,680
+occasionally it's difficult i might not remember everything that i've done
+
+576
+00:13:22,120 --> 00:13:25,680
+有时候也挺费劲的，我可能不记得自己做过的所有事。
+
+577
+00:13:25,680 --> 00:13:29,240
+and i would have actually loved to have this while i was still doing analysis
+
+578
+00:13:25,680 --> 00:13:29,240
+要是我还在做分析时就有这个工具，那就太好了。
+
+579
+00:13:29,240 --> 00:13:32,800
+um but in addition to that of course if you look into other people's code
+
+580
+00:13:29,240 --> 00:13:32,800
+嗯，除此之外，当然，如果你看看别人的代码，
+
+581
+00:13:32,800 --> 00:13:36,240
+if you look at a study that's a bit older maybe you join a new company
+
+582
+00:13:32,800 --> 00:13:36,240
+如果你研究的是稍微早些时候的项目，或者你加入了一家新公司，
+
+583
+00:13:36,240 --> 00:13:37,440
+and you don't know exactly
+
+584
+00:13:36,240 --> 00:13:37,440
+而你并不完全清楚……
+
+585
+00:13:37,440 --> 00:13:39,040
+how things are done there
+
+586
+00:13:37,440 --> 00:13:39,040
+那里的工作方式
+
+587
+00:13:39,040 --> 00:13:43,880
+um this obviously massively increases your speed in terms of onboarding
+
+588
+00:13:39,040 --> 00:13:43,880
+嗯，这显然能大幅加快你的入职速度
+
+589
+00:13:43,880 --> 00:13:46,639
+but let's look at some other use cases so where's the value in this
+
+590
+00:13:43,880 --> 00:13:46,639
+不过我们来看看其他一些用例，那么它的价值在哪里呢
+
+591
+00:13:46,639 --> 00:13:50,399
+the way to think about the tracer that i've just shown you is that this is just a
+
+592
+00:13:46,639 --> 00:13:50,399
+对于我刚才给你看的追踪器，可以这样理解：这只是一个
+
+593
+00:13:50,399 --> 00:13:51,800
+demonstration of
+
+594
+00:13:50,399 --> 00:13:51,800
+演示
+
+595
+00:13:51,800 --> 00:13:52,880
+what we're doing
+
+596
+00:13:51,800 --> 00:13:52,880
+我们正在做的事情
+
+597
+00:13:52,880 --> 00:13:57,199
+now the question is what value can can we generate from it
+
+598
+00:13:52,880 --> 00:13:57,199
+现在的问题是，我们能从中创造什么价值
+
+599
+00:13:57,199 --> 00:13:59,880
+now obviously i have to talk ai
+
+600
+00:13:57,199 --> 00:13:59,880
+现在显然我得聊聊人工智能
+
+601
+00:13:59,880 --> 00:14:03,000
+because it is 2024
+
+602
+00:13:59,880 --> 00:14:03,000
+毕竟现在是 2024 年
+
+603
+00:14:03,000 --> 00:14:03,639
+um
+
+604
+00:14:03,000 --> 00:14:03,639
+嗯
+
+605
+00:14:03,639 --> 00:14:04,480
+what is really important
+
+606
+00:14:03,639 --> 00:14:04,480
+真正重要的是什么
+
+607
+00:14:04,480 --> 00:14:06,720
+though if you don't take anything else away from this ai
+
+608
+00:14:04,480 --> 00:14:06,720
+不过，如果你听完这段关于 AI 的演讲后只记住一件事，那就是
+
+609
+00:14:06,720 --> 00:14:08,519
+piece of the talk it's that
+
+610
+00:14:06,720 --> 00:14:08,519
+这一点：
+
+611
+00:14:08,519 --> 00:14:11,880
+we're not just using a big lm like jgpt
+
+612
+00:14:08,519 --> 00:14:11,880
+我们并不是只用一个像 JGPT 这样的大型语言模型
+
+613
+00:14:11,880 --> 00:14:14,839
+grab your data forward it use a massive context window
+
+614
+00:14:11,880 --> 00:14:14,839
+抓取你的数据，把它传过去，再使用超大的上下文窗口
+
+615
+00:14:14,839 --> 00:14:18,120
+and hope that the reasoning capabilities get better
+
+616
+00:14:14,839 --> 00:14:18,120
+并寄希望于推理能力会有所提升
+
+617
+00:14:18,120 --> 00:14:24,079
+because they are very bad in detail they're very good in general they're very bad in detail
+
+618
+00:14:18,120 --> 00:14:24,079
+因为它们在细节方面表现很差，在总体上表现很好，但在细节方面表现很差。
+
+619
+00:14:24,079 --> 00:14:24,639
+so
+
+620
+00:14:24,079 --> 00:14:24,639
+所以
+
+621
+00:14:24,639 --> 00:14:25,399
+how can we
+
+622
+00:14:24,639 --> 00:14:25,399
+我们如何
+
+623
+00:14:25,399 --> 00:14:29,320
+how can we improve this so what we're doing is we're doing trace
+
+624
+00:14:25,399 --> 00:14:29,320
+我们如何改进这一点？我们现在的做法是进行追踪
+
+625
+00:14:29,320 --> 00:14:31,440
+enabled ai i'll show you a little bit what that means in a second
+
+626
+00:14:29,320 --> 00:14:31,440
+启用 AI，稍后我会简单介绍一下这意味着什么
+
+627
+00:14:31,440 --> 00:14:33,079
+and everything that we generate
+
+628
+00:14:31,440 --> 00:14:33,079
+以及我们生成的所有内容
+
+629
+00:14:33,079 --> 00:14:35,759
+will we'll be able to provide you the full evidence
+
+630
+00:14:33,079 --> 00:14:35,759
+都能为你提供完整的证据
+
+631
+00:14:35,759 --> 00:14:37,639
+not evidence like chat gpd
+
+632
+00:14:35,759 --> 00:14:37,639
+不是像 ChatGPT 那样的证据
+
+633
+00:14:37,639 --> 00:14:41,040
+which starts making up references to papers
+
+634
+00:14:37,639 --> 00:14:41,040
+它会开始编造论文引用
+
+635
+00:14:41,040 --> 00:14:44,000
+act the actual evidence from which we generate the answers
+
+636
+00:14:41,040 --> 00:14:44,000
+而是生成答案所依据的真实证据
+
+637
+00:14:44,000 --> 00:14:46,320
+so let's talk about lms really really quickly
+
+638
+00:14:44,000 --> 00:14:46,320
+那么我们来非常快速地聊聊大型语言模型（LLM）
+
+639
+00:14:46,320 --> 00:14:50,279
+um they are fundamentally sophisticated autocompletes
+
+640
+00:14:46,320 --> 00:14:50,279
+嗯，从根本上说，它们是非常复杂的自动补全工具
+
+641
+00:14:50,279 --> 00:14:52,360
+so what they do is they read in a token stream
+
+642
+00:14:50,279 --> 00:14:52,360
+它们的工作方式是读入一个词元流
+
+643
+00:14:52,360 --> 00:14:55,120
+they predict the next one they read in the token stream they just generated
+
+644
+00:14:52,360 --> 00:14:55,120
+然后预测下一个词元，再读入刚刚生成的词元流
+
+645
+00:14:55,120 --> 00:14:56,480
+they predict the next one
+
+646
+00:14:55,120 --> 00:14:56,480
+再预测下一个词元
+
+647
+00:14:56,480 --> 00:14:58,800
+over and over very very fast
+
+648
+00:14:56,480 --> 00:14:58,800
+如此反复，速度非常快
+
+649
+00:14:58,800 --> 00:15:01,600
+so so most of the time this will make sense
+
+650
+00:14:58,800 --> 00:15:01,600
+所以，大多数时候，这样生成的内容是有意义的
+
+651
+00:15:01,600 --> 00:15:02,160
+um
+
+652
+00:15:01,600 --> 00:15:02,160
+嗯
+
+653
+00:15:02,160 --> 00:15:06,759
+and that's obviously good that's what we want some of the times it's a bit weird
+
+654
+00:15:02,160 --> 00:15:06,759
+这显然很好，也是我们想要的；但有时候，结果会有点奇怪
+
+655
+00:15:06,759 --> 00:15:09,120
+and unless you're reading a fantasy novel
+
+656
+00:15:06,759 --> 00:15:09,120
+除非你在读奇幻小说，
+
+657
+00:15:09,120 --> 00:15:11,639
+um this sentence you might feel a bit off
+
+658
+00:15:09,120 --> 00:15:11,639
+嗯，这句话可能会让你觉得有点别扭，
+
+659
+00:15:11,639 --> 00:15:16,240
+but it's not wrong like you you know it does make sense in some context
+
+660
+00:15:11,639 --> 00:15:16,240
+但它并没有错，你知道，在某些语境下确实说得通。
+
+661
+00:15:16,240 --> 00:15:18,639
+so this is where it gets into the gray zone
+
+662
+00:15:16,240 --> 00:15:18,639
+所以问题就进入了灰色地带。
+
+663
+00:15:18,639 --> 00:15:22,160
+now the real problem is this is a real paper i'm not making this up the
+
+664
+00:15:18,639 --> 00:15:22,160
+现在，真正的问题是，这是一篇真实的论文，我可不是编的。这个……
+
+665
+00:15:22,160 --> 00:15:24,120
+is also a real philosophical term
+
+666
+00:15:22,160 --> 00:15:24,120
+也是一个真实的哲学术语，
+
+667
+00:15:24,120 --> 00:15:27,839
+um coined by a guy called frankfurt in princeton
+
+668
+00:15:24,120 --> 00:15:27,839
+嗯，是普林斯顿的一位叫弗兰克福的人提出的。
+
+669
+00:15:27,839 --> 00:15:32,000
+he actually has a nice book on by the way if i can give a recommendation on that one
+
+670
+00:15:27,839 --> 00:15:32,000
+顺便说一句，他有本书写得不错，要是可以的话，我推荐你看看。
+
+671
+00:15:32,000 --> 00:15:32,480
+um
+
+672
+00:15:32,000 --> 00:15:32,480
+嗯
+
+673
+00:15:32,480 --> 00:15:35,440
+the real problem that we have is that lms are actually really
+
+674
+00:15:32,480 --> 00:15:35,440
+我们面临的真正问题是，大型语言模型其实非常擅长
+
+675
+00:15:35,440 --> 00:15:37,079
+really good at sounding
+
+676
+00:15:35,440 --> 00:15:37,079
+让自己听起来
+
+677
+00:15:37,079 --> 00:15:38,759
+like they're exactly right
+
+678
+00:15:37,079 --> 00:15:38,759
+好像完全正确
+
+679
+00:15:38,759 --> 00:15:41,680
+and they're really really good at being wrong anyway
+
+680
+00:15:38,759 --> 00:15:41,680
+但实际上它们也特别擅长犯错
+
+681
+00:15:41,680 --> 00:15:42,800
+and we're in an industry
+
+682
+00:15:41,680 --> 00:15:42,800
+而我们身处的这个行业
+
+683
+00:15:42,800 --> 00:15:45,720
+where that is not so funny if you're in content generation
+
+684
+00:15:42,800 --> 00:15:45,720
+如果你从事内容生成，这可一点都不好笑
+
+685
+00:15:45,720 --> 00:15:48,000
+you're trying to gain more followers
+
+686
+00:15:45,720 --> 00:15:48,000
+你想要吸引更多关注者
+
+687
+00:15:48,000 --> 00:15:52,680
+and i don't know 20% of your pixels are a bit off of the image that you generated
+
+688
+00:15:48,000 --> 00:15:52,680
+但我不知道，你生成的图像中有 20% 的像素都有点偏差
+
+689
+00:15:52,680 --> 00:15:54,240
+who cares
+
+690
+00:15:52,680 --> 00:15:54,240
+谁在乎
+
+691
+00:15:54,240 --> 00:15:57,480
+if you're wrong here it's not funny
+
+692
+00:15:54,240 --> 00:15:57,480
+如果你在这里弄错了，那可一点都不好笑
+
+693
+00:15:57,480 --> 00:15:58,480
+so
+
+694
+00:15:57,480 --> 00:15:58,480
+所以
+
+695
+00:15:58,480 --> 00:16:01,440
+how can we gain confidence in ai in this industry
+
+696
+00:15:58,480 --> 00:16:01,440
+在这个行业，我们怎样才能对 AI 建立信心
+
+697
+00:16:01,440 --> 00:16:04,480
+and make it actually useful not a pc
+
+698
+00:16:01,440 --> 00:16:04,480
+并让它真正有用，而不是一台个人电脑
+
+699
+00:16:04,480 --> 00:16:06,399
+but actually
+
+700
+00:16:04,480 --> 00:16:06,399
+而是真正
+
+701
+00:16:06,399 --> 00:16:07,399
+useful
+
+702
+00:16:06,399 --> 00:16:07,399
+有用
+
+703
+00:16:07,399 --> 00:16:08,120
+one of the answers
+
+704
+00:16:07,399 --> 00:16:08,120
+其中一个答案是
+
+705
+00:16:08,120 --> 00:16:11,440
+is that we solve the same problem for the ai that we solve for you
+
+706
+00:16:08,120 --> 00:16:11,440
+我们为 AI 解决的问题，和为你解决的是同一个
+
+707
+00:16:11,440 --> 00:16:15,560
+so if i ask you a question about 20,000 lines of code and we say you know andrew
+
+708
+00:16:11,440 --> 00:16:15,560
+所以，如果我问你一个关于两万行代码的问题，比如问你：“安德鲁，
+
+709
+00:16:15,560 --> 00:16:17,240
+how was that variable defined
+
+710
+00:16:15,560 --> 00:16:17,240
+这个变量是怎么定义的？”
+
+711
+00:16:17,240 --> 00:16:20,480
+and you have to go through 20,000 lines the probability that you make mistakes
+
+712
+00:16:17,240 --> 00:16:20,480
+而你必须逐行检查这两万行代码，那么你犯错的概率
+
+713
+00:16:20,480 --> 00:16:22,319
+is actually fairly high because you get confused
+
+714
+00:16:20,480 --> 00:16:22,319
+其实相当高，因为你会搞混
+
+715
+00:16:22,319 --> 00:16:23,839
+and you get tired
+
+716
+00:16:22,319 --> 00:16:23,839
+而且会感到疲惫
+
+717
+00:16:23,839 --> 00:16:24,319
+and
+
+718
+00:16:23,839 --> 00:16:24,319
+还有
+
+719
+00:16:24,319 --> 00:16:27,839
+yeah you might just or it takes you a really long time
+
+720
+00:16:24,319 --> 00:16:27,839
+没错，你可能会……或者说，这会花你很长时间
+
+721
+00:16:27,839 --> 00:16:29,079
+for the ai it's the same thing
+
+722
+00:16:27,839 --> 00:16:29,079
+对人工智能来说也是一样
+
+723
+00:16:29,079 --> 00:16:31,639
+if it has to go through a lot of information to summarize it
+
+724
+00:16:29,079 --> 00:16:31,639
+如果它必须查阅大量信息才能进行总结
+
+725
+00:16:31,639 --> 00:16:37,079
+the more information it goes through the less accurate it gets it's just information density basically
+
+726
+00:16:31,639 --> 00:16:37,079
+它处理的信息越多，结果就越不准确，基本上就是信息密度的问题
+
+727
+00:16:37,079 --> 00:16:37,560
+and so
+
+728
+00:16:37,079 --> 00:16:37,560
+所以
+
+729
+00:16:37,560 --> 00:16:39,399
+what we do is we supply
+
+730
+00:16:37,560 --> 00:16:39,399
+我们会提供
+
+731
+00:16:39,399 --> 00:16:42,800
+the ai not just with all of the code of the study or just the sap
+
+732
+00:16:39,399 --> 00:16:42,800
+给 AI 的不只是整项研究的所有代码，也不只是 SAP
+
+733
+00:16:42,800 --> 00:16:47,120
+we supply it exactly with just the code that it needs to answer that question
+
+734
+00:16:42,800 --> 00:16:47,120
+我们会精准地只提供它回答那个问题所需的代码
+
+735
+00:16:47,120 --> 00:16:51,120
+and so we cut it down from 700 lines to 30 just like for you
+
+736
+00:16:47,120 --> 00:16:51,120
+所以我们把代码从 700 行精简到 30 行，就像为你精简一样
+
+737
+00:16:51,120 --> 00:16:55,040
+and we know that the lines that we give to it are relevant
+
+738
+00:16:51,120 --> 00:16:55,040
+而且我们知道提供给它的代码行都与问题相关
+
+739
+00:16:55,040 --> 00:16:56,839
+and not only do we do that
+
+740
+00:16:55,040 --> 00:16:56,839
+而且我们不只做了这些
+
+741
+00:16:56,839 --> 00:16:59,600
+we actually enrich the information we give to the ai
+
+742
+00:16:56,839 --> 00:16:59,600
+实际上，我们会丰富提供给 AI 的信息
+
+743
+00:16:59,600 --> 00:17:02,480
+so that it doesn't have to do the reasoning through traceability
+
+744
+00:16:59,600 --> 00:17:02,480
+这样它就不必通过可追溯性来进行推理
+
+745
+00:17:02,480 --> 00:17:06,240
+so we can tell it this depends on that in this way
+
+746
+00:17:02,480 --> 00:17:06,240
+这样我们就能告诉它，这件事以这种方式取决于那件事
+
+747
+00:17:06,240 --> 00:17:08,599
+and we sort of enrich the prompt that way fully automatically
+
+748
+00:17:06,240 --> 00:17:08,599
+而且我们会以这种方式全自动地丰富提示词
+
+749
+00:17:08,599 --> 00:17:10,039
+so you don't have to type it up
+
+750
+00:17:08,599 --> 00:17:10,039
+所以你不必把它打出来
+
+751
+00:17:10,039 --> 00:17:11,160
+because you wouldn't be able to
+
+752
+00:17:10,039 --> 00:17:11,160
+因为你也做不到
+
+753
+00:17:11,160 --> 00:17:13,839
+it would take you more time to type up the prompt
+
+754
+00:17:11,160 --> 00:17:13,839
+打出提示词所花的时间
+
+755
+00:17:13,839 --> 00:17:16,319
+than to figure it out
+
+756
+00:17:13,839 --> 00:17:16,319
+会比弄清楚它还要久
+
+757
+00:17:16,319 --> 00:17:17,319
+yourself
+
+758
+00:17:16,319 --> 00:17:17,319
+你自己
+
+759
+00:17:17,319 --> 00:17:20,240
+so the ai like i said instead of looking at 730
+
+760
+00:17:17,319 --> 00:17:20,240
+所以，正如我所说，AI 不必查看 730
+
+761
+00:17:20,240 --> 00:17:25,119
+lines in our toy demo study we have to look at only
+
+762
+00:17:20,240 --> 00:17:25,119
+行代码；在我们的玩具示例研究中，只需查看
+
+763
+00:17:25,119 --> 00:17:26,119
+30
+
+764
+00:17:25,119 --> 00:17:26,119
+30
+
+765
+00:17:26,119 --> 00:17:28,559
+so traceability enabled ai it's reproducible
+
+766
+00:17:26,119 --> 00:17:28,559
+因此，具备可追溯性的 AI 是可复现的
+
+767
+00:17:28,559 --> 00:17:32,520
+because it is based on our static analysis of code which doesn't change
+
+768
+00:17:28,559 --> 00:17:32,520
+因为它基于我们对代码的静态分析，而代码不会改变
+
+769
+00:17:32,520 --> 00:17:33,559
+and it's evidence-based
+
+770
+00:17:32,520 --> 00:17:33,559
+而且它以证据为依据
+
+771
+00:17:33,559 --> 00:17:36,559
+because you can always access the evidence that it used
+
+772
+00:17:33,559 --> 00:17:36,559
+因为你始终可以访问它所使用的证据
+
+773
+00:17:36,559 --> 00:17:39,240
+so let me run you through how this works you ask a question
+
+774
+00:17:36,559 --> 00:17:39,240
+我来给你讲讲它是怎么运作的：你提出一个问题
+
+775
+00:17:39,240 --> 00:17:41,440
+so we have several applications of ai
+
+776
+00:17:39,240 --> 00:17:41,440
+所以，我们有几种 AI 应用
+
+777
+00:17:41,440 --> 00:17:44,320
+all of them are based on the same thing but i think the best repres
+
+778
+00:17:41,440 --> 00:17:44,320
+它们都基于同一原理，但我认为最好的表
+
+779
+00:17:44,320 --> 00:17:45,960
+representation of this is
+
+780
+00:17:44,320 --> 00:17:45,960
+现形式是
+
+781
+00:17:45,960 --> 00:17:50,400
+this the chatbot idea which everyone is most familiar with so you would ask a question
+
+782
+00:17:45,960 --> 00:17:50,400
+这个大家最熟悉的聊天机器人模式，你可以提出一个问题
+
+783
+00:17:50,400 --> 00:17:53,039
+how's the time to event determin study
+
+784
+00:17:50,400 --> 00:17:53,039
+“事件确定性研究的时间怎么样？”
+
+785
+00:17:53,039 --> 00:17:55,880
+um that passes on to our first part of the system
+
+786
+00:17:53,039 --> 00:17:55,880
+嗯，问题会传递到我们系统的第一部分
+
+787
+00:17:55,880 --> 00:17:57,240
+which is an llm
+
+788
+00:17:55,880 --> 00:17:57,240
+也就是一个 LLM
+
+789
+00:17:57,240 --> 00:17:59,440
+plus a little bit more but that gets too complicated at
+
+790
+00:17:57,240 --> 00:17:59,440
+再多一点，但那样就太复杂了
+
+791
+00:17:59,440 --> 00:18:02,440
+we extract the clinical concepts that you asked about
+
+792
+00:17:59,440 --> 00:18:02,440
+我们提取了你询问的临床概念
+
+793
+00:18:02,440 --> 00:18:03,559
+it knows about cis
+
+794
+00:18:02,440 --> 00:18:03,559
+它了解 cis
+
+795
+00:18:03,559 --> 00:18:04,520
+so it knows
+
+796
+00:18:03,559 --> 00:18:04,520
+所以它知道
+
+797
+00:18:04,520 --> 00:18:05,159
+which variables
+
+798
+00:18:04,520 --> 00:18:05,159
+哪些变量
+
+799
+00:18:05,159 --> 00:18:09,039
+and which data sets usually contain information about these clinical concepts
+
+800
+00:18:05,159 --> 00:18:09,039
+以及哪些数据集通常包含有关这些临床概念的信息
+
+801
+00:18:09,039 --> 00:18:13,120
+it runs through your study pulls out the relevant traceability
+
+802
+00:18:09,039 --> 00:18:13,120
+它会运行你的研究，提取相关的可追溯性
+
+803
+00:18:13,120 --> 00:18:17,039
+information puts all of that together into a nice information sandwich
+
+804
+00:18:13,120 --> 00:18:17,039
+信息，把所有内容整理成一个精炼的信息包
+
+805
+00:18:17,039 --> 00:18:19,679
+and hands it over to the next llm
+
+806
+00:18:17,039 --> 00:18:19,679
+然后交给下一个 LLM
+
+807
+00:18:19,679 --> 00:18:22,360
+which then produces its output
+
+808
+00:18:19,679 --> 00:18:22,360
+由它生成输出
+
+809
+00:18:22,360 --> 00:18:24,360
+and part of the output is always
+
+810
+00:18:22,360 --> 00:18:24,360
+而输出的一部分始终是
+
+811
+00:18:24,360 --> 00:18:31,600
+that the evidence that it used to create that output is freely available to you and easily browsable
+
+812
+00:18:24,360 --> 00:18:31,600
+它用来生成输出的证据会免费提供给你，而且很容易浏览
+
+813
+00:18:31,600 --> 00:18:34,679
+so the reason why it's deterministic
+
+814
+00:18:31,600 --> 00:18:34,679
+这就是它具有确定性的原因
+
+815
+00:18:34,679 --> 00:18:38,799
+or as close to deterministic as you're going to get a probabilistic ai system
+
+816
+00:18:34,679 --> 00:18:38,799
+或者说，在概率型 AI 系统所能达到的范围内，尽可能接近确定性[[source_end]]
+
+817
+00:18:38,799 --> 00:18:40,760
+is because the foundation for
+
+818
+00:18:38,799 --> 00:18:40,760
+这是因为其基础
+
+819
+00:18:40,760 --> 00:18:42,799
+which it uses to generate the answer
+
+820
+00:18:40,760 --> 00:18:42,799
+用于生成答案
+
+821
+00:18:42,799 --> 00:18:46,080
+comes out of our static code analysis right so if we run the same analysis
+
+822
+00:18:42,799 --> 00:18:46,080
+来自我们的静态代码分析，对吧？因此，如果我们对同一代码库运行相同的分析
+
+823
+00:18:46,080 --> 00:18:48,799
+on the same code base we always get the same answer
+
+824
+00:18:46,080 --> 00:18:48,799
+总会得到相同的答案
+
+825
+00:18:48,799 --> 00:18:53,360
+if we run our algorithm about trying to figure out how age is actually dered
+
+826
+00:18:48,799 --> 00:18:53,360
+如果运行我们的算法，尝试弄清楚年龄实际上是如何推导出来的
+
+827
+00:18:53,360 --> 00:18:56,000
+we always get the same answers
+
+828
+00:18:53,360 --> 00:18:56,000
+我们总会得到相同的答案
+
+829
+00:18:56,000 --> 00:18:57,679
+the evidence is always provided
+
+830
+00:18:56,000 --> 00:18:57,679
+证据也总是会提供
+
+831
+00:18:57,679 --> 00:19:01,440
+and just again to be very clear because some people sort of missed this
+
+832
+00:18:57,679 --> 00:19:01,440
+再强调一下，讲清楚一点，因为有些人好像没注意到这一点
+
+833
+00:19:01,440 --> 00:19:04,159
+is that the answer that you get is study specific
+
+834
+00:19:01,440 --> 00:19:04,159
+也就是说，你得到的答案是针对特定研究的
+
+835
+00:19:04,159 --> 00:19:05,760
+because it's pulling the code from
+
+836
+00:19:04,159 --> 00:19:05,760
+因为它提取的是代码，
+
+837
+00:19:05,760 --> 00:19:07,280
+that one study that you're working on
+
+838
+00:19:05,760 --> 00:19:07,280
+来自你正在开展的那项研究
+
+839
+00:19:07,280 --> 00:19:09,200
+this is not the general system that
+
+840
+00:19:07,280 --> 00:19:09,200
+这不是一个通用系统，
+
+841
+00:19:09,200 --> 00:19:10,840
+roughly knows about cisk
+
+842
+00:19:09,200 --> 00:19:10,840
+只对 CISK 有大致了解，
+
+843
+00:19:10,840 --> 00:19:15,120
+or that roughly knows about you know how studies are done at at astroica
+
+844
+00:19:10,840 --> 00:19:15,120
+或者大致知道研究在 Astroica 是如何开展的
+
+845
+00:19:15,120 --> 00:19:19,480
+um it it is looking exactly into your study exactly into that variable
+
+846
+00:19:15,120 --> 00:19:19,480
+嗯，它会精确地查看你的研究，具体到那个变量
+
+847
+00:19:19,480 --> 00:19:22,520
+and is pulling that information
+
+848
+00:19:19,480 --> 00:19:22,520
+并提取相关信息
+
+849
+00:19:22,520 --> 00:19:23,200
+so
+
+850
+00:19:22,520 --> 00:19:23,200
+所以
+
+851
+00:19:23,200 --> 00:19:24,080
+um then the evidence
+
+852
+00:19:23,200 --> 00:19:24,080
+嗯，然后是证据
+
+853
+00:19:24,080 --> 00:19:27,960
+how do you explore that well i just showed you one of the interfaces
+
+854
+00:19:24,080 --> 00:19:27,960
+怎么深入查看呢？我刚才给你们看了其中一个界面
+
+855
+00:19:27,960 --> 00:19:31,760
+which is that all of the evidence that goes into the answer you can then explore through our tracer
+
+856
+00:19:27,960 --> 00:19:31,760
+也就是说，所有用于得出答案的证据，你都可以通过我们的追踪器进行查看
+
+857
+00:19:31,760 --> 00:19:33,960
+so if you get an answer that makes you uncomfortable
+
+858
+00:19:31,760 --> 00:19:33,960
+所以，如果你得到一个让你感到不安的答案
+
+859
+00:19:33,960 --> 00:19:36,720
+it may be wrong it may also be right
+
+860
+00:19:33,960 --> 00:19:36,720
+它可能是错的，也可能是对的
+
+861
+00:19:36,720 --> 00:19:39,960
+and if it's right or if it's wrong you can very quickly assess
+
+862
+00:19:36,720 --> 00:19:39,960
+无论它是对是错，你都可以很快判断
+
+863
+00:19:39,960 --> 00:19:41,080
+whether it's right or wrong
+
+864
+00:19:39,960 --> 00:19:41,080
+它到底是对还是错
+
+865
+00:19:41,080 --> 00:19:42,600
+and how it is right or wrong
+
+866
+00:19:41,080 --> 00:19:42,600
+以及它对在哪里或错在哪里
+
+867
+00:19:42,600 --> 00:19:45,520
+and if it indicates a problem in your code
+
+868
+00:19:42,600 --> 00:19:45,520
+如果它表明你的代码存在问题
+
+869
+00:19:45,520 --> 00:19:48,840
+um we can very quickly hint at you
+
+870
+00:19:45,520 --> 00:19:48,840
+嗯，我们可以很快给你一些提示
+
+871
+00:19:48,840 --> 00:19:49,480
+how you want
+
+872
+00:19:48,840 --> 00:19:49,480
+告诉你该怎么做
+
+873
+00:19:49,480 --> 00:19:52,880
+how you would how you should be fixing
+
+874
+00:19:49,480 --> 00:19:52,880
+你应该如何修复
+
+875
+00:19:52,880 --> 00:19:53,880
+it
+
+876
+00:19:52,880 --> 00:19:53,880
+它
+
+877
+00:19:53,880 --> 00:19:55,360
+so if we
+
+878
+00:19:53,880 --> 00:19:55,360
+所以，如果我们
+
+879
+00:19:55,360 --> 00:19:57,919
+now put this together again into another use case
+
+880
+00:19:55,360 --> 00:19:57,919
+现在把这些重新组合起来，应用到另一个用例中
+
+881
+00:19:57,919 --> 00:20:01,720
+or let's really start thinking about the use cases
+
+882
+00:19:57,919 --> 00:20:01,720
+或者，我们认真开始思考这些用例吧
+
+883
+00:20:01,720 --> 00:20:06,799
+so knowledge transfer is a huge problem here it's literally one of the
+
+884
+00:20:01,720 --> 00:20:06,799
+因此，知识传递在这里是个大问题，实际上它是我们行业的
+
+885
+00:20:06,799 --> 00:20:09,080
+basic problems that we have in the industry
+
+886
+00:20:06,799 --> 00:20:09,080
+基本问题之一。
+
+887
+00:20:09,080 --> 00:20:15,679
+handing in your submission to regulators is a knowledge transfer activity it's a study understanding activity
+
+888
+00:20:09,080 --> 00:20:15,679
+向监管机构提交材料是一项知识传递活动，也是一项研究理解活动。
+
+889
+00:20:15,679 --> 00:20:18,080
+but also all the handovers within your organization
+
+890
+00:20:15,679 --> 00:20:18,080
+但组织内部所有的交接也都是如此。
+
+891
+00:20:18,080 --> 00:20:21,799
+that's the same thing you're a programmer going to a new study
+
+892
+00:20:18,080 --> 00:20:21,799
+这是一回事：你是一名程序员，要转到一个新的研究项目中。
+
+893
+00:20:21,799 --> 00:20:25,960
+um you're trying to communicate with medical writing you're trying to communicate with your statistician
+
+894
+00:20:21,799 --> 00:20:25,960
+嗯，你要设法与医学撰写人员沟通，也要设法与你的统计师沟通。
+
+895
+00:20:25,960 --> 00:20:27,320
+and it's
+
+896
+00:20:25,960 --> 00:20:27,320
+而且
+
+897
+00:20:27,320 --> 00:20:31,840
+really fun in a way because it's across many stakeholders it's across companies
+
+898
+00:20:27,320 --> 00:20:31,840
+从某种意义上说，这真的很有意思，因为涉及许多利益相关方，也跨越不同公司。
+
+899
+00:20:31,840 --> 00:20:35,120
+if c are involved often it's across several
+
+900
+00:20:31,840 --> 00:20:35,120
+如果涉及多个 C，通常会涉及好几个
+
+901
+00:20:35,120 --> 00:20:38,960
+and ultimately you still have the interface to the regulat at the very end
+
+902
+00:20:35,120 --> 00:20:38,960
+最终，在最末端你仍然需要与监管机构保持联系
+
+903
+00:20:38,960 --> 00:20:39,720
+and
+
+904
+00:20:38,960 --> 00:20:39,720
+还有
+
+905
+00:20:39,720 --> 00:20:44,400
+so one of the basic ones is we we'll move to this one quickly is the tracer itself
+
+906
+00:20:39,720 --> 00:20:44,400
+其中一个基础工具是——我们快速看一下这个——追踪器本身
+
+907
+00:20:44,400 --> 00:20:47,080
+so if you if you're onboarding on two new study
+
+908
+00:20:44,400 --> 00:20:47,080
+所以，如果你正在接手两个新的研究项目
+
+909
+00:20:47,080 --> 00:20:48,960
+this is a very very quick way to figure out
+
+910
+00:20:47,080 --> 00:20:48,960
+这是一个非常非常快捷的方法，可以弄清楚
+
+911
+00:20:48,960 --> 00:20:52,000
+how specific parts of the study were done
+
+912
+00:20:48,960 --> 00:20:52,000
+研究的具体部分是如何开展的
+
+913
+00:20:52,000 --> 00:20:54,840
+um and this one i don't have to reiterate i've said it several times
+
+914
+00:20:52,000 --> 00:20:54,840
+嗯，这一点我就不必再重复了，我已经说过好几次
+
+915
+00:20:54,840 --> 00:21:00,080
+now what we found is that in real life trials like phase three really big ones
+
+916
+00:20:54,840 --> 00:21:00,080
+现在我们发现，在真实世界的试验中，比如规模非常大的三期试验
+
+917
+00:21:00,080 --> 00:21:00,720
+um
+
+918
+00:21:00,080 --> 00:21:00,720
+嗯
+
+919
+00:21:00,720 --> 00:21:04,080
+if you try to figure out how something was done in a study that you're unfamiliar
+
+920
+00:21:00,720 --> 00:21:04,080
+如果你想弄清楚一项自己不熟悉的研究是如何开展的
+
+921
+00:21:04,080 --> 00:21:08,559
+say you have a question about an atom level derivation even complicated ones
+
+922
+00:21:04,080 --> 00:21:08,559
+比如，你对原子层面的推导有疑问，哪怕是很复杂的推导
+
+923
+00:21:08,559 --> 00:21:09,960
+our current best estimates
+
+924
+00:21:08,559 --> 00:21:09,960
+我们目前最好的估计是
+
+925
+00:21:09,960 --> 00:21:14,320
+coming from the people that we work with so we're not making up these numbers is that 95%
+
+926
+00:21:09,960 --> 00:21:14,320
+这些估计来自与我们合作的人，所以这些数字并非凭空捏造：95%
+
+927
+00:21:14,320 --> 00:21:19,400
+of time is saved to figure out how something was programmed in a study that they're unfamiliar
+
+928
+00:21:14,320 --> 00:21:19,400
+的时间都能省下来，用于弄清楚一项自己不熟悉的研究是如何编程的
+
+929
+00:21:19,400 --> 00:21:20,400
+with
+
+930
+00:21:19,400 --> 00:21:20,400
+的
+
+931
+00:21:20,400 --> 00:21:24,919
+but knowledge transfer goes beyond that so it's not just statistical programmers
+
+932
+00:21:20,400 --> 00:21:24,919
+但知识传递不止于此，所以这不仅仅是统计程序员
+
+933
+00:21:24,919 --> 00:21:28,760
+moving into studies that you're unfamiliar with it's also about
+
+934
+00:21:24,919 --> 00:21:28,760
+转去参与自己不熟悉的研究，也关乎
+
+935
+00:21:28,760 --> 00:21:31,880
+how do you communicate this to other stakeholders
+
+936
+00:21:28,760 --> 00:21:31,880
+你如何将这一点传达给其他利益相关者
+
+937
+00:21:31,880 --> 00:21:32,320
+so
+
+938
+00:21:31,880 --> 00:21:32,320
+所以
+
+939
+00:21:32,320 --> 00:21:35,480
+how about we work on a natural language interface
+
+940
+00:21:32,320 --> 00:21:35,480
+我们来开发一个自然语言界面怎么样
+
+941
+00:21:35,480 --> 00:21:39,320
+that allows you to ask questions even if you don't know code
+
+942
+00:21:35,480 --> 00:21:39,320
+这样即使你不会编写代码，也可以提问
+
+943
+00:21:39,320 --> 00:21:41,960
+and this is you know sort of the setup of the ai section
+
+944
+00:21:39,320 --> 00:21:41,960
+这就是人工智能部分的大致设置
+
+945
+00:21:41,960 --> 00:21:44,919
+which is that we'll we have a study chat button
+
+946
+00:21:41,960 --> 00:21:44,919
+我们会有一个“学习聊天”按钮
+
+947
+00:21:44,919 --> 00:21:47,520
+which you to whom you ask these questions
+
+948
+00:21:44,919 --> 00:21:47,520
+你可以通过它提出这些问题
+
+949
+00:21:47,520 --> 00:21:49,279
+it extracts the clinical concepts
+
+950
+00:21:47,520 --> 00:21:49,279
+它会提取临床概念
+
+951
+00:21:49,279 --> 00:21:51,400
+finds the traceability information
+
+952
+00:21:49,279 --> 00:21:51,400
+并查找可追溯性信息
+
+953
+00:21:51,400 --> 00:21:53,520
+and then uses that to answer your question
+
+954
+00:21:51,400 --> 00:21:53,520
+然后利用这些来回答你的问题
+
+955
+00:21:53,520 --> 00:21:57,799
+and the answer here is actually an an real extract from our system
+
+956
+00:21:53,520 --> 00:21:57,799
+这里的回答实际上是从我们系统中提取出来的真实内容
+
+957
+00:21:57,799 --> 00:22:00,480
+and what i want to highlight at this point is that
+
+958
+00:21:57,799 --> 00:22:00,480
+此时我想强调的是
+
+959
+00:22:00,480 --> 00:22:01,919
+what we're doing
+
+960
+00:22:00,480 --> 00:22:01,919
+我们正在做的事情
+
+961
+00:22:01,919 --> 00:22:07,679
+conceptually is that we turn the ai problem from a reasoning problem
+
+962
+00:22:01,919 --> 00:22:07,679
+从概念上说，我们把 AI 问题从推理问题
+
+963
+00:22:07,679 --> 00:22:10,679
+because if you just give it code it reasons through the code it tries to
+
+964
+00:22:07,679 --> 00:22:10,679
+因为如果你只给它代码，它就会推理代码，尝试去
+
+965
+00:22:10,679 --> 00:22:12,840
+understand it whatever that means actually
+
+966
+00:22:10,679 --> 00:22:12,840
+理解代码——不管这实际上意味着什么
+
+967
+00:22:12,840 --> 00:22:15,679
+um into a translation codee into a translation problem
+
+968
+00:22:12,840 --> 00:22:15,679
+嗯，把它转变为一个翻译问题，将代码翻译成自然语言
+
+969
+00:22:15,679 --> 00:22:18,360
+so we let it translate from code language into natural language
+
+970
+00:22:15,679 --> 00:22:18,360
+所以我们让它把代码语言翻译成自然语言
+
+971
+00:22:18,360 --> 00:22:19,720
+because we take out all of the reasoning
+
+972
+00:22:18,360 --> 00:22:19,720
+因为我们把所有推理过程都拿掉了
+
+973
+00:22:19,720 --> 00:22:21,679
+and we supply all of the metadata
+
+974
+00:22:19,720 --> 00:22:21,679
+并且在提示词中提供了所有元数据
+
+975
+00:22:21,679 --> 00:22:26,520
+and traceability information in the prompt itself
+
+976
+00:22:21,679 --> 00:22:26,520
+以及可追溯性信息
+
+977
+00:22:26,520 --> 00:22:27,520
+so
+
+978
+00:22:26,520 --> 00:22:27,520
+所以
+
+979
+00:22:27,520 --> 00:22:30,960
+yeah that's just let's say meta information about how this works
+
+980
+00:22:27,520 --> 00:22:30,960
+对，这只是一些关于其工作原理的元信息
+
+981
+00:22:30,960 --> 00:22:32,919
+again this is traceability aware and evidence based
+
+982
+00:22:30,960 --> 00:22:32,919
+再说一次，这种方式支持追溯，并以证据为依据
+
+983
+00:22:32,919 --> 00:22:33,320
+so
+
+984
+00:22:32,919 --> 00:22:33,320
+所以
+
+985
+00:22:33,320 --> 00:22:36,320
+if you hit this little icon down here for any answer that you get
+
+986
+00:22:33,320 --> 00:22:36,320
+如果你点击这里这个小图标，就能查看你得到的任何答案
+
+987
+00:22:36,320 --> 00:22:40,600
+again you can explore all of the evidence that was used to generate the
+
+988
+00:22:36,320 --> 00:22:40,600
+同样，你可以查看用于生成该
+
+989
+00:22:40,600 --> 00:22:41,600
+answer
+
+990
+00:22:40,600 --> 00:22:41,600
+答案的所有证据
+
+991
+00:22:41,600 --> 00:22:42,960
+now let's talk about something else
+
+992
+00:22:41,600 --> 00:22:42,960
+现在我们来聊聊别的
+
+993
+00:22:42,960 --> 00:22:44,799
+which i am particularly passionate about
+
+994
+00:22:42,960 --> 00:22:44,799
+这是我特别热衷的话题
+
+995
+00:22:44,799 --> 00:22:50,400
+which is the elimination of double programming richard sort of did a setup already
+
+996
+00:22:44,799 --> 00:22:50,400
+那就是消除重复编程。理查德已经做了一些铺垫。
+
+997
+00:22:50,400 --> 00:22:51,000
+and
+
+998
+00:22:50,400 --> 00:22:51,000
+还有
+
+999
+00:22:51,000 --> 00:22:53,880
+so double programming everyone knows how this process works right so
+
+1000
+00:22:51,000 --> 00:22:53,880
+那么，大家都知道重复编程是怎么回事，对吧？所以……
+
+1001
+00:22:53,880 --> 00:22:56,880
+the basic assumption is that if two people independently program
+
+1002
+00:22:53,880 --> 00:22:56,880
+基本假设是，如果两个人独立编写程序
+
+1003
+00:22:56,880 --> 00:22:59,360
+the same thing at least conceptually
+
+1004
+00:22:56,880 --> 00:22:59,360
+至少在概念上做的是同一件事，
+
+1005
+00:22:59,360 --> 00:23:03,640
+and you get the same outputs then the probability is very high that it's correct
+
+1006
+00:22:59,360 --> 00:23:03,640
+而且得到相同的输出，那么结果正确的概率就非常高。
+
+1007
+00:23:03,640 --> 00:23:05,720
+now be that as it may
+
+1008
+00:23:03,640 --> 00:23:05,720
+话虽如此，
+
+1009
+00:23:05,720 --> 00:23:08,760
+um i think there are a lot of arguments to be made against that
+
+1010
+00:23:05,720 --> 00:23:08,760
+嗯，我认为有很多理由可以反驳这一点。
+
+1011
+00:23:08,760 --> 00:23:11,000
+um but still it is a process that has developed
+
+1012
+00:23:08,760 --> 00:23:11,000
+嗯，但这仍然是一种逐渐发展起来的流程，
+
+1013
+00:23:11,000 --> 00:23:13,760
+it has developed for very good reason because the quality control
+
+1014
+00:23:11,000 --> 00:23:13,760
+它之所以发展起来，是有充分理由的，因为质量控制
+
+1015
+00:23:13,760 --> 00:23:17,240
+requirements are extremely high however
+
+1016
+00:23:13,760 --> 00:23:17,240
+要求极其严格。
+
+1017
+00:23:17,240 --> 00:23:22,000
+this is the only industry doing it it's not the only regulated industry on this planet
+
+1018
+00:23:17,240 --> 00:23:22,000
+这只是唯一采用这种做法的行业，并不是这个星球上唯一受监管的行业。
+
+1019
+00:23:22,000 --> 00:23:23,760
+for example i'm scared to death of airplanes
+
+1020
+00:23:22,000 --> 00:23:23,760
+比如说，我怕飞机怕得要死。
+
+1021
+00:23:23,760 --> 00:23:26,360
+i have to get on them all the time that's also regulated
+
+1022
+00:23:23,760 --> 00:23:26,360
+我却得经常坐飞机。这同样是受监管的。
+
+1023
+00:23:26,360 --> 00:23:30,200
+the airplanes don't crash all the time there's no double progr involved
+
+1024
+00:23:26,360 --> 00:23:30,200
+飞机并不会总是坠毁，而且这其中没有涉及双重编程。
+
+1025
+00:23:30,200 --> 00:23:36,520
+um others are using proven data and software engineering processes using modular
+
+1026
+00:23:30,200 --> 00:23:36,520
+嗯，其他行业会采用经过验证的数据和软件工程流程，使用模块化方法，
+
+1027
+00:23:36,520 --> 00:23:41,840
+and testing tested pipelines there's lots of other things that you can do
+
+1028
+00:23:36,520 --> 00:23:41,840
+以及经过测试的流水线。还有很多其他可行的做法。
+
+1029
+00:23:41,840 --> 00:23:42,760
+and
+
+1030
+00:23:41,840 --> 00:23:42,760
+还有
+
+1031
+00:23:42,760 --> 00:23:48,200
+what we have seen especially through open source is that re proper review
+
+1032
+00:23:42,760 --> 00:23:48,200
+我们看到的情况，尤其是在开源领域，是需要进行适当的审查，
+
+1033
+00:23:48,200 --> 00:23:49,840
+and then fast
+
+1034
+00:23:48,200 --> 00:23:49,840
+然后快速推进。
+
+1035
+00:23:49,840 --> 00:23:54,600
+iterations just trumps double programming in terms of quality it is both faster
+
+1036
+00:23:49,840 --> 00:23:54,600
+就质量而言，迭代简直完胜双人编程，而且速度更快
+
+1037
+00:23:54,600 --> 00:23:57,200
+and the more iterations you go through
+
+1038
+00:23:54,600 --> 00:23:57,200
+迭代次数越多
+
+1039
+00:23:57,200 --> 00:23:58,880
+the higher the quality gets
+
+1040
+00:23:57,200 --> 00:23:58,880
+质量就越高
+
+1041
+00:23:58,880 --> 00:24:02,240
+the other thing that we've learned is that the more eyes are on the problem
+
+1042
+00:23:58,880 --> 00:24:02,240
+我们还发现，关注问题的人越多
+
+1043
+00:24:02,240 --> 00:24:04,960
+the greater the probability of you catching problems
+
+1044
+00:24:02,240 --> 00:24:04,960
+发现问题的概率就越大
+
+1045
+00:24:04,960 --> 00:24:07,480
+if you have six people looking at the same problem
+
+1046
+00:24:04,960 --> 00:24:07,480
+如果有六个人一起看同一个问题
+
+1047
+00:24:07,480 --> 00:24:12,320
+it's actually better than having two people independently program the same thing
+
+1048
+00:24:07,480 --> 00:24:12,320
+实际上这比两个人各自独立编写同一段程序更好
+
+1049
+00:24:12,320 --> 00:24:13,320
+and
+
+1050
+00:24:12,320 --> 00:24:13,320
+还有
+
+1051
+00:24:13,320 --> 00:24:16,440
+so with this concept there are a couple of other advantages
+
+1052
+00:24:13,320 --> 00:24:16,440
+因此，这个理念还有其他几个优势
+
+1053
+00:24:16,440 --> 00:24:18,159
+which i just want to quickly highlight
+
+1054
+00:24:16,440 --> 00:24:18,159
+我只是想快速强调一下这一点
+
+1055
+00:24:18,159 --> 00:24:19,720
+but what we're trying to do with versing
+
+1056
+00:24:18,159 --> 00:24:19,720
+但我们试图通过 versing 做的事情
+
+1057
+00:24:19,720 --> 00:24:20,720
+i'll show you in a second
+
+1058
+00:24:19,720 --> 00:24:20,720
+我马上给你演示
+
+1059
+00:24:20,720 --> 00:24:24,039
+how is that instead of doing the double programming paradigm
+
+1060
+00:24:20,720 --> 00:24:24,039
+为什么我们不采用双人编程范式
+
+1061
+00:24:24,039 --> 00:24:27,720
+we want to move things to this idea of
+
+1062
+00:24:24,039 --> 00:24:27,720
+我们想把事情转向这样一种理念：
+
+1063
+00:24:27,720 --> 00:24:30,679
+um peer review basically peer review coding
+
+1064
+00:24:27,720 --> 00:24:30,679
+嗯，同行评审，基本上就是对代码进行同行评审
+
+1065
+00:24:30,679 --> 00:24:32,840
+well no that's the wrong way of putting it
+
+1066
+00:24:30,679 --> 00:24:32,840
+不，这么说不太对
+
+1067
+00:24:32,840 --> 00:24:35,799
+one person coding it having other people review provide feedback
+
+1068
+00:24:32,840 --> 00:24:35,799
+一个人编写代码，其他人进行审查并提供反馈
+
+1069
+00:24:35,799 --> 00:24:38,240
+and then go through iterations quickly to raise the quality
+
+1070
+00:24:35,799 --> 00:24:38,240
+然后快速迭代，不断提升质量
+
+1071
+00:24:38,240 --> 00:24:40,919
+this has some interesting side effects by the way
+
+1072
+00:24:38,240 --> 00:24:40,919
+顺便说一下，这会带来一些有意思的副作用
+
+1073
+00:24:40,919 --> 00:24:44,120
+so one is that you get free upscaling of your workforce
+
+1074
+00:24:40,919 --> 00:24:44,120
+其中之一就是，你的员工队伍可以免费提升技能
+
+1075
+00:24:44,120 --> 00:24:44,600
+because
+
+1076
+00:24:44,120 --> 00:24:44,600
+因为
+
+1077
+00:24:44,600 --> 00:24:47,440
+now there's an exchange we've had unbelievable
+
+1078
+00:24:44,600 --> 00:24:47,440
+现在，我们有过一次交流——我们和程序员通了
+
+1079
+00:24:47,440 --> 00:24:49,039
+amounts of calls with programmers
+
+1080
+00:24:47,440 --> 00:24:49,039
+数不清的电话
+
+1081
+00:24:49,039 --> 00:24:51,080
+that have told us that they have never had a code review
+
+1082
+00:24:49,039 --> 00:24:51,080
+他们告诉我们，他们这辈子从来没有经历过代码审查
+
+1083
+00:24:51,080 --> 00:24:53,480
+like a proper code review in their life
+
+1084
+00:24:51,080 --> 00:24:53,480
+那种真正意义上的代码审查
+
+1085
+00:24:53,480 --> 00:24:58,799
+which is unbelievable coming from a software person unbelievable
+
+1086
+00:24:53,480 --> 00:24:58,799
+这话从一个软件从业者口中说出来，简直难以置信
+
+1087
+00:24:58,799 --> 00:25:03,919
+the rate at which people learn once they get code reviews is exponential
+
+1088
+00:24:58,799 --> 00:25:03,919
+人们开始接受代码审查后，学习速度会呈指数级增长
+
+1089
+00:25:03,919 --> 00:25:06,520
+because you basically download all this experience
+
+1090
+00:25:03,919 --> 00:25:06,520
+因为你基本上可以吸收所有这些经验
+
+1091
+00:25:06,520 --> 00:25:09,399
+from other people who've done this a lot more than you
+
+1092
+00:25:06,520 --> 00:25:09,399
+这些经验来自比你经验丰富得多的人
+
+1093
+00:25:09,399 --> 00:25:12,039
+and the fact that there are people that go through their entire career
+
+1094
+00:25:09,399 --> 00:25:12,039
+而且，有些人整个职业生涯
+
+1095
+00:25:12,039 --> 00:25:15,640
+without ever get getting proper feedback is unbelievable
+
+1096
+00:25:12,039 --> 00:25:15,640
+都从未得到过恰当的反馈，这简直难以置信
+
+1097
+00:25:15,640 --> 00:25:17,760
+that is a much greater quality risk
+
+1098
+00:25:15,640 --> 00:25:17,760
+这会带来更大的质量风险
+
+1099
+00:25:17,760 --> 00:25:21,080
+than you can possibly get rid of with dou programming
+
+1100
+00:25:17,760 --> 00:25:21,080
+而这种风险，靠结对编程无论如何都无法消除
+
+1101
+00:25:21,080 --> 00:25:23,919
+the other thing is that you increase the consistency across the organization
+
+1102
+00:25:21,080 --> 00:25:23,919
+另一点是，这能提升整个组织的一致性
+
+1103
+00:25:23,919 --> 00:25:26,640
+so big part of what we do in our company when we write code
+
+1104
+00:25:23,919 --> 00:25:26,640
+所以，我们公司在编写代码时，很大一部分工作
+
+1105
+00:25:26,640 --> 00:25:28,799
+is we have to make sure that it's consistent
+
+1106
+00:25:26,640 --> 00:25:28,799
+就是确保代码风格一致
+
+1107
+00:25:28,799 --> 00:25:32,360
+because if andre gets sick aaron might have to look at it
+
+1108
+00:25:28,799 --> 00:25:32,360
+因为如果安德烈生病了，亚伦可能就得接手看他的代码
+
+1109
+00:25:32,360 --> 00:25:34,039
+and everyone knows that problem right
+
+1110
+00:25:32,360 --> 00:25:34,039
+大家都知道这会带来什么问题，对吧？
+
+1111
+00:25:34,039 --> 00:25:36,720
+and if andre wr completely different code than aaron
+
+1112
+00:25:34,039 --> 00:25:36,720
+如果安德烈编写的代码和亚伦的风格完全不同
+
+1113
+00:25:36,720 --> 00:25:39,240
+then what are you going to do well you're just going to waste time
+
+1114
+00:25:36,720 --> 00:25:39,240
+那该怎么办呢？你只会白白浪费时间
+
+1115
+00:25:39,240 --> 00:25:42,279
+and we hear this from stakeholders all the time it's about consistency
+
+1116
+00:25:39,240 --> 00:25:42,279
+利益相关方总是跟我们提到这一点，那就是一致性
+
+1117
+00:25:42,279 --> 00:25:46,760
+you know like how how do you want as a company to to do your
+
+1118
+00:25:42,279 --> 00:25:46,760
+你知道，就像公司希望如何开展自己的
+
+1119
+00:25:46,760 --> 00:25:47,760
+analysis
+
+1120
+00:25:46,760 --> 00:25:47,760
+分析
+
+1121
+00:25:47,760 --> 00:25:50,640
+so this is what we're aiming for however i have to admit something
+
+1122
+00:25:47,760 --> 00:25:50,640
+这就是我们的目标，不过我得承认一件事
+
+1123
+00:25:50,640 --> 00:25:53,440
+which is that in data analysis
+
+1124
+00:25:50,640 --> 00:25:53,440
+那就是，在数据分析中
+
+1125
+00:25:53,440 --> 00:25:56,760
+it's quite difficult to do this because there's a really tight integration between code
+
+1126
+00:25:53,440 --> 00:25:56,760
+要做到这一点相当困难，因为代码之间的集成非常紧密
+
+1127
+00:25:56,760 --> 00:26:00,880
+and data software is a little bit different
+
+1128
+00:25:56,760 --> 00:26:00,880
+而数据软件则有些不同
+
+1129
+00:26:00,880 --> 00:26:01,880
+nonetheless
+
+1130
+00:26:00,880 --> 00:26:01,880
+尽管如此
+
+1131
+00:26:01,880 --> 00:26:04,320
+um and and in addition like we're actually doing fairly complicated
+
+1132
+00:26:01,880 --> 00:26:04,320
+嗯，此外，我们实际上正在做相当复杂的事情
+
+1133
+00:26:04,320 --> 00:26:05,960
+stuff right so we're not just counting clicks
+
+1134
+00:26:04,320 --> 00:26:05,960
+对，没错，所以我们不只是统计点击量
+
+1135
+00:26:05,960 --> 00:26:09,039
+or doing basic etls like a lot of other
+
+1136
+00:26:05,960 --> 00:26:09,039
+也不只是像许多其他平台那样
+
+1137
+00:26:09,039 --> 00:26:11,480
+um streaming platforms
+
+1138
+00:26:09,039 --> 00:26:11,480
+嗯，做一些基础的 ETL
+
+1139
+00:26:11,480 --> 00:26:15,080
+but the question then becomes how do we move the industry with its specific issues
+
+1140
+00:26:11,480 --> 00:26:15,080
+那么，问题就变成了：我们如何针对这个行业的具体问题推动行业发展
+
+1141
+00:26:15,080 --> 00:26:18,640
+towards quality and speed while eliminating double programming
+
+1142
+00:26:15,080 --> 00:26:18,640
+在消除重复编程的同时，提升质量和速度
+
+1143
+00:26:18,640 --> 00:26:21,080
+and we're working on a set of modules here
+
+1144
+00:26:18,640 --> 00:26:21,080
+我们正在开发一套模块
+
+1145
+00:26:21,080 --> 00:26:24,679
+they are all based on code traceability not surprisingly
+
+1146
+00:26:21,080 --> 00:26:24,679
+不出所料，它们都基于代码可追溯性
+
+1147
+00:26:24,679 --> 00:26:29,600
+and one of the things that we want to focus on first is specification validation
+
+1148
+00:26:24,679 --> 00:26:29,600
+我们首先想要重点关注的一项工作是规范验证
+
+1149
+00:26:29,600 --> 00:26:32,360
+so generally speaking you program according to specifications
+
+1150
+00:26:29,600 --> 00:26:32,360
+所以一般来说，你会按照规范编写程序
+
+1151
+00:26:32,360 --> 00:26:33,960
+which means that for every variable
+
+1152
+00:26:32,360 --> 00:26:33,960
+这意味着，对于每个变量
+
+1153
+00:26:33,960 --> 00:26:36,919
+and every data set you roughly have an idea or description of
+
+1154
+00:26:33,960 --> 00:26:36,919
+以及每个数据集，你大致都知道或描述了
+
+1155
+00:26:36,919 --> 00:26:39,000
+what this should represent
+
+1156
+00:26:36,919 --> 00:26:39,000
+它们应该代表什么
+
+1157
+00:26:39,000 --> 00:26:41,320
+now what we can do is we can run through your code
+
+1158
+00:26:39,000 --> 00:26:41,320
+现在我们可以做的是，检查你的代码
+
+1159
+00:26:41,320 --> 00:26:42,559
+and we can pick out all the variables
+
+1160
+00:26:41,320 --> 00:26:42,559
+并找出所有变量
+
+1161
+00:26:42,559 --> 00:26:44,279
+and all of the domains
+
+1162
+00:26:42,559 --> 00:26:44,279
+以及所有域
+
+1163
+00:26:44,279 --> 00:26:46,600
+and we can get the traceability information for them obviously
+
+1164
+00:26:44,279 --> 00:26:46,600
+显然，我们可以获取它们的可追溯性信息
+
+1165
+00:26:46,600 --> 00:26:49,320
+and then we have our ai go into the description
+
+1166
+00:26:46,600 --> 00:26:49,320
+然后让我们的 AI 查看描述
+
+1167
+00:26:49,320 --> 00:26:50,679
+and then go on your code
+
+1168
+00:26:49,320 --> 00:26:50,679
+接着查看你的代码
+
+1169
+00:26:50,679 --> 00:26:51,919
+and do a delta
+
+1170
+00:26:50,679 --> 00:26:51,919
+并做差异分析
+
+1171
+00:26:51,919 --> 00:26:52,840
+and say
+
+1172
+00:26:51,919 --> 00:26:52,840
+然后说
+
+1173
+00:26:52,840 --> 00:26:55,080
+okay what was specified is actually programmed
+
+1174
+00:26:52,840 --> 00:26:55,080
+好，指定的内容实际上已经编程实现了
+
+1175
+00:26:55,080 --> 00:26:56,120
+or not
+
+1176
+00:26:55,080 --> 00:26:56,120
+或者没有
+
+1177
+00:26:56,120 --> 00:26:59,440
+or to be fair the ai is not sure
+
+1178
+00:26:56,120 --> 00:26:59,440
+或者公平地说，AI 并不确定
+
+1179
+00:26:59,440 --> 00:27:01,039
+but we put all of this into a workflow
+
+1180
+00:26:59,440 --> 00:27:01,039
+但我们把这一切都放进了一个工作流中
+
+1181
+00:27:01,039 --> 00:27:03,240
+and this is roughly what it would look like
+
+1182
+00:27:01,039 --> 00:27:03,240
+大致看起来会是这样
+
+1183
+00:27:03,240 --> 00:27:08,279
+you would get the specification itself you would get an ai summary of what was done
+
+1184
+00:27:03,240 --> 00:27:08,279
+你会看到规格说明本身，也会看到对已完成工作的 AI 总结
+
+1185
+00:27:08,279 --> 00:27:12,600
+you will get a series of comments of whether or not this is actually a match
+
+1186
+00:27:08,279 --> 00:27:12,600
+你会看到一系列评论，说明它是否真的匹配
+
+1187
+00:27:12,600 --> 00:27:15,960
+so it was programmed as as it was supposed to
+
+1188
+00:27:12,600 --> 00:27:15,960
+也就是说，它是否按预期编写了程序
+
+1189
+00:27:15,960 --> 00:27:17,760
+or well it wasn't
+
+1190
+00:27:15,960 --> 00:27:17,760
+或者，嗯，并没有
+
+1191
+00:27:17,760 --> 00:27:19,039
+or the ai is not sure
+
+1192
+00:27:17,760 --> 00:27:19,039
+或者 AI 不确定
+
+1193
+00:27:19,039 --> 00:27:20,399
+so for everything
+
+1194
+00:27:19,039 --> 00:27:20,399
+所以，对于我们所做的每一件事
+
+1195
+00:27:20,399 --> 00:27:25,200
+that we do i like ai as a technology i don't trust it very far
+
+1196
+00:27:20,399 --> 00:27:25,200
+我喜欢 AI 这项技术，但我不太信任它
+
+1197
+00:27:25,200 --> 00:27:29,840
+which means that we will always provide confidence scores of the ai so if it's very complicated
+
+1198
+00:27:25,200 --> 00:27:29,840
+这意味着我们始终会提供 AI 的置信度分数，所以如果问题非常复杂
+
+1199
+00:27:29,840 --> 00:27:31,520
+the derivation is very very long
+
+1200
+00:27:29,840 --> 00:27:31,520
+推导过程会非常非常长
+
+1201
+00:27:31,520 --> 00:27:35,679
+and we just can't call it our platform is going to say we can't call it
+
+1202
+00:27:31,520 --> 00:27:35,679
+而且我们不能直接判定，平台会提示我们不能直接判定
+
+1203
+00:27:35,679 --> 00:27:37,159
+we're going to give you indications
+
+1204
+00:27:35,679 --> 00:27:37,159
+我们会给你一些指示
+
+1205
+00:27:37,159 --> 00:27:39,880
+but you're probably going to have to review this yourself
+
+1206
+00:27:37,159 --> 00:27:39,880
+但你可能还是得自己审查
+
+1207
+00:27:39,880 --> 00:27:44,159
+any of this sort of review cycle that we go through in all of our modules
+
+1208
+00:27:39,880 --> 00:27:44,159
+我们所有模块中经历的这类审核流程
+
+1209
+00:27:44,159 --> 00:27:46,640
+is fully integrated with like a discussion
+
+1210
+00:27:44,159 --> 00:27:46,640
+都与讨论区完全集成在一起
+
+1211
+00:27:46,640 --> 00:27:47,320
+um
+
+1212
+00:27:46,640 --> 00:27:47,320
+嗯
+
+1213
+00:27:47,320 --> 00:27:48,399
+um section
+
+1214
+00:27:47,320 --> 00:27:48,399
+嗯，板块
+
+1215
+00:27:48,399 --> 00:27:50,720
+and also with an issue tracker across the whole study
+
+1216
+00:27:48,399 --> 00:27:50,720
+也与贯穿整个研究的议题跟踪器集成
+
+1217
+00:27:50,720 --> 00:27:52,200
+so that as issues arise
+
+1218
+00:27:50,720 --> 00:27:52,200
+这样一来，问题出现时就能及时记录了
+
+1219
+00:27:52,200 --> 00:27:56,360
+no matter where they come from be it code quality log quality p21
+
+1220
+00:27:52,200 --> 00:27:56,360
+无论它们来自哪里，无论是代码质量、日志质量，还是 P21
+
+1221
+00:27:56,360 --> 00:27:59,279
+all of this is going into one issue tracker
+
+1222
+00:27:56,360 --> 00:27:59,279
+所有这些都会进入同一个问题跟踪系统
+
+1223
+00:27:59,279 --> 00:28:03,640
+and again obviously you can review any of the ai calls
+
+1224
+00:27:59,279 --> 00:28:03,640
+显然，你也可以审查任何 AI 调用
+
+1225
+00:28:03,640 --> 00:28:07,440
+um using our cod traceability
+
+1226
+00:28:03,640 --> 00:28:07,440
+嗯，使用我们的代码可追溯性
+
+1227
+00:28:07,440 --> 00:28:09,480
+now there are a couple of other things that i want to go through
+
+1228
+00:28:07,440 --> 00:28:09,480
+现在还有其他几件事我想讲一下
+
+1229
+00:28:09,480 --> 00:28:12,880
+um maybe a bit more quickly now since i just got my time warning
+
+1230
+00:28:09,480 --> 00:28:12,880
+嗯，也许现在可以讲快一点，因为我刚收到时间提醒
+
+1231
+00:28:12,880 --> 00:28:19,159
+pinnacle 21 is everyone knows it probably in some way shape or form i've just had my my
+
+1232
+00:28:12,880 --> 00:28:19,159
+大家可能都以某种方式、某种形式听说过 Pinnacle 21；我自己也有过一些……
+
+1233
+00:28:19,159 --> 00:28:21,159
+my own experience with it
+
+1234
+00:28:19,159 --> 00:28:21,159
+我自己的使用经验
+
+1235
+00:28:21,159 --> 00:28:23,840
+what i like about it is that it is very useful in some cases
+
+1236
+00:28:21,159 --> 00:28:23,840
+我喜欢它的一点是，在某些情况下它非常有用
+
+1237
+00:28:23,840 --> 00:28:26,960
+what i really dislike about it is that it's basically a dead end
+
+1238
+00:28:23,840 --> 00:28:26,960
+我真的很不喜欢它的一点是，它基本上是一条死胡同
+
+1239
+00:28:26,960 --> 00:28:27,880
+you get this excel
+
+1240
+00:28:26,960 --> 00:28:27,880
+你会得到这份 Excel 表格
+
+1241
+00:28:27,880 --> 00:28:29,960
+and tells you all your problems
+
+1242
+00:28:27,880 --> 00:28:29,960
+它会告诉你所有的问题
+
+1243
+00:28:29,960 --> 00:28:31,840
+and then you know
+
+1244
+00:28:29,960 --> 00:28:31,840
+然后你知道
+
+1245
+00:28:31,840 --> 00:28:33,440
+what do you do then
+
+1246
+00:28:31,840 --> 00:28:33,440
+那接下来该怎么办呢
+
+1247
+00:28:33,440 --> 00:28:33,880
+and
+
+1248
+00:28:33,440 --> 00:28:33,880
+还有
+
+1249
+00:28:33,880 --> 00:28:36,320
+what was great is that i had a call with with one of our advisers
+
+1250
+00:28:33,880 --> 00:28:36,320
+很棒的一点是，我和我们的一位顾问通了电话
+
+1251
+00:28:36,320 --> 00:28:38,399
+going through an stm data set
+
+1252
+00:28:36,320 --> 00:28:38,399
+一起查看一组 STM 数据集
+
+1253
+00:28:38,399 --> 00:28:41,000
+and our assumption at the beginning of the call was that we would
+
+1254
+00:28:38,399 --> 00:28:41,000
+而我们在会议一开始的设想是，我们会
+
+1255
+00:28:41,000 --> 00:28:44,919
+now then have a another list of all the problems that i would have to look into
+
+1256
+00:28:41,000 --> 00:28:44,919
+接下来列出另一份清单，列明所有需要我调查的问题
+
+1257
+00:28:44,919 --> 00:28:47,000
+we actually used the tracer though so
+
+1258
+00:28:44,919 --> 00:28:47,000
+不过我们实际上用上了追踪器，所以
+
+1259
+00:28:47,000 --> 00:28:50,360
+for every message that we got we looked at how the variable was actually derived
+
+1260
+00:28:47,000 --> 00:28:50,360
+对于收到的每条消息，我们都查看了变量究竟是如何推导出来的
+
+1261
+00:28:50,360 --> 00:28:53,960
+which takes us now like two seconds to get that information
+
+1262
+00:28:50,360 --> 00:28:53,960
+现在获取这些信息只需要两秒钟
+
+1263
+00:28:53,960 --> 00:28:55,960
+and we walked out of that meeting with a very concrete
+
+1264
+00:28:53,960 --> 00:28:55,960
+于是我们离开会议时，已经有了一个非常具体的
+
+1265
+00:28:55,960 --> 00:28:58,200
+plan of how to fix everything
+
+1266
+00:28:55,960 --> 00:28:58,200
+解决所有问题的计划
+
+1267
+00:28:58,200 --> 00:29:02,519
+and so the root cause analysis of trouble that we get out of well not trouble
+
+1268
+00:28:58,200 --> 00:29:02,519
+因此，我们对遇到的问题进行根因分析——嗯，也不算是问题。
+
+1269
+00:29:02,519 --> 00:29:06,840
+of messages that we get out of p21 is just incredibly accelerated
+
+1270
+00:29:02,519 --> 00:29:06,840
+我们从 p21 获取信息的速度会大幅加快
+
+1271
+00:29:06,840 --> 00:29:10,519
+and so what we're going to do is integrate pinnacle 21 reports
+
+1272
+00:29:06,840 --> 00:29:10,519
+所以我们要做的是集成 Pinnacle 21 报告
+
+1273
+00:29:10,519 --> 00:29:13,640
+so that you can run through these much more quickly
+
+1274
+00:29:10,519 --> 00:29:13,640
+这样你就能更快地查看这些报告
+
+1275
+00:29:13,640 --> 00:29:14,519
+there are two more modules
+
+1276
+00:29:13,640 --> 00:29:14,519
+还有另外两个模块
+
+1277
+00:29:14,519 --> 00:29:18,039
+that i have no time to talk about one is code quality code validation
+
+1278
+00:29:14,519 --> 00:29:18,039
+但我没时间讲。其中一个是代码质量和代码验证
+
+1279
+00:29:18,039 --> 00:29:19,360
+and log validation
+
+1280
+00:29:18,039 --> 00:29:19,360
+还有日志验证
+
+1281
+00:29:19,360 --> 00:29:19,799
+um
+
+1282
+00:29:19,360 --> 00:29:19,799
+嗯
+
+1283
+00:29:19,799 --> 00:29:22,240
+which i mean i'm sure all of you guys review your logs
+
+1284
+00:29:19,799 --> 00:29:22,240
+我是说，我相信你们所有人都会检查日志
+
+1285
+00:29:22,240 --> 00:29:25,760
+um there's a few cool things that we can do on in addition
+
+1286
+00:29:22,240 --> 00:29:25,760
+嗯，此外还有一些很不错的功能可以实现
+
+1287
+00:29:25,760 --> 00:29:28,919
+the other part i sort of hinted at doing the demo which is the results validation
+
+1288
+00:29:25,760 --> 00:29:28,919
+我刚才也稍微提到了演示中的另一部分，那就是结果验证
+
+1289
+00:29:28,919 --> 00:29:32,080
+so there's two ways of looking at it one is from the specification side
+
+1290
+00:29:28,919 --> 00:29:32,080
+可以从两个角度来看，一是从规范的角度
+
+1291
+00:29:32,080 --> 00:29:35,200
+which is you know have you done the individual pieces correctly
+
+1292
+00:29:32,080 --> 00:29:35,200
+也就是，你有没有正确完成各个单独的部分
+
+1293
+00:29:35,200 --> 00:29:37,919
+the other one is i would say more of an integrated
+
+1294
+00:29:35,200 --> 00:29:37,919
+我想，另一个角度更偏向于集成
+
+1295
+00:29:37,919 --> 00:29:39,279
+idea which is you look at the results
+
+1296
+00:29:37,919 --> 00:29:39,279
+也就是查看结果
+
+1297
+00:29:39,279 --> 00:29:40,720
+and then you say
+
+1298
+00:29:39,279 --> 00:29:40,720
+然后问自己
+
+1299
+00:29:40,720 --> 00:29:42,919
+um well are they the way i expect
+
+1300
+00:29:40,720 --> 00:29:42,919
+嗯，结果是否符合我的预期
+
+1301
+00:29:42,919 --> 00:29:43,960
+and if not
+
+1302
+00:29:42,919 --> 00:29:43,960
+如果不符合的话，···
+
+1303
+00:29:43,960 --> 00:29:45,320
+what could be the problem
+
+1304
+00:29:43,960 --> 00:29:45,320
+可能会是什么问题
+
+1305
+00:29:45,320 --> 00:29:48,760
+and so in results validation as i showed we show you the
+
+1306
+00:29:45,320 --> 00:29:48,760
+因此，正如我所展示的，在结果验证中，我们会向你展示
+
+1307
+00:29:48,760 --> 00:29:52,480
+um the procedures that produce them the actual results we show you
+
+1308
+00:29:48,760 --> 00:29:52,480
+嗯，生成这些结果的流程，以及实际结果
+
+1309
+00:29:52,480 --> 00:29:54,559
+which variables go into these results
+
+1310
+00:29:52,480 --> 00:29:54,559
+哪些变量参与了这些结果的生成
+
+1311
+00:29:54,559 --> 00:29:57,279
+and then you can review these backwards very quickly
+
+1312
+00:29:54,559 --> 00:29:57,279
+然后你就可以很快地反向检查这些内容
+
+1313
+00:29:57,279 --> 00:30:01,279
+um if you to see a problem with them
+
+1314
+00:29:57,279 --> 00:30:01,279
+嗯，如果你发现其中有什么问题
+
+1315
+00:30:01,279 --> 00:30:04,480
+and again obviously everything is traceable
+
+1316
+00:30:01,279 --> 00:30:04,480
+而且显然，一切都可以追溯
+
+1317
+00:30:04,480 --> 00:30:07,360
+now where we're going with this is this idea of validated by verian
+
+1318
+00:30:04,480 --> 00:30:07,360
+我们接下来要做的，就是实现“经 Verian 验证”这一理念。
+
+1319
+00:30:07,360 --> 00:30:09,600
+which is that we give
+
+1320
+00:30:07,360 --> 00:30:09,600
+也就是说，我们会给
+
+1321
+00:30:09,600 --> 00:30:12,679
+you we give you an analysis fitness score
+
+1322
+00:30:09,600 --> 00:30:12,679
+你提供一个分析适配度评分
+
+1323
+00:30:12,679 --> 00:30:16,919
+which is a combination of the specification validation the results validation your code quality
+
+1324
+00:30:12,679 --> 00:30:16,919
+它综合了规范验证、结果验证和代码质量
+
+1325
+00:30:16,919 --> 00:30:18,519
+and your lock quality
+
+1326
+00:30:16,919 --> 00:30:18,519
+以及锁文件质量
+
+1327
+00:30:18,519 --> 00:30:21,120
+and in addition to that we'll also
+
+1328
+00:30:18,519 --> 00:30:21,120
+此外，我们还会
+
+1329
+00:30:21,120 --> 00:30:23,080
+um work on a data fitness score
+
+1330
+00:30:21,120 --> 00:30:23,080
+嗯，致力于制定一个数据适配度评分
+
+1331
+00:30:23,080 --> 00:30:26,440
+which is not the same thing as the p21 score
+
+1332
+00:30:23,080 --> 00:30:26,440
+它与 p21 评分并不相同
+
+1333
+00:30:26,440 --> 00:30:28,399
+which is based on structure
+
+1334
+00:30:26,440 --> 00:30:28,399
+后者是基于结构的
+
+1335
+00:30:28,399 --> 00:30:30,240
+and certain consistency checks
+
+1336
+00:30:28,399 --> 00:30:30,240
+以及某些一致性检查
+
+1337
+00:30:30,240 --> 00:30:34,880
+but what we're talking about here is are the distribu are the statistical assumptions
+
+1338
+00:30:30,240 --> 00:30:34,880
+但我们这里要讨论的是，分布是否符合统计假设
+
+1339
+00:30:34,880 --> 00:30:39,159
+met for example for the for the tests that you've selected in your data are there any outliers
+
+1340
+00:30:34,880 --> 00:30:39,159
+例如，对于你在数据中选择的检验，是否存在异常值
+
+1341
+00:30:39,159 --> 00:30:40,159
+all of that should be automated
+
+1342
+00:30:39,159 --> 00:30:40,159
+所有这些都应该自动化
+
+1343
+00:30:40,159 --> 00:30:42,880
+you shouldn't actually have to be looking for those there should you should just get warnings
+
+1344
+00:30:40,159 --> 00:30:42,880
+你实际上不应该还得自己去查找，而是应该直接收到警告
+
+1345
+00:30:42,880 --> 00:30:46,320
+that there are outliers in in certain
+
+1346
+00:30:42,880 --> 00:30:46,320
+提示某些
+
+1347
+00:30:46,320 --> 00:30:47,640
+um
+
+1348
+00:30:46,320 --> 00:30:47,640
+嗯
+
+1349
+00:30:47,640 --> 00:30:51,480
+chords all of that put together will lead to a study integrity score
+
+1350
+00:30:47,640 --> 00:30:51,480
+队列中存在异常值。把这一切结合起来，就能得出一项研究完整性评分
+
+1351
+00:30:51,480 --> 00:30:52,360
+and
+
+1352
+00:30:51,480 --> 00:30:52,360
+还有
+
+1353
+00:30:52,360 --> 00:30:53,679
+what we're
+
+1354
+00:30:52,360 --> 00:30:53,679
+我们所说的……
+
+1355
+00:30:53,679 --> 00:30:56,320
+trying to do in terms of process is to move from double programming
+
+1356
+00:30:53,679 --> 00:30:56,320
+在流程方面，我们试图从双重编程转向
+
+1357
+00:30:56,320 --> 00:30:58,880
+to this idea of validated by verian
+
+1358
+00:30:56,320 --> 00:30:58,880
+由 Verian 验证的这一理念
+
+1359
+00:30:58,880 --> 00:31:00,080
+and
+
+1360
+00:30:58,880 --> 00:31:00,080
+还有
+
+1361
+00:31:00,080 --> 00:31:03,360
+um well that's it
+
+1362
+00:31:00,080 --> 00:31:03,360
+嗯，好吧，就是这样
+
+1363
+00:31:03,360 --> 00:31:03,720
+now
+
+1364
+00:31:03,360 --> 00:31:03,720
+现在
+
+1365
+00:31:03,720 --> 00:31:04,039
+and
+
+1366
+00:31:03,720 --> 00:31:04,039
+还有
+
+1367
+00:31:04,039 --> 00:31:06,720
+and another final application
+
+1368
+00:31:04,039 --> 00:31:06,720
+还有另一个最终应用
+
+1369
+00:31:06,720 --> 00:31:10,519
+close to final it's almost the last one is that another reason
+
+1370
+00:31:06,720 --> 00:31:10,519
+接近最终版了，几乎是最后一个。这是另一个原因吗？
+
+1371
+00:31:10,519 --> 00:31:14,600
+that this traceability is so interesting is that the highest information density
+
+1372
+00:31:10,519 --> 00:31:14,600
+为什么这种可追溯性如此有意思：信息密度最高的内容
+
+1373
+00:31:14,600 --> 00:31:18,320
+of what actually happens in a study is in code
+
+1374
+00:31:14,600 --> 00:31:18,320
+是研究中实际发生的事情，而这些都体现在代码里
+
+1375
+00:31:18,320 --> 00:31:18,639
+so
+
+1376
+00:31:18,320 --> 00:31:18,639
+所以
+
+1377
+00:31:18,639 --> 00:31:20,320
+if you just think theory
+
+1378
+00:31:18,639 --> 00:31:20,320
+如果你只考虑理论的话
+
+1379
+00:31:20,320 --> 00:31:22,919
+if you want to generate documentation
+
+1380
+00:31:20,320 --> 00:31:22,919
+如果你想生成文档
+
+1381
+00:31:22,919 --> 00:31:28,720
+out of something then you should be using the code there's much more information about the derivation
+
+1382
+00:31:22,919 --> 00:31:28,720
+那么就应该从代码中获取，因为代码中有更多关于推导过程的信息
+
+1383
+00:31:28,720 --> 00:31:29,720
+how everything is connected
+
+1384
+00:31:28,720 --> 00:31:29,720
+以及所有内容是如何关联的
+
+1385
+00:31:29,720 --> 00:31:32,559
+what the data means in code than just in the sap
+
+1386
+00:31:29,720 --> 00:31:32,559
+数据在代码中的含义，而不仅仅是在 SAP 中
+
+1387
+00:31:32,559 --> 00:31:34,279
+or just in the study plan
+
+1388
+00:31:32,559 --> 00:31:34,279
+或仅仅是在研究计划中
+
+1389
+00:31:34,279 --> 00:31:35,279
+so there are many companies
+
+1390
+00:31:34,279 --> 00:31:35,279
+所以现在有很多公司
+
+1391
+00:31:35,279 --> 00:31:38,760
+now who grab the study study plan and the sap
+
+1392
+00:31:35,279 --> 00:31:38,760
+会拿到研究计划和 SAP
+
+1393
+00:31:38,760 --> 00:31:40,480
+and whatever other documentation
+
+1394
+00:31:38,760 --> 00:31:40,480
+以及其他各种文档
+
+1395
+00:31:40,480 --> 00:31:43,159
+and from there they try to generate submission
+
+1396
+00:31:40,480 --> 00:31:43,159
+然后他们试图据此生成提交材料
+
+1397
+00:31:43,159 --> 00:31:47,320
+documentation i would be against that because the what is actually executing is the code
+
+1398
+00:31:43,159 --> 00:31:47,320
+文档方面，我会反对这种做法，因为实际执行的是代码
+
+1399
+00:31:47,320 --> 00:31:50,399
+so what we were going to do is to grab that information
+
+1400
+00:31:47,320 --> 00:31:50,399
+所以我们打算获取这些信息
+
+1401
+00:31:50,399 --> 00:31:52,559
+add all the information that we get out of the code
+
+1402
+00:31:50,399 --> 00:31:52,559
+把我们从代码中获取的所有信息都添加进去
+
+1403
+00:31:52,559 --> 00:31:56,320
+and then generate as i said the define xml sdrg
+
+1404
+00:31:52,559 --> 00:31:56,320
+然后像我说的那样，生成定义 XML SDRG
+
+1405
+00:31:56,320 --> 00:31:59,120
+um in the implementation guide it says is basically
+
+1406
+00:31:56,320 --> 00:31:59,120
+嗯，实施指南里说，基本上
+
+1407
+00:31:59,120 --> 00:32:02,000
+derivative information it's just the same information again
+
+1408
+00:31:59,120 --> 00:32:02,000
+派生信息就是把相同的信息再写一遍
+
+1409
+00:32:02,000 --> 00:32:04,960
+so we will generate those in the first instance
+
+1410
+00:32:02,000 --> 00:32:04,960
+所以我们一开始会生成这些内容
+
+1411
+00:32:04,960 --> 00:32:08,360
+and we will also look into generating first drafts for
+
+1412
+00:32:04,960 --> 00:32:08,360
+我们还会研究为以下内容生成初稿
+
+1413
+00:32:08,360 --> 00:32:10,000
+what the medical writers are do do
+
+1414
+00:32:08,360 --> 00:32:10,000
+医学撰稿人要做的工作
+
+1415
+00:32:10,000 --> 00:32:17,000
+but this is a bit more in the future finally we've had some some interesting conversations
+
+1416
+00:32:10,000 --> 00:32:17,000
+不过这还要等一段时间。最后，我们进行了一些有意思的讨论
+
+1417
+00:32:17,000 --> 00:32:19,440
+and a presentation at the fda
+
+1418
+00:32:17,000 --> 00:32:19,440
+并在 FDA 做了一场演示
+
+1419
+00:32:19,440 --> 00:32:25,279
+and they encouraged us to move towards this idea of future submissions
+
+1420
+00:32:19,440 --> 00:32:25,279
+他们还鼓励我们朝着未来提交材料的这一理念迈进
+
+1421
+00:32:25,279 --> 00:32:27,559
+first of all being greater confidence
+
+1422
+00:32:25,279 --> 00:32:27,559
+首先是增强信心
+
+1423
+00:32:27,559 --> 00:32:29,840
+for for the sponsors
+
+1424
+00:32:27,559 --> 00:32:29,840
+让申办方更有信心
+
+1425
+00:32:29,840 --> 00:32:34,600
+um by using this validated by veris approach obviously hopefully faster
+
+1426
+00:32:29,840 --> 00:32:34,600
+嗯，采用这种经 Veris 验证的方法，显然也有望更快
+
+1427
+00:32:34,600 --> 00:32:38,000
+because of the lack of double programming greater consistency
+
+1428
+00:32:34,600 --> 00:32:38,000
+由于无需重复编程，因此一致性更高
+
+1429
+00:32:38,000 --> 00:32:41,000
+because of the review and the process itself
+
+1430
+00:32:38,000 --> 00:32:41,000
+这得益于审核以及流程本身
+
+1431
+00:32:41,000 --> 00:32:43,919
+and this idea of validated by veris
+
+1432
+00:32:41,000 --> 00:32:43,919
+以及这种经 Veris 验证的理念
+
+1433
+00:32:43,919 --> 00:32:46,279
+what what the fda was suggesting is that
+
+1434
+00:32:43,919 --> 00:32:46,279
+FDA 的建议是
+
+1435
+00:32:46,279 --> 00:32:49,399
+for your submission even though they don't require it
+
+1436
+00:32:46,279 --> 00:32:49,399
+在提交材料时，尽管他们不要求提供这些信息
+
+1437
+00:32:49,399 --> 00:32:50,440
+um that it actually
+
+1438
+00:32:49,399 --> 00:32:50,440
+嗯，实际上
+
+1439
+00:32:50,440 --> 00:32:55,519
+if you give it if if you do this augmented submission you provide this information the fda
+
+1440
+00:32:50,440 --> 00:32:55,519
+如果你提供这些信息——如果你提交这份补充材料，把这些信息提供给 FDA
+
+1441
+00:32:55,519 --> 00:32:58,039
+sort of has to look at it if they have a question
+
+1442
+00:32:55,519 --> 00:32:58,039
+他们多少就得审查一下；如果他们有疑问，
+
+1443
+00:32:58,039 --> 00:32:58,720
+and
+
+1444
+00:32:58,039 --> 00:32:58,720
+还有
+
+1445
+00:32:58,720 --> 00:33:02,000
+what they were saying is that this might u prevent inquiry
+
+1446
+00:32:58,720 --> 00:33:02,000
+他们的意思是，这或许可以避免
+
+1447
+00:33:02,000 --> 00:33:05,519
+response cycles right so if they have a question about something very specific
+
+1448
+00:33:02,000 --> 00:33:05,519
+来回询问和答复，对吧？所以，如果他们对某个非常具体的问题有疑问，
+
+1449
+00:33:05,519 --> 00:33:07,760
+if they either have access to the platform itself
+
+1450
+00:33:05,519 --> 00:33:07,760
+如果他们能够访问平台本身的话
+
+1451
+00:33:07,760 --> 00:33:10,639
+which would be very trivial for for us to do
+
+1452
+00:33:07,760 --> 00:33:10,639
+这对我们来说做起来非常简单
+
+1453
+00:33:10,639 --> 00:33:11,360
+or
+
+1454
+00:33:10,639 --> 00:33:11,360
+或者
+
+1455
+00:33:11,360 --> 00:33:13,039
+um we generate reports
+
+1456
+00:33:11,360 --> 00:33:13,039
+嗯，我们会生成报告
+
+1457
+00:33:13,039 --> 00:33:16,240
+which i'm not a big fan of i don't think anyone needs more reports
+
+1458
+00:33:13,039 --> 00:33:16,240
+我不太喜欢这个，我觉得没人需要更多报告
+
+1459
+00:33:16,240 --> 00:33:19,080
+um but if that's what they want whatever
+
+1460
+00:33:16,240 --> 00:33:19,080
+嗯，不过如果他们想要，那就随他们吧
+
+1461
+00:33:19,080 --> 00:33:20,159
+um then
+
+1462
+00:33:19,080 --> 00:33:20,159
+嗯，然后
+
+1463
+00:33:20,159 --> 00:33:25,120
+they can if they have detailed questions instead of having to go through this cycle of contacting you
+
+1464
+00:33:20,159 --> 00:33:25,120
+如果他们有详细的问题，就不用非得经历联系你的这一轮流程
+
+1465
+00:33:25,120 --> 00:33:26,880
+um they can just look at the code itself
+
+1466
+00:33:25,120 --> 00:33:26,880
+嗯，他们可以直接查看代码本身
+
+1467
+00:33:26,880 --> 00:33:29,960
+or at at whatever we
+
+1468
+00:33:26,880 --> 00:33:29,960
+或者无论我们
+
+1469
+00:33:29,960 --> 00:33:30,960
+generate
+
+1470
+00:33:29,960 --> 00:33:30,960
+生成什么
+
+1471
+00:33:30,960 --> 00:33:34,919
+so the future the way we envision it is
+
+1472
+00:33:30,960 --> 00:33:34,919
+我们所设想的未来
+
+1473
+00:33:34,919 --> 00:33:37,480
+actually has three components we didn't talk at all about the builder
+
+1474
+00:33:34,919 --> 00:33:37,480
+实际上包含三个组成部分，我们完全没有谈到构建者
+
+1475
+00:33:37,480 --> 00:33:40,279
+because we have limited amounts of time
+
+1476
+00:33:37,480 --> 00:33:40,279
+因为我们的时间有限
+
+1477
+00:33:40,279 --> 00:33:41,519
+the validator
+
+1478
+00:33:40,279 --> 00:33:41,519
+验证器
+
+1479
+00:33:41,519 --> 00:33:45,760
+really aims at eliminating double programming increasing the speed and the quality
+
+1480
+00:33:41,519 --> 00:33:45,760
+真正致力于消除重复编程，提高速度和质量
+
+1481
+00:33:45,760 --> 00:33:47,200
+and the consistency
+
+1482
+00:33:45,760 --> 00:33:47,200
+以及一致性
+
+1483
+00:33:47,200 --> 00:33:48,480
+and giving you confidence
+
+1484
+00:33:47,200 --> 00:33:48,480
+并让你有信心
+
+1485
+00:33:48,480 --> 00:33:53,320
+pre submission that the code you wrote and the analysis that you've done are actually correct
+
+1486
+00:33:48,480 --> 00:33:53,320
+在提交前，你编写的代码和完成的分析确实是正确的
+
+1487
+00:33:53,320 --> 00:33:58,559
+the submitter then is going to generate submission documentation from that
+
+1488
+00:33:53,320 --> 00:33:58,559
+提交者随后会据此生成提交文档
+
+1489
+00:33:58,559 --> 00:34:00,880
+which means you have a guaranteed consistency
+
+1490
+00:33:58,559 --> 00:34:00,880
+这意味着你可以确保一致性
+
+1491
+00:34:00,880 --> 00:34:03,279
+because it is generated out of the code
+
+1492
+00:34:00,880 --> 00:34:03,279
+因为文档是根据代码生成的
+
+1493
+00:34:03,279 --> 00:34:03,919
+and
+
+1494
+00:34:03,279 --> 00:34:03,919
+还有
+
+1495
+00:34:03,919 --> 00:34:10,719
+because it is automatically generated hopefully with very little requirements for review you're always submission
+
+1496
+00:34:03,919 --> 00:34:10,719
+因为它是自动生成的，希望审核要求很少，这样你就能随时做好提交准备
+
+1497
+00:34:10,719 --> 00:34:13,960
+ready with that i would like to thank you for your attention
+
+1498
+00:34:10,719 --> 00:34:13,960
+有了这些，我想感谢大家的聆听
+
+1499
+00:34:13,960 --> 00:34:14,839
+this is our team
+
+1500
+00:34:13,960 --> 00:34:14,839
+这是我们的团队
+
+1501
+00:34:14,839 --> 00:34:19,389
+we've been around for about a year and i would love to answer any
+
+1502
+00:34:14,839 --> 00:34:19,389
+我们已经做了大约一年，我很乐意回答任何
+
+1503
+00:34:25,480 --> 00:34:29,440
+questions let me abstract the question because i have to repeat it
+
+1504
+00:34:25,480 --> 00:34:29,440
+问题。让我先概括一下这个问题，因为我得重复一遍。
+
+1505
+00:34:29,440 --> 00:34:31,760
+so no that's fine so
+
+1506
+00:34:29,440 --> 00:34:31,760
+所以，不，没关系。
+
+1507
+00:34:31,760 --> 00:34:34,679
+so i think that the question goes in the direction of
+
+1508
+00:34:31,760 --> 00:34:34,679
+我觉得这个问题的重点是
+
+1509
+00:34:34,679 --> 00:34:36,239
+um how far does the tracability go
+
+1510
+00:34:34,679 --> 00:34:36,239
+嗯，追溯能力能达到什么程度？
+
+1511
+00:34:36,239 --> 00:34:37,599
+does it include data dictionaries
+
+1512
+00:34:36,239 --> 00:34:37,599
+是否包括数据字典？
+
+1513
+00:34:37,599 --> 00:34:40,440
+does it include cod list does it include crfs eventually
+
+1514
+00:34:37,599 --> 00:34:40,440
+是否包括 COD 列表？最终是否会包括 CRF？
+
+1515
+00:34:40,440 --> 00:34:41,760
+how far can we reach
+
+1516
+00:34:40,440 --> 00:34:41,760
+我们能追溯到什么程度？
+
+1517
+00:34:41,760 --> 00:34:43,879
+and basically the answer is that
+
+1518
+00:34:41,760 --> 00:34:43,879
+基本上，答案就是
+
+1519
+00:34:43,879 --> 00:34:47,159
+what we so the the reason why we started with logs is because it's a really
+
+1520
+00:34:43,879 --> 00:34:47,159
+我们之所以从日志入手，是因为这确实是一个非常
+
+1521
+00:34:47,159 --> 00:34:49,800
+really easy entry point right when we don't have to see data
+
+1522
+00:34:47,159 --> 00:34:49,800
+非常容易的切入点，对吧？因为我们不需要查看数据
+
+1523
+00:34:49,800 --> 00:34:51,960
+it's very easy for you guys to try out
+
+1524
+00:34:49,800 --> 00:34:51,960
+你们可以很轻松地试用
+
+1525
+00:34:51,960 --> 00:34:52,320
+um
+
+1526
+00:34:51,960 --> 00:34:52,320
+嗯
+
+1527
+00:34:52,320 --> 00:34:54,280
+but of course what we will do is we expand towards
+
+1528
+00:34:52,320 --> 00:34:54,280
+但当然，我们接下来会拓展到
+
+1529
+00:34:54,280 --> 00:34:56,719
+data and we definitely want to expand towards ecrfs
+
+1530
+00:34:54,280 --> 00:34:56,719
+数据领域，而且我们肯定希望拓展到 ECRF
+
+1531
+00:34:56,719 --> 00:34:57,520
+because
+
+1532
+00:34:56,719 --> 00:34:57,520
+因为
+
+1533
+00:34:57,520 --> 00:35:01,599
+um we want to have endtoend traceability literally from the very beginning to
+
+1534
+00:34:57,520 --> 00:35:01,599
+嗯，我们希望实现端到端的可追溯性，真正从最开始一直贯穿到最后
+
+1535
+00:35:01,599 --> 00:35:02,440
+so
+
+1536
+00:35:01,599 --> 00:35:02,440
+所以
+
+1537
+00:35:02,440 --> 00:35:05,560
+um we are already working on on things like
+
+1538
+00:35:02,440 --> 00:35:05,560
+嗯，我们已经在着手做一些事情了，比如
+
+1539
+00:35:05,560 --> 00:35:08,240
+um adding code list grabbing
+
+1540
+00:35:05,560 --> 00:35:08,240
+嗯，添加代码列表抓取
+
+1541
+00:35:08,240 --> 00:35:09,640
+um grabbing unique values
+
+1542
+00:35:08,240 --> 00:35:09,640
+嗯，抓取唯一值
+
+1543
+00:35:09,640 --> 00:35:13,200
+so getting the categories doing the parameter code for the for the
+
+1544
+00:35:09,640 --> 00:35:13,200
+所以获取类别，为……的参数代码做准备
+
+1545
+00:35:13,200 --> 00:35:16,320
+um let's say for the non-trivial variables
+
+1546
+00:35:13,200 --> 00:35:16,320
+嗯，比方说，对于那些不平凡的变量
+
+1547
+00:35:16,320 --> 00:35:16,640
+so
+
+1548
+00:35:16,320 --> 00:35:16,640
+所以
+
+1549
+00:35:16,640 --> 00:35:18,680
+so these things we are all we're all working
+
+1550
+00:35:16,640 --> 00:35:18,680
+所以这些事情我们都在……我们都在做
+
+1551
+00:35:18,680 --> 00:35:21,680
+on it's just you know depending on we need some integration
+
+1552
+00:35:18,680 --> 00:35:21,680
+这只是，你知道，取决于我们是否需要一些集成
+
+1553
+00:35:21,680 --> 00:35:26,119
+then once once we move into the into the ef data but but definitely
+
+1554
+00:35:21,680 --> 00:35:26,119
+然后，一旦我们转到 EF 数据……但肯定会
+
+1555
+00:35:26,119 --> 00:35:30,079
+yes want take question
+
+1556
+00:35:26,119 --> 00:35:30,079
+是的，想提个问题
+
+1557
+00:35:30,079 --> 00:35:31,079
+from
+
+1558
+00:35:30,079 --> 00:35:31,079
+来自
+
+1559
+00:35:31,079 --> 00:35:34,200
+yeah can you repeat the first one a minute because i i'll lose track of it
+
+1560
+00:35:31,079 --> 00:35:34,200
+是的，你能把第一个再说一遍吗？等一下，我怕我记不住。
+
+1561
+00:35:34,200 --> 00:35:37,359
+i can only do one at a time small brain
+
+1562
+00:35:34,200 --> 00:35:37,359
+我一次只能处理一件事，脑子不太灵光。
+
+1563
+00:35:37,359 --> 00:35:38,960
+so so
+
+1564
+00:35:37,359 --> 00:35:38,960
+所以，所以
+
+1565
+00:35:38,960 --> 00:35:43,280
+so the other models why why do people use chat gbt is that the question why
+
+1566
+00:35:38,960 --> 00:35:43,280
+那么，其他模型呢？人们为什么用 ChatGPT？这是你想问的问题吗？
+
+1567
+00:35:43,280 --> 00:35:45,079
+i guess it's the most popular one
+
+1568
+00:35:43,280 --> 00:35:45,079
+我想它是最受欢迎的那个。
+
+1569
+00:35:45,079 --> 00:35:47,200
+um i mean
+
+1570
+00:35:45,079 --> 00:35:47,200
+嗯，我是说
+
+1571
+00:35:47,200 --> 00:35:50,920
+so as as richard said a lot of it is not
+
+1572
+00:35:47,200 --> 00:35:50,920
+所以，正如理查德所说，其中很多并不是
+
+1573
+00:35:50,920 --> 00:35:54,480
+really correct sometimes it generates code that works
+
+1574
+00:35:50,920 --> 00:35:54,480
+有时候它真的能生成可用的代码
+
+1575
+00:35:54,480 --> 00:35:55,319
+one of the reasons
+
+1576
+00:35:54,480 --> 00:35:55,319
+这也是原因之一
+
+1577
+00:35:55,319 --> 00:35:57,760
+why i was very passionate to start on the valid
+
+1578
+00:35:55,319 --> 00:35:57,760
+让我当初如此热衷于投身 Valid
+
+1579
+00:35:57,760 --> 00:35:59,960
+at part of this is that
+
+1580
+00:35:57,760 --> 00:35:59,960
+其中的一部分原因是
+
+1581
+00:35:59,960 --> 00:36:02,560
+it really doesn't matter so much where the code comes from
+
+1582
+00:35:59,960 --> 00:36:02,560
+代码来自哪里其实并不那么重要
+
+1583
+00:36:02,560 --> 00:36:05,200
+so it doesn't matter if a person writes it or if jgpt
+
+1584
+00:36:02,560 --> 00:36:05,200
+所以代码是人写的，还是由 JGPT
+
+1585
+00:36:05,200 --> 00:36:06,640
+writes it and then it gets reviewed
+
+1586
+00:36:05,200 --> 00:36:06,640
+编写后再经过审查，都没关系
+
+1587
+00:36:06,640 --> 00:36:11,520
+and bug fixed in the end it's code that executes that produces an output the point though
+
+1588
+00:36:06,640 --> 00:36:11,520
+最终经过修复错误，能够运行并产生输出的才是代码。不过，重点在于
+
+1589
+00:36:11,520 --> 00:36:13,079
+and i think that was one of the questions
+
+1590
+00:36:11,520 --> 00:36:13,079
+而且我觉得这就是其中一个问题
+
+1591
+00:36:13,079 --> 00:36:16,680
+um that was that was asked here you still need someone with domain knowledge
+
+1592
+00:36:13,079 --> 00:36:16,680
+嗯，这里有人问过这个问题：你仍然需要一位具备领域知识的人
+
+1593
+00:36:16,680 --> 00:36:19,119
+and actually enough understanding
+
+1594
+00:36:16,680 --> 00:36:19,119
+而且还需要有足够的理解
+
+1595
+00:36:19,119 --> 00:36:20,720
+because it's going to spit out numbers
+
+1596
+00:36:19,119 --> 00:36:20,720
+因为它会吐出数字
+
+1597
+00:36:20,720 --> 00:36:22,880
+like that's not the problem you're going to get it to produce numbers
+
+1598
+00:36:20,720 --> 00:36:22,880
+比如说，让它生成数字并不是问题
+
+1599
+00:36:22,880 --> 00:36:24,359
+the problem that you have is you need to
+
+1600
+00:36:22,880 --> 00:36:24,359
+你面临的问题是，你需要去
+
+1601
+00:36:24,359 --> 00:36:26,599
+understand whether or not these numbers are right and they represent
+
+1602
+00:36:24,359 --> 00:36:26,599
+了解这些数字是否正确，以及它们是否代表了
+
+1603
+00:36:26,599 --> 00:36:28,680
+what you're wanting it to represent
+
+1604
+00:36:26,599 --> 00:36:28,680
+你希望它们代表的内容
+
+1605
+00:36:28,680 --> 00:36:32,880
+and i think in that area the chat gpts even the really big ones
+
+1606
+00:36:28,680 --> 00:36:32,880
+我认为在这方面，即使是非常大型的 ChatGPT
+
+1607
+00:36:32,880 --> 00:36:34,760
+even if they're going to add more reasoning modules
+
+1608
+00:36:32,880 --> 00:36:34,760
+即使它们会增加更多推理模块
+
+1609
+00:36:34,760 --> 00:36:37,640
+my expectation would be that they will remain to be
+
+1610
+00:36:34,760 --> 00:36:37,640
+我预计它们仍然会
+
+1611
+00:36:37,640 --> 00:36:38,839
+not very good certainly
+
+1612
+00:36:37,640 --> 00:36:38,839
+表现得不太好，这一点是肯定的
+
+1613
+00:36:38,839 --> 00:36:39,480
+if you
+
+1614
+00:36:38,839 --> 00:36:39,480
+如果你
+
+1615
+00:36:39,480 --> 00:36:41,560
+if you ask complicated questions
+
+1616
+00:36:39,480 --> 00:36:41,560
+如果你问一些复杂的问题
+
+1617
+00:36:41,560 --> 00:36:44,839
+um in software engineering we see this all the time if you ask it to
+
+1618
+00:36:41,560 --> 00:36:44,839
+嗯，在软件工程领域，如果你让它做某件事，我们总能看到这种情况。
+
+1619
+00:36:44,839 --> 00:36:48,200
+write a small function then probably it's going to be correct
+
+1620
+00:36:44,839 --> 00:36:48,200
+让它写个小函数，它很可能能写对。
+
+1621
+00:36:48,200 --> 00:36:52,160
+if you ask it to do anything that you know includes three or four reasoning steps
+
+1622
+00:36:48,200 --> 00:36:52,160
+如果你让它做任何一件你知道需要经过三四个推理步骤的事，
+
+1623
+00:36:52,160 --> 00:36:56,800
+and has to be of a meaningful architecture it's complete rubbish
+
+1624
+00:36:52,160 --> 00:36:56,800
+而且还得有有意义的架构，那它给出的结果就完全是一派胡言。
+
+1625
+00:36:56,800 --> 00:36:57,200
+and
+
+1626
+00:36:56,800 --> 00:36:57,200
+还有
+
+1627
+00:36:57,200 --> 00:36:57,839
+so
+
+1628
+00:36:57,200 --> 00:36:57,839
+所以
+
+1629
+00:36:57,839 --> 00:36:58,119
+so
+
+1630
+00:36:57,839 --> 00:36:58,119
+所以
+
+1631
+00:36:58,119 --> 00:37:01,359
+that that will be my answer for the first one for the second one the spec validation
+
+1632
+00:36:58,119 --> 00:37:01,359
+这就是我对第一个问题的回答。至于第二个问题，规格说明验证……
+
+1633
+00:37:01,359 --> 00:37:03,839
+that's a great point and of course if you're
+
+1634
+00:37:01,359 --> 00:37:03,839
+这是个很好的观点。当然，如果你
+
+1635
+00:37:03,839 --> 00:37:08,079
+think about sort of information density like if your specs are are very vague
+
+1636
+00:37:03,839 --> 00:37:08,079
+想想信息密度这回事，比如你的规格说明非常含糊，
+
+1637
+00:37:08,079 --> 00:37:10,119
+there's very little anyone can do
+
+1638
+00:37:08,079 --> 00:37:10,119
+那谁也没什么办法。
+
+1639
+00:37:10,119 --> 00:37:13,160
+but this is actually the case also for not using ais to validate
+
+1640
+00:37:10,119 --> 00:37:13,160
+但如果不使用人工智能进行验证，实际上情况也是如此
+
+1641
+00:37:13,160 --> 00:37:14,520
+it right if the specs are unclear
+
+1642
+00:37:13,160 --> 00:37:14,520
+如果规范不明确，那就无法判断它是否正确
+
+1643
+00:37:14,520 --> 00:37:16,640
+for you as a programmer
+
+1644
+00:37:14,520 --> 00:37:16,640
+对你这个程序员来说
+
+1645
+00:37:16,640 --> 00:37:20,480
+well the specs are unclear we can't create information out of nowhere
+
+1646
+00:37:16,640 --> 00:37:20,480
+嗯，规范不明确，我们不可能凭空创造信息
+
+1647
+00:37:20,480 --> 00:37:23,599
+and we can't out of nowhere tell whether or not something is correct
+
+1648
+00:37:20,480 --> 00:37:23,599
+也不可能凭空判断某件事是否正确
+
+1649
+00:37:23,599 --> 00:37:26,880
+so the question that is one of the questions why we do
+
+1650
+00:37:23,599 --> 00:37:26,880
+所以这就是其中一个问题：我们为什么要
+
+1651
+00:37:26,880 --> 00:37:29,319
+um why we would have have to look at the specs to see
+
+1652
+00:37:26,880 --> 00:37:29,319
+嗯，为什么我们必须查看规范，看看
+
+1653
+00:37:29,319 --> 00:37:31,760
+how how much information is in there
+
+1654
+00:37:29,319 --> 00:37:31,760
+里面包含多少信息
+
+1655
+00:37:31,760 --> 00:37:32,240
+and
+
+1656
+00:37:31,760 --> 00:37:32,240
+还有
+
+1657
+00:37:32,240 --> 00:37:32,560
+um
+
+1658
+00:37:32,240 --> 00:37:32,560
+嗯
+
+1659
+00:37:32,560 --> 00:37:35,040
+how how good we can be at matching that
+
+1660
+00:37:32,560 --> 00:37:35,040
+我们在匹配这方面能做得有多好
+
+1661
+00:37:35,040 --> 00:37:38,640
+so the ai so the question basically is how can we
+
+1662
+00:37:35,040 --> 00:37:38,640
+所以，AI——这个问题归根结底是，我们怎样才能
+
+1663
+00:37:38,640 --> 00:37:42,839
+how can we ensure that whatever ai generates actually is traceable
+
+1664
+00:37:38,640 --> 00:37:42,839
+怎样才能确保 AI 生成的任何内容都可追溯
+
+1665
+00:37:42,839 --> 00:37:44,960
+and understandable
+
+1666
+00:37:42,839 --> 00:37:44,960
+而且易于理解
+
+1667
+00:37:44,960 --> 00:37:45,960
+and
+
+1668
+00:37:44,960 --> 00:37:45,960
+还有
+
+1669
+00:37:45,960 --> 00:37:46,319
+yes
+
+1670
+00:37:45,960 --> 00:37:46,319
+是的
+
+1671
+00:37:46,319 --> 00:37:47,200
+yes okay so
+
+1672
+00:37:46,319 --> 00:37:47,200
+是的，好吧，那么
+
+1673
+00:37:47,200 --> 00:37:50,560
+so my answer to that would always be
+
+1674
+00:37:47,200 --> 00:37:50,560
+所以我的回答一直是
+
+1675
+00:37:50,560 --> 00:37:53,800
+whatever ai does in the background behind chat gpt guess what it does it generates
+
+1676
+00:37:50,560 --> 00:37:53,800
+不管 AI 在 ChatGPT 背后做些什么，猜猜它会做什么：它会生成内容。
+
+1677
+00:37:53,800 --> 00:37:55,160
+code and executes it
+
+1678
+00:37:53,800 --> 00:37:55,160
+编写并执行代码
+
+1679
+00:37:55,160 --> 00:37:56,960
+and so you just don't see that
+
+1680
+00:37:55,160 --> 00:37:56,960
+所以你看不到这一点
+
+1681
+00:37:56,960 --> 00:38:00,160
+but any thing ais do is they they execute code
+
+1682
+00:37:56,960 --> 00:38:00,160
+但人工智能做的任何事情，都是在执行代码
+
+1683
+00:38:00,160 --> 00:38:04,400
+if they actually generate data right so what they will do is they will generate code for you
+
+1684
+00:38:00,160 --> 00:38:04,400
+如果它们确实生成了数据，对吧？那它们就会为你生成代码
+
+1685
+00:38:04,400 --> 00:38:05,560
+which will then be executed
+
+1686
+00:38:04,400 --> 00:38:05,560
+然后这些代码会被执行
+
+1687
+00:38:05,560 --> 00:38:09,400
+and and creates the data and so that's why we we started with this code traceability
+
+1688
+00:38:05,560 --> 00:38:09,400
+并生成数据，这就是为什么我们从代码可追溯性入手
+
+1689
+00:38:09,400 --> 00:38:10,760
+because the code
+
+1690
+00:38:09,400 --> 00:38:10,760
+因为代码
+
+1691
+00:38:10,760 --> 00:38:12,800
+that's what i meant at the beginning it doesn't matter who generates
+
+1692
+00:38:10,760 --> 00:38:12,800
+这就是我一开始的意思，谁来生成代码并不重要
+
+1693
+00:38:12,800 --> 00:38:14,560
+it i don't care if you write it or if an ai writes
+
+1694
+00:38:12,800 --> 00:38:14,560
+我不在乎这是你写的，还是 AI 写的
+
+1695
+00:38:14,560 --> 00:38:15,240
+it or you write it
+
+1696
+00:38:14,560 --> 00:38:15,240
+或者是你和 AI 一起写的
+
+1697
+00:38:15,240 --> 00:38:16,560
+together or you write it you know
+
+1698
+00:38:15,240 --> 00:38:16,560
+或者是你写的，你知道
+
+1699
+00:38:16,560 --> 00:38:17,960
+five people in a in a room
+
+1700
+00:38:16,560 --> 00:38:17,960
+五个人在一个房间里
+
+1701
+00:38:17,960 --> 00:38:20,480
+it's code that executes that produces an output
+
+1702
+00:38:17,960 --> 00:38:20,480
+这是能够执行并产生输出的代码
+
+1703
+00:38:20,480 --> 00:38:23,119
+and so what we're writing is we grab onto any code
+
+1704
+00:38:20,480 --> 00:38:23,119
+所以我们要做的就是获取任意代码
+
+1705
+00:38:23,119 --> 00:38:24,480
+and let you review it and
+
+1706
+00:38:23,119 --> 00:38:24,480
+让你审查它，并且
+
+1707
+00:38:24,480 --> 00:38:25,760
+and basically make sure that you
+
+1708
+00:38:24,480 --> 00:38:25,760
+基本上确保你了解它
+
+1709
+00:38:25,760 --> 00:38:28,760
+understand it and i would add to what you said with the traceability
+
+1710
+00:38:25,760 --> 00:38:28,760
+理解了，我想补充一点你刚才提到的可追溯性
+
+1711
+00:38:28,760 --> 00:38:33,760
+that it's just for the regulators to review traceability is literally
+
+1712
+00:38:28,760 --> 00:38:33,760
+它只是供监管机构审查的。可追溯性确实就是
+
+1713
+00:38:33,760 --> 00:38:36,800
+the way that we capture the meaning of of the output
+
+1714
+00:38:33,760 --> 00:38:36,800
+我们捕捉输出含义的方式
+
+1715
+00:38:36,800 --> 00:38:40,119
+and that's the same for you as a programmer whether you do root cause analysis
+
+1716
+00:38:36,800 --> 00:38:40,119
+对于你这样的程序员来说也是一样，无论你是在做根因分析
+
+1717
+00:38:40,119 --> 00:38:41,720
+or or you're developing a self
+
+1718
+00:38:40,119 --> 00:38:41,720
+还是在开发一个自我
+
+1719
+00:38:41,720 --> 00:38:47,400
+but also obviously in this case it's where regulated industry that the regulators have to do
+
+1720
+00:38:41,720 --> 00:38:47,400
+但显然，在这种情况下，这是一个受监管的行业，监管机构必须参与其中
+
+1721
+00:38:47,400 --> 00:38:48,400
+it
+
+1722
+00:38:47,400 --> 00:38:48,400
+它
+
+1723
+00:38:48,400 --> 00:38:48,680
+so
+
+1724
+00:38:48,400 --> 00:38:48,680
+所以
+
+1725
+00:38:48,680 --> 00:38:50,200
+so so my answer to that would be so
+
+1726
+00:38:48,680 --> 00:38:50,200
+所以，我对此的回答是
+
+1727
+00:38:50,200 --> 00:38:52,920
+the question is can we use ai to sort of both produce and validate
+
+1728
+00:38:50,200 --> 00:38:52,920
+问题是，我们能否利用人工智能来同时生成和验证
+
+1729
+00:38:52,920 --> 00:38:58,760
+and how can we again make sure that that it is producing
+
+1730
+00:38:52,920 --> 00:38:58,760
+我们又该如何确保它生成的内容
+
+1731
+00:38:58,760 --> 00:39:00,920
+so we so we don't we don't train
+
+1732
+00:38:58,760 --> 00:39:00,920
+这样我们就不会训练它
+
+1733
+00:39:00,920 --> 00:39:01,560
+so
+
+1734
+00:39:00,920 --> 00:39:01,560
+所以
+
+1735
+00:39:01,560 --> 00:39:03,119
+what we do is we use a rag system
+
+1736
+00:39:01,560 --> 00:39:03,119
+我们的做法是使用 RAG 系统
+
+1737
+00:39:03,119 --> 00:39:04,800
+which provides additional context
+
+1738
+00:39:03,119 --> 00:39:04,800
+它可以提供额外的上下文
+
+1739
+00:39:04,800 --> 00:39:07,400
+and we generate prompts
+
+1740
+00:39:04,800 --> 00:39:07,400
+然后我们生成提示词
+
+1741
+00:39:07,400 --> 00:39:11,119
+where the information density of the prompts is is so
+
+1742
+00:39:07,400 --> 00:39:11,119
+提示词的信息密度非常高
+
+1743
+00:39:11,119 --> 00:39:14,800
+dense that it only contains the information that it needs to answer
+
+1744
+00:39:11,119 --> 00:39:14,800
+其中只包含回答问题所需的信息
+
+1745
+00:39:14,800 --> 00:39:17,480
+but it contains all of the information that it needs to answer
+
+1746
+00:39:14,800 --> 00:39:17,480
+但又包含回答问题所需的全部信息
+
+1747
+00:39:17,480 --> 00:39:19,960
+and we use largely pre-trained models
+
+1748
+00:39:17,480 --> 00:39:19,960
+而且我们主要使用预训练模型
+
+1749
+00:39:19,960 --> 00:39:22,680
+but we will now train them on sas specifics mostly
+
+1750
+00:39:19,960 --> 00:39:22,680
+但现在我们会主要针对 SAS 的特性来训练它们
+
+1751
+00:39:22,680 --> 00:39:25,119
+because they are really bad at sas
+
+1752
+00:39:22,680 --> 00:39:25,119
+因为它们在 SAS 方面确实很差
+
+1753
+00:39:25,119 --> 00:39:27,599
+actually because there's not so much sas code on github
+
+1754
+00:39:25,119 --> 00:39:27,599
+主要是因为 GitHub 上的 SAS 代码不多
+
+1755
+00:39:27,599 --> 00:39:27,920
+so
+
+1756
+00:39:27,599 --> 00:39:27,920
+所以
+
+1757
+00:39:27,920 --> 00:39:30,680
+what we do is we try to eliminate its weaknesses
+
+1758
+00:39:27,920 --> 00:39:30,680
+我们所做的是尽量弥补它的弱点
+
+1759
+00:39:30,680 --> 00:39:32,520
+just in terms of code understanding through training
+
+1760
+00:39:30,680 --> 00:39:32,520
+只是在代码理解方面通过训练来改进
+
+1761
+00:39:32,520 --> 00:39:34,040
+because that is easily done
+
+1762
+00:39:32,520 --> 00:39:34,040
+因为这很容易做到
+
+1763
+00:39:34,040 --> 00:39:36,920
+and the rest is usually done through through prom prompt engineering
+
+1764
+00:39:34,040 --> 00:39:36,920
+其余部分通常通过提示工程来完成
+
+1765
+00:39:36,920 --> 00:39:39,000
+and rack systems
+
+1766
+00:39:36,920 --> 00:39:39,000
+以及机架系统
+
+1767
+00:39:39,000 --> 00:39:40,480
+but the the point being independent
+
+1768
+00:39:39,000 --> 00:39:40,480
+但重点是独立的
+
+1769
+00:39:40,480 --> 00:39:42,880
+so so this is the thing
+
+1770
+00:39:40,480 --> 00:39:42,880
+所以，所以问题就在于
+
+1771
+00:39:42,880 --> 00:39:43,880
+like
+
+1772
+00:39:42,880 --> 00:39:43,880
+比如
+
+1773
+00:39:43,880 --> 00:39:46,760
+the the exact implementation is actually not
+
+1774
+00:39:43,880 --> 00:39:46,760
+具体的实现方式其实并没有
+
+1775
+00:39:46,760 --> 00:39:50,400
+that important it doesn't matter if you use chat gbt 4 or 3.5
+
+1776
+00:39:46,760 --> 00:39:50,400
+那么重要，用 ChatGPT 4 还是 3.5 都无所谓
+
+1777
+00:39:50,400 --> 00:39:51,880
+or you use the next generation
+
+1778
+00:39:50,400 --> 00:39:51,880
+或者使用下一代模型
+
+1779
+00:39:51,880 --> 00:39:54,319
+which is going to have advanced reasoning
+
+1780
+00:39:51,880 --> 00:39:54,319
+它将具备更先进的推理能力
+
+1781
+00:39:54,319 --> 00:39:56,280
+capabilities the the point is
+
+1782
+00:39:54,319 --> 00:39:56,280
+能力，重点是
+
+1783
+00:39:56,280 --> 00:39:59,839
+what they're still going to produce is code that executes
+
+1784
+00:39:56,280 --> 00:39:59,839
+他们接下来仍然会生成可执行的代码
+
+1785
+00:39:59,839 --> 00:40:03,040
+and produces results like this is never going to change ever
+
+1786
+00:39:59,839 --> 00:40:03,040
+并产生这样的结果，这一点永远都不会改变
+
+1787
+00:40:03,040 --> 00:40:05,720
+because that's how i mean that's how computers work they generate code
+
+1788
+00:40:03,040 --> 00:40:05,720
+因为这就是……我的意思是，这就是计算机的工作方式：生成代码
+
+1789
+00:40:05,720 --> 00:40:06,920
+which then executes
+
+1790
+00:40:05,720 --> 00:40:06,920
+然后执行代码
+
+1791
+00:40:06,920 --> 00:40:08,760
+and so what we need to do and this sort of goes
+
+1792
+00:40:06,920 --> 00:40:08,760
+所以我们需要做的是，这又回到了
+
+1793
+00:40:08,760 --> 00:40:09,880
+goes back to some of the questions
+
+1794
+00:40:08,760 --> 00:40:09,880
+回到了其中一些问题
+
+1795
+00:40:09,880 --> 00:40:12,319
+here is someone still needs to have the oversight
+
+1796
+00:40:09,880 --> 00:40:12,319
+这里仍然需要有人进行监督
+
+1797
+00:40:12,319 --> 00:40:13,079
+and understanding
+
+1798
+00:40:12,319 --> 00:40:13,079
+并理解
+
+1799
+00:40:13,079 --> 00:40:16,040
+and the only way that you get that no matter which version
+
+1800
+00:40:13,079 --> 00:40:16,040
+无论是哪个版本，你都只能通过这种方式获得它
+
+1801
+00:40:16,040 --> 00:40:17,079
+or if it's today
+
+1802
+00:40:16,040 --> 00:40:17,079
+或者如果是今天的
+
+1803
+00:40:17,079 --> 00:40:20,720
+or you know trained on 2021 data or the latest version
+
+1804
+00:40:17,079 --> 00:40:20,720
+或者你知道，它是基于 2021 年的数据训练的，或是最新版本
+
+1805
+00:40:20,720 --> 00:40:23,040
+um you still need to have the ability to quickly
+
+1806
+00:40:20,720 --> 00:40:23,040
+嗯，你仍然需要具备快速
+
+1807
+00:40:23,040 --> 00:40:25,599
+run through and see if the reasoning makes sense or not
+
+1808
+00:40:23,040 --> 00:40:25,599
+检查一遍、看看推理是否合理的能力
+
+1809
+00:40:25,599 --> 00:40:29,440
+because the problem with all of these systems is that they will generate output
+
+1810
+00:40:25,599 --> 00:40:29,440
+因为所有这些系统的问题在于，它们会生成输出
+
+1811
+00:40:29,440 --> 00:40:31,160
+and they will generate numbers
+
+1812
+00:40:29,440 --> 00:40:31,160
+也会生成数字
+
+1813
+00:40:31,160 --> 00:40:36,079
+and they're written in such a way that they will produce something that looks reasonable
+
+1814
+00:40:31,160 --> 00:40:36,079
+而且它们的设计方式会让它们生成看起来合理的内容
+
+1815
+00:40:36,079 --> 00:40:39,160
+but you don't know that until you've actually looked at it if there's six
+
+1816
+00:40:36,079 --> 00:40:39,160
+但你得实际查看之后才知道，是否有六……
+
+1817
+00:40:39,160 --> 00:40:40,000
+people looking at it
+
+1818
+00:40:39,160 --> 00:40:40,000
+看着它的人
+
+1819
+00:40:40,000 --> 00:40:41,119
+and you have more people looking
+
+1820
+00:40:40,000 --> 00:40:41,119
+而且关注它的人越多
+
+1821
+00:40:41,119 --> 00:40:42,560
+at it the probability that
+
+1822
+00:40:41,119 --> 00:40:42,560
+关注它的人越多，那么
+
+1823
+00:40:42,560 --> 00:40:44,800
+six different brains come up with the same problems
+
+1824
+00:40:42,560 --> 00:40:44,800
+六个不同的大脑得出相同问题的概率
+
+1825
+00:40:44,800 --> 00:40:47,480
+and the same errors is much lower than two
+
+1826
+00:40:44,800 --> 00:40:47,480
+以及犯下相同错误的概率，就比两个人低得多
+
+1827
+00:40:47,480 --> 00:40:50,880
+the way to think about ai is that it's an average across everything that is red
+
+1828
+00:40:47,480 --> 00:40:50,880
+理解 AI 的方式是：它是所有标记为红色的事物的平均值
+
+1829
+00:40:50,880 --> 00:40:56,680
+so it's not the most brilliant of us it's the most average of us
+
+1830
+00:40:50,880 --> 00:40:56,680
+所以，它并非我们当中最聪明的，而是我们当中最平庸的
+
+1831
+00:40:56,680 --> 00:40:58,040
+and
+
+1832
+00:40:56,680 --> 00:40:58,040
+还有
+
+1833
+00:40:58,040 --> 00:40:58,760
+so
+
+1834
+00:40:58,040 --> 00:40:58,760
+所以
+
+1835
+00:40:58,760 --> 00:41:05,280
+the point at which ais check ais to produce meaningful output i hope is still very far away
+
+1836
+00:40:58,760 --> 00:41:05,280
+我希望 AI 审核 AI 并产出有意义结果的那一天，还远得很
+
+1837
+00:41:05,280 --> 00:41:07,599
+because we'd be moving backwards
+
+1838
+00:41:05,280 --> 00:41:07,599
+因为那样我们就会倒退
+
+1839
+00:41:07,599 --> 00:41:09,760
+and the way that you ensure
+
+1840
+00:41:07,599 --> 00:41:09,760
+而确保
+
+1841
+00:41:09,760 --> 00:41:12,800
+that we're moving forwards is that we use it as an augmentation
+
+1842
+00:41:09,760 --> 00:41:12,800
+我们不断前进的方式，就是把它用作一种辅助工具
+
+1843
+00:41:12,800 --> 00:41:15,319
+and something that takes away tasks
+
+1844
+00:41:12,800 --> 00:41:15,319
+让它接手那些
+
+1845
+00:41:15,319 --> 00:41:18,160
+which are trivial while hopefully
+
+1846
+00:41:15,319 --> 00:41:18,160
+琐碎的任务，同时希望
+
+1847
+00:41:18,160 --> 00:41:21,040
+giving us enough space to still train our brains so that we can tell the difference
+
+1848
+00:41:18,160 --> 00:41:21,040
+能给我们留出足够的空间，继续锻炼大脑，让我们能够分辨
+
+1849
+00:41:21,040 --> 00:41:22,160
+between right and wrong
+
+1850
+00:41:21,040 --> 00:41:22,160
+是非对错
+
+1851
+00:41:22,160 --> 00:41:27,079
+and then we embed that into processes that make sure that we don't push rubbish out
+
+1852
+00:41:22,160 --> 00:41:27,079
+然后我们把这一点融入流程中，确保不会把垃圾内容发布出去
+
+1853
+00:41:27,079 --> 00:41:27,520
+and
+
+1854
+00:41:27,079 --> 00:41:27,520
+还有
+
+1855
+00:41:27,520 --> 00:41:29,240
+so airplanes have redundant systems
+
+1856
+00:41:27,520 --> 00:41:29,240
+所以飞机都有冗余系统
+
+1857
+00:41:29,240 --> 00:41:32,359
+but the redundant systems individually aren't double programmed
+
+1858
+00:41:29,240 --> 00:41:32,359
+但这些冗余系统并不是各自都经过双重编程的
+
+1859
+00:41:32,359 --> 00:41:36,119
+that's a resilience case that's not a quality control
+
+1860
+00:41:32,359 --> 00:41:36,119
+这属于韧性设计，而不是质量控制
+
+1861
+00:41:36,119 --> 00:41:38,720
+but let's maybe take the detail discussion
+
+1862
+00:41:36,119 --> 00:41:38,720
+不过，我们或许还是来详细讨论一下
+
+1863
+00:41:38,720 --> 00:41:42,010
+okay right thank you very much
+
+1864
+00:41:38,720 --> 00:41:42,010
+好的，没错，非常感谢
+

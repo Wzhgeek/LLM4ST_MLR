@@ -1,0 +1,55 @@
+﻿study_id,record_id,source_type,title,evidence_maturity_level,evidence_maturity_score,evaluation_count,maturity_rationale,reviewer,decision_date
+S01,merged_0002,formal,LiSSA: Toward Generic Traceability Link Recovery Through Retrieval- Augmented Generation,E3,0.6,3,在TransArC等三个公开追踪任务上以P/R/F值和多种基线评测LiSSA，属于离线学术实验，定为E3。,第二位评审者,2026-08-01
+EX1,merged_0004,formal,Embedding Traceability in Large Language Model Code Generation: Towards Trustworthy AI-Augmented Software Engineering,E0,0.0,0,论文只给出将追踪嵌入LLM代码生成的实现蓝图和拟议指标，没有数据或实验结果，定为E0。,第二位评审者,2026-08-01
+S02,merged_0007,formal,Who's Who? LLM-assisted Software Traceability with Architecture Entity Recognition,E3,0.6,5,在五个开源系统的SAD、SAM和代码金标准上重复比较ExArch、ArTEMiS与多种基线，定为E3。,第二位评审者,2026-08-01
+S03,merged_0014,formal,Tracing Domain Services in Application Code using Generative AI,E3,0.6,1,在JAllInOne的40个类和18项领域服务上与VSM比较并做消融，仍是单案例离线实验，定为E3。,第二位评审者,2026-08-01
+S04,merged_0075,formal,An LLM-based Approach to Recover Traceability Links between Security Requirements and Goal Models,E3,0.6,1,在42条需求和37个GRL目标元素上报告P/R/F1，但仅为单一课程案例的离线验证，定为E3。,第二位评审者,2026-08-01
+S05,merged_0077,formal,Evaluating the Use of LLMs for Documentation to Code Traceability,E3,0.6,3,在Unity Catalog和Crawl4AI数据集上比较三种LLM及TF-IDF、BM25、CodeBERT，定为E3。,第二位评审者,2026-08-01
+S06,merged_0079,formal,LinkAnchor: An Autonomous LLM-Based Agent for Issue-to-Commit Link Recovery,E3,0.6,3,在EALink六个Apache项目及六个新GitHub仓库上以Hit@K比较LinkAnchor与四个基线，定为E3。,第二位评审者,2026-08-01
+S07,merged_0110,formal,REST-at: An LLM-Based Tool for Automating Traceability between Requirements and Test Cases,E3,0.6,2,在BTHS公开规范和Goteborg Energi工业数据上比较多种LLM与提示，但仅做离线回放，定为E3。,第二位评审者,2026-08-01
+S08,merged_0256,formal,Supporting High-Level to Low-Level Requirements Coverage Reviewing with Large Language Models,E3,0.6,4,以五个公开需求覆盖数据集比较GPT-3.5和GPT-4的P/R/F1，未使用真实安全关键项目，定为E3。,第二位评审者,2026-08-01
+S09,merged_1114,preprint,Trust-Aware Multi-Agent Traceability: Confidence-Calibrated Knowledge Graphs for Consistent Software Artifact Management,E3,0.6,4,在535个汽车软件制品和6个子系统上完成四组链接、冲突和阈值实验，未见企业试点，定为E3。,第二位评审者,2026-08-01
+S10,merged_1119,preprint,Think Harder and Don't Overlook Your Options: Revisiting Issue-Commit Linking with LLM-Assisted Retrieval,E3,0.6,4,在三个issue-commit数据集上系统比较稀疏、密集检索和多类重排器，属于受控实验，定为E3。,第二位评审者,2026-08-01
+S11,merged_1121,preprint,R2Code: A Self-Reflective LLM Framework for Requirements-to-Code Traceability,E3,0.6,4,在五个公开需求-代码数据集上比较R2Code与IR、密集检索和RAG基线，定为E3。,第二位评审者,2026-08-01
+S12,merged_1133,formal,TraceLLM: Leveraging Large Language Models with Prompt Engineering for Enhanced Requirements Traceability,E3,0.6,5,在CM1、EasyClinic、CCHIT等四个基准和八种LLM上评测TraceLLM，未开展工业部署，定为E3。,第二位评审者,2026-08-01
+S13,merged_1140,formal,Synergistic Enhancement of Requirement-to-Code Traceability: A Framework Combining Large Language Model based Data Augmentation and an Advanced Encoder,E3,0.6,4,在四个公开需求-代码数据集上比较数据增强与编码器组合、基线及消融，定为E3。,第二位评审者,2026-08-01
+S14,merged_1142,preprint,Natural Language-Programming Language Software Traceability Link Recovery Needs More than Textual Similarity,E3,0.6,2,在12个开源项目上比较HGT、Gemini及多种辅助策略并进行统计检验，定为E3。,第二位评审者,2026-08-01
+S15,merged_1143,formal,Generative Goal Modeling,E3,0.6,3,以15份学生访谈文本构建真值，人工核对目标与细化关系并评测生成模型，定为E3。,第二位评审者,2026-08-01
+S16,merged_1144,formal,Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval,E3,0.6,3,在20个开源项目的真实issue-commit分布上比较EALink、EasyLink及检索配置，定为E3。,第二位评审者,2026-08-01
+S17,merged_1148,preprint,"An LLM-Integrated Framework for Completion, Management, and Tracing of STPA",E3,0.6,2,在STPA Handbook模型上人工验收GPT-4o生成的UCA和损失场景，并计算链接指标，定为E3。,第二位评审者,2026-08-01
+S18,merged_1149,formal,Classifier or Prompt: A Case Study on Legal Requirements Traceability,E3,0.6,4,在HIPAA十类条款及GDPR需求上比较Kashif、RICE提示与七个分类基线，定为E3。,第二位评审者,2026-08-01
+S19,merged_1150,formal,On the Impact of Requirements Smells in Prompts: The Case of Automated Traceability,E3,0.6,1,在五个游戏项目上控制注入需求气味，比较GPT-4o和Llama 3.1的追踪表现，定为E3。,第二位评审者,2026-08-01
+S20,merged_1151,preprint,Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks,E3,0.6,2,在伊朗券商SRS和NASA X-38数据上比较Graph-RAG、RAG及多种提示的合规检测指标，定为E3。,第二位评审者,2026-08-01
+S21,merged_1152,formal,Prompts Matter: Insights and Strategies for Prompt Engineering in Automated Software Traceability,E3,0.6,2,在CM1等三个公开追踪数据集上迭代提示，并用分类指标和MAP比较基线，定为E3。,第二位评审者,2026-08-01
+S22,merged_1154,preprint,Specification-Driven Development Benchmark: Security Knowledge Transition,E3,0.6,2,通过隐藏Oracle实验和221项黑盒API测试比较三种安全规格条件，尚无实际组织采用，定为E3。,第二位评审者,2026-08-01
+S23,merged_1156,formal,Code Gradients: Towards Automated Traceability of LLM-Generated Code,E3,0.6,1,在HumanEval 164题和四种模型上比较Code Gradients前后的Pass@1与随机基线，定为E3。,第二位评审者,2026-08-01
+S24,merged_1172,formal,Automated Extraction and Cross-Document Analysis of Aerospace Project Requirements Using LLMs,E3,0.6,1,在6份合成ECSS文档、225条需求上以专家与GPT-5裁决真值并报告统计指标，定为E3。,第二位评审者,2026-08-01
+S25,merged_1185,formal,Agentic RAG for Software Testing with Hybrid Vector-Graph and Multi-Agent Orchestration,E4,0.8,1,"除5000个合成场景外，框架还部署于含25,000个测试用例的SAP S/4HANA迁移项目，定为E4。",第二位评审者,2026-08-01
+S26,merged_1212,formal,Intelligent Traceability to Support Software Maintainability and Accountability,E3,0.6,4,论文报告链接预测的受控比较，并由六名RL专家在两个CPS场景中验证问责框架，定为E3。,第二位评审者,2026-08-01
+S27,merged_1213,formal,Beyond Retrieval: A Study of Using LLM Ensembles for Candidate Filtering in Requirements Traceability,E3,0.6,3,在五个公开基准上比较小型LLM集成过滤器、VSM、LSI、嵌入检索及整体流水线，定为E3。,第二位评审者,2026-08-01
+S28,merged_1214,formal,Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs,E3,0.6,1,在iTrust、eANCI、SMOS和eTour上进行参数组合、基线比较和t检验，定为E3。,第二位评审者,2026-08-01
+S29,merged_1215,preprint,TVR: Automotive System Requirements Traceability Validation and Recovery Through Retrieval-Augmented Generation,E3,0.6,4,"在1,320条利益相关者需求、48条系统需求和2,132个工业链接上离线评测TVR，定为E3。",第二位评审者,2026-08-01
+S30,merged_1218,formal,Navigating through Work Items in Issue Tracking Systems via Natural Language Queries,E3,0.6,2,两组各5名从业者在开源与闭源工作项数据上试用GDI并评价答案和采纳意愿，定为E3。,第二位评审者,2026-08-01
+S31,merged_1219,formal,Generating Context-Aware Learning Materials for Software Security via LLM Agents and Traceability,E3,0.6,1,以25名开发者进行前后测和专家材料对照，并采用非参数检验分析学习效果，定为E3。,第二位评审者,2026-08-01
+S32,merged_1220,formal,Constructing Cross-Level Traceability Links in the Automotive Domain: A Case Study,E2,0.4,1,仅用2条系统需求和6条部件需求演示匹配度，没有真值、基线或系统指标，定为E2。,第二位评审者,2026-08-01
+S33,merged_1222,formal,Can we use LLMs to recover Trace Links between Source Code and Security Requirements?,E3,0.6,1,"对4条安全需求生成Python、Go和C#代码并形成20,736项预期结果，属合成受控实验，定为E3。",第二位评审者,2026-08-01
+S34,merged_1224,preprint,Behavioral Augmentation of UML Class Diagrams: An Empirical Study of Large Language Models for Method Generation,E3,0.6,1,"9种LLM针对21个用例重复10次，生成90张类图和3,373个方法并做统计分析，定为E3。",第二位评审者,2026-08-01
+S35,merged_1225,formal,Tracing Feature Tests to Textual Requirements,E2,0.4,3,在Scholar@UC的67个测试和146条用户故事上做单案例分析，主要依赖开发者判断，定为E2。,第二位评审者,2026-08-01
+S53,merged_1229,formal,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,E3,0.6,1,使用自建铁路信号需求集比较GPT-4、Claude和Gemini；虽报告简略，但已有一致实验比较，定为E3。,第二位评审者,2026-08-01
+S36,merged_1236,formal,DDD-Enforcer: An AI-Powered Multi-Agent System for Real-Time Domain-Driven Design Enforcement,E3,0.6,3,在三个领域RAG数据集和15个合成DDD违规上评测检测与检索，未使用真实代码库，定为E3。,第二位评审者,2026-08-01
+S37,merged_1238,formal,Iterative Requirements-Driven Business Process Modeling and Verification with Large Language Models,E3,0.6,2,在五个公开业务流程案例上将PRBC与三种建模方法比较P/R/F1，并进行静态验证，定为E3。,第二位评审者,2026-08-01
+S38,merged_1241,formal,LusGen: Leveraging LLMs for Safety-Critical Lustre Design and Requirements Traceability,E3,0.6,4,在63个Lustre节点及行业提供的座舱风速数据上比较四种LLM和多种配置，仍为离线评测，定为E3。,第二位评审者,2026-08-01
+S39,merged_1245,formal,Smells Like Trouble: Investigating the Impact of Requirements Quality on LLM-Supported Software Engineering,E3,0.6,1,目前仅完成五个游戏项目上的需求气味注入与追踪对照实验，其余研究仍在计划，定为E3。,第二位评审者,2026-08-01
+S40,merged_1263,formal,A GraphRAG-Based Dual-Path Structural Diffusion Retrieval Framework for Requirement-Code Traceability Link Recovery,E3,0.6,1,在五个需求-代码基准上比较DSDR与传统和RAG基线，并做消融、敏感性及Wilcoxon检验，定为E3。,第二位评审者,2026-08-01
+S41,merged_1264,formal,SELink: A semantic-enhanced modular framework for issue–commit link recovery,E3,0.6,3,在六个Apache项目上以11项排名指标比较SELink、模块消融和多种模型，定为E3。,第二位评审者,2026-08-01
+S42,merged_1266,formal,Requirements Traceability Link Recovery via Retrieval-Augmented Generation,E3,0.6,1,在六个TLR基准上比较四种LLM、提示策略、VSM、LSI及现有方法，定为E3。,第二位评审者,2026-08-01
+S43,merged_1270,formal,HGTRTracer: Advancing Requirements-Code Traceability with LLM-Augmented Attribution Reasoning and Heterogeneous Graph Transformer,E3,0.6,3,在10个开源项目上进行基线、消融、50次重复和非参数检验，定为E3。,第二位评审者,2026-08-01
+S44,merged_1274,formal,Enhancing Requirement-to-Code Traceability via Chain-of-Thought Prompting in Large Language Models,E3,0.6,2,在iTrust、eTour、eANCI和SMOS公开基准上比较CoT+SimCSE与三类基线，定为E3。,第二位评审者,2026-08-01
+S45,merged_1275,formal,Evaluating the Capabilities of LLMs in Traceability Maintenance for Automotive System and Software Requirements,E3,0.6,5,在一个进行中的汽车项目上，以21条系统需求、24条软件需求和行业专家真值开展五项研究，定为E3。,第二位评审者,2026-08-01
+S46,merged_1293,formal,Improving software development traceability with structured prompting,E3,0.6,1,在单一智能家居案例中比较五种LLM的结构化与非结构化提示和追踪度量，定为E3。,第二位评审者,2026-08-01
+S47,merged_1302,preprint,SpecMap: Hierarchical LLM Agent for Datasheet-to-Code Traceability Link Recovery in Systems Engineering,E3,0.6,1,在多个开源嵌入式仓库的154余个规范节上比较SpecMap、mgrep、BM25和不同LLM配置，定为E3。,第二位评审者,2026-08-01
+S48,merged_1441,formal,LHGLink: LLM—Enhanced Heterogeneous Graph Learning for Issue–Issue Link Prediction,E3,0.6,1,"在23个Apache Jira项目、314,293个问题上开展时间切分、基线、消融和统计检验，定为E3。",第二位评审者,2026-08-01
+S49,merged_1486,formal,Requirements Engineering Using Generative AI: Prompts and Prompting Patterns,E3,0.6,2,在PROMISE的621条需求和PURE数据上比较五种提示模式及三种温度，定为E3。,第二位评审者,2026-08-01
+S50,snowball_00068,formal,Leveraging LLMs and Knowledge Graphs to Design Secure Automation Systems,E3,0.6,3,在Cobot ICS和IEC 62443场景上以问答准确率、事实一致性及SPARQL基线评测框架，定为E3。,第二位评审者,2026-08-01
+S51,snowball_00085,formal,Exploring LLMs for Verifying Technical System Specifications Against Requirements,E3,0.6,1,在智能电网SysML/OCL模型上以规则系统为真值，比较多种LLM、复杂度和提示策略，定为E3。,第二位评审者,2026-08-01
+S52,snowball_00095,formal,Supporting Software Maintenance with Dynamically Generated Document Hierarchies,E4,0.8,4,除三个开源项目评测外，HGEN还用于9个工业试点项目，并访谈9名工业合作方，定为E4。,第二位评审者,2026-08-01

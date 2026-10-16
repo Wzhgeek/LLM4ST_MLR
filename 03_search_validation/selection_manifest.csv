@@ -1,0 +1,11 @@
+﻿rank,pnum,bibtex_key,title,venue,publication_type,track,ranking_system,grade
+1,P14,fuch_lissa_2025,LiSSA: Toward Generic Traceability Link Recovery Through Retrieval-Augmented Generation,ICSE 2025,conference,Research Track formal paper,CCF,A
+2,P22,huang_back_2025,Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval,ICSE 2026,conference,Research Track formal paper,CCF,A
+3,P1,hu_lusgen_2026,LusGen: Leveraging LLMs for Safety-Critical Lustre Design and Requirements Traceability,FASE/ETAPS 2026,conference,main formal paper,CCF,B
+4,P5,maass_establishing_2024,Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs,ER 2024,conference,main full paper,ICORE,A
+5,P3,kim_improving_2025,Improving Software Development Traceability with Structured Prompting,Journal of Computer Information Systems,journal,journal article,JCR,Q1/Q2
+6,P7,fuchs_whos_2026,Who's Who? LLM-assisted Software Traceability with Architecture Entity Recognition,ACM Transactions on Autonomous and Adaptive Systems,journal,journal article,CCF + JCR,B + Q1/Q2
+7,P9,zhang_synergistic_2025,Synergistic Enhancement of Requirement-to-Code Traceability: A Framework Combining Large Language Model Based Data Augmentation and an Advanced Encoder,Information and Software Technology,journal,journal article,JCR,Q1
+8,P23,etezadi_classifier_2026,Classifier or Prompt: A Case Study on Legal Requirements Traceability,Empirical Software Engineering,journal,journal article,JCR,Q2
+9,P28,preda_supporting_2024,Supporting High-Level to Low-Level Requirements Coverage Reviewing with Large Language Models,MSR 2024,conference,main full paper,ICORE,A
+10,P34,zheng_selink_2026,SELink: A Semantic-Enhanced Modular Framework for Issue-Commit Link Recovery,Information and Software Technology,journal,journal article,JCR,Q1

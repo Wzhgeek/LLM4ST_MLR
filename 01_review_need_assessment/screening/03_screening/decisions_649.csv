@@ -1,0 +1,650 @@
+﻿record_id,title,year,decision,condition,reason,review_scope
+review_unique_0001,Large Language Models for Software Engineering: A Systematic Literature Review,2024,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0002,{Enhancing Understandability and Transparency of Research Software: Tracing Research to Code},2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0003,Continuous assessment of software traceability,2016,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0004,Software traceability: trends and future directions,2014,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0005,Guidelines for benchmarking automated software traceability techniques,2015,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0006,Semantically enhanced software traceability using deep learning techniques,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0007,Towards practical software traceability,2008,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0008,Mind the gap: assessing the conformance of software traceability to relevant guidelines,2014,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0009,An end-to-end industrial software traceability tool,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0010,Evaluating the Use of LLMs for Documentation to Code Traceability,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0011,A Transparent and Efficient Performance Analysis Approach to Enhance DPDK Observability,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0012,Benchmarking the Overhead of Distributed Tracing Agents,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0013,"Grand challenges, benchmarks, and TraceLab: developing infrastructure for the software traceability research community",2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0014,{Improving the Effectiveness of Traceability Link Recovery using Hierarchical Bayesian Networks},2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0015,Artifact Traceability in DevOps: An Industrial Experience Report,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0016,Generating and visualizing trace link explanations,2022,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0017,The impact of retrieval direction on IR-based traceability link recovery,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0018,Suggesting reviewers of software artifacts using traceability graphs,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0019,From Reports to Bug-Fix Commits: A 10 Years Dataset of Bug-Fixing Activity from 55 Apache's Open Source Projects,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0020,Reviewer Recommendation using Software Artifact Traceability Graphs,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0021,LinkAnchor: An Autonomous LLM-Based Agent for Issue-to-Commit Link Recovery,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0022,Towards Leveraging Fine-Grained Dependencies to Check Requirements Traceability Correctness,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0023,Adaptive user feedback for IR-based traceability recovery,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0024,A retrospective analysis of SAC requirements: engineering track,2016,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0025,"Retrospective, relevance, and trends of SAC requirements engineering track",2016,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0026,Tracing Optimization for Performance Modeling and Regression Detection,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0027,A Survey on the Usage of Eye-Tracking in Computer Programming,2018,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0028,A Survey of Software Log Instrumentation,2021,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0029,Traceability Support for Multi-Lingual Software Projects,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0030,Supporting Program Comprehension through Fast Query response in Large-Scale Systems,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0031,Traceability research: taking the next steps,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0032,Real-World Traceability Patterns for Generative AI Systems: With Insights from the Safa Dataset,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0033,What Evidence We Would Miss If We Do Not Use Grey Literature?,2021,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0034,Sentinel: Autonomous Architectural Governance Through Commit Intelligence Across Multi-Repository Systems,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0035,PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0036,Topic Modeling Using Latent Dirichlet allocation: A Survey,2021,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0037,Improving trace accuracy through data-driven configuration and composition of tracing features,2013,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0038,A visual traceability modeling language,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0039,A survey on teaching of software product lines,2014,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0040,SERS '26: Proceedings of the 2026 1st International Workshop on Software Engineering and Research Software,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0041,An Empirical Study with Function Point Analysis for Software Development Phase Method,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0042,Overcoming language dichotomies: toward effective program comprehension for mobile app development,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0043,Extending Function Point Analysis Effort Estimation Method for Software Development Phase,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0044,Studying developer gaze to empower software engineering research and practice,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0045,Get on the Train or be Left on the Station: Using LLMs for Software Engineering Research,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0046,Patterns for Development of Safety-Critical Systems with Agile: Trace Safety Requirements and Perform Automated Testing,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0047,RAISE '26: Proceedings of the 2nd International Workshop on Requirements engineering for AI-powered SoftwarE,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0048,RAT: A Refactoring-Aware Tool for Tracking Code History,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0049,CodeGRITS: A Research Toolkit for Developer Behavior and Eye Tracking in IDE,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0050,Revealing Software Development Work Patterns with PR-Issue Graph Topologies,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0051,ESEM '24: Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0052,Aide-m\'{e}moire: Improving a Project’s Collective Memory via Pull Request–Issue Links,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0053,EASE '24: Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0054,TEFSE '11: Proceedings of the 6th International Workshop on Traceability in Emerging Forms of Software Engineering,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0055,SYSTOR '25: Proceedings of the 18th ACM International Systems and Storage Conference,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0056,Automated mapping of fault logs to SRS requirements using key-phrase extraction,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0057,Instruct or Interact? Exploring and Eliciting LLMs' Capability in Code Snippet Adaptation through Prompt Engineering,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0058,EASE '23: Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0059,Feature-Trace: Generating Operational Profile and Supporting Testing Prioritization from BDD Features,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0060,Towards a pattern language for construction and maintenance of software architecture traceability links,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0061,Toward an Objective Measure of Developers’ Cognitive Activities,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0062,An interview study of how developers use execution logs in embedded software engineering,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0063,AST '26: Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0064,Understanding the Characteristics of Visual Contents in Open Source Issue Discussions: A Case Study of Jupyter Notebook,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0065,Supporting High-Level to Low-Level Requirements Coverage Reviewing with Large Language Models,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0066,The interplay of design and runtime traceability for non-functional requirements,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0067,EMICS’21: Eye Movements as an Interface to Cognitive State,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0068,PatchNet: a tool for deep patch classification,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0069,Evolution Traceability Roadmap for Business Processes,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0070,Research findings from an industrial trial of a traceability assessment and implementation framework,2016,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0071,Learning to reduce false positives in analytic bug detectors,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0072,SM-prof: a tool to visualise and find cache coherence performance bottlenecks in multiprocessor programs,1995,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0073,How do practitioners perceive assurance cases in safety-critical software systems?,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0074,The use of text retrieval and natural language processing in software engineering,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0075,Aspirations and Practice of ML Model Documentation: Moving the Needle with Nudging and Traceability,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0076,LLM for Mobile: An Initial Roadmap,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0077,Supporting Quality Assurance with Automated Process-Centric Quality Constraints Checking,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0078,Modern debugging: the art of finding a needle in a haystack,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0079,On Combining IR Methods to Improve Bug Localization,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0080,Predicting good configurations for GitHub and stack overflow topic models,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0081,Departures from optimality: understanding human analyst's information foraging in assisted requirements tracing,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0082,Tagging in assisted tracing,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0083,(Dis)Advantages of Lock-free Synchronization Mechanisms for Multicore Embedded Systems,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0084,Recommending and localizing change requests for mobile apps based on user reviews,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0085,Views on Edits to Variational Software,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0086,A publication culture in software engineering (panel),2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0087,Software feature location in practice: debugging aircraft simulation systems,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0088,ICSE-Companion '24: Proceedings of the 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0089,Towards overcoming human analyst fallibility in the requirements tracing process (NIER track),2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0090,SRTuner: effective compiler optimization customization by exposing synergistic relations,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0091,Gray links in the use of requirements traceability,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0092,A transformation instance-based approach to traceability,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0093,Analyzing software licenses in open architecture software systems,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0094,End-to-end features as meta-entities for enabling coordination in geographically distributed software development,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0095,Ontology learning and its application in software-intensive projects,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0096,Emoji-powered Sentiment and Emotion Detection from Software Developers’ Communication Data,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0097,How to effectively use topic models for software engineering tasks? an approach based on genetic algorithms,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0098,A tactic-centric approach for automating traceability of quality concerns,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0099,Traceability and completeness checking for agent-oriented systems,2008,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0100,ECSEE '25: Proceedings of the 6th European Conference on Software Engineering Education,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0101,A forensic approach to incident response,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0102,The ABC of Software Engineering Research,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0103,ICSE '23: Proceedings of the 45th International Conference on Software Engineering: Companion Proceedings,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0104,A design perspective on modularity,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0105,Clustering support for automated tracing,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0106,Session details: Main Track - Information Systems Tools,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0107,"Backmatter (Report abstracts, Paper abstracts, Calendar of Future Events, Call for Participation, Keynotes, Workshops, Tutorials)",2004,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0108,Evolution of Emacs Lisp,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0109,Aveksha: a hardware-software approach for non-intrusive tracing and profiling of wireless embedded systems,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0110,ESEC/FSE 2022: Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0111,CSAE '24: Proceedings of the 8th International Conference on Computer Science and Application Engineering,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0112,ICSE-SEIP '24: Proceedings of the 46th International Conference on Software Engineering: Software Engineering in Practice,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0113,ICSE-NIER '26: Proceedings of the IEEE/ACM 48th International Conference on Software Engineering,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0114,Fast and efficient partial code reordering: taking advantage of dynamic recompilatior,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0115,Capturing dynamic memory reference behavior with adaptive cache topology,1998,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0116,Mixed mode execution with context threading,2005,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0117,Improving cache performance with balanced tag and data paths,1996,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0118,YETI: a graduallY extensible trace interpreter,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0119,ICPE '24 Companion: Companion of the 15th ACM/SPEC International Conference on Performance Engineering,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0120,Contrasting characteristics and cache performance of technical and multi-user commercial workloads,1994,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0121,MSR '24: Proceedings of the 21st International Conference on Mining Software Repositories,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0122,ICSE '24: Proceedings of the IEEE/ACM 46th International Conference on Software Engineering,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0123,CHI '23: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0124,Constructing multiprocessor workload characterizations,1995,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0125,The automatic improvement of locality in storage systems,2005,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0126,Footprints in the cache,1987,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0127,CAIS '26: Proceedings of the ACM Conference on AI and Agentic Systems,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0128,TRAPEDS: producing traces for multicomputers via execution driven simulation,1989,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0129,FSE 2016: Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0130,CHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0131,Optimally profiling and tracing programs,1994,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0132,ASE '22: Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0133,The seventh annual workshop on microprogramming,1974,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0134,"SC-W '24: Proceedings of the SC '24 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis",2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0135,ISSTA 2023: Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0136,"ASPLOS '25: Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2",2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0137,"{SoK: Systematizing Software Artifacts Traceability via Associations, Techniques, and Applications}",2026,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0138,{The Impact of Traceability on Software Maintenance and Evolution: A Mapping Study},2021,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0139,Machine learning approaches for automated software traceability: A systematic literature review,2025,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0140,A Systematic Literature Review of Software Traceability Links Automation Techniques; [软件跟踪链自动化技术研究综述],2023,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0141,Applications of natural language processing in software traceability: A systematic mapping study?,2023,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0142,A Systematic Mapping Study of Machine Learning Techniques Applied to Software Traceability,2023,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0143,Applications of Natural Language Processing in Software Traceability: A Systematic Mapping Study,2022,EXCLUDE,E5,重复、预印本、早期版本或同一研究的替代报告,题名、关键词与摘要；必要时核查来源材料
+review_unique_0144,Empirical studies on software traceability: A mapping study,2021,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0145,Beyond the Systematic: Forecasting Importance and Emergence of Research Areas in Applications of Software Traceability Using NLP,2024,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0146,A Survey-driven Feature Model for Software Traceability Approaches,2022,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0147,From Descriptive to Predictive: Forecasting Emerging Research Areas in Software Traceability Using NLP from Systematic Studies.,2023,EXCLUDE,E5,重复、预印本、早期版本或同一研究的替代报告,题名、关键词与摘要；必要时核查来源材料
+review_unique_0148,Why don’t we trace? A study on the barriers to software traceability in practice,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0149,Towards an Intelligent System for Software Traceability Datasets Generation,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0150,Software traceability in the automotive domain: Challenges and solutions,2019,EXCLUDE,E5,重复、预印本、早期版本或同一研究的替代报告,题名、关键词与摘要；必要时核查来源材料
+review_unique_0151,Software traceability in the automotive domain: Challenges and solutions,2018,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0152,Recovering from a decade: a systematic mapping of information retrieval approaches to software traceability,2014,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0153,Achievements and challenges in state-of-the-art software traceability between test and code artifacts,2014,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0154,A Comprehensive Survey on Software as a Service (SaaS) Transformation for the Automotive Systems,2023,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0155,"Datasets from Fifteen Years of Automated Requirements Traceability Research: Current State, Characteristics, and Quality",2017,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0156,IR in software traceability: From a bird's eye view,2013,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0157,Traceability establishment and visualization of Software Artefacts in DevOps Practice: A survey,2019,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0158,Multilevel Traceability Links Establishments Between SOFL Formal Specifications and Java Codes Using Multi-dimensional Similarity Measures,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0159,A comparison of software product line traceability approaches from end-to-end traceability perspectives,2014,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0160,A systematic literature review of issue-based requirement traceability,2023,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0161,A literature review of automatic traceability links recovery for software change impact analysis,2020,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0162,A systematic review of requirement traceability techniques and tools,2017,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0163,Software product lines traceability: A systematic mapping study,2017,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0164,The need for traceability in heterogeneous systems: a systematic literature review,2017,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0165,Requirements traceability technologies and technology transfer decision support: A systematic review,2018,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0166,Exploring Traceability Techniques on Software Engineering: A Review and Future Directions,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0167,A Systematic Mapping Review: Tracking the Relationships Between Software Artifacts using NLP,2025,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0168,Towards Achieving Effective Traceability Management Between And Within Software Artifacts,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0169,Requirements for Traceability Approaches: A Systematic Literature Review,2024,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0170,Software traceability: a roadmap,2005,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0171,A Mapping Study on Software Artifacts Traceability: Review Protocol,2013,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0172,Comparative Study of Requirements Traceability in Facing Requirements Change: Systematic Literature Study and Survey,2019,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0173,A Systematic Mapping Study on Quality Attribute Traceability,2022,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0174,Improving software traceability tools and processes,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0175,A study on the effect of traceability links in software maintenance,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0176,Model-driven engineering as a new landscape for traceability management: A systematic literature review,2012,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0177,Empirical studies in software and systems traceability,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0178,A systematic literature review of pre-requirements specification traceability,2024,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0179,RSTrace plus : Reviewer suggestion using software artifact traceability graphs,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0180,Advancements in bug traceability: A systematic mapping study,2024,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0181,Applications of Machine Learning in Requirements Traceability: A Systematic Mapping Study (S).,2023,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0182,A systematic mapping study of information retrieval approaches applied to requirements trace recovery.,2022,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0183,A review for improving software change using traceability model with test effort estimation,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0184,Requirements Traceability Tools and Issues in Very Small Entities: A Systematic Literature Review and a Tool Proposal,2023,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0185,Mapping Study on Traceability Between BPMN Models and Source Code,2022,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0186,Ontology-based NLP tool for tracing software requirements and conceptual models: an empirical study,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0187,Eye movements in software traceability link recovery,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0188,Evolving software trace links between requirements and source code,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0189,Software traceability tools: Overview and categorisation,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0190,Software and systems traceability,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0191,Embedding-Based Semantic Tracing: Mapping Concepts to Domains in Software Artifacts,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0192,A Systematic Review of Tracing Solutions in Software Product Lines,1901,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0193,What have we learnt from the challenges of (semi‐) automated requirements traceability? A discussion on blockchain applicability,2021,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0194,Information retrieval based requirement traceability recovery approaches-a systematic literature review,2018,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0195,ON THE PROVENANCE OF SOFTWARE SYSTEMS: AUTOMATING SOFTWARE TRACEABILITY WITH,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0196,Assessing traceability of software engineering artifacts,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0197,A Multivocal Mapping Study on Artifact Traceability Complexities in Practice.,2025,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0198,TraceBoK: Toward a software requirements traceability body of knowledge,2016,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0199,"Traceability in DevOps: Expectations, Challenges and Opportunities",2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0200,A document-based software traceability to support change impact analysis of object-oriented software,2000,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0201,An overview of traceability: Definitions and techniques,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0202,Recovering traceability links between code and documentation: a retrospective,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0203,Software Traceability Across SDLC: A Comprehensive Survey,2024,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0204,Auxiliary Artifacts in Requirements Traceability: A Systematic Mapping Study,2025,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0205,Natural Language-Programming Language Software Traceability Link Recovery Needs More than Textual Similarity,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0206,Imposing software traceability and configuration management for change tolerance in software production,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0207,The quest for ubiquity: A roadmap for software and systems traceability research,2012,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0208,Medical device software traceability,2011,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0209,Towards human values traceability in software: A goal modeling approach,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0210,Towards gamification in software traceability: Between test and code artifacts,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0211,Monthes: A compact software traceability dataset,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0212,A Software Traceability Approach To Support Requirement Based Test Coverage Analysis,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0213,Med-Trace: traceability assessment method for medical device software development,2011,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0214,Prompts matter: Insights and strategies for prompt engineering in automated software traceability,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0215,Towards Holistic Traceability Solution: From Systematic Literature Review to Proposed Traceability Model,2014,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0216,Semantic software traceability using property listing task: Pilot study,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0217,Facilitating software traceability understanding with ENVISION,2008,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0218,Datasets in Software Traceability Research,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0219,Domain knowledge discovery guided by software trace links,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0220,Investigating the perceived value of software traceability in practice,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0221,Software Traceability with Explainable Pretrained Language Models: Tracing GitHub Issues to Commits,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0222,A Software Tag Generation System to Realize Software Traceability,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0223,Engineering a DSL for software traceability,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0224,Enhancing automated software traceability by transfer learning from open-world data,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0225,System and Application Performance Analysis Patterns Using Software Tracing,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0226,A Preliminary Study of Software Traceability Referance Model Using Feature Modeling,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0227,Software Traceability Body of Knowledge,,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0228,On the use of eye tracking in software traceability,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0229,DEEP LEARNING MODELS FOR ENTERPRISE SOFTWARE TRACEABILITY,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0230,The software verification and validation process for a PLC-based engineered safety features-component control system in nuclear power plants,2004,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0231,The software V\&V tasks for a safety-critical software based protection system in nuclear power plants,2005,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0232,"Proceedings - 2017 IEEE/ACM 39th International Conference on Software Engineering, ICSE 2017",2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0233,An empirical study of lean and agile influences in software configuration management,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0234,Unlocking the Potential of the Prompt Engineering Paradigm in Software Engineering: A Systematic Literature Review,2025,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0235,Towards a knowledge base for software developers to choose suitable traceability techniques,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0236,"Proceedings - 2018 5th International Workshop on Artificial Intelligence for Requirements Engineering, AIRE 2018",2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0237,Tracing the linkage of several Unified Modelling Language diagrams in software modelling based on best practices,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0238,"25th International Conference on Fundamental Approaches to Software Engineering, FASE 2022, held as part of the annual European Joint Conferences on Theory and Practice of Software, ETAPS 2022",2022,EXCLUDE,E4,会议录、目录、合集或其他不构成独立文献综合的记录,题名、关键词与摘要；必要时核查来源材料
+review_unique_0239,Developing critical aerospace embedded systems with distributed teams using agile methodologies,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0240,Electronics/Mechatronics Data Management in Railway Manufacturing: A Review of Product Lifecycle Management-Based Strategies for Digital Continuity and Lifecycle Configuration Control,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0241,TRACES: A Lightweight Browser for Liquid Chromatography–Multiple Reaction Monitoring–Mass Spectrometry Chromatograms,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0242,Multiparametric High Content Analysis for assessment of neurotoxicity in differentiated neuronal cell lines and human embryonic stem cell-derived neurons,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0243,Economic challenges of using innovative medical devices in major public health pathologies: Example of acute ischemic stroke management by mechanical thrombectomy,2019,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0244,A systematic mapping study of information retrieval-based requirements traceability methods,2025,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0245,MPLinker: Multi-template Prompt-tuning with adversarial training for Issue–commit Link recovery,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0246,"How digital solutions are transforming food traceability: a systematic literature review of managerial perspectives, advantages and challenges",2026,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0247,A review of code reviewer recommendation studies: Challenges and future directions,2021,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0248,Applying a smoothing filter to improve IR-based traceability recovery processes: An empirical investigation,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0249,Three-dimensional imaging for facial vitiligo: Results from a phase 2 randomized controlled trial investigating upadacitinib in patients with vitiligo,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0250,Gender differences in how physicians access and process information,2019,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0251,Measuring and interpreting performances of HPC applications with dependent tasks,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0252,Econometric Software,2001,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0253,"The evolution of IoT Malwares, from 2008 to 2019: Survey, taxonomy, process simulator and perspectives",2021,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0254,Flexible high resolution-mass spectrometry approach for screening new psychoactive substances in urban wastewater,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0255,Reconstructing software evolution: Traceability from code commits to fault manifestation in CI,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0256,"Tectono-magmatic evolution of the Ambela granitic complex, Northwest Himalayas, Pakistan: Insights from LA-ICP-MS U–Pb zircon geochronology, Lu–Hf isotope, and trace element geochemistry",2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0257,Incidence of Achalasia in South Australia Based on Esophageal Manometry Findings,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0258,Influence of the compactness of the surface corrosion product film on the corrosion behavior of WE43 Mg alloy in different media,2026,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0259,A systematic literature review for APT detection and Effective Cyber Situational Awareness (ECSA) conceptual model,2023,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0260,ABS0684 THE IMPACT OF LIFESTYLE HABITS ON DISEASE ACTIVITY AND IMMUNE PROFILES IN MYOSITIS PATIENTS: A COMPREHENSIVE STUDY,2025,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0261,Monitoring home mechanical ventilation: Polysomnography or built-in ventilator software?,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0262,Focusing the ecosystem lens on innovation studies,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0263,"Case study of fluorite mineralization using traditional and laser spectroscopic techniques, homret akarem area south eastern desert, Egypt",2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0264,"The SEOSS 33 dataset — Requirements, bug reports, code history, and trace links for entire projects",2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0265,Landscaping systematic mapping studies in software engineering: A tertiary study,2019,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0266,Chapter 6 - Latent Dirichlet Allocation: Extracting Topics from Software Engineering Data,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0267,An intense review on the latest advancements of Earth Air Heat Exchangers,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0268,Performance study on a novel greenhouse cover structure with beam split and heat control function,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0269,Preface,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0270,Large language models in breast cancer reconstruction: A framework for patient-specific recovery and predictive insights,2025,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0271,Autopsy,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0272,"Paleoproterozoic Iron Oxide Apatite (IOA) and Iron Oxide-Copper-Gold (IOCG) mineralization in the East Arm Basin, Northwest Territories, Canada",2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0273,Modelling and traceability for computationally-intensive precision engineering and metrology,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0274,SBFSelector:,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0275,"Processes, methods, and tools in model-based engineering—A qualitative multiple-case study",2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0276,Multi-type requirements traceability prediction by code data augmentation and fine-tuning MS-CodeBERT,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0277,ABS0665 CORRELATION BETWEEN Ro52 ANTIBODY POSITIVITY AND ELECTROCARDIOGRAPHIC ALTERATIONS IN PATIENTS WITH IDIOPATHIC INFLAMMATORY MYOPATHY,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0278,Analysis of software developers’ coding behavior: A survey of visualization analysis techniques using eye trackers,2022,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0279,An empirical study on the state-of-the-art methods for requirement-to-code traceability link recovery,2024,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0280,A dataset of windows malware execution traces,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0281,Suprasubduction geochemical dataset of ultramafic minerals in Southern Iran: The Ab-Bid complex,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0282,Tracing known security vulnerabilities in software repositories – A Semantic Web enabled modeling approach,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0283,Mass spectrometry quantitation of immunosuppressive drugs in clinical specimens using online solid-phase extraction and accurate-mass full scan-single ion monitoring,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0284,A bibliometric assessment of software engineering scholars and institutions (2010–2017),2019,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0285,Visual conceptualizations and models of science,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0286,Tracing Safety- and Security-Critical Artifacts and Where to Find Them,2026,INCLUDE,I1,以软件、需求或软件制品可追溯性为主要研究对象，并对相关研究进行系统性或结构化综合,题名、关键词与摘要；必要时核查来源材料
+review_unique_0287,"Cost optimization approaches for scientific workflow scheduling in cloud and grid computing: A review, classifications, and open issues",2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0288,SELink: A semantic-enhanced modular framework for issue–commit link recovery,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0289,Econometric Software,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0290,The shape of things to come. Mapping spatiotemporal progression of striatal morphology in Huntington disease: The IMAGE-HD study,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0291,ABS0663 A COMPREHENSIVE CARE PROGRAM FOR THE EARLY CANCER DETECTION IN PATIENTS WITH IDIOPATHIC INFLAMMATORY MYOPATHIES,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0292,A survey of Canadian dairy nutritionists to assess current trace element formulation practices,2023,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0293,Home paediatric CPAP/NIV: the basics,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0294,A systematic review of requirements change management,2018,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0295,A Tool to Manage Traceability on Several Models and Its Use Case,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0296,High-resolution mass spectrometry measurement of N-terminal carbamylated hemoglobin as a potential marker for chronic diseases with elevated blood urea levels,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0297,VATAL: Virtual Adversarial Training and Adaptive Hybrid Loss based on pre-trained language model for issue-commit link recovery,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0298,Quality assessment for software data validation in automotive industry: A systematic literature review,2026,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0299,Active Learning with Pre-trained Language Models for Named Entity Recognition in Requirements Engineering,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0300,Illicit drug trafficking via postal services: A scoping review of economic-criminological context and estimation methods,2025,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0301,Chemical speciation of essential trace elements in edible bamboo shoots from different varieties and sampling locations by HPLC – ICP-MS and HPLC - electrospray MS/MS,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0302,Carotid artery stiffness and risk of vascular events and mortality: the REGICOR study,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0303,Managing security evidence in safety-critical organizations,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0304,Crowdsourcing user reviews to support the evolution of mobile apps,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0305,Engineering the future of organ transplantation: A comprehensive review of 3D bioprinting advances for organ bioengineering,2026,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0306,Modelling information flow and sharing matrix for fresh food supply chains,2017,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0307,From Turing Test to Chinese Room Argument: How to Apply Artificial Intelligence in Aviation,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0308,An Ontology-based Approach to Support for Requirements Traceability in Agile Development,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0309,Aftercare of Childhood Cancer Survivors in Switzerland: Protocol for a Prospective Multicenter Observational Study,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0310,Some issues of traceability in the field of surface topography measurement,2004,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0311,"The HYDRUS model for soil and water management: A brief review of capabilities, trends, and future directions",2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0312,A trace-driven simulation study of two-level cache systems,1995,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0313,A systematic mapping study on text analysis techniques in software architecture,2018,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0314,Table of Contents - 2020,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0315,Locating and categorizing inefficient communication patterns in HPC systems using inter-process communication traces,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0316,Accuracy of three-dimensional soft tissue prediction in orthognathic cases using three-dimensional soft tissue scan implemented in 3D surgical planning software,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0317,Association Between Coronary Artery Disease Genetic Variants and Subclinical Atherosclerosis: An Association Study and Meta-analysis,2015,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0318,Autonomous Blockchain Organization for Sustainable Software and Execution History,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0319,Performance testing of LiDAR exploitation software,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0320,These ones are small; those ones are far away: A comparison of macro and in-situ micro tensile testing techniques,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0321,Does bacteriology laboratory automation reduce time to results and increase quality management?,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0322,Fast modeling L2 cache reuse distance histograms using combined locality information from software traces,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0323,Medical device standards' requirements for traceability during the software development lifecycle and implementation of a traceability assessment model,2013,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0324,Using entropy measures for comparison of software traces,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0325,Study on the effect of anti-reflection film on the spectral performance of the spectral splitting covering applied to greenhouse,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0326,The vision of on-demand architectural knowledge systems as a decision-making companion,2023,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0327,Behaviour driven development: A systematic mapping study,2023,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0328,Evaluation of landfill leachate biodegradability using IOT through geotracking sensor based drone surveying,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0329,Initiatives and challenges of using gamification in software engineering: A Systematic Mapping,2021,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0330,SAA: A framework for improving the software development process via visualization-based software analytics,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0331,Phase sensitivity in single-shot speckle interferometry using a custom integrating glass-sphere for the measurement of femtometric wavelength change,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0332,Effective reliability verification of a technical subsystem through prior information generated by component tests,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0333,"Unveiling micro-foundations of digital transformation: Cognitive models, routines, and organizational structures in agri-food SMEs",2023,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0334,LARK: License analysis with RAG and knowledge graphs,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0335,Neural network painting defect classification using Karhunen–Loeve transformation,1999,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0336,Atrioventricular Coupling in Infants and Children Assessed by Three-Dimensional Echocardiography,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0337,Left Ventricular Longitudinal Strain Measured by Speckle Tracking as a Predictor of the Decrease in Left Ventricular Deformation in Children with Congenital Stenosis of the Aorta or Coarctation of the Aorta,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0338,Proterozoic highly siderophile element enrichment of the Kaapvaal cratonic Archean mantle,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0339,Trigger issues with a life support device in children,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0340,"Knowledge transfer, translation and transformation in the work of information technology architects",2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0341,Apoplastic antioxidant enzyme responses to chronic free-air ozone exposure in two different ozone-sensitive wheat cultivars,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0342,Relationship between calf muscle cross-sectional area and ankle fracture,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0343,Leveraging textual properties of bug reports to localize relevant source files,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0344,"Cybersecurity Digital Twins: Concept, blueprint, and challenges for multi-ownership digital service chains",2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0345,A dual graph neural networks model using sequence embedding as graph nodes for vulnerability detection,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0346,SA3—a tool for supporting adaptable software architecture generation for embedded systems,2003,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0347,NADPH and NAC synergistically inhibits chronic ocular hypertension-induced neurodegeneration and neuroinflammation through regulating p38/MAPK pathway and peroxidation,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0348,Geochemical evolution of soils on Reunion Island,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0349,Relationships between clay mineralogy and the hardsetting properties of soils in the Carnarvon horticultural district of Western Australia,2002,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0350,DTraComp: Comparing distributed execution traces for understanding intermittent latency sources,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0351,Tocilizumab does not ameliorate inflammation-induced left ventricular dysfunction in a collagen-induced arthritis rat model,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0352,A novel data-driven approach to support decision-making during production scale-up of assembly systems,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0353,"Anomalous sea-floor backscatter patterns in methane venting areas, Dnepr paleo-delta, NW Black Sea",2008,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0354,Puerarin alleviates aggravated sympathoexcitatory response induced by myocardial ischemia via regulating P2X3 receptor in rat superior cervical ganglia,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0355,Smart meter enabled water end-use demand data: platform for the enhanced infrastructure planning of contemporary urban water supply networks,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0356,Just enough semantics: An information theoretic approach for IR-based software bug localization,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0357,Greenhouse cover plate with dimming and temperature control function,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0358,Speeding up global illumination computations using programmable GPUs,2005,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0359,Software development methodology for computer based I\&C systems of prototype fast breeder reactor,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0360,Inter-comparison of North American residential energy analysis tools,2004,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0361,Damage detection of lightweight concrete dual systems reinforced with GFRP bars considering various building heights and earthquake intensities,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0362,In search of early life: Carbonate veins in Archean metamorphic rocks as potential hosts of biomarkers,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0363,Spatio-temporal evolution of long-range transported mineral desert dust properties over rural and urban sites in Central Europe,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0364,Actions of oxytocin and interactions with glutamate on spontaneous and evoked dorsal spinal cord neuronal activities,2003,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0365,SMIRK: A machine learning-based pedestrian automatic emergency braking system with a complete safety case,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0366,Plasticity of the human vestibulo-ocular reflex during off-vertical axis rotation,2016,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0367,Architecting software monitors for control-flow anomaly detection through large language models and conformance checking,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0368,Automatic clustering constraints derivation from object-oriented software using weighted complex network with graph theory analysis,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0369,"Geometry and segmentation of an evaporite-detached normal fault array: 3D seismic analysis of the southern Bremstein Fault Complex, offshore mid-Norway",2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0370,Ny-Ålesund-oriented organic pollutants in sewage effluent and receiving seawater in the Arctic region of Kongsfjorden,2020,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0371,Investigation of irradiance efficiency for LED phototherapy with different arrays,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0372,Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0373,A discussion on potentials of saving energy use for commercial buildings in Hong Kong,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0374,Mapping the Whole-Body Muscle Activity of Hydra vulgaris,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0375,Challenges for Modeling Energy Use in High-rise Office Buildings in Hong Kong,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0376,UGR‘16: A new dataset for the evaluation of cyclostationarity-based network IDSs,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0377,Three-dimensional echocardiography in congenital heart disease,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0378,Foreword,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0379,Calcium-carbon interactions via citric acid activation and lanthanum modification of high-Ca fly ash: A novel route for saline-alkali land reclamation,2025,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0380,Recommendations for the Assessment of Carotid Arterial Plaque by Ultrasound for the Characterization of Atherosclerosis and Evaluation of Cardiovascular Risk: From the American Society of Echocardiography,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0381,"Rock damage assessment in a large unstable slope from microseismic monitoring - MMG Century mine (Queensland, Australia) case study",2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0382,"Sulfur isotope and trace element constraints on the conditions of pyrite formation from the Diantou-Shuanglong sandstone-hosted uranium deposit, Ordos Basin, China: Implications for uranium mineralization",2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0383,Choline alleviates cognitive impairment in sleep-deprived young mice via reducing neuroinflammation and altering phospholipidomic profile,2025,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0384,Eye gaze and interaction contexts for change tasks – Observations and potential,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0385,Appendix 15 - A Suggested “Standard” for Achieving Functional Safety,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0386,Eye tracking technologies to visualize secure coding behavior,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0387,Predictors of moderate ischemic mitral regurgitation improvement after off-pump coronary artery bypass,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0388,Temporal arsenic form changes dynamics and accumulation patterns in Tilia cordata Mill. seedlings: Insights into metalloid transformation and tolerance mechanisms in trees,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0389,Framework and tooling proposals for Agile certification of safety-critical embedded software in avionic systems,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0390,Do students expect compensation for wage risk?,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0391,On the effectiveness of automated tracing from model changes to project issues,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0392,Effect of continuous and discontinuous non-proportional loadings on formability of DX54 sheet material,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0393,SIRT6 activates PPARα to improve doxorubicin-induced myocardial cell aging and damage,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0394,Culture-based and molecular investigation of antibiotic and metal resistance in a semi-arid agricultural soil repeatedly amended with urban sewage sludge,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0395,"Automated data provenance capture in spreadsheets, with case studies",2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0396,Lessons learned in outpatient initiation and prescription of paediatric APAP,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0397,Bone,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0398,Efficiency modeling and exploration of 64-bit ARM compute nodes for exascale,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0399,GPR37 promotes cancer growth by binding to CDK6 and represents a new theranostic target in lung adenocarcinoma,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0400,"Microstructural, trace element and geochronological characterization of TiO2 polymorphs and implications for mineral exploration",2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0401,The effect of nature of raw coal on the adhesion of bacteria to coal surface,2003,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0402,"Mineral paragenesis of the Anfangba gold deposit, western Qinling Orogen, China: Implication for coupled dissolution-reprecipitation reactions and the liquid bismuth collector model",2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0403,Copper removal from aqueous solutions using nano-scale diboron trioxide/titanium dioxide (B2O3/TiO2) adsorbent,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0404,Viral delivery of multiple miRNAs promotes retinal ganglion cell survival and functional preservation after optic nerve crush injury,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0405,"Indium mineralization and genesis of the Bainiuchang Ag–Sn–polymetallic deposit in southeast Yunnan, China: Evidence from mineral chemistry and U–Pb geochronology",2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0406,Chapter 1 - Reverse-Engineering Software Behavior,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0407,Isolation of human and mouse HMG2a cDNAs: evidence for an HMG2a-specific 3′ untranslated region,1997,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0408,Multichamber Strain Characterization Is a Robust Prognosticator for Both Bicuspid and Tricuspid Aortic Stenosis,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0409,Solar-thermal conversion investigation using surface partition method for a cavity receiver with helical pipe,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0410,A multivariate analysis of the energy intensity of sprawl versus compact living in the U.S. for 2003,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0411,"GitHub repositories with links to academic papers: Public access, traceability, and evolution",2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0412,"Study of metal and organic contaminants transported by microplastics in the Lebanese coastal environment using ICP MS, GC-MS, and LC-MS",2023,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0413,"Non invasive jacketed telemetry in socially-housed rats for a combined assessment of respiratory system, electrocardiogram and activity using the DECRO system",2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0414,Optimum design of V-trough concentrator for photovoltaic applications,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0415,"Synchronised visualisation of software process and product artefacts: Concept, design and prototype implementation",2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0416,Evaluating the energy and carbon reductions resulting from resource-efficient household stock,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0417,Kriper: A blockchain network with permissioned storage,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0418,"Thermal properties of n-pentadecane, n-heptadecane and n-nonadecane in the solid/liquid phase change region",2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0419,Digital three-dimensional models of Drosophila development,2004,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0420,"Ultraviolet-photoluminescence and trace element analyses in Ga-rich sphalerite from the Djebel Gustar Zn-Pb deposit, Algeria",2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0421,Evaluating building energy model performance of LEED buildings: Identifying potential sources of error through aggregate analysis,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0422,Simultaneous detection of 93 anabolic androgenic steroids in dietary supplements using gas chromatography tandem mass spectrometry,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0423,Challenges in extracting and characterizing electrolytes from automotive lithium-ion cells,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0424,The role of process engineering in the digital transformation,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0425,Effect of occlusal vertical dimension on lip positions at smile,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0426,"Development of a UHPLC-MS/MS method to enhance the detection of Glyphosate, AMPA and Glufosinate at sub-microgram / L levels in water samples",2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0427,Adapting Behavior Driven Development (BDD) for large-scale software systems,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0428,CHAPTER 15 - Debug Architecture,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0429,Letting The User Talk: New Insights Into Cartographic Products,1995,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0430,Hydrous minerals are sinks for first row transition elements in the mantle: An experimental partitioning study,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0431,"Unusual HREE enrichment and mineralization age in the Jialu deposit from the Qinling Orogen, central China",2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0432,An empirical study on the effect of 3D visualization for project tasks and resources,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0433,Opening a SWATH Window on Posttranslational Modifications: Automated Pursuit of Modified Peptides*,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0434,Goal-directed fluid management with trans-oesophageal Doppler,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0435,Software defect prediction based on enhanced metaheuristic feature selection optimization and a hybrid deep neural network,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0436,Parallel Deep Learning with a hybrid BP-PSO framework for feature extraction and malware classification,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0437,Neurite outgrowth in human induced pluripotent stem cell-derived neurons as a high-throughput screen for developmental neurotoxicity or neurotoxicity,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0438,Sub-solidus phase relations and a structure determination of new phases in the CaO–La2O3–TiO2 system,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0439,Performance evaluation of complex multi-thread applications through execution path analysis,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0440,Structural and Functional Insights into the Cryoprotection of Membranes by the Intrinsically Disordered Dehydrins*,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0441,Using heuristics to estimate an appropriate number of latent topics in source code analysis,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0442,Smart meters for enhanced water supply network modelling and infrastructure planning,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0443,QT dynamics early after exercise as a predictor of mortality,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0444,Performance '81,1982,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0445,Visualization Techniques in Computed Tomographic Coronary Angiography,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0446,On the use of developers’ context for automatic refactoring of software anti-patterns,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0447,"Electron back-scattered diffraction and LA-ICP-MS analysis of pyrite from the Dahu lodegold deposit, southern North China craton: Insights into geochemistry and distribution of trace element connection to microstructure of pyrite",2019,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0448,Fibrous Cap Thickness Predicts Stable Coronary Plaque Progression: Early Clinical Validation of a Semiautomated OCT Technology,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0449,The analysis of fracture toughness and fracture mechanisms of TC4 alloy at different temperatures,2026,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0450,"Mineralogy, petrology, geochemistry and U-Pb zircon age of Upper Cretaceous bauxites from Jajce, Bosnia and Herzegovina",2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0451,Chapter 18 - SCADA and smart energy grid control automation,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0452,The effects of nanometric nickel (n-Ni) catalyst on the dehydrogenation and rehydrogenation behavior of ball milled lithium alanate (LiAlH4),2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0453,Efficient large-scale heterogeneous debugging using dynamic tracing,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0454,Innovative ways for using gStudy to orchestrate and research social aspects of self-regulated learning,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0455,Age and rate of weathering determined using uranium-series isotopes: Testing various approaches,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0456,On the structure and function of Sorghum bicolor CHIP (carboxyl terminus of Hsc70-interacting protein): A link between chaperone and proteasome systems,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0457,"14 - Neuroengineering: History, modeling, and deliverables",2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0458,A flexible communication stack design for improved software development on industrial testbeds and simulators,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0459,Leveraging product line engineering for the development of domain-specific metamodeling languages,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0460,A comprehensive evaluation of SZZ Variants through a developer-informed oracle,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0461,"Ore-forming environment of Pb−Zn mineralization related to granite porphyry at Huangshaping skarn deposit, Nanling Range, South China",2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0462,Mechanical response and crack propagation in Si/C composite electrodes during electrochemical cycling: the critical influence of polymeric binders,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0463,Working set measurements based on sampled reference string information,1981,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0464,Chapter 15 - Debug Architecture,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0465,Specific metabolites in the medial prefrontal cortex are associated with the neurocognitive deficits in schizophrenia: A preliminary study,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0466,Efficient refactoring scheduling based on partial order reduction,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0467,Establishment of a Diagnostic Method for Pelvic Sentinel Lymph Node Metastasis by Contrast-Enhanced Ultrasound in Uterine Cancer,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0468,Developmental immunotoxicity of dexamethasone: comparison of fetal versus adult exposures,2003,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0469,Insertion of the full-length calcium channel α1S subunit into triads of skeletal muscle in vitro,2000,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0470,Alignment and granularity of requirements and architecture in agile development: A functional perspective,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0471,TRPV2 inhibitor tranilast prevents atrial fibrillation in rat models of pulmonary hypertension,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0472,Intestinal microbiota-mediated serum pharmacochemistry reveals hepatoprotective metabolites of Platycodonis Radix against APAP-induced liver injury,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0473,Improved DiOlistic labelling technique for neurons in situ: Detailed visualisation of dendritic spines and concurrent histochemical-detection in fixed tissue,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0474,Full Issue,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0475,Bibliography,1983,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0476,Transitioning international software engineering standards to academia: Analyzing the results of the adoption of ISO/IEC 29110 in four Mexican universities,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0477,ProCon: An automated process-centric quality constraints checking framework,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0478,Dynamic reconstruction of the orophanryngeal swallow using computer based animation,1996,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0479,Chapter 8 - The Discipline of System Design,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0480,Doppler sonar analysis of swallowing sounds in normal pediatric individuals,2009,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0481,Chapter 4 - An ontology for multi-paradigm modelling,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0482,"Lymphatic and blood vessels in scleroderma skin, a morphometric analysis",2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0483,Issues in the definition of a project support environment reference model,1993,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0484,Effect of reduced visual acuity on precision of two-dimensional tracing movements,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0485,ServiceAnomaly: An anomaly detection approach in microservices using distributed traces and profiling metrics,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0486,InfraFair: Infrastructure cost allocation,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0487,Modification of biomarkers in pyrogenic organic matter during the initial phase of charcoal biodegradation in soils,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0488,Interactive computer software development for leaf area measurement,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0489,Strain Imaging in Cardio-Oncology,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0490,Decomposition behavior of unmilled and ball milled lithium alanate (LiAlH4) including long-term storage and moisture effects,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0491,Regulatory T cell differentiation is controlled by αKG-induced alterations in mitochondrial metabolism and lipid homeostasis,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0492,Glossary,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0493,A Combination of G Protein–Coupled Receptor Modulators Protects Photoreceptors from Degeneration,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0494,Graphene oxide accelerates TGFβ-mediated epithelial-mesenchymal transition and stimulates pro-inflammatory immune response in amniotic epithelial cells,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0495,Improving cache performance with Full-Map Block Directory,2000,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0496,Automated Formalisation for Verification of Diagrammatic Models,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0497,100 ms matter: Impact of back-up Ti on triggered breaths in pediatric NIV,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0498,Characterizing Alarm Traffic from Telephone Exchanges: Methodology and Case Study,1994,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0499,Pulmonary,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0500,Association of Scleral Deformation Around the Optic Nerve Head With Central Visual Function in Normal-Tension Glaucoma and Myopia,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0501,"Rare earth elements in bituminous coals and underclays of the Sydney Basin, Nova Scotia: Element sites, distribution, mineralogy",1991,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0502,Actionable light-weight process guidance,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0503,"In-situ U–Pb dating and Nd isotopic analysis of perovskite from a rodingite blackwall associated with UHP serpentinite from southwestern Tianshan, China",2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0504,Cyber Crime Risk Classification and Anomaly Detection Based on Self-Supervised Learning,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0505,An evaluation of timed scenario notations,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0506,8 - Computer Modeling of Polymer Structure and Fundamental Properties,1989,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0507,Recovering test-to-code traceability using slicing and textual analysis,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0508,Future Veterinary Diagnostics,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0509,Taxonomy of intrusion risk assessment and response system,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0510,Import of lipids into mitochondria,1997,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0511,Assessing AudaxCeph®’s cephalometric tracing technology versus a semi-automated approach for analyzing severe Class II and Class III skeletons,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0512,Report Highlights,2001,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0513,In-situ non-contact 3D optical deformation measurement of large capacity composite tank based on close-range photogrammetry,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0514,Histological evidence of hypothyroidism in mice chronically exposed to conventional farming,2024,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0515,Excitotoxic lesions of the rat entorhinal cortex. Effects of selective neuronal damage on acquisition and retention of a non-spatial reference memory task,1991,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0516,Towards automated traceability maintenance,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0517,"Physiochemical properties optimization of synthetic bio-destructible 2,6-bisarylidene-4-(t.-butyl)cyclohexanones to select a potential anti-cancer drug contender",2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0518,CommtPst: Deep learning source code for commenting positions prediction,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0519,Analyzing maintainability and reliability of object-oriented software using weighted complex network,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0520,Corneal sub-basal nerve fiber plexus tortuosity in eyes with ectasia susceptibility and keratoconus: A cross-sectional in vivo confocal microscopy study,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0521,Deep semi-supervised learning for recovering traceability links between issues and commits,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0522,Comparative study between digital and manual cephalometry with digital radiographs,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0523,Pulmonary,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0524,Supporting meta-model-based language evolution and rapid prototyping with automated grammar transformation,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0525,"Nature and evolution of Mesozoic–Cenozoic lithospheric mantle beneath the Cathaysia block, SE China",2004,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0526,Thromboelastographic evaluation of the effectiveness of choline or CDP-choline treatment on endotoxin-induced hemostatic alterations in dogs,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0527,Impregnation of [Emim]Br ionic liquid as plasticizer in biopolymer electrolytes for EDLC application,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0528,Bibliography,1980,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0529,A framework for managing the imperfect modularity of variability implementations,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0530,Focal clusters of peri-synaptic matrix contribute to activity-dependent plasticity and memory in mice,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0531,Evaluation of Generative AI-Assisted Software Design and Engineering: A User-Centered Approach,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0532,Formation of Requirements Traceability in the Process of Information Systems Design,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0533,Ontology-Based Automatic Reasoning and NLP for Tracing Software Requirements into Models with the OntoTrace Tool,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0534,Enhancing Regulation-Adherent Requirement Engineering with Contextual AI: An Industrial Study,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0535,Towards Effective Automation of Issue–Commit Link Recovery: An Empirical Investigation,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0536,"Analytical Study on Advanced Persistent Threat Detecting, Defending and Mitigating",2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0537,Leveraging Large Language Models for Supply Chain Management Optimization: A Case Study,2025,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0538,Data Homogeneity Dependent Topic Modeling for Information Retrieval,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0539,Independent Verification and Validation of Aero Engine Propulsion System Software,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0540,Location Information for Disaster Management and Infectious Disease Control Focusing on Japan,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0541,SINAV: An ASI Study of Future AI Applications on Spatial Rovers,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0542,Efficient Discovery of Actual Causality in Stochastic Systems,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0543,I/O Associations in Scientific Software: A Study of SWMM,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0544,An Exploratory Analysis of the Perception of the Utility of Proven Practices of the Software Basic Profile of ISO/IEC 29110 by a Set of VSEs in Mexico,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0545,Experimental Evaluation of Traceability Checking Tool for Goal Dependency Modeling,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0546,Recovering Fine Grained Traceability Links Between Software Mandatory Constraints and Source Code,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0547,Second-Guessing in Tracing Tasks Considered Harmful?,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0548,An Event-Based Technique to Trace Requirements Modeled with SysML,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0549,Differential Computation Analysis: Hiding Your White-Box Designs is Not Enough,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0550,Towards Automated Traceability Assessment through Augmented Lifecycle Space,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0551,Clone Detection in Reuse of Software Technical Documentation,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0552,Managing Data Warehouse Traceability: A Life-Cycle Driven Approach,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0553,The Development and Validation of a Roadmap for Traceability,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0554,Estimating the Implementation Risk of Requirements in Agile Software Development Projects with Traceability Metrics,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0555,Interactive Recovery of Requirements Traceability Links Using User Feedback and Configuration Management Logs,2015,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0556,Safety Evidence Traceability: Problem Analysis and Model,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0557,Reengineering Requirements Specification Based on IEEE 830 Standard and Traceability,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0558,A Method for Analysing Traceability between Privacy Policies and Privacy Controls of Online Social Networks,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0559,The Development and Validation of a Traceability Assessment Model,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0560,A Survey on Usage Scenarios for Requirements Traceability in Practice,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0561,Complex Networks and Link Streams for the Empirical Analysis of Large Software,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0562,A Dependency-Sharing Tool for Global Software Engineering,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0563,Eye Gaze and Mouse Cursor Relationship in a Debugging Task,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0564,Run-Time Verification of Coboxes,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0565,Investigation of Traceability within a Medical Device Organization,2013,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0566,Applying SOFL to a Generic Insulin Pump Software Design,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0567,Mining Cohesive Domain Topics from Source Code,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0568,Towards the Effective Use of Traceability in Model-Driven Engineering Projects,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0569,Traceability-Why Do It?,2012,INCLUDE,I2,路线图、SoK、基准或评价研究、综合性章节或邻近领域二手研究，并包含可独立提取的ST研究范围、技术路线、评价或应用结论,题名、关键词与摘要；必要时核查来源材料
+review_unique_0570,A Framework for Validating Task Assignment in Multiagent Systems Using Requirements Importance,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0571,Which Traceability Visualization Is Suitable in This Context? A Comparative Study,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0572,Program Equivalence Using Neural Networks,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0573,Using Behaviour Inference to Optimise Regression Test Sets,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0574,Test Management Traceability Model to Support Software Testing Documentation,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0575,Med-Trace,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0576,Traceability of Executable Codes Using Neural Networks,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0577,How Can Software SMEs Become Medical Device Software SMEs,2011,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0578,A Trace Metamodel Proposal Based on the Model Driven Architecture Framework for the Traceability of User Requirements in Data Warehouses,2011,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0579,Standardizing the Software Tag in Japan for Transparency of Development,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0580,NDPMine: Efficiently Mining Discriminative Numerical Features for Pattern-Based Classification,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0581,Value-Based Requirements Traceability: Lessons Learned,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0582,Business Process-Awareness in the Maintenance Activities,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0583,Aligning the Software Project Selection Process with the Business Strategy: A Pilot Study,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0584,Modeling of Requirements Tracing,2008,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0585,Offshore Software Development: Transferring Research Findings into the Classroom,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0586,Trace Partitioning in Abstract Interpretation Based Static Analyzers,2005,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0587,Flexible Performance Debugging of Parallel and Distributed Applications,2003,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0588,Certifying KBSs: Using CommonKADS to Provide Supporting Evidence for Fitness for Purpose of KBSs,2000,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0589,Translocation of Phospholipids Between the Endoplasmic Reticulum and Mitochondria in Yeast,1998,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0590,"Assessing the quality of large, software-intensive systems: A case study",1995,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0591,A Systematic Literature Review on Application of Agile Software Development Process Models for the Development of Safety-Critical Systems in Multiple Domains,2025,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0592,A lightweight traceability assessment method for medical device software,2013,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0593,LTTng-HSA: Bringing LTTng tracing to HSA-based GPU runtimes,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0594,A survey of code-based change impact analysis techniques,2013,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0595,Using tool integration for improving traceability management testing processes: An automotive industrial experience,2019,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0596,A guidance to implement or reinforce a DevOps approach in organizations: A case study,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0597,A roadmap to ISO 14971 implementation,2015,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0598,Additional requirements for process assessment in safety–critical software and systems domain,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0599,6.3.2 End User Involvement in Establishing Software Requirements for Aerospace Software Systems,2000,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0600,Metrics and Processes for F-22 Requirements Management,1999,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0601,Computer-Assisted Audit Tools and Techniques,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0602,Verification and Validation,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0603,Software Quality,2008,EXCLUDE,E3,属于综述或调查，但软件可追溯性仅被偶然提及或没有可独立提取的结果,题名、关键词与摘要；必要时核查来源材料
+review_unique_0604,Experience report on using object-oriented design for software maintenance,2007,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0605,Application of Systems Engineering to Safety and Risk Management: A Human–Systems Integration Perspective,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0606,Craniofacial morphology in patients with hypophosphataemic vitamin-D-resistant rickets: a cephalometric study,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0607,Establishing Reference Values for Lean Muscle Mass in the Pediatric Patient,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0608,Problems and strategies for software component testing standards,1992,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0609,Evaluation of a long-acting injectable formulation of omeprazole in healthy dogs,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0610,Pharmacological pre- and post-conditioning with the sphingosine-1-phosphate receptor modulator FTY720 after myocardial ischaemia–reperfusion,2010,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0611,Optical Methods in Experimental Mechanics,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0612,Fast and effective soft links,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0613,"Automation, machine learning, and artificial intelligence in echocardiography: A brave new world",2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0614,Retention of uninfected red blood cells causing congestive splenomegaly is the major mechanism of anemia in malaria,2024,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0615,Chicago Classification normative metrics in a healthy Indian cohort for a 16-channel water-perfused high-resolution esophageal manometry system,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0616,Automated feature discovery via sentence selection and source code summarization,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0617,3.4.1 Global Systems Engineering at Rolls-Royce: Using Stories to Explore Ambiguous Standards and Emergent Architecture,2009,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0618,Managing and understanding complex systems using traceability and open source software,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0619,Hardware trace reconstruction of runtime compiled code,2018,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0620,Ensuring safe and consistent coengineering of cyber-physical production systems: A case study,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0621,MRI assessment of regional differences in phosphorus-31 metabolism and morphological abnormalities of the foot muscles in diabetes,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0622,Within-project and cross-project just-in-time defect prediction based on denoising autoencoder and convolutional neural network,2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0623,Detection of microservice-based software anomalies based on OpenTracing in cloud,2023,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0624,Fine Root Productivity and Dynamics on a Forested Floodplain in South Carolina,2001,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0625,Actin-dependent anterograde movement of growth-cone-like structures along growing hippocampal axons: A novel form of axonal transport?,1998,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0626,Dysfunctional Dendritic Cells in Radiation-Induced Jaw Injury: Insights From Single-Cell Transcriptomic Analysis of the Osteoimmune Microenvironment,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0627,"Development of sensitization to methamphetamine in offspring prenatally exposed to morphine, methadone and buprenorphine",2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0628,Reduced dosing and liability in methadone maintenance treatment by targeting oestrogen signal for morphine addiction,2017,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0629,Teachers' source evaluation self-efficacy predicts their use of relevant source features when evaluating the trustworthiness of web sources on special education,2013,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0630,Software engineering as seen through its research literature: A study in co-word analysis,1998,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0631,Determinants of adoption of computer-assisted audit tools and techniques among internal audit units in Ghana,2022,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0632,"Alunite alteration of tuffaceous layers and zircon dating, Upper Permian Kennedy Group, Carnarvon Basin, Western Australia",2004,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0633,A surface-layer representation of the lunar gravitational field,1971,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0634,Detection of Common Problems in Real-Time and Multicore Systems Using Model-Based Constraints,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0635,Diagnostic and troubleshooting of OpenFlow-enabled switches using kernel and userspace traces,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0636,Compositional and Textural Variability Among Tektites From Indochina and South China: Insights Into the Impact Origin of the Australasian Tektite Strewn Field,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0637,Geologic history of Martian regolith breccia Northwest Africa 7034: Evidence for hydrothermal activity and lithologic diversity in the Martian crust,2016,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0638,JI.FI: Visual test and debug queries for hard real-time,2014,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0639,Resting-state functional connectivity of the human hippocampus in periadolescent children: Associations with age and memory performance,2021,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0640,Long-term time-dependent deformation and stability analysis of the machine hall of an underground powerhouse cavern using microseismic monitoring,2025,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0641,Holocene Hydrographic Variations From the Baltic-North Sea Transitional Area (IODP Site M0059),2020,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0642,Design of a Multi-Sensor Integrated Control System for Vehicle-Mounted Tunnel Lining Inspection With Real-Time Velocity and Posture Tracking,2026,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0643,Long Term Distributed File Reference Tracing: Implementation and Experience,1996,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0644,Refractive Birefringent Optics,2006,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0645,The Paramountcy of Reconfigurable Computing,2012,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0646,"Traceability (Product Tracing) in Food Systems: An IFT Report Submitted to the FDA, Volume 1: Technical Aspects and Recommendations",2010,EXCLUDE,E2,不属于软件工程可追溯性领域,题名、关键词与摘要；必要时核查来源材料
+review_unique_0647,Abstracts,2004,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0648,Abstracts of papers accepted for presentation at the XVII International Symposium on Neurogastroenterology and Motility.,2001,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料
+review_unique_0649,Abstracts of papers accepted for presentation at the XVIII International Symposium on Neurogastroenterology and Motility,2001,EXCLUDE,E1,不是综述或文献综合，而是原始研究、方法、工具、实验、案例或从业者调查,题名、关键词与摘要；必要时核查来源材料

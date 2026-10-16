@@ -1,0 +1,600 @@
+1
+00:00:02,480 --> 00:00:07,680
+welcome to the cfs software requirements traceability agent.
+
+2
+00:00:02,480 --> 00:00:07,680
+欢迎使用 CFS 软件需求可追溯性代理。
+
+3
+00:00:07,680 --> 00:00:08,639
+cfs
+
+4
+00:00:07,680 --> 00:00:08,639
+CFS
+
+5
+00:00:08,639 --> 00:00:12,480
+flight software framework has many applications to build
+
+6
+00:00:08,639 --> 00:00:12,480
+飞行软件框架包含许多可供构建的应用程序，
+
+7
+00:00:12,480 --> 00:00:16,720
+command and data handling system for many software projects.
+
+8
+00:00:12,480 --> 00:00:16,720
+用于众多软件项目的指令与数据处理系统。
+
+9
+00:00:16,720 --> 00:00:23,680
+so each bubble represented one applications and each application has requirements
+
+10
+00:00:16,720 --> 00:00:23,680
+因此，每个气泡代表一个应用程序，而每个应用程序都有需求、
+
+11
+00:00:23,680 --> 00:00:28,880
+heritage source code unit test files and build verification files.
+
+12
+00:00:23,680 --> 00:00:28,880
+继承而来的源代码、单元测试文件和构建验证文件。
+
+13
+00:00:28,880 --> 00:00:31,840
+and when your project adopts this framework,
+
+14
+00:00:28,880 --> 00:00:31,840
+当你的项目采用此框架时，
+
+15
+00:00:31,840 --> 00:00:37,200
+you need to update and customize to meet your project's needs.
+
+16
+00:00:31,840 --> 00:00:37,200
+你需要进行更新和定制，以满足项目的需求。
+
+17
+00:00:37,200 --> 00:00:43,680
+the current problem is today cfs requirement tracing is done manually.
+
+18
+00:00:37,200 --> 00:00:43,680
+目前的问题是，如今 CFS 的需求追踪工作都是手动完成的。
+
+19
+00:00:43,680 --> 00:00:51,280
+and we have like six to 10 engineers and testers working on five to six prints.
+
+20
+00:00:43,680 --> 00:00:51,280
+大约有六到十名工程师和测试人员负责五到六份打印稿。
+
+21
+00:00:51,280 --> 00:00:55,120
+each print each sprint there are updates to requirements
+
+22
+00:00:51,280 --> 00:00:55,120
+每份打印稿在每个迭代周期中都会更新需求。
+
+23
+00:00:55,120 --> 00:00:56,800
+constant updates
+
+24
+00:00:55,120 --> 00:00:56,800
+持续更新。
+
+25
+00:00:56,800 --> 00:01:03,680
+and each of these projects can take to four to 5 years due to its complexities
+
+26
+00:00:56,800 --> 00:01:03,680
+而且，由于项目复杂，每个项目可能需要四到五年才能完成。
+
+27
+00:01:03,680 --> 00:01:04,720
+and
+
+28
+00:01:03,680 --> 00:01:04,720
+还有
+
+29
+00:01:04,720 --> 00:01:09,680
+um so when your project adopts this this architecture
+
+30
+00:01:04,720 --> 00:01:09,680
+嗯，所以当你的项目采用这种架构时，
+
+31
+00:01:09,680 --> 00:01:15,520
+there won't be the engineers who did this work and the new
+
+32
+00:01:09,680 --> 00:01:15,520
+之前负责这项工作的工程师将不再参与，而新的工程师……
+
+33
+00:01:15,520 --> 00:01:22,880
+new developers and engineers will inherit hundreds of these c files without any map no expertise
+
+34
+00:01:15,520 --> 00:01:22,880
+新来的开发人员和工程师将接手数百个这样的 C 文件，却没有任何指引，也缺乏相关经验
+
+35
+00:01:22,880 --> 00:01:24,560
+and
+
+36
+00:01:22,880 --> 00:01:24,560
+还有
+
+37
+00:01:24,560 --> 00:01:26,400
+no time for them.
+
+38
+00:01:24,560 --> 00:01:26,400
+他们也没有时间。
+
+39
+00:01:26,400 --> 00:01:31,200
+so as you see this is lot of manual labor work is involved
+
+40
+00:01:26,400 --> 00:01:31,200
+所以你们可以看到，这涉及大量的人工劳动。
+
+41
+00:01:31,200 --> 00:01:35,920
+and it's a problem and i set to solve this problem.
+
+42
+00:01:31,200 --> 00:01:35,920
+这是个问题，而我决心解决这个问题。
+
+43
+00:01:35,920 --> 00:01:39,119
+that's why i built this agent to automate
+
+44
+00:01:35,920 --> 00:01:39,119
+所以我构建了这个智能体来实现自动化
+
+45
+00:01:39,119 --> 00:01:44,880
+to trace requirements to code unit test and build verification test.
+
+46
+00:01:39,119 --> 00:01:44,880
+将需求追踪到代码、单元测试和构建验证测试。
+
+47
+00:01:44,880 --> 00:01:53,600
+um in the very first phase i have two applications work to get the traceability done.
+
+48
+00:01:44,880 --> 00:01:53,600
+嗯，在第一阶段，我有两个应用需要完成可追溯性工作。
+
+49
+00:01:53,600 --> 00:01:59,360
+um and the phase one this is the architecture the pipeline is very straightforward.
+
+50
+00:01:53,600 --> 00:01:59,360
+嗯，第一阶段的架构是这样的，整个流程非常直接。
+
+51
+00:01:59,360 --> 00:02:04,159
+we provide the requirements in the csv files.
+
+52
+00:01:59,360 --> 00:02:04,159
+我们在 CSV 文件中提供需求。
+
+53
+00:02:04,159 --> 00:02:12,560
+uh then the c files, unit test files and build verification files and for each requirement
+
+54
+00:02:04,159 --> 00:02:12,560
+嗯，然后是 C 文件、单元测试文件和构建验证文件，并且针对每项需求
+
+55
+00:02:12,560 --> 00:02:20,400
+um it selects the relevant c file and calls claude and maps the requirement to code.
+
+56
+00:02:12,560 --> 00:02:20,400
+嗯，它会选取相关的 C 文件，调用 Claude，并将需求映射到代码。
+
+57
+00:02:20,400 --> 00:02:23,360
+let's see how the application works now.
+
+58
+00:02:20,400 --> 00:02:23,360
+我们来看看应用现在是如何运行的。
+
+59
+00:02:23,360 --> 00:02:26,959
+um so this is the gui interface.
+
+60
+00:02:23,360 --> 00:02:26,959
+嗯，这是图形用户界面。
+
+61
+00:02:26,959 --> 00:02:33,120
+here you can select the application and you can create click on generate rtm
+
+62
+00:02:26,959 --> 00:02:33,120
+在这里，你可以选择应用，然后点击“生成 RTM”。
+
+63
+00:02:33,120 --> 00:02:38,720
+and it will display the traceability for each requirement
+
+64
+00:02:33,120 --> 00:02:38,720
+它会显示每项需求的可追溯信息
+
+65
+00:02:38,720 --> 00:02:41,760
+source code and the function.
+
+66
+00:02:38,720 --> 00:02:41,760
+包括源代码和函数。
+
+67
+00:02:41,760 --> 00:02:45,519
+and if you go to the command line it's very easy
+
+68
+00:02:41,760 --> 00:02:45,519
+如果使用命令行，操作就非常简单
+
+69
+00:02:45,519 --> 00:02:48,879
+from the command line you have to run
+
+70
+00:02:45,519 --> 00:02:48,879
+在命令行中，你需要运行
+
+71
+00:02:48,879 --> 00:02:55,200
+just this script python script providing the application name.
+
+72
+00:02:48,879 --> 00:02:55,200
+这个脚本，只需提供应用程序名称即可。
+
+73
+00:02:55,200 --> 00:03:01,760
+so it start to generate a trace the requirements to the software
+
+74
+00:02:55,200 --> 00:03:01,760
+这样它就会开始生成软件需求的追踪关系
+
+75
+00:03:01,760 --> 00:03:05,200
+and at the end it will give the results
+
+76
+00:03:01,760 --> 00:03:05,200
+最后，它会给出结果
+
+77
+00:03:05,200 --> 00:03:08,159
+um what requirements are mapped
+
+78
+00:03:05,200 --> 00:03:08,159
+嗯，显示哪些需求已建立映射
+
+79
+00:03:08,159 --> 00:03:12,640
+and if if the system is not certain about a mapping
+
+80
+00:03:08,159 --> 00:03:12,640
+如果系统不确定某项映射
+
+81
+00:03:12,640 --> 00:03:17,360
+it will flag it for lc application we saw that
+
+82
+00:03:12,640 --> 00:03:17,360
+就会将其标记出来。我们在 LC 应用程序中看到了这一点。
+
+83
+00:03:17,360 --> 00:03:24,640
+um and this page provides the results md file.
+
+84
+00:03:17,360 --> 00:03:24,640
+嗯，这个页面提供了结果 Markdown 文件。
+
+85
+00:03:24,640 --> 00:03:29,840
+so for as you see let me zoom into md 2000
+
+86
+00:03:24,640 --> 00:03:29,840
+那么，如你所见，让我放大到 Markdown 2000。
+
+87
+00:03:29,840 --> 00:03:32,239
+this is a requirement here
+
+88
+00:03:29,840 --> 00:03:32,239
+这是此处的一项需求。
+
+89
+00:03:32,239 --> 00:03:39,680
+and it shows which c file that requirement is implemented and which function it's
+
+90
+00:03:32,239 --> 00:03:39,680
+它显示了实现该需求的 C 文件以及实现它的函数。
+
+91
+00:03:39,680 --> 00:03:43,360
+implemented and this is the unit test file
+
+92
+00:03:39,680 --> 00:03:43,360
+这是单元测试文件。
+
+93
+00:03:43,360 --> 00:03:49,200
+sorry yeah this is a unit test file and it provides the
+
+94
+00:03:43,360 --> 00:03:49,200
+抱歉，没错，这是单元测试文件，它提供了
+
+95
+00:03:49,200 --> 00:03:54,480
+the build test file where the this requirement was tested.
+
+96
+00:03:49,200 --> 00:03:54,480
+构建测试文件，说明这项需求是在哪里测试的。
+
+97
+00:03:54,480 --> 00:03:58,239
+and this is a very honest system.
+
+98
+00:03:54,480 --> 00:03:58,239
+这是一个非常诚实的系统。
+
+99
+00:03:58,239 --> 00:04:04,319
+for example, if you see the next requirement md 2002,
+
+100
+00:03:58,239 --> 00:04:04,319
+例如，如果你看到下一个需求 md 2002，
+
+101
+00:04:04,319 --> 00:04:08,640
+it shows the c file, the function and unit test file.
+
+102
+00:04:04,319 --> 00:04:08,640
+它会显示 C 文件、函数和单元测试文件。
+
+103
+00:04:08,640 --> 00:04:18,560
+since it couldn't locate the b build verification script, it made it blank.
+
+104
+00:04:08,640 --> 00:04:18,560
+由于它无法找到 B 构建验证脚本，因此将其留空了。
+
+105
+00:04:18,560 --> 00:04:22,960
+um so it's a very honest system so far.
+
+106
+00:04:18,560 --> 00:04:22,960
+嗯，所以到目前为止，这是一个非常诚实的系统。
+
+107
+00:04:22,960 --> 00:04:27,840
+and this is the configuration file, the json file.
+
+108
+00:04:22,960 --> 00:04:27,840
+这是配置文件，也就是 JSON 文件。
+
+109
+00:04:27,840 --> 00:04:32,400
+so each application will have this json json file.
+
+110
+00:04:27,840 --> 00:04:32,400
+所以每个应用都会有这个 JSON 文件。
+
+111
+00:04:32,400 --> 00:04:38,400
+this file tells the rtm generator which source files to load for each requirement.
+
+112
+00:04:32,400 --> 00:04:38,400
+这个文件会告诉 RTM 生成器，每项需求需要加载哪些源文件。
+
+113
+00:04:38,400 --> 00:04:45,040
+this 19 line file everything the agent needs to know about a app is here.
+
+114
+00:04:38,400 --> 00:04:45,040
+这个 19 行的文件包含了代理需要了解的关于应用的一切。
+
+115
+00:04:45,040 --> 00:04:55,240
+so if you add any apps, it will automate that process using this configuration file.
+
+116
+00:04:45,040 --> 00:04:55,240
+因此，如果你添加任何应用，它就会使用这个配置文件自动执行该流程。
+
+117
+00:04:56,000 --> 00:04:58,000
+so this is my road map.
+
+118
+00:04:56,000 --> 00:04:58,000
+这就是我的路线图。
+
+119
+00:04:58,000 --> 00:05:08,479
+in phase one i built successful system to map build the traceability between those components.
+
+120
+00:04:58,000 --> 00:05:08,479
+在第一阶段，我成功构建了一个系统，用于建立这些组件之间的可追溯性。
+
+121
+00:05:08,479 --> 00:05:11,440
+in require in phase two
+
+122
+00:05:08,479 --> 00:05:11,440
+在需求的第二阶段
+
+123
+00:05:11,440 --> 00:05:13,199
+um i'm trying to
+
+124
+00:05:11,440 --> 00:05:13,199
+嗯，我正在尝试
+
+125
+00:05:13,199 --> 00:05:17,840
+resolve a performance issue because right now 20 35 requirements
+
+126
+00:05:13,199 --> 00:05:17,840
+解决性能问题，因为目前处理 20 到 35 条需求
+
+127
+00:05:17,840 --> 00:05:21,840
+takes 25 minutes so we are going to include rag
+
+128
+00:05:17,840 --> 00:05:21,840
+需要 25 分钟，所以我们将加入 RAG
+
+129
+00:05:21,840 --> 00:05:24,000
+to have no delays
+
+130
+00:05:21,840 --> 00:05:24,000
+以避免延迟
+
+131
+00:05:24,000 --> 00:05:29,600
+um and also in phase two i'm going to make requirement updates
+
+132
+00:05:24,000 --> 00:05:29,600
+嗯，另外在第二阶段，我将更新需求
+
+133
+00:05:29,600 --> 00:05:37,199
+so the agent to retrace and detects any cross app impacts phase three
+
+134
+00:05:29,600 --> 00:05:37,199
+让智能体重新追溯并检测跨应用影响。第三阶段
+
+135
+00:05:37,199 --> 00:05:43,360
+we are going to add a new app and make sure agent scaffolds the initial rtm
+
+136
+00:05:37,199 --> 00:05:43,360
+我们将添加一个新应用，并确保智能体搭建初始 RTM
+
+137
+00:05:43,360 --> 00:05:46,720
+automate the c files and ut and the other files
+
+138
+00:05:43,360 --> 00:05:46,720
+自动生成 C 文件、UT 和其他文件
+
+139
+00:05:46,720 --> 00:05:52,160
+so the developer can review and fill the gaps.
+
+140
+00:05:46,720 --> 00:05:52,160
+以便开发人员审核并补齐遗漏。
+
+141
+00:05:52,160 --> 00:05:59,520
+now cm cfs rtm is rtm agent is alive your apps are next.
+
+142
+00:05:52,160 --> 00:05:59,520
+现在，CM、CFS 和 RTM 都已就绪，RTM 智能体已启动，接下来就是你们的应用。
+
+143
+00:05:59,520 --> 00:06:06,000
+if your team is using cfs the traditional way this automated system is run
+
+144
+00:05:59,520 --> 00:06:06,000
+如果你的团队一直以传统方式使用 CFS，那么这套自动化系统
+
+145
+00:06:06,000 --> 00:06:07,520
+system runs today.
+
+146
+00:06:06,000 --> 00:06:07,520
+今天就已投入运行。
+
+147
+00:06:07,520 --> 00:06:10,720
+if you need questions, you can contact me.
+
+148
+00:06:07,520 --> 00:06:10,720
+如有问题，请联系我。
+
+149
+00:06:10,720 --> 00:06:11,199
+and thank you.
+
+150
+00:06:10,720 --> 00:06:11,199
+谢谢。
+

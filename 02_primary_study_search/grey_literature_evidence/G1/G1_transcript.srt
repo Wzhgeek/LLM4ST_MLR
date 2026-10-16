@@ -1,0 +1,1208 @@
+1
+00:00:00,000 --> 00:00:03,720
+hi guys welcome back and today in this video we're going to talk about how
+
+2
+00:00:00,000 --> 00:00:03,720
+大家好，欢迎回来，今天在这段视频中我们将讨论如何
+
+3
+00:00:03,720 --> 00:00:06,839
+we can make use of chat gpd to perform requirement
+
+4
+00:00:03,720 --> 00:00:06,839
+我们可以利用 Chat GPD 来完成需求
+
+5
+00:00:06,839 --> 00:00:09,240
+traceability matrix of our software
+
+6
+00:00:06,839 --> 00:00:09,240
+我们软件的可追溯性矩阵
+
+7
+00:00:09,240 --> 00:00:14,040
+quality test cases and automated test case that we write in our daily life if you remember in
+
+8
+00:00:09,240 --> 00:00:14,040
+如果你还记得，我们日常生活中写的优质测试用例和自动化测试用例
+
+9
+00:00:14,040 --> 00:00:16,379
+our earlier video we discussed about a scenario
+
+10
+00:00:14,040 --> 00:00:16,379
+我们之前的视频讨论过一个情景
+
+11
+00:00:16,379 --> 00:00:19,500
+something like this where we have a bank account opening scenario
+
+12
+00:00:16,379 --> 00:00:19,500
+类似这样的情况，我们有一个银行账户开设的场景
+
+13
+00:00:19,500 --> 00:00:23,460
+where the user should be 18 years and old and he should be trying opening
+
+14
+00:00:19,500 --> 00:00:23,460
+用户应该是 18 岁，应该在尝试打开
+
+15
+00:00:23,460 --> 00:00:25,080
+an account in the computer browsers
+
+16
+00:00:23,460 --> 00:00:25,080
+在电脑浏览器中建立一个账户
+
+17
+00:00:25,080 --> 00:00:27,960
+mobile phone going to the branch or to the kiosk
+
+18
+00:00:25,080 --> 00:00:27,960
+手机送到分行或自助终端
+
+19
+00:00:27,960 --> 00:00:31,980
+or directly applying in the branch using all these different
+
+20
+00:00:27,960 --> 00:00:31,980
+或者直接在分支机构申请各种不同的情况
+
+21
+00:00:31,980 --> 00:00:33,780
+verification identification documents
+
+22
+00:00:31,980 --> 00:00:33,780
+验证身份文件
+
+23
+00:00:33,780 --> 00:00:37,800
+something like that you remember all these test cases that we wrote something like this and
+
+24
+00:00:33,780 --> 00:00:37,800
+大概是这样，你会记得我们写过的各种测试用例，比如这样，
+
+25
+00:00:37,800 --> 00:00:41,520
+we used chat gp2 to write a lot of manner testing scenarios
+
+26
+00:00:37,800 --> 00:00:41,520
+我们用 Chat GP2 写了很多测试场景
+
+27
+00:00:41,520 --> 00:00:43,800
+now we are going to do a bit further
+
+28
+00:00:41,520 --> 00:00:43,800
+现在我们要再往前走一点
+
+29
+00:00:43,800 --> 00:00:44,520
+where
+
+30
+00:00:43,800 --> 00:00:44,520
+其中
+
+31
+00:00:44,520 --> 00:00:45,780
+we're going to use all
+
+32
+00:00:44,520 --> 00:00:45,780
+我们将全部使用
+
+33
+00:00:45,780 --> 00:00:50,239
+these scenarios we're going to ask chat gpd to write the scenarios for us in version 3.5
+
+34
+00:00:45,780 --> 00:00:50,239
+这些场景我们会请 Chat GPD 在 3.5 版本中为我们编写
+
+35
+00:00:50,239 --> 00:00:54,559
+and then we'll use the same test case scenarios that we have written
+
+36
+00:00:50,239 --> 00:00:54,559
+然后我们会使用我们写过的同样的测试案例场景
+
+37
+00:00:54,559 --> 00:01:00,840
+and paste it into chat gpd4 to ask us to verify if there requirement
+
+38
+00:00:54,559 --> 00:01:00,840
+然后把它粘贴到 Chat GPD4 里，让我们核实是否有要求
+
+39
+00:01:00,840 --> 00:01:02,399
+matches the test cases
+
+40
+00:01:00,840 --> 00:01:02,399
+匹配测试案例
+
+41
+00:01:02,399 --> 00:01:05,640
+which is being generated in 3.5 in gpd4
+
+42
+00:01:02,399 --> 00:01:05,640
+该系统正在 GPD4 的 3.5 版本中生成。
+
+43
+00:01:05,640 --> 00:01:07,500
+so the gpt 4 can
+
+44
+00:01:05,640 --> 00:01:07,500
+所以 GPT4 可以
+
+45
+00:01:07,500 --> 00:01:11,240
+tell us that there are even more different ways that you can write the scenarios
+
+46
+00:01:07,500 --> 00:01:11,240
+告诉我们，你还有更多不同的写法来写这些场景
+
+47
+00:01:11,240 --> 00:01:14,520
+and try increasing more number of scenarios
+
+48
+00:01:11,240 --> 00:01:14,520
+并尝试增加更多场景
+
+49
+00:01:14,520 --> 00:01:18,420
+so that way you can see that gpd4 is not only giving us the scenarios
+
+50
+00:01:14,520 --> 00:01:18,420
+这样你就能看到 GPD4 不仅仅是给我们场景
+
+51
+00:01:18,420 --> 00:01:20,880
+but it's also going to help us to identify
+
+52
+00:01:18,420 --> 00:01:20,880
+但这也有助于我们识别
+
+53
+00:01:20,880 --> 00:01:22,799
+some of the missing test cases and scenarios
+
+54
+00:01:20,880 --> 00:01:22,799
+一些缺失的测试用例和场景
+
+55
+00:01:22,799 --> 00:01:23,939
+that you can really potentially
+
+56
+00:01:22,799 --> 00:01:23,939
+你真的有可能
+
+57
+00:01:23,939 --> 00:01:27,060
+write for that that is what this whole idea of the speaker video is i'm
+
+58
+00:01:23,939 --> 00:01:27,060
+写这个，这就是演讲视频的整个想法，我是
+
+59
+00:01:27,060 --> 00:01:29,220
+going to quickly show you how this is going to look like so now what
+
+60
+00:01:27,060 --> 00:01:29,220
+我会快速展示这会是什么样子，那接下来呢？
+
+61
+00:01:29,220 --> 00:01:30,299
+i'm going to do is i'm
+
+62
+00:01:29,220 --> 00:01:30,299
+我要做的就是我
+
+63
+00:01:30,299 --> 00:01:31,979
+going to use the same scenario
+
+64
+00:01:30,299 --> 00:01:31,979
+我打算用同样的场景
+
+65
+00:01:31,979 --> 00:01:37,200
+that you just saw on the slide and then i'm going to use gpd5 to actually write
+
+66
+00:01:31,979 --> 00:01:37,200
+你刚才在幻灯片上看到的，然后我会用 GPD5 来实际写字
+
+67
+00:01:37,200 --> 00:01:39,960
+all these scenarios for us in the pdd format
+
+68
+00:01:37,200 --> 00:01:39,960
+所有这些场景都以 PDD 格式呈现
+
+69
+00:01:39,960 --> 00:01:42,960
+so you can see that we know that we have already seen this particular scenario
+
+70
+00:01:39,960 --> 00:01:42,960
+所以你可以看到，我们已经见过这种特定情景
+
+71
+00:01:42,960 --> 00:01:46,680
+where gpt 3.5 is going to keep writing all the scenarios
+
+72
+00:01:42,960 --> 00:01:46,680
+GPT 3.5 会继续写所有场景
+
+73
+00:01:46,680 --> 00:01:49,799
+for us and that is what i'm going to be doing this time you can see that there
+
+74
+00:01:46,680 --> 00:01:49,799
+对我们来说，这也是我这次要做的，你可以看到这一点
+
+75
+00:01:49,799 --> 00:01:50,820
+are all these scenarios
+
+76
+00:01:49,799 --> 00:01:50,820
+这些情况都是这样
+
+77
+00:01:50,820 --> 00:01:55,500
+which are being generated over here i can probably do one more time like continue so
+
+78
+00:01:50,820 --> 00:01:55,500
+这些都是在这里生成的，我大概还能再做一次，比如继续
+
+79
+00:01:55,500 --> 00:01:58,320
+that it can keep writing those scenarios for us and
+
+80
+00:01:55,500 --> 00:01:58,320
+它能继续为我们写那些场景，
+
+81
+00:01:58,320 --> 00:02:03,299
+what i'm going to do this time is i'm going to copy all these scenarios
+
+82
+00:01:58,320 --> 00:02:03,299
+这次我要做的是复制所有这些情景
+
+83
+00:02:03,299 --> 00:02:06,960
+and then i'm going to paste that to gpd4
+
+84
+00:02:03,299 --> 00:02:06,960
+然后我会把它粘贴到 GPD4 上
+
+85
+00:02:06,960 --> 00:02:08,818
+and i'm going to say can
+
+86
+00:02:06,960 --> 00:02:08,818
+我要说可以
+
+87
+00:02:08,818 --> 00:02:13,020
+you verify if all these scenarios that we have got is actually matching
+
+88
+00:02:08,818 --> 00:02:13,020
+你要验证我们所有这些情景是否真的匹配
+
+89
+00:02:13,020 --> 00:02:14,520
+the requirement traceability matrix
+
+90
+00:02:13,020 --> 00:02:14,520
+需求可追溯矩阵
+
+91
+00:02:14,520 --> 00:02:18,959
+or not so i'm just gonna go back to our gpt 4
+
+92
+00:02:14,520 --> 00:02:18,959
+或者不行，所以我打算回到我们的 GPT4
+
+93
+00:02:18,959 --> 00:02:23,940
+which is this one and i'm gonna paste the complete scenario over here
+
+94
+00:02:18,959 --> 00:02:23,940
+就是这个，我会把完整的情景粘贴到这里
+
+95
+00:02:23,940 --> 00:02:27,840
+so i'm just going to stay over here the only thing which i'm gonna say additionally
+
+96
+00:02:23,940 --> 00:02:27,840
+所以我就留在这里，这也是我唯一想补充的
+
+97
+00:02:27,840 --> 00:02:31,800
+over here is we just scroll down a bit you'll
+
+98
+00:02:27,840 --> 00:02:31,800
+这里是我们往下滚动一点的，你会
+
+99
+00:02:31,800 --> 00:02:33,780
+notice that i have told gpd
+
+100
+00:02:31,800 --> 00:02:33,780
+注意我已经告诉了 GPD
+
+101
+00:02:33,780 --> 00:02:38,879
+that perform requirement traceability of the above requirement with the below scenario
+
+102
+00:02:33,780 --> 00:02:38,879
+能够在以下情景下实现上述需求可追溯性
+
+103
+00:02:38,879 --> 00:02:40,800
+so basically i'm saying that this is the requirement
+
+104
+00:02:38,879 --> 00:02:40,800
+所以基本上我的意思是，这就是要求
+
+105
+00:02:40,800 --> 00:02:45,540
+and these are the scenarios that i have written just gpd tell me whether these
+
+106
+00:02:40,800 --> 00:02:45,540
+这些都是我写的情景，告诉我这些是否存在
+
+107
+00:02:45,540 --> 00:02:49,140
+scenarios that i have written is really covering all the requirement
+
+108
+00:02:45,540 --> 00:02:49,140
+我写的情景基本上涵盖了所有要求
+
+109
+00:02:49,140 --> 00:02:52,920
+which is given to us or not it's pretty much like the requirement traceability matrix
+
+110
+00:02:49,140 --> 00:02:52,920
+无论是否给我们，这基本上就像需求可追溯矩阵
+
+111
+00:02:52,920 --> 00:02:56,879
+and you can see that now gpd is starting to write a requirement traceability
+
+112
+00:02:52,920 --> 00:02:56,879
+你可以看到，现在 GPD 开始编写需求可追溯性
+
+113
+00:02:56,879 --> 00:03:00,900
+matrix for us so what it's trying to do is like this writing all the requirements
+
+114
+00:02:56,879 --> 00:03:00,900
+对我们来说，矩阵，所以它试图做的是这样，写出所有需求
+
+115
+00:03:00,900 --> 00:03:04,379
+for us and then it is trying to write all the scenarios
+
+116
+00:03:00,900 --> 00:03:04,379
+对我们来说，然后它试图写出所有场景
+
+117
+00:03:04,379 --> 00:03:06,300
+on the right hand side so
+
+118
+00:03:04,379 --> 00:03:06,300
+在右侧，所以
+
+119
+00:03:06,300 --> 00:03:09,180
+let's see if they are really matching for us based on our requirement
+
+120
+00:03:06,300 --> 00:03:09,180
+看看他们是否真的符合我们的要求
+
+121
+00:03:09,180 --> 00:03:11,480
+or not
+
+122
+00:03:09,180 --> 00:03:11,480
+或者不
+
+123
+00:03:11,940 --> 00:03:14,819
+and you can see that in this particular scenario
+
+124
+00:03:11,940 --> 00:03:14,819
+你可以在这个特定场景中看到这一点
+
+125
+00:03:14,819 --> 00:03:16,019
+you say that user
+
+126
+00:03:14,819 --> 00:03:16,019
+你说那个用户
+
+127
+00:03:16,019 --> 00:03:17,940
+can open an account in kiosk
+
+128
+00:03:16,019 --> 00:03:17,940
+可以在自助终端开设账户
+
+129
+00:03:17,940 --> 00:03:20,519
+and this scenario is currently not been covered
+
+130
+00:03:17,940 --> 00:03:20,519
+而目前尚未涉及这一情景
+
+131
+00:03:20,519 --> 00:03:22,080
+so gpt can go
+
+132
+00:03:20,519 --> 00:03:22,080
+所以 GPT 可以去了
+
+133
+00:03:22,080 --> 00:03:23,640
+and analyze all our scenarios
+
+134
+00:03:22,080 --> 00:03:23,640
+并分析我们所有的情景
+
+135
+00:03:23,640 --> 00:03:29,400
+and it can also tell that this particular requirement is not really covered in the test scenario
+
+136
+00:03:23,640 --> 00:03:29,400
+它也能判断出，这个具体要求在测试场景中并没有真正涵盖
+
+137
+00:03:29,400 --> 00:03:32,760
+that we have got so this just scenario can be our automated scenario
+
+138
+00:03:29,400 --> 00:03:32,760
+我们已经有了这个公正的场景，可以成为我们的自动化方案
+
+139
+00:03:32,760 --> 00:03:34,500
+or either a manner testing scenario
+
+140
+00:03:32,760 --> 00:03:34,500
+或者是一种方法测试场景
+
+141
+00:03:34,500 --> 00:03:37,800
+so using this particular feature we can ask gpd
+
+142
+00:03:34,500 --> 00:03:37,800
+所以利用这个特定功能，我们可以询问 GPD
+
+143
+00:03:37,800 --> 00:03:41,879
+to really go and analyze whether this particular requirement is really covered
+
+144
+00:03:37,800 --> 00:03:41,879
+真正去分析这个具体要求是否真的被覆盖
+
+145
+00:03:41,879 --> 00:03:43,379
+or not which is awesome really
+
+146
+00:03:41,879 --> 00:03:43,379
+或者说不，这其实很棒
+
+147
+00:03:43,379 --> 00:03:46,019
+because this is one of the most time consuming process
+
+148
+00:03:43,379 --> 00:03:46,019
+因为这是最耗时的过程之一
+
+149
+00:03:46,019 --> 00:03:47,280
+which we always end
+
+150
+00:03:46,019 --> 00:03:47,280
+而我们总是会结束
+
+151
+00:03:47,280 --> 00:03:48,540
+up figuring out whether
+
+152
+00:03:47,280 --> 00:03:48,540
+在上面，弄清楚是否
+
+153
+00:03:48,540 --> 00:03:52,440
+the test case that we have written like all the manual test cases is really covering
+
+154
+00:03:48,540 --> 00:03:52,440
+我们编写的测试用例和所有手动测试用例一样，确实涵盖了大量内容
+
+155
+00:03:52,440 --> 00:03:56,340
+the requirement that we have got or not so this rtm
+
+156
+00:03:52,440 --> 00:03:56,340
+我们是否有这个 RTM 的要求
+
+157
+00:03:56,340 --> 00:04:00,239
+is a very time consuming process and we could potentially avoid
+
+158
+00:03:56,340 --> 00:04:00,239
+这是一个非常耗时的过程，我们本可以避免
+
+159
+00:04:00,239 --> 00:04:02,400
+that a bit using gpta
+
+160
+00:04:00,239 --> 00:04:02,400
+这点用了 GPTA
+
+161
+00:04:02,400 --> 00:04:06,000
+something like this and also telling me that it's worth noting that some of the requirements
+
+162
+00:04:02,400 --> 00:04:06,000
+类似这样的内容，同时也告诉我值得注意一些要求
+
+163
+00:04:06,000 --> 00:04:07,980
+is not covered in this big scenario like
+
+164
+00:04:06,000 --> 00:04:07,980
+在这种大型场景中没有被覆盖，比如
+
+165
+00:04:07,980 --> 00:04:10,260
+the one related to opening the account in the kiosk
+
+166
+00:04:07,980 --> 00:04:10,260
+关于在自助机开户的那个
+
+167
+00:04:10,260 --> 00:04:15,299
+and there is a additional requirement like continuation number is also not covered i intentionally
+
+168
+00:04:10,260 --> 00:04:15,299
+还有一个额外的要求，比如续写号码也没有被涵盖，我是故意的
+
+169
+00:04:15,299 --> 00:04:16,440
+did that in 3.5
+
+170
+00:04:15,299 --> 00:04:16,440
+3.5 版本里做过这事
+
+171
+00:04:16,440 --> 00:04:20,760
+because gb 3.5 those scenarios are not going to be written and
+
+172
+00:04:16,440 --> 00:04:20,760
+因为 GB-3.5，这些场景不会被编写成
+
+173
+00:04:20,760 --> 00:04:23,400
+that's the reason why i created the scenarios over there so
+
+174
+00:04:20,760 --> 00:04:23,400
+这就是我为什么要在那里创建这些场景的原因
+
+175
+00:04:23,400 --> 00:04:27,120
+now we can ask gpd that can you try covering
+
+176
+00:04:23,400 --> 00:04:27,120
+现在我们可以问 GPD，你能不能试着顶班
+
+177
+00:04:27,120 --> 00:04:34,199
+the missing scenarios then create a requirement traceability matrix
+
+178
+00:04:27,120 --> 00:04:34,199
+缺失的场景随后创建需求可追溯性矩阵
+
+179
+00:04:34,199 --> 00:04:34,979
+so
+
+180
+00:04:34,199 --> 00:04:34,979
+所以
+
+181
+00:04:34,979 --> 00:04:37,380
+now you can see that once i ask that gpd
+
+182
+00:04:34,979 --> 00:04:37,380
+你可以看到，一旦我问了那个 GPD
+
+183
+00:04:37,380 --> 00:04:40,139
+is now starting to write all the missing scenarios
+
+184
+00:04:37,380 --> 00:04:40,139
+现在开始写出所有缺失的情景
+
+185
+00:04:40,139 --> 00:04:43,500
+which is something not covered based on the requirement
+
+186
+00:04:40,139 --> 00:04:43,500
+但根据要求，这部分不被涵盖
+
+187
+00:04:43,500 --> 00:04:46,380
+so that is the first thing that is going to do and
+
+188
+00:04:43,500 --> 00:04:46,380
+这是第一件事，要做的是
+
+189
+00:04:46,380 --> 00:04:49,020
+once we have got all the scenarios hopefully we're
+
+190
+00:04:46,380 --> 00:04:49,020
+等我们把所有情景都准备好后，希望我们能
+
+191
+00:04:49,020 --> 00:04:52,740
+also going to get all the requirement traceability matrix
+
+192
+00:04:49,020 --> 00:04:52,740
+还要收集所有需求可追溯性矩阵
+
+193
+00:04:52,740 --> 00:04:57,780
+over here so i'm just quite excited to see what's really going to happen so finger cross if gpt4
+
+194
+00:04:52,740 --> 00:04:57,780
+我这边很期待看看到底会发生什么，所以希望能有 GPT4
+
+195
+00:04:57,780 --> 00:05:01,040
+can do that or not for us
+
+196
+00:04:57,780 --> 00:05:01,040
+能不能帮我们做到，不能做到
+
+197
+00:05:04,139 --> 00:05:04,680
+so
+
+198
+00:05:04,139 --> 00:05:04,680
+所以
+
+199
+00:05:04,680 --> 00:05:10,080
+now you can see that the gpd can actually analyze all our requirements
+
+200
+00:05:04,680 --> 00:05:10,080
+现在你可以看到，GPD 实际上可以分析我们所有的需求
+
+201
+00:05:10,080 --> 00:05:13,560
+that we have got and it tells that for every scenarios
+
+202
+00:05:10,080 --> 00:05:13,560
+我们拥有这些，并且它针对所有情景都说明了这一点
+
+203
+00:05:13,560 --> 00:05:14,699
+we have really covered
+
+204
+00:05:13,560 --> 00:05:14,699
+我们真的已经覆盖了
+
+205
+00:05:14,699 --> 00:05:18,840
+whether the age is above 18 or not and then it tells that the user should be verified
+
+206
+00:05:14,699 --> 00:05:18,840
+无论年龄是否超过 18 岁，然后提示用户需要进行验证
+
+207
+00:05:18,840 --> 00:05:19,919
+via other card
+
+208
+00:05:18,840 --> 00:05:19,919
+通过另一张卡
+
+209
+00:05:19,919 --> 00:05:21,960
+relation card or at least one of the
+
+210
+00:05:19,919 --> 00:05:21,960
+关系卡或至少其中一张
+
+211
+00:05:21,960 --> 00:05:26,699
+at least with the passport or driving license that says that all the scenarios except user
+
+212
+00:05:21,960 --> 00:05:26,699
+至少护照或驾照上写着除了用户外的所有情况都是这样
+
+213
+00:05:26,699 --> 00:05:30,900
+aged 18 are above for opening the account is not covering this particular feature
+
+214
+00:05:26,699 --> 00:05:30,900
+18 岁以上开户账户不涵盖此项特定功能
+
+215
+00:05:30,900 --> 00:05:34,440
+so you can see that gpt4 can actually go through each
+
+216
+00:05:30,900 --> 00:05:34,440
+所以你可以看到 GPT4 实际上可以穿透每个
+
+217
+00:05:34,440 --> 00:05:39,960
+and every scenarios analyze whether the scenarios is really covering this particular specific feature
+
+218
+00:05:34,440 --> 00:05:39,960
+每个场景都会分析这些场景是否真正覆盖了该特定特征
+
+219
+00:05:39,960 --> 00:05:41,520
+or not that we have in the requirement
+
+220
+00:05:39,960 --> 00:05:41,520
+或者说，我们没有在需求中
+
+221
+00:05:41,520 --> 00:05:44,880
+and ensuring that it is really missing
+
+222
+00:05:41,520 --> 00:05:44,880
+并确保它真的缺失了
+
+223
+00:05:44,880 --> 00:05:47,699
+any of the scenarios in the requirement visibility matrix if
+
+224
+00:05:44,880 --> 00:05:47,699
+需求可视化矩阵中的任一场景如果
+
+225
+00:05:47,699 --> 00:05:49,680
+so it is also helping us creating
+
+226
+00:05:47,699 --> 00:05:49,680
+所以它也在帮助我们创造
+
+227
+00:05:49,680 --> 00:05:51,000
+all those missing scenarios
+
+228
+00:05:49,680 --> 00:05:51,000
+所有那些缺失的场景
+
+229
+00:05:51,000 --> 00:05:53,039
+over here in a much greater detail
+
+230
+00:05:51,000 --> 00:05:53,039
+这里有更详细的描述
+
+231
+00:05:53,039 --> 00:05:58,620
+and then it is creating an amazing dashboard over here pretty much like a full table which
+
+232
+00:05:53,039 --> 00:05:58,620
+然后它在这里创建一个令人惊叹的仪表盘，几乎像一个完整的表格
+
+233
+00:05:58,620 --> 00:06:02,160
+tells me like what we actually have to do so we can also tell
+
+234
+00:05:58,620 --> 00:06:02,160
+告诉我我们到底该做什么，这样我们也能判断
+
+235
+00:06:02,160 --> 00:06:04,199
+some more that can you
+
+236
+00:06:02,160 --> 00:06:04,199
+还有一些可以让你
+
+237
+00:06:04,199 --> 00:06:08,400
+so to cover
+
+238
+00:06:04,199 --> 00:06:08,400
+所以要说说
+
+239
+00:06:08,400 --> 00:06:11,280
+more edge cases
+
+240
+00:06:08,400 --> 00:06:11,280
+更多极端情况
+
+241
+00:06:11,280 --> 00:06:13,759
+in the above requirement
+
+242
+00:06:11,280 --> 00:06:13,759
+在上述要求中
+
+243
+00:06:13,759 --> 00:06:22,020
+and create scenarios along with requirement traceability
+
+244
+00:06:13,759 --> 00:06:22,020
+并创建情景以及需求可追溯性
+
+245
+00:06:22,199 --> 00:06:24,000
+matrix
+
+246
+00:06:22,199 --> 00:06:24,000
+矩阵
+
+247
+00:06:24,000 --> 00:06:26,520
+so if i keep digging as grammar
+
+248
+00:06:24,000 --> 00:06:26,520
+所以如果我继续挖掘语法
+
+249
+00:06:26,520 --> 00:06:31,199
+as possible you can see that it is also going to start some more scenarios
+
+250
+00:06:26,520 --> 00:06:31,199
+你可以看到，这也将引发更多情景
+
+251
+00:06:31,199 --> 00:06:34,259
+like user returns to open account in a non-metrocity
+
+252
+00:06:31,199 --> 00:06:34,259
+类比用户返回非大都市的开户账户
+
+253
+00:06:34,259 --> 00:06:37,440
+pretty much like all the negative scenarios i just gonna go on each
+
+254
+00:06:34,259 --> 00:06:37,440
+基本上就像所有负面情况一样，我会逐一说出来
+
+255
+00:06:37,440 --> 00:06:41,520
+and every functionalities of this opening account all the it cases
+
+256
+00:06:37,440 --> 00:06:41,520
+以及该开户账户的所有功能，所有情况
+
+257
+00:06:41,520 --> 00:06:46,020
+and then it is also going to add them in our requirement traceability matrix
+
+258
+00:06:41,520 --> 00:06:46,020
+然后它还会把它们添加到我们的需求可追溯矩阵中
+
+259
+00:06:46,020 --> 00:06:49,440
+so now that we will have a complete detail of
+
+260
+00:06:46,020 --> 00:06:49,440
+现在我们将有一个完整的细节
+
+261
+00:06:49,440 --> 00:06:52,680
+what this particular functionality is doing whether
+
+262
+00:06:49,440 --> 00:06:52,680
+这个特定功能的作用
+
+263
+00:06:52,680 --> 00:06:56,759
+all these functionalities are covered in our automated assets in the manual testing and
+
+264
+00:06:52,680 --> 00:06:56,759
+所有这些功能都在我们的自动化资产中，在手动测试中得到了覆盖。
+
+265
+00:06:56,759 --> 00:06:58,940
+then we'll have those entire details
+
+266
+00:06:56,759 --> 00:06:58,940
+然后我们就能掌握全部细节
+
+267
+00:06:58,940 --> 00:07:06,479
+this is really really a mind-blowing task to be honest and everything is really covered over here in gpt
+
+268
+00:06:58,940 --> 00:07:06,479
+说实话，这真的是一项令人震惊的任务，GPT 这里涵盖了所有内容
+
+269
+00:07:06,479 --> 00:07:12,419
+and this is quite awesome to be honest so it is again a scary thing once again but
+
+270
+00:07:06,479 --> 00:07:12,419
+说实话，这真的很棒，所以这又是件令人害怕的事情，但
+
+271
+00:07:12,419 --> 00:07:15,000
+this is one of the most important babysitting
+
+272
+00:07:12,419 --> 00:07:15,000
+这是最重要的保姆之一
+
+273
+00:07:15,000 --> 00:07:16,620
+work that we all the time do
+
+274
+00:07:15,000 --> 00:07:16,620
+我们一直在做的工作
+
+275
+00:07:16,620 --> 00:07:20,819
+it if we have a grander visibility of this whole operation
+
+276
+00:07:16,620 --> 00:07:20,819
+如果我们能更全面地了解整个行动
+
+277
+00:07:20,819 --> 00:07:24,300
+that we always do in our automation as well as manual testing and and
+
+278
+00:07:20,819 --> 00:07:24,300
+这在我们的自动化和手动测试中一直都是这样
+
+279
+00:07:24,300 --> 00:07:27,479
+if we could use potential of tools something like this we
+
+280
+00:07:24,300 --> 00:07:27,479
+如果我们能利用类似工具的潜力，我们
+
+281
+00:07:27,479 --> 00:07:30,960
+will know that some of the missing requirement that we have in
+
+282
+00:07:27,479 --> 00:07:30,960
+你会知道我们在
+
+283
+00:07:30,960 --> 00:07:33,300
+our automation testing can be easily automated
+
+284
+00:07:30,960 --> 00:07:33,300
+我们的自动化测试可以轻松实现自动化
+
+285
+00:07:33,300 --> 00:07:36,479
+or not can be done much easily using tools
+
+286
+00:07:33,300 --> 00:07:36,479
+或者说，使用工具可以轻松完成
+
+287
+00:07:36,479 --> 00:07:38,340
+something like this so that is the real power
+
+288
+00:07:36,479 --> 00:07:38,340
+大概是这样的，所以这就是真正的力量
+
+289
+00:07:38,340 --> 00:07:39,840
+that i wanted to show in this quickly
+
+290
+00:07:38,340 --> 00:07:39,840
+我想快点展示
+
+291
+00:07:39,840 --> 00:07:41,340
+video once again thank
+
+292
+00:07:39,840 --> 00:07:41,340
+视频再次感谢
+
+293
+00:07:41,340 --> 00:07:43,139
+you so much for watching this videos guys just
+
+294
+00:07:41,340 --> 00:07:43,139
+非常感谢大家看这些视频，只是
+
+295
+00:07:43,139 --> 00:07:46,020
+let me know what you think about all these features
+
+296
+00:07:43,139 --> 00:07:46,020
+欢迎告诉我你对这些功能的看法
+
+297
+00:07:46,020 --> 00:07:50,460
+which is coming up from the gpt and i don't know how scary it is but
+
+298
+00:07:46,020 --> 00:07:50,460
+这是从 GPT 上来的，我不知道有多可怕，但
+
+299
+00:07:50,460 --> 00:07:52,860
+also how useful it is please let me know we'll
+
+300
+00:07:50,460 --> 00:07:52,860
+还有，这有多有用，请告诉我，我们会的
+
+301
+00:07:52,860 --> 00:07:55,380
+talk about that in our upcoming videos thank you
+
+302
+00:07:52,860 --> 00:07:55,380
+欢迎在我们即将发布的视频中详细讨论这些内容，谢谢
+

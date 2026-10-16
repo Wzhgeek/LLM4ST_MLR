@@ -1,0 +1,29 @@
+阶段1：数据库检索
+============================================================
+
+检索日期：2026-07-18
+起始年份：不限制
+
+共同逻辑检索式：
+("software traceability" OR "software trace" OR "software tracing")
+AND ("systematic literature review" OR "mapping study" OR "survey" OR "review")
+
+实际执行时，根据数据库支持的检索字段、短语匹配方式和查询语法进行等义适配。
+
+数据源：
+1. ACM Digital Library
+2. arXiv
+3. EI Compendex
+4. Google Scholar
+5. IEEE Xplore
+6. ScienceDirect
+7. Scopus
+8. SpringerLink
+9. Wiley Online Library
+10. Web of Science
+
+结果：
+- 未经跨库去重的记录：750条。
+- Google Scholar保存按相关度排序的前100条结果。
+- 各数据库数量见source_counts.csv。
+- 原始导出文件和检索截图保留在本目录上两级的各数据库文件夹中。

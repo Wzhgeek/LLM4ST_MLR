@@ -1,0 +1,28 @@
+LLM4ST综述需求识别：最终结果报告
+============================================================
+
+检索式：
+("software traceability" OR "software trace" OR "software tracing")
+AND ("systematic literature review" OR "mapping study" OR "survey" OR "review")
+
+流程结果：
+1. 10个数据库得到750条记录。
+2. 规范化并按DOI、题名去重后得到649条。
+3. 两名作者协商阅读题名、关键词与摘要后，纳入48篇，排除601条。
+4. 以48篇为种子开展一轮双向滚雪球，共得到并核查1473条唯一候选，最终
+   新增12篇。
+5. 合并并核验后，最终纳入60篇研究定位文献。
+
+当前权威文件：
+- 数据库检索数量：screening/01_database_search/source_counts.csv
+- 去重结果：screening/02_deduplication/records_deduplicated_649.bib
+- 数据库筛选决定：screening/03_screening/decisions_649.csv
+- 滚雪球逐条决定：screening/04_snowballing/decisions_1473.csv
+- 最终60篇：screening/05_final/included_60.bib
+- 文献类型汇总：screening/05_final/literature_type_summary.csv
+
+结论：
+现有ST知识综合已经覆盖历史发展、IR、ML、DL、预训练语言模型、制品关系和
+应用情境，部分研究也讨论生成式LLM，但尚未发现以LLM4ST为独立、核心且系统
+综述边界的专门研究。因此，本文可以将研究空白表述为“缺少专门、系统且全面的
+LLM4ST综述”。

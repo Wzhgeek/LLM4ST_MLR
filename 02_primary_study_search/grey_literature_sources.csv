@@ -1,0 +1,10 @@
+﻿source_id,title,source_type,publisher,channel_or_venue,publication_date,language,url,qa_final_decision
+G1,Create Requirement Traceability Matrix in Seconds with ChatGPT,video,Execute Automation,YouTube search,2023-05-17,English,https://www.youtube.com/watch?v=eTBCHSTvjPg,Included
+EX2,ChatGPT Traceability Matrix,report,Decisions,Product documentation,2024-03-07,English,https://documentation.decisions.com/projects/docs/chatgpt-traceability-matrix,Excluded (quality below threshold)
+G2,"Traceability and AI for Better Understanding, Communication, and QC of Trials",video,Verisian,"Conference presentation, London",2024-09-25,English,https://www.youtube.com/watch?v=vPnksGd34fg,Included
+G3,ReqTrace: Intelligent Traceability System for Software Engineering Projects,video,ReqTrace,YouTube search,2025-11-19,English,https://www.youtube.com/watch?v=7zLTl-7vy3Q,Included
+G4,VectorCAST + AI (Reqs2x),report,Vector Informatik,Product documentation,2026-03-18,English,https://www.vector.com/en/product/vectorcast/vectorcast-ai/,Included
+G5,LLM Assisted Automatic Test Generation and Requirements Traceability,video,LDRA,Flight Software Workshop,2026-03-21,English,https://www.youtube.com/watch?v=7hTGXEeFCiY,Included
+G6,LLM-Assisted Automatic MC/DC Test Generation & Requirements Traceability,video,LDRA,Flight Software Workshop,2026-04-07,English,https://www.youtube.com/watch?v=p8Pvudm_dBk,Included
+G7,AI-supported traceability and automation with Sphinx-Needs,video,useblocks,Open Community Experience 2026,2026-04-30,English,https://www.youtube.com/watch?v=vfTqhlTNA1s,Included
+G8,Building an AI Traceability Agent for Flight Software,video,Aggregate Intellect,YouTube search,2026-05-18,English,https://www.youtube.com/watch?v=_Lw7G8a8neI,Included

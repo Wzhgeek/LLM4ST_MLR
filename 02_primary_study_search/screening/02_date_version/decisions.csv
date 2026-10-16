@@ -1,0 +1,290 @@
+﻿record_id,title,decision,primary_condition,publication_date,date_precision,version_status,study_family_id,review_scope,reviewer_1,reviewer_2,decision_mode,reviewer_note
+merged_0002,LiSSA: Toward Generic Traceability Link Recovery Through Retrieval- Augmented Generation,INCLUDE,,2025-04-26,day,首选版本,SF0001,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0004,Embedding Traceability in Large Language Model Code Generation: Towards Trustworthy AI-Augmented Software Engineering,INCLUDE,,2025-07-28,day,首选版本,SF0002,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0007,Who's Who? LLM-assisted Software Traceability with Architecture Entity Recognition,INCLUDE,,2026-04-07,day,首选版本,SF0003,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0008,Real-World Traceability Patterns for Generative AI Systems: With Insights from the Safa Dataset,INCLUDE,,2026-06-26,day,首选版本,SF0004,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0009,A Hybrid Approach Combining Information Retrieval and Large Language Models for Traceability Link Recovery,INCLUDE,,2026-06-09,day,首选版本,SF0005,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0014,Tracing Domain Services in Application Code using Generative AI,INCLUDE,,2026-04-29,day,首选版本,SF0006,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0019,Promptware Engineering: Software Engineering for Prompt-Enabled Systems,INCLUDE,,2026-02-10,day,首选版本,SF0007,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0037,From Specifications to Implementation in the Gen-AI Era: Lessons from a Project-Based Software Engineering Course,INCLUDE,,2026-06-30,day,首选版本,SF0008,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0038,"Multi-LLM Persona Generation for Virtual Focus Groups in Software Engineering: A Controlled, Multi-domain Study of Emotional Requirements Elicitation",INCLUDE,,2026-06-30,day,首选版本,SF0009,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0045,Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks,INCLUDE,,2025-12-29,day,首选版本,SF0010,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0048,Toward Responsible Autonomy: The Opportunities and Obstacles of Large Language Models in Software Engineering,INCLUDE,,2026-05-08,day,首选版本,SF0011,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0065,CPEMH: An Agentic Framework for Prompt-Driven Behavior Evaluation and Assurance in Foundation-Model Systems for Mental Health Screening,INCLUDE,,2026-05-21,day,首选版本,SF0012,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0075,An LLM-based Approach to Recover Traceability Links between Security Requirements and Goal Models,INCLUDE,,2024-06-18,day,首选版本,SF0013,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0077,Evaluating the Use of LLMs for Documentation to Code Traceability,INCLUDE,,2026-06-06,day,首选版本,SF0014,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0079,LinkAnchor: An Autonomous LLM-Based Agent for Issue-to-Commit Link Recovery,INCLUDE,,2026-06-30,day,首选版本,SF0015,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0082,Building LLM-Based Voice Agents for Requirements Elicitation: An Experience Report on Early Prototypes,INCLUDE,,2026-05-21,day,首选版本,SF0016,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0105,Requirement Bot: Enhancing Software User Requirement List Through Retrieval-Augmented Human–AI Co-Authoring,INCLUDE,,2026-06-09,day,首选版本,SF0017,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0110,REST-at: An LLM-Based Tool for Automating Traceability between Requirements and Test Cases,INCLUDE,,2026-06-25,day,首选版本,SF0018,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0125,Requirement Mapping for Complex Equipment: An LLM-Enhanced GQFD Method,INCLUDE,,2026-05-11,day,首选版本,SF0019,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0126,Class Model Generation from Requirements using Large Language Models,INCLUDE,,2026-06-26,day,首选版本,SF0020,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0131,LLM-Assisted Knowledge Graph Construction and Dual-Layer Reasoning for Defect Repair Planning: A Neo4j-Based Demo,INCLUDE,,2026-06-05,day,首选版本,SF0021,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0133,Getting Inspiration for Feature Elicitation: App Store- vs. LLM-based Approach,INCLUDE,,2024-10-27,day,首选版本,SF0022,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0139,Using Distinct LLMs to Generate an Initial Software Functional Requirements List in Multiple Interactions,INCLUDE,,2026-06-26,day,首选版本,SF0023,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0140,OntoScope: Using a Divergent-Convergent Interaction Framework to Support LLM-based Ontology Scoping,INCLUDE,,2026-03-22,day,首选版本,SF0024,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0141,A Comparative Study of Large Language Models for Goal Model Extraction,INCLUDE,,2024-10-31,day,首选版本,SF0025,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0163,Scenario-Guided LLM-based Mobile App GUI Testing,INCLUDE,,2026-06-09,day,首选版本,SF0026,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0168,From Business Meetings to Requirement Artifacts: An Agentic AI Approach with MARARE,INCLUDE,,2026-05-21,day,首选版本,SF0027,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0172,Do LLMs Agree on Microservice Decompositions? A Multi–Model Study from Textual Requirements,INCLUDE,,2026-06-09,day,首选版本,SF0028,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0173,A DSL for Testing LLMs for Fairness and Bias,INCLUDE,,2024-09-22,day,首选版本,SF0029,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0174,"Feature Request Analysis and Processing: Tasks, Techniques, and Trends",INCLUDE,,2026-03-02,day,首选版本,SF0030,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0175,Applying a Schema-Constrained LLM Verification Pipeline to the Evaluation of Complex System Designs,INCLUDE,,2026-05-04,day,首选版本,SF0031,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0176,Beyond Input Maturity: Evolving LLM-Based Test Generation,INCLUDE,,2026-04-29,day,首选版本,SF0032,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0183,Beyond Microservices: Testing Web-Scale RCA Methods on GPU-Driven LLM Workloads,INCLUDE,,2026-05-03,day,首选版本,SF0033,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0185,An Empirical Analysis of Large Language Models for Sector Classification of Crowd-Based Software Requirements,INCLUDE,,2026-06-09,day,首选版本,SF0034,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0187,From Bugs to Benefits: Improving User Stories by Leveraging Crowd Knowledge with CrUISE-AC,INCLUDE,,2025-04-26,day,首选版本,SF0035,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0191,Smart Grid Assistive AI in Requirement Engineering: Improving the Modeling of Use Cases and Architecture Models with LLMs,INCLUDE,,2025-06-16,day,首选版本,SF0036,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0203,A Large-Scale Empirical Evaluation of LLMs for Automated Self-Admitted Technical Debt Repayment,INCLUDE,,2026-02-10,day,首选版本,SF0037,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0206,Evaluating Large Language Models for Requirements Question Answering in Industrial Aerospace Software,INCLUDE,,2025-07-28,day,首选版本,SF0038,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0224,Reflection-in-the-Loop: An AI-Augmented Visual Environment for Early-Stage Interface Design,INCLUDE,,2026-06-07,day,首选版本,SF0039,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0225,Validating Network Protocol Parsers with Traceable RFC Document Interpretation,INCLUDE,,2025-06-22,day,首选版本,SF0040,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0228,A Vision for Operationalising Diversity and Inclusion in AI,INCLUDE,,2024-07-29,day,首选版本,SF0041,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0256,Supporting High-Level to Low-Level Requirements Coverage Reviewing with Large Language Models,INCLUDE,,2024-07-02,day,首选版本,SF0042,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0273,RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models,INCLUDE,,2026-06-30,day,首选版本,SF0043,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0298,In-IDE Toolkit for Developers of AI-Based Features,INCLUDE,,2026-06,month,首选版本,SF0044,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0302,AI Assisted Domain Modeling Explainability and Traceability,INCLUDE,,2024-10-31,day,首选版本,SF0045,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0309,Cost and Benefit of Tracing Features with Embedded Annotations,INCLUDE,,2026-03-12,day,首选版本,SF0046,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0317,SimStep: Human-in-the-Loop Authoring of Interactive Educational Simulations Through Task-Level Abstractions,INCLUDE,,2026-04-13,day,首选版本,SF0047,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0349,Where is it? Tracing the Vulnerability-relevant Files from Vulnerability Reports,INCLUDE,,2024-04-12,day,首选版本,SF0048,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0351,Ethical Prompt Engineering for AI-driven SE: Evidence-informed Interaction-time Governance Roadmap to 2030,INCLUDE,,2026-03-26,day,首选版本,SF0049,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0373,Toward Bridging the Tool Gap: Equipping Large Language Models with Tools to Answer Programmers’ Questions,INCLUDE,,2025-10-09,day,首选版本,SF0050,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0387,Towards a Semi-Automated Pipeline for User Story Curation and Classification,INCLUDE,,2026-06-09,day,首选版本,SF0051,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0391,Adaptive Self-Improvement for Smarter Energy Systems Using Agentic Policy Search,INCLUDE,,2025-12-19,day,首选版本,SF0052,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0505,PatchFinder: A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open-Source Software,INCLUDE,,2024-09-11,day,首选版本,SF0053,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_0714,wBPF: Efficient Edge-Case Observability for CXL Pooling systems via eBPF,INCLUDE,,2025-04-19,day,首选版本,SF0054,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1111,"LLMography: Transforming Human-AI Conversations into Traceability, Oversight, and Auditability Indicators",INCLUDE,,2026-06-28,day,首选版本,SF0055,发表日期与版本,R1,R2,协商一致,arXiv v1 首次公开日期；早于 2026-06-30 截止日
+merged_1114,Trust-Aware Multi-Agent Traceability: Confidence-Calibrated Knowledge Graphs for Consistent Software Artifact Management,INCLUDE,,2026-06-15,day,首选版本,SF0056,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1118,"From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative AI, Agentic Systems, and Engineering Accountability",INCLUDE,,2026-05-10,day,首选版本,SF0057,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1119,Think Harder and Don't Overlook Your Options: Revisiting Issue-Commit Linking with LLM-Assisted Retrieval,INCLUDE,,2026-05-01,day,首选版本,SF0058,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1121,R2Code: A Self-Reflective LLM Framework for Requirements-to-Code Traceability,INCLUDE,,2026-04-24,day,首选版本,SF0059,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1122,Shift-Up: A Framework for Software Engineering Guardrails in AI-native Software Development -- Initial Findings,INCLUDE,,2026-04-22,day,首选版本,SF0060,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1125,IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution,INCLUDE,,2026-03-26,day,首选版本,SF0061,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1127,An Industrial-Scale Retrieval-Augmented Generation Framework for Requirements Engineering: Empirical Evaluation with Automotive Manufacturing Data,INCLUDE,,2026-03-20,day,首选版本,SF0062,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1128,VibeContract: The Missing Quality Assurance Piece in Vibe Coding,INCLUDE,,2026-03-16,day,首选版本,SF0063,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1129,ReqToCode: Embedding Requirements Traceability as a Structural Property of the Codebase,INCLUDE,,2026-03-14,day,首选版本,SF0064,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1130,"ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code",INCLUDE,,2026-03-06,day,首选版本,SF0065,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1131,ESAA: Event Sourcing for Autonomous Agents in LLM-Based Software Engineering,INCLUDE,,2026-02-26,day,首选版本,SF0066,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1132,Generative AI in Systems Engineering: A Framework for Risk Assessment of Large Language Models,INCLUDE,,2026-04-06,day,首选版本,SF0067,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1133,TraceLLM: Leveraging Large Language Models with Prompt Engineering for Enhanced Requirements Traceability,INCLUDE,,2026-05-19,day,首选版本,SF0068,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1135,Agentic Pipelines in Embedded Software Engineering: Emerging Practices and Challenges,INCLUDE,,2026-01-15,day,首选版本,SF0069,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1136,Evidence-Driven Decision Support for AI Model Selection in Research Software Engineering,INCLUDE,,2025-12-12,day,首选版本,SF0070,发表日期与版本,R1,R2,协商一致,以完整预印本的首次公开日期判定；SSRN 版本也位于时间窗内
+merged_1137,DOCUEVAL: An LLM-based AI Engineering Tool for Building Customisable Document Evaluation Workflows,INCLUDE,,2025-09-12,day,首选版本,SF0071,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1138,Traceability and Accountability in Role-Specialized Multi-Agent LLM Pipelines,INCLUDE,,2025-11-16,day,首选版本,SF0072,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1139,ErrorPrism: Reconstructing Error Propagation Paths in Cloud Service Systems,INCLUDE,,2025-11-16,day,首选版本,SF0073,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1140,Synergistic Enhancement of Requirement-to-Code Traceability: A Framework Combining Large Language Model based Data Augmentation and an Advanced Encoder,INCLUDE,,2026-05,month,首选版本,SF0074,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1141,Prompts as Software Engineering Artifacts: A Research Agenda and Preliminary Findings,INCLUDE,,2025-11-20,day,首选版本,SF0075,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1142,Natural Language-Programming Language Software Traceability Link Recovery Needs More than Textual Similarity,INCLUDE,,2025-09-06,day,首选版本,SF0076,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1143,Generative Goal Modeling,INCLUDE,,2025-09-01,day,首选版本,SF0077,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1144,Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval,INCLUDE,,2025-07-12,day,首选版本,SF0078,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1146,From Inductive to Deductive: LLMs-Based Qualitative Data Analysis in Requirements Engineering,INCLUDE,,2025-04-27,day,首选版本,SF0079,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1147,How Effective are Generative Large Language Models in Performing Requirements Classification?,INCLUDE,,2025-04-23,day,首选版本,SF0080,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1148,"An LLM-Integrated Framework for Completion, Management, and Tracing of STPA",INCLUDE,,2025-03-15,day,首选版本,SF0081,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1149,Classifier or Prompt: A Case Study on Legal Requirements Traceability,INCLUDE,,2026-03-02,day,首选版本,SF0082,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1150,On the Impact of Requirements Smells in Prompts: The Case of Automated Traceability,INCLUDE,,2025-04-27,day,首选版本,SF0083,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1151,Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks,INCLUDE,,2024-12-11,day,首选版本,SF0084,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1152,Prompts Matter: Insights and Strategies for Prompt Engineering in Automated Software Traceability,INCLUDE,,2023-09,month,首选版本,SF0085,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1154,Specification-Driven Development Benchmark: Security Knowledge Transition,INCLUDE,,2026-05-29,day,首选版本,SF0086,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1155,Knowledge Automation and Requirements Analysis in E-Commerce Fraud Detection,INCLUDE,,2025-10-28,day,首选版本,SF0087,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1156,Code Gradients: Towards Automated Traceability of LLM-Generated Code,INCLUDE,,2024-06-24,day,首选版本,SF0088,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1158,"REFSQ 2025 - Joint Proceedings of REFSQ 2025 Workshops, Doctoral Symposium, Posters and Tools Track, and Education and Training Track, co-located with 31st International Conference on Requirements Engineering: Foundation for Software Quality, REFSQ 2025",INCLUDE,,2025,year,首选版本,SF0089,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1159,LDIR: Low-Dimensional Dense and Interpretable Text Embeddings with Relative Representations,INCLUDE,,2025,year,首选版本,SF0090,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1161,"Proceedings - 31st IEEE International Requirements Engineering Conference Workshops, REW 2023",INCLUDE,,2023,year,首选版本,SF0091,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1162,Exploring Intelligent Document Processing Technology for Discovering Requirements Debt in Systems Engineering Management Plans,INCLUDE,,2025,year,首选版本,SF0092,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1163,ENHANCING AGILE REQUIREMENT DISCOVERY WITH AI-DRIVEN MULTIMODAL SYSTEMS AND SYNTHETIC USER STORY GENERATION,INCLUDE,,2025,year,首选版本,SF0093,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1164,Toward Reliable LLM-Integrated Web Architectures for Teacher-Aligned Automatic Student Grading,INCLUDE,,2026-06-20,day,首选版本,SF0094,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1165,Incorporating evidence into mental health Q&A: a novel method to use generative language models for validated clinical content extraction,INCLUDE,,2024-03-03,day,首选版本,SF0095,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1167,Automated formal-specification-to-code trace links recovery using multi-dimensional similarity measures,INCLUDE,,2025-08,month,首选版本,SF0096,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1168,TERE4AI: A Knowledge Graph-Based Tool for Generating EU AI Act Compliant Requirements,INCLUDE,,2026-06-02,day,首选版本,SF0097,发表日期与版本,R1,R2,协商一致,CEUR 论文页明确标注 published 2026-06-02
+merged_1169,An LLM-Based System for Accessible and Personalized Scientific Communication,INCLUDE,,2025,year,首选版本,SF0098,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1171,Requirements Elicitation for Machine Learning Applications: A Research Preview,INCLUDE,,2024-09-30,day,首选版本,SF0099,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1172,Automated Extraction and Cross-Document Analysis of Aerospace Project Requirements Using LLMs,INCLUDE,,2026-03-07,day,首选版本,SF0100,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1173,Knowledge Graph Construction and Quality Optimization for Airborne Software Requirement Generation,INCLUDE,,2026-04-24,day,首选版本,SF0101,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1175,Investigating Automated Change Analysis in FinTech Regulations,INCLUDE,,2025,year,首选版本,SF0102,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1176,DetectorsForge: A Software Product Line for Transfer-learning in Code Smells Detection,INCLUDE,,2025-10-19,day,首选版本,SF0103,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1178,Investigating automated change analysis in FinTech regulations,EXCLUDE,E6,2026-07,month,非首选版本,SF0102,发表日期与版本,R1,R2,协商一致,同一研究的非首选版本
+merged_1179,TriGen: A Semantic-Feedback Collaborative LLM Test Case Generation Model,INCLUDE,,2025,year,首选版本,SF0104,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1180,AI–Augmented Real-Time Collaborative Blended Modeling Framework for Automotive Embedded Systems,INCLUDE,,2026-02-25,day,首选版本,SF0105,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1181,APPLICATION OF ARTIFICIAL INTELLIGENCE FOR DECISION SUPPORT WITHIN CRISIS MANAGEMENT,INCLUDE,,2025,year,首选版本,SF0106,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1183,Retraining a BERT Model for Transfer Learning in Requirements Engineering: A Preliminary Study,INCLUDE,,2022-08,month,首选版本,SF0107,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1184,PyMethods2Test: A Dataset of Python Tests Mapped to Focal Methods,INCLUDE,,2025-04-28,day,首选版本,SF0108,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1185,Agentic RAG for Software Testing with Hybrid Vector-Graph and Multi-Agent Orchestration,INCLUDE,,2025-10-28,day,首选版本,SF0109,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1186,Compliance-by-Construction Argument Graphs: Using Generative AI to Produce Evidence-Linked Formal Arguments for Certification-Grade Accountability,INCLUDE,,2026-05-11,day,首选版本,SF0110,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1187,"29th International Conference on Fundamental Approaches to Software Engineering, FASE 2026, held as part of the International Joint Conferences on Theory and Practice of Software, ETAPS 2026",INCLUDE,,2026-04-16,day,首选版本,SF0111,发表日期与版本,R1,R2,协商一致,Springer 书目信息给出的电子版出版日期
+merged_1188,"Proceedings - 2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results, ICSE-NIER 2025",INCLUDE,,2025,year,首选版本,SF0112,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1189,An Application for Model-Based Guided Engineering,INCLUDE,,2025-03-01,day,首选版本,SF0113,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1190,Risk-Aware Requirements Engineering for Generative AI-Enabled Software Systems: A Framework and Empirical Validation,INCLUDE,,2026-03-17,day,首选版本,SF0114,发表日期与版本,R1,R2,协商一致,SSRN 首次 posted 日期；后续版本仍早于截止日
+merged_1191,Towards Generating High Quality Requirements For Space Missions Using RAG and Knowledge Graphs,INCLUDE,,2025,year,首选版本,SF0115,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1192,Reimagining Requirements Engineering for Automotive Systems: Boosting Efficiency with a Generative AI Assistant,INCLUDE,,2025-10-22,day,首选版本,SF0116,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1193,"18th International Symposium on Theoretical Aspects of Software Engineering, TASE 2024",INCLUDE,,2024,year,首选版本,SF0117,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1194,From Causal Graphs to Problem Diagrams: Enhancing Safety Requirement Modeling with LLM,INCLUDE,,2025-09-01,day,首选版本,SF0118,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1195,Affordance-Driven Requirements Specification and Scenario Generation,INCLUDE,,2025,year,首选版本,SF0119,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1196,LLM-Driven MDA Pipeline for Generating UML Class Diagrams and Code,INCLUDE,,2025,year,首选版本,SF0120,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1197,Requirement Gathering Through AI-based tools For Better knowledge Management,INCLUDE,,2025-12-10,day,首选版本,SF0121,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1198,Impact analysis of regulatory requirement changes on business process compliance,INCLUDE,,2026-06,month,首选版本,SF0122,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1199,From Pre-labeling to Production: Engineering Lessons from a Machine Learning Pipeline in the Public Sector,INCLUDE,,2025-11-03,day,首选版本,SF0123,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1200,Optimizing Soft Prompt Tuning via Structural Evolution,INCLUDE,,2026-02-18,day,首选版本,SF0124,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1201,Automatic Test Case Generation Mechanism With Natural Language-Based Korean Requirement Specifications,INCLUDE,,2025,year,首选版本,SF0125,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1204,RESEARCH NOTES: Multiclass Classification for Self-Admitted Technical Debt via Large Pre-Trained Language Model,INCLUDE,,2025-06-19,day,首选版本,SF0126,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1205,Enabling Trustable Financing: A Verifiable Privacy-Preserving Cross-Chain Protocol,INCLUDE,,2024-08-07,day,首选版本,SF0127,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1206,Application of AI in Software Architecture Development at Volvo Construction Equipment,INCLUDE,,2025-09-05,day,首选版本,SF0128,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1207,"Designing a Haptic Boot for Space With Prompt Engineering: Process, Insights, and Implications",INCLUDE,,2024,year,首选版本,SF0129,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1208,AI-Augmented Software Engineering: Revolutionizing or Challenging Software Quality and Testing?,INCLUDE,,2024-11-18,day,首选版本,SF0130,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1211,Prompt-Optimized LLMs for Requirements Architecture Construction: Empowering Scalable Requirement Analysis in Autonomous Transportation Systems,INCLUDE,,2026-05-01,day,首选版本,SF0131,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1212,Intelligent Traceability to Support Software Maintainability and Accountability,INCLUDE,,2025-09-01,day,首选版本,SF0132,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1213,Beyond Retrieval: A Study of Using LLM Ensembles for Candidate Filtering in Requirements Traceability,INCLUDE,,2025-09-01,day,首选版本,SF0133,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1214,Establishing Traceability Between Natural Language Requirements and Software Artifacts by Combining RAG and LLMs,INCLUDE,,2024-10-21,day,首选版本,SF0134,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1215,TVR: Automotive System Requirements Traceability Validation and Recovery Through Retrieval-Augmented Generation,INCLUDE,,2025-04-21,day,首选版本,SF0135,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1216,LLM-based Approach to Automatically Establish Traceability between Requirements and MBSE,INCLUDE,,2024-09-07,day,首选版本,SF0136,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1217,Cross-Level Requirements Tracing Based on Large Language Models,INCLUDE,,2025-07,month,首选版本,SF0137,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1218,Navigating through Work Items in Issue Tracking Systems via Natural Language Queries,INCLUDE,,2025-09-01,day,首选版本,SF0138,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1219,Generating Context-Aware Learning Materials for Software Security via LLM Agents and Traceability,INCLUDE,,2025-09-01,day,首选版本,SF0139,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1220,Constructing Cross-Level Traceability Links in the Automotive Domain: A Case Study,INCLUDE,,2025-09-01,day,首选版本,SF0140,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1221,Automatic Prompt Engineering: The Case of Requirements Classification,INCLUDE,,2025-04-01,day,首选版本,SF0141,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1222,Can we use LLMs to recover Trace Links between Source Code and Security Requirements?,INCLUDE,,2025-09-01,day,首选版本,SF0142,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1223,Methods for integrating large language models into requirements management in agile methodologies,INCLUDE,,2025,year,首选版本,SF0143,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1224,Behavioral Augmentation of UML Class Diagrams: An Empirical Study of Large Language Models for Method Generation,INCLUDE,,2025-06-01,day,首选版本,SF0144,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1225,Tracing Feature Tests to Textual Requirements,INCLUDE,,2024-08-07,day,首选版本,SF0145,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1227,Semantic Mastery: Enhancing LLMs with Advanced Natural Language Understanding,INCLUDE,,2026-02-18,day,首选版本,SF0146,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1228,Automated Identification and Representation of System Requirements Based on Large Language Models and Knowledge Graphs,INCLUDE,,2025-03-23,day,首选版本,SF0147,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1229,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,INCLUDE,,2025-09-17,day,首选版本,SF0148,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1230,On the Effectiveness of Zero-Shot and Few-Shot Pretrained Language Models for Software Requirement Classification,INCLUDE,,2025,year,首选版本,SF0149,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1231,Generative AI as a Cognitive Abstraction in Software Engineering: Evidence from Academic and Industrial Practice,INCLUDE,,2026-01-13,day,首选版本,SF0150,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1232,"Conversational Assistants for Software Development: Integration, Traceability and Coordination",INCLUDE,,2024,year,首选版本,SF0151,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1233,Prompting LLM for Embedded SRS Generation: A Case Study of Elder Care System,INCLUDE,,2025-09-01,day,首选版本,SF0152,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1235,Welcome to the Twelfth International Workshop on Evolving Security and Privacy Requirements Engineering (ESPRE'25),INCLUDE,,2025-09-01,day,首选版本,SF0153,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1236,DDD-Enforcer: An AI-Powered Multi-Agent System for Real-Time Domain-Driven Design Enforcement,INCLUDE,,2026-02-05,day,首选版本,SF0154,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1237,CTQRS-Based Reinforcement Learning Framework for Reliable Bug Report Generation Using Open-Source Large Language Models,INCLUDE,,2025-11-26,day,首选版本,SF0155,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1238,Iterative Requirements-Driven Business Process Modeling and Verification with Large Language Models,INCLUDE,,2026-01-04,day,首选版本,SF0156,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1240,Hybrid Usability Evaluation of an Automotive REM Tool: Human and LLM-Based Heuristic Assessment of IBM Doors Next,INCLUDE,,2026-01-09,day,首选版本,SF0157,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1241,LusGen: Leveraging LLMs for Safety-Critical Lustre Design and Requirements Traceability,INCLUDE,,2026-04-17,day,首选版本,SF0158,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1243,RAG to RichEs: Bridging RE Automation Pains with RAG Gains: Keynote Abstract,INCLUDE,,2025-09-01,day,首选版本,SF0159,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1244,AI-Driven Approaches to System Requirements and Test Case Generation: A New Paradigm in Software Engineering,INCLUDE,,2026-04-25,day,首选版本,SF0160,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1245,Smells Like Trouble: Investigating the Impact of Requirements Quality on LLM-Supported Software Engineering,INCLUDE,,2025-09-01,day,首选版本,SF0161,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1246,Leveraging Language Models for Automated Requirements to Design Transformation in MDA,INCLUDE,,2026-04-10,day,首选版本,SF0162,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1247,Closed-Loop Multi-Agent Framework for Airborne Systems MBSE Requirements Standardization,INCLUDE,,2025-07-11,day,首选版本,SF0163,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1248,Enhancing Regulation-Adherent Requirement Engineering with Contextual AI: An Industrial Study,INCLUDE,,2025-11-19,day,首选版本,SF0164,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1249,Towards Standards-Compliant Assistive Technology Product Specifications via LLMs,INCLUDE,,2024-06-24,day,首选版本,SF0165,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1250,The Ethical Requirements Stack: Operationalizing Adaptive Ethical Requirements with Human-AI Collaboration and GPT-Based LLMs,INCLUDE,,2026-01-17,day,首选版本,SF0166,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1251,The Impact of Input Structure on Creating Quality Requirements: A Gemini Case,INCLUDE,,2026-02-05,day,首选版本,SF0167,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1252,Challenges of Digitizing Reality into a Connected Metaverse - The Complexity of Data Requirements of Distributed Digital Twins,INCLUDE,,2025-09-01,day,首选版本,SF0168,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1253,A Context-Aware Multi-agent Approach to Enhancing User Story Management in Agile Software Development,INCLUDE,,2026-03-25,day,首选版本,SF0169,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1254,Leveraging Retrieval-Augmented Generation for Reliable Medical Question Answering Using Large Language Models,INCLUDE,,2024-10-09,day,首选版本,SF0170,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1255,Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization,INCLUDE,,2026-03-13,day,首选版本,SF0171,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1256,RHLMA: A Role-Hierarchical LLM Multi-Agent Framework for Airborne Software Requirement Review,INCLUDE,,2026-04-24,day,首选版本,SF0172,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1257,"LLM-Based MaSE, A Software Development Framework for Developing Multi-agent Systems",INCLUDE,,2025-07-01,day,首选版本,SF0173,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1258,Source Code Error Categorization and Explanation by Retrieval Augmented Generation,INCLUDE,,2026-03-20,day,首选版本,SF0174,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1259,Trust and Hallucinations: A Study of 39 Experts on AI-Assisted Requirements Reverse Engineering,INCLUDE,,2026-04,month,首选版本,SF0175,发表日期与版本,R1,R2,协商一致,期刊官网标为 2026 年第 4 期；整个月均位于时间窗内
+merged_1260,ArgRE: Formal Argumentation for Conflict Resolution in Multi-Agent Requirements Negotiation,INCLUDE,,2026-04-25,day,首选版本,SF0176,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1261,Integrating Conversational Assistants Within Software Development Environments: An Extensible Approach,INCLUDE,,2026-04-01,day,首选版本,SF0177,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1262,VATAL: Virtual Adversarial Training and Adaptive Hybrid Loss based on pre-trained language model for issue-commit link recovery,EXCLUDE,I7,2026-11,month,首选版本,SF0178,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1263,A GraphRAG-Based Dual-Path Structural Diffusion Retrieval Framework for Requirement-Code Traceability Link Recovery,INCLUDE,,2026-06-01,day,首选版本,SF0179,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1264,SELink: A semantic-enhanced modular framework for issue–commit link recovery,INCLUDE,,2026-02,month,首选版本,SF0180,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1265,Requirements Classification for Traceability Link Recovery,INCLUDE,,2024-06-24,day,首选版本,SF0181,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1266,Requirements Traceability Link Recovery via Retrieval-Augmented Generation,INCLUDE,,2025-04-01,day,首选版本,SF0182,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1267,Evaluation-Driven Development and Operations of LLM Agents: A Process Model and Reference Architecture,INCLUDE,,2024-11-21,day,首选版本,SF0183,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1268,Enabling Architecture Traceability by LLM-based Architecture Component Name Extraction,INCLUDE,,2025-03-31,day,首选版本,SF0184,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1269,"26th International Conference on Product-Focused Software Process Improvement, PROFES 2025",INCLUDE,,2025-11-19,day,首选版本,SF0185,发表日期与版本,R1,R2,协商一致,Springer 书目信息给出的电子版出版日期；原导出年份 2026 不准确
+merged_1270,HGTRTracer: Advancing Requirements-Code Traceability with LLM-Augmented Attribution Reasoning and Heterogeneous Graph Transformer,INCLUDE,,2025-12-02,day,首选版本,SF0186,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1271,Enhancing Requirement Traceability Through Data Augmentation Using Large Language Models,INCLUDE,,2025,year,首选版本,SF0187,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1272,Synergistic Enhancement of Requirement-to-Code Traceability: A Framework Combining Large Language Model based Data Augmentation and an Advanced Encoder,EXCLUDE,E6,2025,year,非首选版本,SF0074,发表日期与版本,R1,R2,协商一致,同一研究的非首选版本
+merged_1273,Towards Connecting Requirements with Developer Artifacts in a Local Context,INCLUDE,,2025-04-01,day,首选版本,SF0188,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1274,Enhancing Requirement-to-Code Traceability via Chain-of-Thought Prompting in Large Language Models,INCLUDE,,2025-12-02,day,首选版本,SF0189,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1275,Evaluating the Capabilities of LLMs in Traceability Maintenance for Automotive System and Software Requirements,INCLUDE,,2025,year,首选版本,SF0190,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1283,Retrieval-Augmented Large Language Models for Traceability Link Recovery,INCLUDE,,2024,year,首选版本,SF0191,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1290,EVALUATING TRANSFORMER AND LLM CONSTRAINTS FOR TRACEABILITY LINK RECOVERY,INCLUDE,,2026-03-26,day,首选版本,SF0192,发表日期与版本,R1,R2,协商一致,Trepo 元数据 DCTERMS.available 与 DC.date 均为 2026-03-26
+merged_1293,Improving software development traceability with structured prompting,INCLUDE,,2025-02-24,day,首选版本,SF0193,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1295,Exploring LLM-Based Semantic Representations in a Hybrid Approach for Automated Trace Link Recovery,INCLUDE,,2025,year,首选版本,SF0194,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1300,Automated Trace Link Recovery Between Natural Language Requirements and Formal Specifications via LLMs,EXCLUDE,I7,2026-07-02,day,首选版本,SF0195,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1302,SpecMap: Hierarchical LLM Agent for Datasheet-to-Code Traceability Link Recovery in Systems Engineering,INCLUDE,,2026-01-16,day,首选版本,SF0196,发表日期与版本,R1,R2,协商一致,arXiv v1 首次公开日期
+merged_1304,Utilizing Large Language Models to Improve Requirements Tracing in the Nuclear Energy Domain,INCLUDE,,2024,year,首选版本,SF0197,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1307,LLM-Based Requirement Traceability Matrix Generator from SRS Documents,INCLUDE,,2025-11-22,day,首选版本,SF0198,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1312,From requirements to code: Understanding developer practices in llm-assisted software engineering,INCLUDE,,2025-09-01,day,首选版本,SF0199,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1316,"Enhancing requirements engineering with large language models: From elicitation and classification to traceability, ambiguity management and api recommendation",INCLUDE,,2025,year,首选版本,SF0200,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1318,Requirements are all you need: From requirements to code with llms,INCLUDE,,2024-06-24,day,首选版本,SF0201,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1323,Who Broke the Pipeline? Traceability andAccountability in Multi-Agent LLM SoftwareEngineering Pipelines,INCLUDE,,2026-04-21,day,首选版本,SF0202,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1336,A Review on Detecting and Managing Documentation Drift in Software Development,INCLUDE,,2025-09-17,day,首选版本,SF0203,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1338,Towards Improving the Reliability of LLMs in Requirements Engineering with Structured Confidence and Tag Governance,INCLUDE,,2025-11-10,day,首选版本,SF0204,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1339,Traceability-Aware Retrieval-Augmented Question Answering for Fuzzy Queries in Engineering O&M,INCLUDE,,2026-05-15,day,首选版本,SF0205,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1340,Mitigating Hallucinations in SysML v2 Generation Using LLMs and a Tri-Layered Knowledge Graph Reasoning Framework,INCLUDE,,2025-10-05,day,首选版本,SF0206,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1341,A Formal Framework for Requirements Engineering in Large Language Model-Integrated Cyber-Physical Systems,INCLUDE,,2026-04-25,day,首选版本,SF0207,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1342,Automating Voice-Based Conversations into Formal User Stories Using LLM and Speech Recognition,INCLUDE,,2026-02-18,day,首选版本,SF0208,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1343,A Guideline for the Adoption of Generative AI to Support Secure Software Development Life Cycle (SSDLC): A Case Study of ChatGPT,INCLUDE,,2025-08-07,day,首选版本,SF0209,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1344,LLM/VLM-Driven Integrated Testing Framework for Autonomous Driving Assistance Systems: From Requirements to Failure Attribution,INCLUDE,,2026-04-17,day,首选版本,SF0210,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1345,"KNSE-Code: A Knowledge-Aware, Safety-Enhanced, Rule-Driven Framework for Aviation Safety-Critical Software Code Generation",INCLUDE,,2025-11-21,day,首选版本,SF0211,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1346,Multi-Label Requirements Classification with Large Taxonomies,INCLUDE,,2024-06-24,day,首选版本,SF0212,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1347,"Agentic SDLC Automation for ERP Release Readiness: Design Patterns, Governance Guardrails, and Measurable Operational Outcomes",INCLUDE,,2026-04-21,day,首选版本,SF0213,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1348,A Knowledge-Grounded and Generative Framework for Personalized Academic Advising,INCLUDE,,2026-04-27,day,首选版本,SF0214,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1349,"Assessing Compliance of Software System Designs to Laws, Regulations, and their Underlying Values",INCLUDE,,2025-04-27,day,首选版本,SF0215,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1350,XAI-Enabled Inspection Agent for Automated Defect Detection and Intelligent Reporting in the field of Non-Destructive Testing and Smart Manufacturing Systems,INCLUDE,,2026-02,month,首选版本,SF0216,发表日期与版本,R1,R2,协商一致,ScienceDirect 正式卷期为 Procedia CIRP 139 (2026)；DOI 元数据在 2026-02 已公开；整月位于时间窗内
+merged_1352,CM-MRAG: A multimodal retrieval-augmented framework for content moderation,INCLUDE,,2026-04,month,首选版本,SF0217,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1358,Using GenAI and blockchain for enhanced user experience in Metaverse-based therapy sessions,INCLUDE,,2025-08,month,首选版本,SF0218,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1359,"From Documents to Decisions: Enterprise-Grade LLM Systems for Zero-Hallucination, Attributed Generation, and Regulatory Alignment",INCLUDE,,2026-05-27,day,首选版本,SF0219,发表日期与版本,R1,R2,协商一致,期刊官网标注 Issue published 27 May 2026
+merged_1360,Early Depression Detection in Social Media: Monitoring of Individual Nighttime Dynamics and Large Language Model Analysis,INCLUDE,,2026-05-29,day,首选版本,SF0220,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1361,Technology opportunity analysis for creating innovative solutions: A framework for cross-field insights using patent data,INCLUDE,,2026-03,month,首选版本,SF0221,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1365,MTLink: Adaptive multi-task learning based pre-trained language model for traceability link recovery between issues and commits,INCLUDE,,2024-02,month,首选版本,SF0222,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1367,Enhancing Power Enterprise Inspection and Supervision: A LoRA-Based Lightweight LLM Framework Integrating Retrieval-Augmented Generation and Prompt Engineering,INCLUDE,,2026-06-04,day,首选版本,SF0223,发表日期与版本,R1,R2,协商一致,出版方 PDF 标注 Published Online 04 June 2026
+merged_1369,An Agentic AI-Empowered product family configuration approach for personalizing rehabilitation assistive devices with Multi-Faceted wearing experience,EXCLUDE,I7,2026-09,month,首选版本,SF0224,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1371,Ethical Considerations and Fundamental Principles of Large Language Models in Medical Education: Viewpoint,INCLUDE,,2024-08-01,day,首选版本,SF0225,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1372,Risk carrier identification and heterogeneity analysis for underground space development beneath existing buildings: A multi-source data and large-language-model-driven retrieval model,EXCLUDE,I7,2026-10,month,首选版本,SF0226,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1378,Artificial intelligence in cardiovascular care for internal medicine: from promising algorithms to useful clinical services,INCLUDE,,2026-05,month,首选版本,SF0227,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1379,"LLM experimentation through knowledge graphs: Towards improved management, repeatability, and verification",INCLUDE,,2025-05,month,首选版本,SF0228,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1380,AeroTag-RAG: A structured intelligent question-answering system for civil aviation services,EXCLUDE,I7,2026-12,month,首选版本,SF0229,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1382,A framework for creating an IoT system specification with ChatGPT,INCLUDE,,2024-10,month,首选版本,SF0230,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1385,DSAD: A dual-stream aligned detection framework for LLM-generated exam answers,INCLUDE,,2026-06,month,首选版本,SF0231,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1386,Gaussian Process Regression with LLM semantic projection for risk quantification in Critical Software-Intensive Systems,EXCLUDE,I7,2026-11,month,首选版本,SF0232,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1390,A Human-in-the-Loop conceptual design framework jointly driven by large language models and knowledge graphs,EXCLUDE,I7,2026-09,month,首选版本,SF0233,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1392,TraceAwareness and dual-strategy fuzz testing: Enhancing path coverage and crash localization with stochastic science and large language models,INCLUDE,,2025-04,month,首选版本,SF0234,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1393,Designing an LLM-based copilot for manufacturing equipment selection,INCLUDE,,2025-12,month,首选版本,SF0235,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1394,A knowledge-driven and interpretable fine-tuning LLMs framework for energy retrofit decision support in commercial buildings,INCLUDE,,2026-06,month,首选版本,SF0236,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1395,Regression test optimization for software of the cellular network base stations: A language-based approach,INCLUDE,,2026-05,month,首选版本,SF0237,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1396,"Security, privacy, and ethical risks in OpenClaw",INCLUDE,,2026-05,month,首选版本,SF0238,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1398,EffiLens: Explainable energy efficiency diagnosis for thermal power units via LLM-powered visual analytics,INCLUDE,,2026-05,month,首选版本,SF0239,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1399,Semantic Feedback Processing with LLMs: Automating Issue Detection and Prioritization in DevOps,INCLUDE,,2025,year,首选版本,SF0240,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1401,GateLens: A reasoning-enhanced LLM agent for automotive software release analytics,EXCLUDE,I7,2026-10,month,首选版本,SF0241,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1402,Chapter 3 - Responsibility gaps in autonomous agentic AI: Legal and ethical blind spots in multiagent and multideveloper systems,INCLUDE,,2026-06-24,day,首选版本,SF0242,发表日期与版本,R1,R2,协商一致,电子书版本在 2026-06-24 发布且 DOI 于 2026-06-26 注册；早于截止日
+merged_1404,Making waves: A conceptual framework exploring how large language model-based multi-agent systems could reshape water engineering,INCLUDE,,2026-03,month,首选版本,SF0243,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1405,LangBiTe: An open-source platform to automate bias testing of large language models,INCLUDE,,2025-09,month,首选版本,SF0244,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1406,Elevating ISO compliance: harnessing generative AI for auditing and quality excellence,INCLUDE,,2026-06-08,day,首选版本,SF0245,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1408,Tracing the legitimacy of Artificial Intelligence: A longitudinal analysis of media discourse,INCLUDE,,2023-07,month,首选版本,SF0246,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1409,Threat Modeling a Solution Integrating Blockchain and Artificial Intelligence for Agro-Food Traceability,INCLUDE,,2026-03,month,首选版本,SF0247,发表日期与版本,R1,R2,协商一致,ScienceDirect 正式卷期为 Procedia Computer Science 278 (2026)；DOI 元数据在 2026-03 已公开；整月位于时间窗内
+merged_1410,Empowering digital twins with large language models for global temporal feature learning,INCLUDE,,2024-06,month,首选版本,SF0248,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1411,Leveraging blockchain and LLMs for patient–clinical trial matching,INCLUDE,,2026-03,month,首选版本,SF0249,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1412,Traceable LLM-based validation of statements in knowledge graphs,INCLUDE,,2025-07,month,首选版本,SF0250,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1413,Chapter 8 - Artificial intelligence and machine learning in the fat and oil processing industry,INCLUDE,,2026-06-15,day,首选版本,SF0251,发表日期与版本,R1,R2,协商一致,Elsevier 图书页面给出的第一版出版日期
+merged_1414,Architecting knowledge through AI-enhanced observability: A design science approach to enterprise architecture as a knowledge discipline,EXCLUDE,I7,2026-08,month,首选版本,SF0252,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1416,A GenAI-driven risk management framework for sustainable development projects,EXCLUDE,I7,2026-12,month,首选版本,SF0253,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1417,"Multi-LLM Prototype: Open-source software for adaptive orchestration, conflict resolution, and cost-aware routing across heterogeneous large language models",EXCLUDE,I7,2026-09,month,首选版本,SF0254,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1423,Good Practices in Fisheries and Aquaculture,INCLUDE,,2023,year,首选版本,SF0255,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1425,Geometry-constrained open set recognition with frozen foundation model features for industrial inspection,EXCLUDE,I7,2026-07,month,首选版本,SF0256,发表日期与版本,R1,R2,协商一致,发表日期超出预设时间窗
+merged_1426,Data Interoperability in European Product Conformity Management for Circular Supply Chains: Digital Twins and a Legal Knowledge & Data Model for linking law making and product manufacturing,INCLUDE,,2026-03,month,首选版本,SF0257,发表日期与版本,R1,R2,协商一致,ScienceDirect 正式卷期为 Procedia Computer Science 277 (2026)；DOI 元数据在 2026-03 已公开；整月位于时间窗内
+merged_1427,Computer Vision on the Edge: A Scalable Auto-ID Solution for Industrial Logistics,INCLUDE,,2025,year,首选版本,SF0258,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1431,"14th International Conference on Model-Based Software and Systems Engineering, MODELSWARD 2026",INCLUDE,,2026-03,month,首选版本,SF0259,发表日期与版本,R1,R2,协商一致,正式论文集对应 2026-03-07 至 2026-03-09 会议；整月位于时间窗内
+merged_1432,The dual-encoder detector for AI-generated go code,INCLUDE,,2026-03-11,day,首选版本,SF0260,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1433,A Multi-agent System for Automating SDLC Documentation in IoT Environments,INCLUDE,,2025-11-22,day,首选版本,SF0261,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1435,Handbook on Natural Language Processing for Requirements Engineering: Overview,INCLUDE,,2025-03-06,day,首选版本,SF0262,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1436,Accelerating Safety-Critical Automotive Software Development Through Reproducible AI-Assisted Requirements Engineering,EXCLUDE,I7,2026-07-06,day,首选版本,SF0263,发表日期与版本,R1,R2,协商一致,截止日前仅能找到 accepted manuscript；IEEE 正式 DOI 元数据于 2026-07-06 公开，晚于截止日
+merged_1437,Handbook on Natural Language Processing for Requirements Engineering,INCLUDE,,2025,year,首选版本,SF0264,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1439,Towards Optimised Detection of Smart Contract Vulnerabilities using Large Language Models,INCLUDE,,2026-06-01,day,首选版本,SF0265,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1440,Leveraging AI-driven requirements for SysML modeling of the IoBT: A comprehensive investigation,INCLUDE,,2025,year,首选版本,SF0266,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1441,LHGLink: LLM—Enhanced Heterogeneous Graph Learning for Issue–Issue Link Prediction,INCLUDE,,2026-06-26,day,首选版本,SF0267,发表日期与版本,R1,R2,协商一致,IEEE Early Access DOI 元数据于 2026-06-26 公开；早于截止日
+merged_1443,Rich Data Versus Quantity of Data in Code Generation AI: A Paradigm Shift for Healthcare,INCLUDE,,2025-06-15,day,首选版本,SF0268,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1445,LLMs for Requirements Engineering: A Meta-Analysis on Trends and Challenges,INCLUDE,,2026-05-01,day,首选版本,SF0269,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1450,Using ChatGPT in Requirements Engineering Processes: Preliminary Report,INCLUDE,,2025-10-05,day,首选版本,SF0270,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1451,Using Large Language Models for Natural Language Processing Tasks in Requirements Engineering: A Systematic Guideline,INCLUDE,,2025-03-06,day,首选版本,SF0271,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1454,Are prompts all you need? Evaluating prompt-based Large Language Models (LLM)s for software requirements classification,INCLUDE,,2025-09-16,day,首选版本,SF0272,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1456,Addressing trust requirements in the design of an open-source multi-agent LLM-based domain-specific chatbot,INCLUDE,,2026-03-16,day,首选版本,SF0273,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1461,Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs,INCLUDE,,2024-06-01,day,首选版本,SF0274,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1478,Prompt Engineering Guidelines for Using Large Language Models in Requirements Engineering,INCLUDE,,2025-09-09,day,首选版本,SF0275,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1484,A design science research approach to Large Language Model-Based Agents for Requirements Specification (LLMBA4RS) in low-code applications,INCLUDE,,2025-09-13,day,首选版本,SF0276,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1486,Requirements Engineering Using Generative AI: Prompts and Prompting Patterns,INCLUDE,,2024-06-01,day,首选版本,SF0277,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1495,From issue titles to requirements: an empirical study of large language models and prompt engineering strategies,INCLUDE,,2026-05-26,day,首选版本,SF0278,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1496,ReqRAG: Enhancing Software Release Management through Retrieval-Augmented LLMs: An Industrial Study,INCLUDE,,2025-04-01,day,首选版本,SF0279,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1501,Towards Multi-Agent Systems in Requirements Engineering: A Proof-of-Concept Study Using Large Language Models,INCLUDE,,2026-05-01,day,首选版本,SF0280,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1504,Supporting Stakeholder Requirements Expression with LLM Revisions: An Empirical Evaluation,INCLUDE,,2026-03-25,day,首选版本,SF0281,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1516,Dealing with Data for RE: Mitigating Challenges While Using NLP and Generative AI,INCLUDE,,2025-03-06,day,首选版本,SF0282,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1529,Leveraging Large Language Models for Ontology Requirements Engineering,INCLUDE,,2025-10-13,day,首选版本,SF0283,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1530,From Online User Feedback to Requirements: Evaluating Large Language Models for Classification and Specification Tasks,INCLUDE,,2026-03-25,day,首选版本,SF0284,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_1581,Synthline: A Product Line Approach for Synthetic Requirements Engineering Data Generation Using Large Language Models,INCLUDE,,2025-05-16,day,首选版本,SF0285,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_2035,Generative Artificial Intelligence for Software Engineering—A Research Agenda,INCLUDE,,2025-07-29,day,首选版本,SF0286,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本
+merged_2048,Enhancing Requirements via Structured Formalization and Process-State Consistency Validation: An LLM-Assisted Test-Driven Framework,INCLUDE,,2025-12-23,day,首选版本,SF0287,发表日期与版本,R1,R2,协商一致,日期位于预设时间窗内，且为首选版本

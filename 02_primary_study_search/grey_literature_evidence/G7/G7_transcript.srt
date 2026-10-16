@@ -1,0 +1,7456 @@
+1
+00:00:03,274 --> 00:00:07,720
+so, yeah, welcome everybody.
+
+2
+00:00:03,274 --> 00:00:07,720
+那么，欢迎大家。
+
+3
+00:00:07,720 --> 00:00:11,200
+thanks for having me here and i'm i'm glad that you are interested
+
+4
+00:00:07,720 --> 00:00:11,200
+感谢邀请我来到这里，也很高兴你们对……
+
+5
+00:00:11,200 --> 00:00:15,720
+in in sphinx needs and how maybe ai can help
+
+6
+00:00:11,200 --> 00:00:15,720
+Sphinx-Needs 以及 AI 可能如何提供帮助感兴趣，
+
+7
+00:00:15,720 --> 00:00:18,600
+um to get traceability and automation out of it.
+
+8
+00:00:15,720 --> 00:00:18,600
+嗯，帮助实现可追溯性和自动化。
+
+9
+00:00:18,600 --> 00:00:19,880
+um i'm daniel.
+
+10
+00:00:18,600 --> 00:00:19,880
+嗯，我叫 Daniel。
+
+11
+00:00:19,880 --> 00:00:23,920
+if you have any question during the meeting or after it, just ask.
+
+12
+00:00:19,880 --> 00:00:23,920
+如果你们在会议期间或会后有任何问题，尽管问。
+
+13
+00:00:23,920 --> 00:00:27,600
+it's more discussion here and i'm a little bit old
+
+14
+00:00:23,920 --> 00:00:27,600
+这里更像是一次讨论，而且我有点老派，
+
+15
+00:00:27,600 --> 00:00:29,040
+um old-style guy.
+
+16
+00:00:27,600 --> 00:00:29,040
+嗯，是个老派的人。
+
+17
+00:00:29,040 --> 00:00:30,240
+i love to have a
+
+18
+00:00:29,040 --> 00:00:30,240
+我很希望一开始能有一个
+
+19
+00:00:30,240 --> 00:00:32,720
+um toc at the beginning.
+
+20
+00:00:30,240 --> 00:00:32,720
+嗯，目录。
+
+21
+00:00:32,720 --> 00:00:34,760
+so, what i want to to
+
+22
+00:00:32,720 --> 00:00:34,760
+那么，我今天想要
+
+23
+00:00:34,760 --> 00:00:37,040
+um talk today is about
+
+24
+00:00:34,760 --> 00:00:37,040
+嗯，谈谈的是
+
+25
+00:00:37,040 --> 00:00:40,040
+um at first the sphinx needs introduction, what it is.
+
+26
+00:00:37,040 --> 00:00:40,040
+嗯，首先介绍一下 Sphinx-Needs，它是什么。
+
+27
+00:00:40,040 --> 00:00:41,120
+so, may may
+
+28
+00:00:40,040 --> 00:00:41,120
+那么，可能
+
+29
+00:00:41,120 --> 00:00:43,280
+i ask a first question to you,
+
+30
+00:00:41,120 --> 00:00:43,280
+我先问你们一个问题，
+
+31
+00:00:43,280 --> 00:00:45,280
+who of you knows sphinx already,
+
+32
+00:00:43,280 --> 00:00:45,280
+你们当中有谁已经了解 Sphinx？
+
+33
+00:00:45,280 --> 00:00:46,160
+the documentation
+
+34
+00:00:45,280 --> 00:00:46,160
+文档
+
+35
+00:00:46,160 --> 00:00:48,440
+framework?
+
+36
+00:00:46,160 --> 00:00:48,440
+框架？
+
+37
+00:00:48,440 --> 00:00:50,240
+okay, good.
+
+38
+00:00:48,440 --> 00:00:50,240
+好的，不错。
+
+39
+00:00:50,240 --> 00:00:52,040
+and not so much.
+
+40
+00:00:50,240 --> 00:00:52,040
+没那么多。
+
+41
+00:00:52,040 --> 00:00:52,840
+so, i thought.
+
+42
+00:00:52,040 --> 00:00:52,840
+所以，我想。
+
+43
+00:00:52,840 --> 00:00:54,560
+and sphinx needs?
+
+44
+00:00:52,840 --> 00:00:54,560
+Sphinx 需要什么？
+
+45
+00:00:54,560 --> 00:00:55,560
+how many of them?
+
+46
+00:00:54,560 --> 00:00:55,560
+它们有多少个？
+
+47
+00:00:55,560 --> 00:00:57,240
+okay, good.
+
+48
+00:00:55,560 --> 00:00:57,240
+好的，不错。
+
+49
+00:00:57,240 --> 00:00:57,680
+good to see.
+
+50
+00:00:57,240 --> 00:00:57,680
+很高兴见到你。
+
+51
+00:00:57,680 --> 00:00:58,080
+then
+
+52
+00:00:57,680 --> 00:00:58,080
+那么
+
+53
+00:00:58,080 --> 00:01:00,120
+you are right here for also all the others
+
+54
+00:00:58,080 --> 00:01:00,120
+你也可以在这里和其他人一起
+
+55
+00:01:00,120 --> 00:01:00,520
+because
+
+56
+00:01:00,120 --> 00:01:00,520
+因为
+
+57
+00:01:00,520 --> 00:01:01,400
+then you get some introduction
+
+58
+00:01:00,520 --> 00:01:01,400
+然后你会对
+
+59
+00:01:01,400 --> 00:01:01,960
+of what it is
+
+60
+00:01:01,400 --> 00:01:01,960
+它是什么、
+
+61
+00:01:01,960 --> 00:01:03,120
+all about.
+
+62
+00:01:01,960 --> 00:01:03,120
+它的全部内容
+
+63
+00:01:03,120 --> 00:01:06,960
+um so, what we have achieved in the last years and what we have built there.
+
+64
+00:01:03,120 --> 00:01:06,960
+嗯，我会介绍一下我们在过去几年里取得的成就，以及在那里建立的成果。
+
+65
+00:01:06,960 --> 00:01:10,400
+then i talk a little bit how we can already use ai today
+
+66
+00:01:06,960 --> 00:01:10,400
+然后我会简单谈谈我们现在如何使用人工智能。
+
+67
+00:01:10,400 --> 00:01:14,040
+with sphinx needs docs-as-code approach and everything like this.
+
+68
+00:01:10,400 --> 00:01:14,040
+采用 Sphinx Needs 的文档即代码方法，以及类似的所有做法。
+
+69
+00:01:14,040 --> 00:01:16,920
+and i will also present you to an ai framework
+
+70
+00:01:14,040 --> 00:01:16,920
+我还会向你介绍一个 AI 框架
+
+71
+00:01:16,920 --> 00:01:18,680
+um called pharaoh
+
+72
+00:01:16,920 --> 00:01:18,680
+叫作 Pharaoh
+
+73
+00:01:18,680 --> 00:01:22,520
+um which can be used together with sphinx needs to get some nice
+
+74
+00:01:18,680 --> 00:01:22,520
+它可以与 Sphinx Needs 搭配使用，带来一些很棒的
+
+75
+00:01:22,520 --> 00:01:24,520
+um feature and
+
+76
+00:01:22,520 --> 00:01:24,520
+功能，以及
+
+77
+00:01:24,520 --> 00:01:26,800
+um other stuff out of your
+
+78
+00:01:24,520 --> 00:01:26,800
+其他一些东西，帮助你完善
+
+79
+00:01:26,800 --> 00:01:28,640
+um traceability documentation.
+
+80
+00:01:26,800 --> 00:01:28,640
+可追溯性文档。
+
+81
+00:01:28,640 --> 00:01:31,880
+at at the end, i want to ask some question or raise some question
+
+82
+00:01:28,640 --> 00:01:31,880
+最后，我想提一个问题。
+
+83
+00:01:31,880 --> 00:01:32,520
+and propose
+
+84
+00:01:31,880 --> 00:01:32,520
+并提出
+
+85
+00:01:32,520 --> 00:01:34,000
+some solutions
+
+86
+00:01:32,520 --> 00:01:34,000
+一些解决方案
+
+87
+00:01:34,000 --> 00:01:35,720
+for the discussion how
+
+88
+00:01:34,000 --> 00:01:35,720
+来讨论如何
+
+89
+00:01:35,720 --> 00:01:40,800
+ai can be somehow documented in a safe way and if this is even needed.
+
+90
+00:01:35,720 --> 00:01:40,800
+以安全的方式记录 AI，以及这是否有必要。
+
+91
+00:01:40,800 --> 00:01:42,720
+so, that goes into the direction of
+
+92
+00:01:40,800 --> 00:01:42,720
+所以，这就朝着
+
+93
+00:01:42,720 --> 00:01:46,000
+um into the future where we want to end at the end.
+
+94
+00:01:42,720 --> 00:01:46,000
+嗯，我们最终希望到达的未来方向前进。
+
+95
+00:01:46,000 --> 00:01:49,600
+um but let's start.
+
+96
+00:01:46,000 --> 00:01:49,600
+嗯，不过我们先开始吧。
+
+97
+00:01:49,600 --> 00:01:50,440
+okay, good.
+
+98
+00:01:49,600 --> 00:01:50,440
+好的，很好。
+
+99
+00:01:50,440 --> 00:01:56,720
+so, sphinx itself is an open source framework created once by the python foundation
+
+100
+00:01:50,440 --> 00:01:56,720
+所以，Sphinx 本身是一个开源框架，由 Python 基金会创建
+
+101
+00:01:56,720 --> 00:01:59,000
+um to document everything.
+
+102
+00:01:56,720 --> 00:01:59,000
+嗯，用来记录所有内容。
+
+103
+00:01:59,000 --> 00:02:00,440
+and as you can see
+
+104
+00:01:59,000 --> 00:02:00,440
+正如你所看到的
+
+105
+00:02:00,440 --> 00:02:04,320
+the eclipse core project is using it to create the complete documentation
+
+106
+00:02:00,440 --> 00:02:04,320
+Eclipse 核心项目正在使用它来生成完整的文档
+
+107
+00:02:04,320 --> 00:02:06,080
+website and everything like this.
+
+108
+00:02:04,320 --> 00:02:06,080
+网站，以及类似的所有内容。
+
+109
+00:02:06,080 --> 00:02:11,280
+so the website here you see is the outcome what sphinx is capable to do.
+
+110
+00:02:06,080 --> 00:02:11,280
+所以，你在这里看到的网站，就是 Sphinx 能够实现的效果。
+
+111
+00:02:11,280 --> 00:02:17,000
+that's not so interesting i would say a lot of software is doing the websites.
+
+112
+00:02:11,280 --> 00:02:17,000
+我觉得这没那么有意思，很多软件都能生成网站。
+
+113
+00:02:17,000 --> 00:02:19,240
+the nice thing is you see on the right side
+
+114
+00:02:17,000 --> 00:02:19,240
+有意思的是，你可以看到右侧的内容
+
+115
+00:02:19,240 --> 00:02:24,640
+that is following a docs as code approach which means that you write your documentation
+
+116
+00:02:19,240 --> 00:02:24,640
+也就是说采用“文档即代码”的方式，这意味着你要编写文档
+
+117
+00:02:24,640 --> 00:02:26,400
+in a markdown or restructured
+
+118
+00:02:24,640 --> 00:02:26,400
+并将其保存为 Markdown 或 reStructuredText
+
+119
+00:02:26,400 --> 00:02:31,480
+text file, store it together with your source code, with your test inside your repository,
+
+120
+00:02:26,400 --> 00:02:31,480
+文件，和源代码以及测试一同存放在代码仓库中，
+
+121
+00:02:31,480 --> 00:02:36,120
+and out of this then you generate your website, your pdf, whatever.
+
+122
+00:02:31,480 --> 00:02:36,120
+然后基于这些文件生成网站、PDF 等各种产物。
+
+123
+00:02:36,120 --> 00:02:40,280
+the good thing is that this format you focus really on the content as a developer
+
+124
+00:02:36,120 --> 00:02:40,280
+这种格式的好处是，作为文档的编写者，你可以真正专注于内容，
+
+125
+00:02:40,280 --> 00:02:41,240
+who's writing this.
+
+126
+00:02:40,280 --> 00:02:41,240
+而不用操心其他事情。
+
+127
+00:02:41,240 --> 00:02:43,400
+you are not caring about colors,
+
+128
+00:02:41,240 --> 00:02:43,400
+你不必考虑颜色，
+
+129
+00:02:43,400 --> 00:02:48,000
+if something shall be bigger written or smaller and and everything like this that's done automatically
+
+130
+00:02:43,400 --> 00:02:48,000
+也不必考虑某些内容要用大号还是小号字体，以及诸如此类的一切，这些都会自动处理。
+
+131
+00:02:48,000 --> 00:02:49,640
+by some theming.
+
+132
+00:02:48,000 --> 00:02:49,640
+通过一些主题定制。
+
+133
+00:02:49,640 --> 00:02:59,640
+and that's great because it allows the developer to follow also the developer workflows for documentation.
+
+134
+00:02:49,640 --> 00:02:59,640
+这很棒，因为这样开发者也能按照文档的开发工作流进行操作。
+
+135
+00:02:59,640 --> 00:03:05,320
+so this means when you store your documentation artifacts, whatever they are, requirements,
+
+136
+00:02:59,640 --> 00:03:05,320
+这意味着，无论文档产物是什么，例如需求，
+
+137
+00:03:05,320 --> 00:03:08,360
+test case results,
+
+138
+00:03:05,320 --> 00:03:08,360
+测试用例结果，
+
+139
+00:03:08,360 --> 00:03:09,800
+project handbooks,
+
+140
+00:03:08,360 --> 00:03:09,800
+项目手册，
+
+141
+00:03:09,800 --> 00:03:14,560
+you can build them together with maybe your change request which you have created in
+
+142
+00:03:09,800 --> 00:03:14,560
+都可以与可能由你在
+
+143
+00:03:14,560 --> 00:03:15,560
+github.
+
+144
+00:03:14,560 --> 00:03:15,560
+GitHub 上创建的变更请求一起构建。
+
+145
+00:03:15,560 --> 00:03:16,720
+and then when you have introduced
+
+146
+00:03:15,560 --> 00:03:16,720
+然后，当你引入了
+
+147
+00:03:16,720 --> 00:03:17,280
+a new feature
+
+148
+00:03:16,720 --> 00:03:17,280
+一项新功能
+
+149
+00:03:17,280 --> 00:03:19,360
+you can say okay the code is there for the new feature,
+
+150
+00:03:17,280 --> 00:03:19,360
+你可以说，好的，新功能的代码已经完成，
+
+151
+00:03:19,360 --> 00:03:20,120
+the test cases
+
+152
+00:03:19,360 --> 00:03:20,120
+测试用例
+
+153
+00:03:20,120 --> 00:03:20,800
+are there, everything
+
+154
+00:03:20,120 --> 00:03:20,800
+也都齐全了，一切
+
+155
+00:03:20,800 --> 00:03:21,560
+is green,
+
+156
+00:03:20,800 --> 00:03:21,560
+都通过了，
+
+157
+00:03:21,560 --> 00:03:23,480
+but wait there is no documentation.
+
+158
+00:03:21,560 --> 00:03:23,480
+但等等，还没有文档。
+
+159
+00:03:23,480 --> 00:03:26,000
+and this means okay you can also stop then
+
+160
+00:03:23,480 --> 00:03:26,000
+这意味着，你也可以先停下来，
+
+161
+00:03:26,000 --> 00:03:29,680
+the pull request and say okay please make an update.
+
+162
+00:03:26,000 --> 00:03:29,680
+在拉取请求中留言说：“好的，请更新一下。”
+
+163
+00:03:29,680 --> 00:03:31,680
+and that's much better if having the documentation
+
+164
+00:03:29,680 --> 00:03:31,680
+如果有相关文档，那就好得多
+
+165
+00:03:31,680 --> 00:03:34,680
+of a feature maybe in a wiki system which is not in sync
+
+166
+00:03:31,680 --> 00:03:34,680
+比如某项功能的文档放在 Wiki 系统中，而它
+
+167
+00:03:34,680 --> 00:03:37,519
+with your code.
+
+168
+00:03:34,680 --> 00:03:37,519
+与代码不同步。
+
+169
+00:03:38,200 --> 00:03:42,120
+sphinx needs is an extension for sphinx
+
+170
+00:03:38,200 --> 00:03:42,120
+Sphinx Needs 是 Sphinx 的一个扩展，
+
+171
+00:03:42,120 --> 00:03:45,239
+and it brings yeah some kind of requirement engineering
+
+172
+00:03:42,120 --> 00:03:45,239
+它为 Sphinx 本身引入了某种需求工程、
+
+173
+00:03:45,239 --> 00:03:48,840
+alm however you want to call it into sphinx itself.
+
+174
+00:03:45,239 --> 00:03:48,840
+ALM（你想怎么称呼都行）。
+
+175
+00:03:48,840 --> 00:03:53,600
+you see here also an example from from the score project.
+
+176
+00:03:48,840 --> 00:03:53,600
+这里你还可以看到一个来自 SCORE 项目的示例。
+
+177
+00:03:53,600 --> 00:03:58,320
+above you see the source code how it is and this is a stakeholder requirement here
+
+178
+00:03:53,600 --> 00:03:58,320
+上面是源代码的样子，而这是一个利益相关方需求。
+
+179
+00:03:58,320 --> 00:04:00,320
+which is written then you can
+
+180
+00:03:58,320 --> 00:04:00,320
+编写完成后，你就可以
+
+181
+00:04:00,320 --> 00:04:01,840
+set different metadata.
+
+182
+00:04:00,320 --> 00:04:01,840
+设置不同的元数据。
+
+183
+00:04:01,840 --> 00:04:04,600
+you can have here a content
+
+184
+00:04:01,840 --> 00:04:04,600
+你可以在这里添加内容，
+
+185
+00:04:04,600 --> 00:04:08,280
+which can be everything which is supported in sphinx and sphinx can really support a lot.
+
+186
+00:04:04,600 --> 00:04:08,280
+内容可以是任何 Sphinx 支持的内容，而 Sphinx 实际上支持很多类型。
+
+187
+00:04:08,280 --> 00:04:12,560
+you can add images, pdfs, tables.
+
+188
+00:04:08,280 --> 00:04:12,560
+你可以添加图片、PDF 文件和表格。
+
+189
+00:04:12,560 --> 00:04:15,440
+so you can have one line or you can have pages of information
+
+190
+00:04:12,560 --> 00:04:15,440
+因此，你可以只写一行，也可以写很多页的信息，
+
+191
+00:04:15,440 --> 00:04:16,839
+inside your your requirement
+
+192
+00:04:15,440 --> 00:04:16,839
+放在你的需求中。
+
+193
+00:04:16,839 --> 00:04:17,760
+for instance
+
+194
+00:04:16,839 --> 00:04:17,760
+例如
+
+195
+00:04:17,760 --> 00:04:21,760
+which describes this and at the end you get then here some output.
+
+196
+00:04:17,760 --> 00:04:21,760
+它对此进行了描述，最后你会在这里得到一些输出。
+
+197
+00:04:21,760 --> 00:04:26,640
+so this box is then in this case a stakeholder requirement in your documentation
+
+198
+00:04:21,760 --> 00:04:26,640
+所以，在这种情况下，这个框就是文档中的一项利益相关方需求
+
+199
+00:04:26,640 --> 00:04:29,919
+containing already links which are coming in here.
+
+200
+00:04:26,640 --> 00:04:29,919
+其中已经包含了链接，这些链接都关联到了这里。
+
+201
+00:04:29,919 --> 00:04:33,040
+so they are not defined here because this is a feature
+
+202
+00:04:29,919 --> 00:04:33,040
+所以这里没有定义它们，因为这是一项功能
+
+203
+00:04:33,040 --> 00:04:36,000
+in score which is linking against
+
+204
+00:04:33,040 --> 00:04:36,000
+在评分中，它关联到
+
+205
+00:04:36,000 --> 00:04:39,160
+a stakeholder requirement and this is a mentioned here
+
+206
+00:04:36,000 --> 00:04:39,160
+一项利益相关方需求，并且这里提到了这一点
+
+207
+00:04:39,160 --> 00:04:41,880
+and then you get all the information in your documentation.
+
+208
+00:04:39,160 --> 00:04:41,880
+然后你就能在文档中获得所有信息。
+
+209
+00:04:41,880 --> 00:04:44,040
+and from this object you can have
+
+210
+00:04:41,880 --> 00:04:44,040
+而从这个对象中，你可以得到
+
+211
+00:04:44,040 --> 00:04:46,520
+tens, dozens, you can have hundreds
+
+212
+00:04:44,040 --> 00:04:46,520
+十个、几十个，甚至可以有几百个
+
+213
+00:04:46,520 --> 00:04:49,320
+and the biggest project we have
+
+214
+00:04:46,520 --> 00:04:49,320
+而我们与客户合作的最大项目
+
+215
+00:04:49,320 --> 00:04:52,400
+with a customer together is that they are maintaining
+
+216
+00:04:49,320 --> 00:04:52,400
+是他们正在维护
+
+217
+00:04:52,400 --> 00:04:57,960
+100,000 elements inside a documentation for ecu project inside it and build it.
+
+218
+00:04:52,400 --> 00:04:57,960
+在 ECU 项目的文档中维护 100,000 个元素，并在其中构建项目。
+
+219
+00:04:57,960 --> 00:05:00,440
+so it can become quite huge.
+
+220
+00:04:57,960 --> 00:05:00,440
+所以它可能会变得相当庞大。
+
+221
+00:05:00,440 --> 00:05:04,760
+so as a recap, sphinx needs is a sphinx based extension for requirements.
+
+222
+00:05:00,440 --> 00:05:04,760
+总结一下，Sphinx Needs 是一个基于 Sphinx 的需求管理扩展。
+
+223
+00:05:04,760 --> 00:05:06,919
+sphinx is a documentation builder.
+
+224
+00:05:04,760 --> 00:05:06,919
+Sphinx 是一个文档构建工具。
+
+225
+00:05:06,919 --> 00:05:11,840
+really a great software already a lot
+
+226
+00:05:06,919 --> 00:05:11,840
+确实是一款很棒的软件，已经有很多了。
+
+227
+00:05:11,840 --> 00:05:15,400
+of time on the on the market and well tested with a lot of
+
+228
+00:05:11,840 --> 00:05:15,400
+在市场上经过长时间的检验，并经过大量
+
+229
+00:05:15,400 --> 00:05:19,680
+projects, extensions, everything like this and it's everything stored in git
+
+230
+00:05:15,400 --> 00:05:19,680
+项目、扩展等的充分测试，而且所有内容都存储在 Git 中
+
+231
+00:05:19,680 --> 00:05:21,919
+so that it can also be tested
+
+232
+00:05:19,680 --> 00:05:21,919
+因此也可以进行测试
+
+233
+00:05:21,919 --> 00:05:24,640
+against certain rules.
+
+234
+00:05:21,919 --> 00:05:24,640
+违反某些规则。
+
+235
+00:05:24,640 --> 00:05:27,880
+what i also want to show you is another extension also for sphinx.
+
+236
+00:05:24,640 --> 00:05:27,880
+我还想给你们展示另一个 Sphinx 扩展。
+
+237
+00:05:27,880 --> 00:05:33,520
+it's just called code links which allows you to have some markers inside your code.
+
+238
+00:05:27,880 --> 00:05:33,520
+它就叫 Code Links，可以让你在代码中添加一些标记。
+
+239
+00:05:33,520 --> 00:05:35,120
+this is here.
+
+240
+00:05:33,520 --> 00:05:35,120
+就是这个。
+
+241
+00:05:35,120 --> 00:05:35,640
+um
+
+242
+00:05:35,120 --> 00:05:35,640
+嗯
+
+243
+00:05:35,640 --> 00:05:37,080
+where you can really say, "okay,
+
+244
+00:05:35,640 --> 00:05:37,080
+你可以直接说：“好，
+
+245
+00:05:37,080 --> 00:05:40,919
+this marker, please get me this out of my source code
+
+246
+00:05:37,080 --> 00:05:40,919
+请把这个标记对应的内容从我的源代码中提取出来，
+
+247
+00:05:40,919 --> 00:05:42,560
+via a statement in your documentation
+
+248
+00:05:40,919 --> 00:05:42,560
+并通过文档中的一条语句来引用它，
+
+249
+00:05:42,560 --> 00:05:45,960
+where you say, "please trace me just the project which i have mentioned here."
+
+250
+00:05:42,560 --> 00:05:45,960
+你可以说：‘请只追踪我在这里提到的那个项目。’”
+
+251
+00:05:45,960 --> 00:05:49,480
+and then you also get again swings needs objects.
+
+252
+00:05:45,960 --> 00:05:49,480
+然后你还会再次得到 SWINGs 需求对象。
+
+253
+00:05:49,480 --> 00:05:51,760
+um the good thing is you can link swings needs objects.
+
+254
+00:05:49,480 --> 00:05:51,760
+嗯，好处是你可以关联 SWINGs 需求对象。
+
+255
+00:05:51,760 --> 00:05:53,840
+so, when you have this implementation
+
+256
+00:05:51,760 --> 00:05:53,840
+所以，当你有这个实现时
+
+257
+00:05:53,840 --> 00:05:56,120
+here, you can link a requirement, a specification,
+
+258
+00:05:53,840 --> 00:05:56,120
+在这里，你可以将需求、规范、
+
+259
+00:05:56,120 --> 00:06:01,360
+architecture element, test cases against it to get the complete traceability in the end.
+
+260
+00:05:56,120 --> 00:06:01,360
+架构元素和测试用例与之关联，最终实现完整的可追溯性。
+
+261
+00:06:01,360 --> 00:06:04,240
+so, this means that you can really not only have
+
+262
+00:06:01,360 --> 00:06:04,240
+所以，这意味着你不仅可以在文档中
+
+263
+00:06:04,240 --> 00:06:06,480
+parts in your documentation, but information
+
+264
+00:06:04,240 --> 00:06:06,480
+包含各个部分，还可以将信息
+
+265
+00:06:06,480 --> 00:06:09,080
+also directly in your source code,
+
+266
+00:06:06,480 --> 00:06:09,080
+直接放在源代码中，
+
+267
+00:06:09,080 --> 00:06:12,800
+which allows you for instance to maintain your test case description
+
+268
+00:06:09,080 --> 00:06:12,800
+例如，这样你就可以将测试用例描述保留在
+
+269
+00:06:12,800 --> 00:06:15,240
+in your test files and not in a separated
+
+270
+00:06:12,800 --> 00:06:15,240
+测试文件中，而不是单独的
+
+271
+00:06:15,240 --> 00:06:18,520
+file or something like this, which makes it then also easier for developers
+
+272
+00:06:15,240 --> 00:06:18,520
+文件里。这样也能让开发人员更容易
+
+273
+00:06:18,520 --> 00:06:19,680
+to
+
+274
+00:06:18,520 --> 00:06:19,680
+到
+
+275
+00:06:19,680 --> 00:06:25,640
+develop this test case because the description is just above the code.
+
+276
+00:06:19,680 --> 00:06:25,640
+开发这个测试用例，因为描述就在代码上方。
+
+277
+00:06:25,640 --> 00:06:26,760
+um
+
+278
+00:06:25,640 --> 00:06:26,760
+嗯
+
+279
+00:06:26,760 --> 00:06:30,560
+what swings needs really do at the end is it creates a traceability
+
+280
+00:06:26,760 --> 00:06:30,560
+Swing 最终真正需要做的是创建一个可追溯性
+
+281
+00:06:30,560 --> 00:06:33,400
+graph, where it gets a lot of information inside it.
+
+282
+00:06:30,560 --> 00:06:33,400
+图，其中包含大量信息。
+
+283
+00:06:33,400 --> 00:06:37,560
+what we just have seen is that we put something from ast files here from swings,
+
+284
+00:06:33,400 --> 00:06:37,560
+我们刚才看到的是，我们把 Swing 的 AST 文件中的内容放到了这里，
+
+285
+00:06:37,560 --> 00:06:38,600
+which goes inside it.
+
+286
+00:06:37,560 --> 00:06:38,600
+它会放在里面。
+
+287
+00:06:38,600 --> 00:06:41,200
+we have seen code links here from source code,
+
+288
+00:06:38,600 --> 00:06:41,200
+我们在这里见过来自源代码的代码链接，
+
+289
+00:06:41,200 --> 00:06:44,560
+which is also well, what is also there is swings needs test reports,
+
+290
+00:06:41,200 --> 00:06:44,560
+还有，Swings 也需要测试报告，
+
+291
+00:06:44,560 --> 00:06:46,640
+another open source extension,
+
+292
+00:06:44,560 --> 00:06:46,640
+另一个开源扩展，
+
+293
+00:06:46,640 --> 00:06:48,280
+which which grabs
+
+294
+00:06:46,640 --> 00:06:48,280
+它会抓取
+
+295
+00:06:48,280 --> 00:06:49,880
+um test case results
+
+296
+00:06:48,280 --> 00:06:49,880
+嗯，测试用例结果
+
+297
+00:06:49,880 --> 00:06:55,440
+from your test framework like google test or something like this, the junit xml format,
+
+298
+00:06:49,880 --> 00:06:55,440
+来自你的测试框架，比如 Google Test 之类的，采用 JUnit XML 格式，
+
+299
+00:06:55,440 --> 00:06:57,320
+and then it can link this result
+
+300
+00:06:55,440 --> 00:06:57,320
+然后它就可以链接这个结果
+
+301
+00:06:57,320 --> 00:06:58,680
+against your test case
+
+302
+00:06:57,320 --> 00:06:58,680
+针对你的测试用例
+
+303
+00:06:58,680 --> 00:07:03,000
+to really say, "okay, these test cases which you have defined here for this specific release
+
+304
+00:06:58,680 --> 00:07:03,000
+准确来说，就是“好，这些你为此版本定义的测试用例
+
+305
+00:07:03,000 --> 00:07:04,919
+are all green or some are red."
+
+306
+00:07:03,000 --> 00:07:04,919
+全都通过了，或者有些没通过。”
+
+307
+00:07:04,919 --> 00:07:07,000
+and then for sure you can also do some more
+
+308
+00:07:04,919 --> 00:07:07,000
+然后你当然也可以做更多
+
+309
+00:07:07,000 --> 00:07:10,280
+um automation, where you can say, "okay, if all my test cases are green,
+
+310
+00:07:07,000 --> 00:07:10,280
+嗯，自动化操作，比如说：“好，如果我的所有测试用例都通过了，
+
+311
+00:07:10,280 --> 00:07:11,720
+then the linked specifications
+
+312
+00:07:10,280 --> 00:07:11,720
+那么关联的规格说明
+
+313
+00:07:11,720 --> 00:07:13,040
+are also somehow closed.
+
+314
+00:07:11,720 --> 00:07:13,040
+也就以某种方式完成了。
+
+315
+00:07:13,040 --> 00:07:14,680
+and if all my specifications
+
+316
+00:07:13,040 --> 00:07:14,680
+如果我的所有规格说明
+
+317
+00:07:14,680 --> 00:07:19,160
+are closed closed for specific requirements, then please automatically close me the requirement."
+
+318
+00:07:14,680 --> 00:07:19,160
+已针对特定要求关闭，如果这些要求已经关闭，请自动帮我关闭这项要求。”
+
+319
+00:07:19,160 --> 00:07:22,640
+that's that's doable, or you can even test it and say, "okay, i have a requirement
+
+320
+00:07:19,160 --> 00:07:22,640
+这是可行的，或者你甚至可以测试一下，然后说：“好，我有一项要求
+
+321
+00:07:22,640 --> 00:07:23,919
+inside my release,
+
+322
+00:07:22,640 --> 00:07:23,919
+在我的版本中，
+
+323
+00:07:23,919 --> 00:07:25,880
+but i have red test cases,
+
+324
+00:07:23,919 --> 00:07:25,880
+但我有失败的测试用例，
+
+325
+00:07:25,880 --> 00:07:26,560
+so please
+
+326
+00:07:25,880 --> 00:07:26,560
+所以请
+
+327
+00:07:26,560 --> 00:07:28,400
+um report this somehow."
+
+328
+00:07:26,560 --> 00:07:28,400
+嗯，以某种方式报告这一情况。”
+
+329
+00:07:28,400 --> 00:07:32,160
+um what you can also do is you can integrate
+
+330
+00:07:28,400 --> 00:07:32,160
+嗯，你还可以做的是集成
+
+331
+00:07:32,160 --> 00:07:33,480
+um external information.
+
+332
+00:07:32,160 --> 00:07:33,480
+嗯，外部信息。
+
+333
+00:07:33,480 --> 00:07:34,560
+we have an ex
+
+334
+00:07:33,480 --> 00:07:34,560
+我们有一种导出导入格式，叫作 Needs JSON，
+
+335
+00:07:34,560 --> 00:07:39,160
+um export-import format called needs json, which we
+
+336
+00:07:34,560 --> 00:07:39,160
+我们可以创建这种格式，也可以从不同来源导入。
+
+337
+00:07:39,160 --> 00:07:43,680
+um can create, but also import from different sources.
+
+338
+00:07:39,160 --> 00:07:43,680
+此外，不同来源也可以是另一个 Sphinx 项目。
+
+339
+00:07:43,680 --> 00:07:46,400
+and different sources can also be another sphinx project.
+
+340
+00:07:43,680 --> 00:07:46,400
+所以，我们经常会看到，在一个新的系统项目中
+
+341
+00:07:46,400 --> 00:07:49,240
+so, what we often see is in a new system project
+
+342
+00:07:46,400 --> 00:07:49,240
+有组件项目
+
+343
+00:07:49,240 --> 00:07:51,080
+that you have component projects
+
+344
+00:07:49,240 --> 00:07:51,080
+以及组件文档，这些都与团队密切相关，
+
+345
+00:07:51,080 --> 00:07:53,520
+and component documentation, which are very
+
+346
+00:07:51,080 --> 00:07:53,520
+因此它们有非常明确的范围，并且
+
+347
+00:07:53,520 --> 00:07:57,880
+team related, so that they have a really specific scope and are
+
+348
+00:07:53,520 --> 00:07:57,880
+与团队相关，因此它们的范围非常明确，并且是
+
+349
+00:07:57,880 --> 00:08:02,640
+quite small and can be built and therefore quite fast and developed quite fast.
+
+350
+00:07:57,880 --> 00:08:02,640
+相当小，因此可以构建得很快，开发速度也相当快。
+
+351
+00:08:02,640 --> 00:08:07,800
+and then you integrate all of these component documentation in some kind of a system documentation,
+
+352
+00:08:02,640 --> 00:08:07,800
+然后，你可以把所有这些组件文档整合到某种系统文档中，
+
+353
+00:08:07,800 --> 00:08:11,120
+which summarize everything, then you get a complete documentation
+
+354
+00:08:07,800 --> 00:08:11,120
+对所有内容进行总结，这样就能得到一份完整的文档，
+
+355
+00:08:11,120 --> 00:08:15,880
+and traceability of your system and everything is is then there available.
+
+356
+00:08:11,120 --> 00:08:15,880
+以及系统的可追溯性，所有内容也都一目了然。
+
+357
+00:08:15,880 --> 00:08:18,400
+and on the right side, you also see here
+
+358
+00:08:15,880 --> 00:08:18,400
+在右侧，你还可以看到
+
+359
+00:08:18,400 --> 00:08:21,120
+um what you can do with this traceability graph.
+
+360
+00:08:18,400 --> 00:08:21,120
+嗯，这个可追溯性图可以用来做什么。
+
+361
+00:08:21,120 --> 00:08:25,680
+it's not just as you get the square boxes with this information of each requirement,
+
+362
+00:08:21,120 --> 00:08:25,680
+它不仅仅是把每项需求的信息放在方框里，
+
+363
+00:08:25,680 --> 00:08:27,919
+but you can then get tables out of it.
+
+364
+00:08:25,680 --> 00:08:27,919
+你还可以从中生成表格。
+
+365
+00:08:27,919 --> 00:08:29,200
+you can have here the need flow.
+
+366
+00:08:27,919 --> 00:08:29,200
+你可以在这里查看需求流程。
+
+367
+00:08:29,200 --> 00:08:31,480
+it's it's really small, but
+
+368
+00:08:29,200 --> 00:08:31,480
+它真的很小，不过
+
+369
+00:08:31,480 --> 00:08:35,000
+um pie charts, bar charts, so there are a lot of options
+
+370
+00:08:31,480 --> 00:08:35,000
+嗯，饼图、柱状图，所以有很多选项
+
+371
+00:08:35,000 --> 00:08:40,000
+what you can define in your documentation, how you want to have your information then presented.
+
+372
+00:08:35,000 --> 00:08:40,000
+你可以在文档中定义如何展示信息。
+
+373
+00:08:40,000 --> 00:08:41,000
+um
+
+374
+00:08:40,000 --> 00:08:41,000
+嗯
+
+375
+00:08:41,000 --> 00:08:42,479
+and if you want to go into more details,
+
+376
+00:08:41,000 --> 00:08:42,479
+如果你想了解更多细节，
+
+377
+00:08:42,479 --> 00:08:44,800
+you see there's a link and the qr code
+
+378
+00:08:42,479 --> 00:08:44,800
+你会看到一个链接和二维码
+
+379
+00:08:44,800 --> 00:08:45,960
+for the our sphinx needs
+
+380
+00:08:44,800 --> 00:08:45,960
+对应我们的 Sphinx 需求
+
+381
+00:08:45,960 --> 00:08:52,600
+um test demo project, which also have some a-spice related information, so you can
+
+382
+00:08:45,960 --> 00:08:52,600
+嗯，测试演示项目，其中也包含一些与 A-SPICE 相关的信息，所以你可以
+
+383
+00:08:52,600 --> 00:08:53,880
+go into it.
+
+384
+00:08:52,600 --> 00:08:53,880
+深入探讨一下。
+
+385
+00:08:53,880 --> 00:08:56,360
+um what i need also is to highlight
+
+386
+00:08:53,880 --> 00:08:56,360
+嗯，我还想强调一点
+
+387
+00:08:56,360 --> 00:08:57,760
+um
+
+388
+00:08:56,360 --> 00:08:57,760
+嗯
+
+389
+00:08:57,760 --> 00:08:59,320
+because yeah,
+
+390
+00:08:57,760 --> 00:08:59,320
+因为，是的，
+
+391
+00:08:59,320 --> 00:09:02,120
+it's it's a topic also always on the eclipse conferences,
+
+392
+00:08:59,320 --> 00:09:02,120
+这也是 Eclipse 大会上经常讨论的话题，
+
+393
+00:09:02,120 --> 00:09:04,520
+how to make money a little bit with sphinx needs
+
+394
+00:09:02,120 --> 00:09:04,520
+如何利用 Sphinx 的需求赚一点钱
+
+395
+00:09:04,520 --> 00:09:06,240
+and have a revenue stream.
+
+396
+00:09:04,520 --> 00:09:06,240
+并建立收入来源。
+
+397
+00:09:06,240 --> 00:09:07,280
+um
+
+398
+00:09:06,240 --> 00:09:07,280
+嗯
+
+399
+00:09:07,280 --> 00:09:09,160
+above this open source
+
+400
+00:09:07,280 --> 00:09:09,160
+除了开源
+
+401
+00:09:09,160 --> 00:09:14,280
+values which sphinx sphinx sphinx brings us, we have created some extensions which are also relevant
+
+402
+00:09:09,160 --> 00:09:14,280
+价值观之外，Sphinx 为我们带来了这些价值，我们还创建了一些同样具有相关性的扩展。
+
+403
+00:09:14,280 --> 00:09:17,000
+um for ai in this topic of this speech here.
+
+404
+00:09:14,280 --> 00:09:17,000
+嗯，在这次演讲的这个主题中，我们讨论的是 AI。
+
+405
+00:09:17,000 --> 00:09:21,920
+um so, for instance, we have created ubicode, which is a vs code extension,
+
+406
+00:09:17,000 --> 00:09:21,920
+嗯，比如说，我们开发了 Ubicode，这是一个 VS Code 扩展，
+
+407
+00:09:21,920 --> 00:09:28,480
+um which helps developers to get information about their traceability as fast as possible.
+
+408
+00:09:21,920 --> 00:09:28,480
+嗯，它能帮助开发者尽可能快速地获取有关其可追溯性的信息。
+
+409
+00:09:28,480 --> 00:09:32,560
+so, ubicode is scanning or creating the same traceability
+
+410
+00:09:28,480 --> 00:09:32,560
+所以，Ubicode 会扫描或构建相同的可追溯性
+
+411
+00:09:32,560 --> 00:09:36,640
+graph, but it's not based on sphinx, which is written in python, it's based on rust.
+
+412
+00:09:32,560 --> 00:09:36,640
+图谱，但它不是基于用 Python 编写的 Sphinx，而是基于 Rust。
+
+413
+00:09:36,640 --> 00:09:37,840
+so, we have done the task
+
+414
+00:09:36,640 --> 00:09:37,840
+所以，我们完成了这项任务
+
+415
+00:09:37,840 --> 00:09:38,360
+which sphinx
+
+416
+00:09:37,840 --> 00:09:38,360
+而 Sphinx
+
+417
+00:09:38,360 --> 00:09:38,680
+normally
+
+418
+00:09:38,360 --> 00:09:38,680
+通常是这样工作的。
+
+419
+00:09:38,680 --> 00:09:39,720
+is doing maybe in 20
+
+420
+00:09:38,680 --> 00:09:39,720
+可能只需 20
+
+421
+00:09:39,720 --> 00:09:40,040
+minutes
+
+422
+00:09:39,720 --> 00:09:40,040
+分钟
+
+423
+00:09:40,040 --> 00:09:41,600
+for a really huge project,
+
+424
+00:09:40,040 --> 00:09:41,600
+对于一个非常庞大的项目，
+
+425
+00:09:41,600 --> 00:09:43,560
+we have done in 3 or 4 seconds.
+
+426
+00:09:41,600 --> 00:09:43,560
+我们只用了 3 或 4 秒就完成了。
+
+427
+00:09:43,560 --> 00:09:45,120
+so, that when you type, you get
+
+428
+00:09:43,560 --> 00:09:45,120
+这样，你输入时就能直接
+
+429
+00:09:45,120 --> 00:09:45,640
+directly
+
+430
+00:09:45,120 --> 00:09:45,640
+获得
+
+431
+00:09:45,640 --> 00:09:46,240
+information
+
+432
+00:09:45,640 --> 00:09:46,240
+信息
+
+433
+00:09:46,240 --> 00:09:50,520
+about what is wrong, are you allowed to set a certain status, is the link correct,
+
+434
+00:09:46,240 --> 00:09:50,520
+关于哪里出了问题、是否允许设置某种状态、链接是否正确，
+
+435
+00:09:50,520 --> 00:09:51,400
+and everything like this.
+
+436
+00:09:50,520 --> 00:09:51,400
+以及诸如此类的一切。
+
+437
+00:09:51,400 --> 00:09:57,120
+so, everything regarding shift left to get information when you really write stuff.
+
+438
+00:09:51,400 --> 00:09:57,120
+所以，所有关于 Shift Left 以便在实际编写内容时获取信息的内容。
+
+439
+00:09:57,120 --> 00:09:58,960
+um and because we have this traceability
+
+440
+00:09:57,120 --> 00:09:58,960
+嗯，而且由于我们有这个可追溯性
+
+441
+00:09:58,960 --> 00:10:00,600
+graph, we can also have here
+
+442
+00:09:58,960 --> 00:10:00,600
+图谱，我们也可以在这里添加
+
+443
+00:10:00,600 --> 00:10:02,440
+features which are really relevant for
+
+444
+00:10:00,600 --> 00:10:02,440
+真正与……相关的功能
+
+445
+00:10:02,440 --> 00:10:03,480
+um ai.
+
+446
+00:10:02,440 --> 00:10:03,480
+嗯，AI。
+
+447
+00:10:03,480 --> 00:10:06,560
+and that's is the mc key
+
+448
+00:10:03,480 --> 00:10:06,560
+这就是 MC 密钥
+
+449
+00:10:06,560 --> 00:10:11,960
+um protocol for agents and also to provide a command line tool, which also can
+
+450
+00:10:06,560 --> 00:10:11,960
+嗯，为智能体提供一种协议，也提供一个命令行工具，智能体也可以
+
+451
+00:10:11,960 --> 00:10:15,040
+um agents then invoke directly.
+
+452
+00:10:11,960 --> 00:10:15,040
+嗯，直接调用。
+
+453
+00:10:15,040 --> 00:10:20,800
+um just to make it complete, we have ubiconnect also, which provides you some connectors to
+
+454
+00:10:15,040 --> 00:10:20,800
+嗯，为了完善整个方案，我们还有 ubiconnect，它为你提供了一些连接器，可以连接
+
+455
+00:10:20,800 --> 00:10:24,760
+other tools like doors, jama, web city, and and so on.
+
+456
+00:10:20,800 --> 00:10:24,760
+其他工具，比如 Doors、Jama、WebCity 等等。
+
+457
+00:10:24,760 --> 00:10:27,040
+and we have ubitrace, which is
+
+458
+00:10:24,760 --> 00:10:27,040
+我们还有 ubitrace，它是
+
+459
+00:10:27,040 --> 00:10:30,720
+um i i would call it summer or management app,
+
+460
+00:10:27,040 --> 00:10:30,720
+嗯，我会把它称作汇总或管理应用，
+
+461
+00:10:30,720 --> 00:10:32,080
+um because this is
+
+462
+00:10:30,720 --> 00:10:32,080
+嗯，因为这是
+
+463
+00:10:32,080 --> 00:10:35,600
+um because managers don't like to often yeah.
+
+464
+00:10:32,080 --> 00:10:35,600
+嗯，因为管理者不喜欢经常……是的。
+
+465
+00:10:35,600 --> 00:10:39,520
+make changes available in code and and follow a pull request.
+
+466
+00:10:35,600 --> 00:10:39,520
+在代码中进行更改，并提交拉取请求。
+
+467
+00:10:39,520 --> 00:10:41,720
+so, what they want to see is is a website,
+
+468
+00:10:39,520 --> 00:10:41,720
+所以，他们想看到的是一个网站，
+
+469
+00:10:41,720 --> 00:10:46,760
+and ubitrace is collecting all your traceability graphs from all your versions
+
+470
+00:10:41,720 --> 00:10:46,760
+而 Ubitrace 会收集你所有版本中的所有可追溯性图谱，
+
+471
+00:10:46,760 --> 00:10:50,640
+and make them available into one tool, so that you can really have access
+
+472
+00:10:46,760 --> 00:10:50,640
+并将它们汇总到一个工具中，让你能够真正访问这些数据，
+
+473
+00:10:50,640 --> 00:10:51,640
+um on history data.
+
+474
+00:10:50,640 --> 00:10:51,640
+嗯，访问历史数据。
+
+475
+00:10:51,640 --> 00:10:56,760
+so, you can say, "hey, i don't know, 3 months ago we have two
+
+476
+00:10:51,640 --> 00:10:56,760
+这样你就可以说：“嘿，我不太确定，三个月前我们有两个——
+
+477
+00:10:56,760 --> 00:11:02,480
+um 200 open requirements, now it's 150 requirements." so, that you can make comparison
+
+478
+00:10:56,760 --> 00:11:02,480
+嗯，200 个未关闭的需求，现在有 150 个需求。”这样你就能进行比较，
+
+479
+00:11:02,480 --> 00:11:04,160
+against history data.
+
+480
+00:11:02,480 --> 00:11:04,160
+对比历史数据。
+
+481
+00:11:04,160 --> 00:11:06,560
+and also authentication is an important point.
+
+482
+00:11:04,160 --> 00:11:06,560
+而且，身份验证也是一个重要环节。
+
+483
+00:11:06,560 --> 00:11:08,480
+so, when you have for instance
+
+484
+00:11:06,560 --> 00:11:08,480
+比如，当你有
+
+485
+00:11:08,480 --> 00:11:09,520
+um supplier
+
+486
+00:11:08,480 --> 00:11:09,520
+嗯，供应商
+
+487
+00:11:09,520 --> 00:11:10,560
+um relationship
+
+488
+00:11:09,520 --> 00:11:10,560
+嗯，关系
+
+489
+00:11:10,560 --> 00:11:14,600
+and want to say, "hey, certain information shall be kept inside our company,
+
+490
+00:11:10,560 --> 00:11:14,600
+并且想说：“嘿，某些信息应当保留在我们公司内部，
+
+491
+00:11:14,600 --> 00:11:16,000
+but we need to
+
+492
+00:11:14,600 --> 00:11:16,000
+但我们需要
+
+493
+00:11:16,000 --> 00:11:20,280
+share other information with a supplier or oem or customer."
+
+494
+00:11:16,000 --> 00:11:20,280
+与供应商、原始设备制造商（OEM）或客户共享其他信息。”
+
+495
+00:11:20,280 --> 00:11:23,800
+then you can con- configure it on a role-based access management.
+
+496
+00:11:20,280 --> 00:11:23,800
+那么，你就可以通过基于角色的访问管理来配、配置它。
+
+497
+00:11:23,800 --> 00:11:27,600
+and we are also planning for the future, we are working already on it,
+
+498
+00:11:23,800 --> 00:11:27,600
+我们也在为未来做规划，并且已经开始着手了，
+
+499
+00:11:27,600 --> 00:11:34,880
+um to make certain things at least editable with a not boxes code approach
+
+500
+00:11:27,600 --> 00:11:34,880
+嗯，让某些内容至少可以通过非盒式代码的方式进行编辑。
+
+501
+00:11:34,880 --> 00:11:37,800
+um but therefore more later.
+
+502
+00:11:34,880 --> 00:11:37,800
+嗯，不过这部分以后再详细说。
+
+503
+00:11:37,800 --> 00:11:39,080
+um
+
+504
+00:11:37,800 --> 00:11:39,080
+嗯
+
+505
+00:11:39,080 --> 00:11:43,240
+let's come now what we are currently doing with sphinx needs
+
+506
+00:11:39,080 --> 00:11:43,240
+现在我们来谈谈目前 Sphinx 的需求，
+
+507
+00:11:43,240 --> 00:11:44,760
+related to ai
+
+508
+00:11:43,240 --> 00:11:44,760
+以及它们与 AI 的关系。
+
+509
+00:11:44,760 --> 00:11:47,840
+and the question is it good or is it not good?
+
+510
+00:11:44,760 --> 00:11:47,840
+问题是，这样做是好还是不好？
+
+511
+00:11:47,840 --> 00:11:50,600
+um it's great, to be honest.
+
+512
+00:11:47,840 --> 00:11:50,600
+嗯，说实话，这很棒。
+
+513
+00:11:50,600 --> 00:11:51,040
+so,
+
+514
+00:11:50,600 --> 00:11:51,040
+所以，
+
+515
+00:11:51,040 --> 00:11:56,640
+um ai loves sphinx needs or in general every boxes code approach.
+
+516
+00:11:51,040 --> 00:11:56,640
+嗯，AI 喜欢 Sphinx-Needs，或者说一般而言，喜欢以代码为基础的所有框架。
+
+517
+00:11:56,640 --> 00:11:59,600
+um first of all because it's all text
+
+518
+00:11:56,640 --> 00:11:59,600
+嗯，首先，因为它全都是文本，
+
+519
+00:11:59,600 --> 00:12:03,240
+and text is really something ai really understands quite well.
+
+520
+00:11:59,600 --> 00:12:03,240
+而文本正是 AI 非常擅长理解的内容。
+
+521
+00:12:03,240 --> 00:12:04,720
+the next thing is that
+
+522
+00:12:03,240 --> 00:12:04,720
+其次，
+
+523
+00:12:04,720 --> 00:12:09,120
+sphinx and sphinx needs are based on restructured text, which is a format and standardized
+
+524
+00:12:04,720 --> 00:12:09,120
+Sphinx 和 Sphinx-Needs 都基于 reStructuredText，这是一种格式规范，并且有标准化的
+
+525
+00:12:09,120 --> 00:12:10,320
+and documented.
+
+526
+00:12:09,120 --> 00:12:10,320
+文档。
+
+527
+00:12:10,320 --> 00:12:11,480
+so,
+
+528
+00:12:10,320 --> 00:12:11,480
+所以，
+
+529
+00:12:11,480 --> 00:12:15,800
+um it's quite easy for ai to read the documentation to understand it.
+
+530
+00:12:11,480 --> 00:12:15,800
+嗯，AI 很容易阅读文档并理解它。
+
+531
+00:12:15,800 --> 00:12:17,240
+but the good thing is
+
+532
+00:12:15,800 --> 00:12:17,240
+但好处是，
+
+533
+00:12:17,240 --> 00:12:21,440
+that as sphinx is already, i don't know, 15, 20 years old or something like this.
+
+534
+00:12:17,240 --> 00:12:21,440
+Sphinx 已经有 15 年、20 年左右的历史了吧。
+
+535
+00:12:21,440 --> 00:12:26,200
+um there are over 100,000 projects available in the source code.
+
+536
+00:12:21,440 --> 00:12:26,200
+嗯，源代码中有超过 10 万个项目可供使用。
+
+537
+00:12:26,200 --> 00:12:29,200
+so, each model you find outside there
+
+538
+00:12:26,200 --> 00:12:29,200
+所以，你在外面找到的每个模型
+
+539
+00:12:29,200 --> 00:12:33,040
+has training data of ast data and everything like this already inside it.
+
+540
+00:12:29,200 --> 00:12:33,040
+都已经包含了 AST 数据等各种训练数据。
+
+541
+00:12:33,040 --> 00:12:39,600
+so, it's understands immediately all the syntax what it's needed and as sphinx needs is 100%
+
+542
+00:12:33,040 --> 00:12:39,600
+所以它能立即理解所需的所有语法，而 Sphinx 需要的是 100% 的
+
+543
+00:12:39,600 --> 00:12:41,680
+um client to to ast,
+
+544
+00:12:39,600 --> 00:12:41,680
+嗯，客户端到 AST 的转换，
+
+545
+00:12:41,680 --> 00:12:45,080
+it's also understands all the traceability and and all the mechanisms
+
+546
+00:12:41,680 --> 00:12:45,080
+它也能理解所有可追溯性和各种机制。
+
+547
+00:12:45,080 --> 00:12:48,400
+sphinx needs provides here.
+
+548
+00:12:45,080 --> 00:12:48,400
+这里需要 Sphinx 提供相关功能。
+
+549
+00:12:48,440 --> 00:12:50,360
+so, it can scan ast
+
+550
+00:12:48,440 --> 00:12:50,360
+这样它就能扫描 AST
+
+551
+00:12:50,360 --> 00:12:52,320
+files, but if you have 100,000
+
+552
+00:12:50,360 --> 00:12:52,320
+文件，但如果你有 100,000 个
+
+553
+00:12:52,320 --> 00:12:52,960
+of your ast
+
+554
+00:12:52,320 --> 00:12:52,960
+AST
+
+555
+00:12:52,960 --> 00:12:54,320
+files, it's not a good idea
+
+556
+00:12:52,960 --> 00:12:54,320
+文件，那就不是个好主意
+
+557
+00:12:54,320 --> 00:12:54,800
+to ask
+
+558
+00:12:54,320 --> 00:12:54,800
+去让
+
+559
+00:12:54,800 --> 00:12:55,280
+an ai
+
+560
+00:12:54,800 --> 00:12:55,280
+一个 AI
+
+561
+00:12:55,280 --> 00:12:55,640
+agent
+
+562
+00:12:55,280 --> 00:12:55,640
+代理来做。
+
+563
+00:12:55,640 --> 00:12:56,280
+to to index
+
+564
+00:12:55,640 --> 00:12:56,280
+用于索引
+
+565
+00:12:56,280 --> 00:12:56,680
+everything
+
+566
+00:12:56,280 --> 00:12:56,680
+所有内容
+
+567
+00:12:56,680 --> 00:12:58,200
+of and read everything
+
+568
+00:12:56,680 --> 00:12:58,200
+并阅读所有内容
+
+569
+00:12:58,200 --> 00:12:59,760
+because then the context gets
+
+570
+00:12:58,200 --> 00:12:59,760
+因为这样上下文就会变得
+
+571
+00:12:59,760 --> 00:13:03,880
+um to be quite and it will forget a lot of information.
+
+572
+00:12:59,760 --> 00:13:03,880
+嗯，相当……而且它会忘掉很多信息。
+
+573
+00:13:03,880 --> 00:13:07,040
+so, therefore sphinx needs also can be filtered and by tools.
+
+574
+00:13:03,880 --> 00:13:07,040
+所以，Sphinx 也需要借助工具进行筛选。
+
+575
+00:13:07,040 --> 00:13:09,960
+so, mcp and and command line tools i just have mentioned
+
+576
+00:13:07,040 --> 00:13:09,960
+所以，我刚才提到的 MCP 和命令行工具
+
+577
+00:13:09,960 --> 00:13:13,200
+with the help of ubi code, which is by the way completely
+
+578
+00:13:09,960 --> 00:13:13,200
+借助 Ubi Code，顺便说一下，它完全是
+
+579
+00:13:13,200 --> 00:13:15,120
+free available for open source projects.
+
+580
+00:13:13,200 --> 00:13:15,120
+可免费提供给开源项目使用。
+
+581
+00:13:15,120 --> 00:13:17,080
+so, all our tools
+
+582
+00:13:15,120 --> 00:13:17,080
+所以，我们所有的工具
+
+583
+00:13:17,080 --> 00:13:21,240
+may not be open source, but they are available always for open source projects
+
+584
+00:13:17,080 --> 00:13:21,240
+可能并非都是开源的，但始终可供开源项目使用
+
+585
+00:13:21,240 --> 00:13:24,520
+um so that you can directly download it without any registration,
+
+586
+00:13:21,240 --> 00:13:24,520
+嗯，所以你可以直接下载，无需注册，
+
+587
+00:13:24,520 --> 00:13:25,600
+test it
+
+588
+00:13:24,520 --> 00:13:25,600
+进行测试
+
+589
+00:13:25,600 --> 00:13:29,400
+and and yeah, use the benefits you may have there.
+
+590
+00:13:25,600 --> 00:13:29,400
+然后，嗯，享受你们可以获得的好处。
+
+591
+00:13:29,400 --> 00:13:30,680
+um
+
+592
+00:13:29,400 --> 00:13:30,680
+嗯
+
+593
+00:13:30,680 --> 00:13:33,680
+and at the end as sphinx needs has a traceability graph,
+
+594
+00:13:30,680 --> 00:13:33,680
+最后，由于 Sphinx 需要一个可追溯性图谱，
+
+595
+00:13:33,680 --> 00:13:37,920
+also information which the ai is creating can be validated then.
+
+596
+00:13:33,680 --> 00:13:37,920
+因此，人工智能生成的信息也可以得到验证。
+
+597
+00:13:37,920 --> 00:13:39,280
+so, when
+
+598
+00:13:37,920 --> 00:13:39,280
+所以，当
+
+599
+00:13:39,280 --> 00:13:43,120
+an ai is creating requirements and linking it against an architecture
+
+600
+00:13:39,280 --> 00:13:43,120
+AI 在创建需求并将其与架构关联时
+
+601
+00:13:43,120 --> 00:13:45,920
+and then linking it against test cases,
+
+602
+00:13:43,120 --> 00:13:45,920
+然后再将其与测试用例关联时，
+
+603
+00:13:45,920 --> 00:13:48,320
+all the linkage, all the rules you may have defined
+
+604
+00:13:45,920 --> 00:13:48,320
+所有关联关系以及你定义的所有规则
+
+605
+00:13:48,320 --> 00:13:50,760
+can be tested so that then ai really
+
+606
+00:13:48,320 --> 00:13:50,760
+都可以经过测试，这样 AI 才能真正
+
+607
+00:13:50,760 --> 00:13:51,840
+creates
+
+608
+00:13:50,760 --> 00:13:51,840
+生成
+
+609
+00:13:51,840 --> 00:13:53,800
+process compliant output,
+
+610
+00:13:51,840 --> 00:13:53,800
+符合流程要求的输出，
+
+611
+00:13:53,800 --> 00:13:56,720
+um which makes it also great.
+
+612
+00:13:53,800 --> 00:13:56,720
+嗯，这也让它变得很棒。
+
+613
+00:13:56,720 --> 00:13:58,840
+and for sure there are a lot of docs as code
+
+614
+00:13:56,720 --> 00:13:58,840
+而且肯定有很多文档即代码的
+
+615
+00:13:58,840 --> 00:13:59,480
+examples
+
+616
+00:13:58,840 --> 00:13:59,480
+示例
+
+617
+00:13:59,480 --> 00:14:00,640
+out there to learn from.
+
+618
+00:13:59,480 --> 00:14:00,640
+可供学习。
+
+619
+00:14:00,640 --> 00:14:04,080
+so, you can easily say when you work with an ai, "hey, i've seen an example
+
+620
+00:14:00,640 --> 00:14:04,080
+所以，和 AI 一起工作时，你完全可以说：“嘿，我见过一个示例
+
+621
+00:14:04,080 --> 00:14:04,760
+of this
+
+622
+00:14:04,080 --> 00:14:04,760
+是这样的
+
+623
+00:14:04,760 --> 00:14:05,880
+what i want to establish
+
+624
+00:14:04,760 --> 00:14:05,880
+我想要在
+
+625
+00:14:05,880 --> 00:14:06,720
+here
+
+626
+00:14:05,880 --> 00:14:06,720
+这里
+
+627
+00:14:06,720 --> 00:14:07,240
+there.
+
+628
+00:14:06,720 --> 00:14:07,240
+建立这样的内容。”
+
+629
+00:14:07,240 --> 00:14:11,080
+so, please take a look how they have done it and then establish here."
+
+630
+00:14:07,240 --> 00:14:11,080
+所以，请看看他们是怎么做的，然后在这里建立起来。”
+
+631
+00:14:11,080 --> 00:14:16,080
+it's working pretty well and everything you have is locally because it's in git.
+
+632
+00:14:11,080 --> 00:14:16,080
+它运行得相当不错，而且你拥有的一切都在本地，因为它们都保存在 Git 中。
+
+633
+00:14:16,080 --> 00:14:22,040
+so, you can also execute this with local models and no internet connection, everything is
+
+634
+00:14:16,080 --> 00:14:22,040
+所以，你也可以通过本地模型在没有互联网连接的情况下执行这一操作，一切
+
+635
+00:14:22,040 --> 00:14:23,000
+um
+
+636
+00:14:22,040 --> 00:14:23,000
+嗯
+
+637
+00:14:23,000 --> 00:14:23,840
+needed
+
+638
+00:14:23,000 --> 00:14:23,840
+所需的内容
+
+639
+00:14:23,840 --> 00:14:26,720
+so that at the end you only need one tool, your ide,
+
+640
+00:14:23,840 --> 00:14:26,720
+都可以在 ide 中完成，这样最后你只需要一个工具，也就是你的 ide，
+
+641
+00:14:26,720 --> 00:14:27,480
+which can
+
+642
+00:14:26,720 --> 00:14:27,480
+它可以
+
+643
+00:14:27,480 --> 00:14:28,000
+has access
+
+644
+00:14:27,480 --> 00:14:28,000
+访问
+
+645
+00:14:28,000 --> 00:14:28,360
+to
+
+646
+00:14:28,000 --> 00:14:28,360
+到
+
+647
+00:14:28,360 --> 00:14:28,880
+to ai,
+
+648
+00:14:28,360 --> 00:14:28,880
+ai，
+
+649
+00:14:28,880 --> 00:14:29,520
+which has access
+
+650
+00:14:28,880 --> 00:14:29,520
+而 ai 可以访问
+
+651
+00:14:29,520 --> 00:14:30,240
+to all the files,
+
+652
+00:14:29,520 --> 00:14:30,240
+所有文件。
+
+653
+00:14:30,240 --> 00:14:30,720
+the rst
+
+654
+00:14:30,240 --> 00:14:30,720
+RST
+
+655
+00:14:30,720 --> 00:14:32,240
+files and sphinx needs files
+
+656
+00:14:30,720 --> 00:14:32,240
+文件和 Sphinx 需要文件
+
+657
+00:14:32,240 --> 00:14:35,280
+to deal to regularly your project
+
+658
+00:14:32,240 --> 00:14:35,280
+定期处理你的项目
+
+659
+00:14:35,280 --> 00:14:37,560
+management there.
+
+660
+00:14:35,280 --> 00:14:37,560
+管理事务。
+
+661
+00:14:37,560 --> 00:14:38,000
+good.
+
+662
+00:14:37,560 --> 00:14:38,000
+很好。
+
+663
+00:14:38,000 --> 00:14:39,960
+um what we have created
+
+664
+00:14:38,000 --> 00:14:39,960
+嗯，我们创建的内容
+
+665
+00:14:39,960 --> 00:14:44,120
+is in the last days and that's a little bit bit updated here because
+
+666
+00:14:39,960 --> 00:14:44,120
+是在过去几天里完成的，这里稍微更新了一点，因为
+
+667
+00:14:44,120 --> 00:14:47,440
+um yeah, ai is changing a lot.
+
+668
+00:14:44,120 --> 00:14:47,440
+嗯，是的，AI 正在带来很多变化。
+
+669
+00:14:47,440 --> 00:14:49,320
+it's it's in really in weeks.
+
+670
+00:14:47,440 --> 00:14:49,320
+真的……真的才几周。
+
+671
+00:14:49,320 --> 00:14:53,320
+um we have created an agentic system called pharaoh,
+
+672
+00:14:49,320 --> 00:14:53,320
+嗯，我们创建了一个名为 Pharaoh 的智能体系统，
+
+673
+00:14:53,320 --> 00:14:54,640
+which is able
+
+674
+00:14:53,320 --> 00:14:54,640
+它能够
+
+675
+00:14:54,640 --> 00:14:55,600
+to read rst
+
+676
+00:14:54,640 --> 00:14:55,600
+读取 rst
+
+677
+00:14:55,600 --> 00:14:58,600
+files and do a lot of of stuff for you and it is also completely
+
+678
+00:14:55,600 --> 00:14:58,600
+文件，并为你完成很多工作，而且它也是完全
+
+679
+00:14:58,600 --> 00:14:59,080
+open source.
+
+680
+00:14:58,600 --> 00:14:59,080
+开源的。
+
+681
+00:14:59,080 --> 00:15:00,920
+it's it's under the mit.
+
+682
+00:14:59,080 --> 00:15:00,920
+它采用 MIT 许可证。
+
+683
+00:15:00,920 --> 00:15:01,720
+you can
+
+684
+00:15:00,920 --> 00:15:01,720
+你可以
+
+685
+00:15:01,720 --> 00:15:03,040
+um clone it.
+
+686
+00:15:01,720 --> 00:15:03,040
+嗯，把它克隆下来。
+
+687
+00:15:03,040 --> 00:15:04,839
+you can then ask pharaoh directly
+
+688
+00:15:03,040 --> 00:15:04,839
+然后你可以直接询问 Pharaoh
+
+689
+00:15:04,839 --> 00:15:06,080
+for instance in vs code
+
+690
+00:15:04,839 --> 00:15:06,080
+比如在 VS Code 中
+
+691
+00:15:06,080 --> 00:15:08,240
+to set up it and install it maybe in a project
+
+692
+00:15:06,080 --> 00:15:08,240
+让它进行设置，并安装到某个项目中
+
+693
+00:15:08,240 --> 00:15:09,440
+called score.
+
+694
+00:15:08,240 --> 00:15:09,440
+比如名为 score 的项目。
+
+695
+00:15:09,440 --> 00:15:12,960
+um you wait some minutes when it's figured out everything
+
+696
+00:15:09,440 --> 00:15:12,960
+嗯，等几分钟，让它处理好所有事情
+
+697
+00:15:12,960 --> 00:15:16,800
+and at the end then you open your project and can start asking question.
+
+698
+00:15:12,960 --> 00:15:16,800
+最后打开你的项目，就可以开始提问了。
+
+699
+00:15:16,800 --> 00:15:18,800
+so, on the left side you see we have asked
+
+700
+00:15:16,800 --> 00:15:18,800
+所以，在左侧你可以看到我们已经问了
+
+701
+00:15:18,800 --> 00:15:20,640
+um pharaoh what it can do.
+
+702
+00:15:18,800 --> 00:15:20,640
+Pharaoh 能做些什么。
+
+703
+00:15:20,640 --> 00:15:24,120
+so, it can help you for instance to trace information.
+
+704
+00:15:20,640 --> 00:15:24,120
+比如说，它可以帮你追踪信息。
+
+705
+00:15:24,120 --> 00:15:27,120
+so, to say, "hey, i have here a specification.
+
+706
+00:15:24,120 --> 00:15:27,120
+也就是说：“嘿，我这里有一份规格说明。
+
+707
+00:15:27,120 --> 00:15:31,200
+is all the linkage complete complete or is something there missing?"
+
+708
+00:15:27,120 --> 00:15:31,200
+所有关联都完整了吗？还是有什么遗漏？”
+
+709
+00:15:31,200 --> 00:15:31,880
+or
+
+710
+00:15:31,200 --> 00:15:31,880
+或者
+
+711
+00:15:31,880 --> 00:15:34,440
+you can also ask, "hey, i want to change something." we
+
+712
+00:15:31,880 --> 00:15:34,440
+你也可以问：“嘿，我想修改一些东西。”我们
+
+713
+00:15:34,440 --> 00:15:35,480
+we later see an example
+
+714
+00:15:34,440 --> 00:15:35,480
+稍后会看一个
+
+715
+00:15:35,480 --> 00:15:36,320
+of it.
+
+716
+00:15:35,480 --> 00:15:36,320
+例子。
+
+717
+00:15:36,320 --> 00:15:37,720
+"what impact does it have?
+
+718
+00:15:36,320 --> 00:15:37,720
+“这会有什么影响？”
+
+719
+00:15:37,720 --> 00:15:39,800
+is it a good change, a bad change?
+
+720
+00:15:37,720 --> 00:15:39,800
+这是好的改变，还是坏的改变？
+
+721
+00:15:39,800 --> 00:15:41,680
+is it okay if i only change this element
+
+722
+00:15:39,800 --> 00:15:41,680
+我只改这个元素可以吗？
+
+723
+00:15:41,680 --> 00:15:43,800
+or do i need to change so much more?"
+
+724
+00:15:41,680 --> 00:15:43,800
+还是需要改更多内容？"
+
+725
+00:15:43,800 --> 00:15:45,440
+so, there are certain
+
+726
+00:15:43,800 --> 00:15:45,440
+所以，有一些
+
+727
+00:15:45,440 --> 00:15:48,840
+features, agents available which really help you to deal with your data.
+
+728
+00:15:45,440 --> 00:15:48,840
+功能和智能体可以使用，它们确实能帮助你处理数据。
+
+729
+00:15:48,840 --> 00:15:50,480
+so, you don't need to write
+
+730
+00:15:48,840 --> 00:15:50,480
+所以，你不需要自己编写
+
+731
+00:15:50,480 --> 00:15:53,800
+maybe your things needs code and your documentation on your own.
+
+732
+00:15:50,480 --> 00:15:53,800
+也许你需要的代码和文档。
+
+733
+00:15:53,800 --> 00:15:57,240
+you just argument discuss it with with an agent
+
+734
+00:15:53,800 --> 00:15:57,240
+你只要和智能体讨论、交流就行。
+
+735
+00:15:57,240 --> 00:16:02,200
+and the agent is also asking back if you maybe miss some information which are process
+
+736
+00:15:57,240 --> 00:16:02,200
+而且智能体也会反过来询问你是否可能遗漏了某些与流程相关的信息
+
+737
+00:16:02,200 --> 00:16:04,080
+relevant.
+
+738
+00:16:02,200 --> 00:16:04,080
+。
+
+739
+00:16:04,080 --> 00:16:07,040
+and also the far all stuff has access to
+
+740
+00:16:04,080 --> 00:16:07,040
+此外，Far All Stuff 也可以使用
+
+741
+00:16:07,040 --> 00:16:10,040
+certain tools like mcp and the command line tool
+
+742
+00:16:07,040 --> 00:16:10,040
+某些工具，比如 MCP 和命令行工具
+
+743
+00:16:10,040 --> 00:16:13,360
+and as a fallback it can also pass files directly.
+
+744
+00:16:10,040 --> 00:16:13,360
+作为后备方案，它也可以直接传递文件。
+
+745
+00:16:13,360 --> 00:16:19,240
+but that's we will later see is not a good idea to rely only on this.
+
+746
+00:16:13,360 --> 00:16:19,240
+但我们稍后会看到，只依赖这种方式并不是个好主意。
+
+747
+00:16:19,240 --> 00:16:24,520
+so, here's an example of a life check what we have done in the score project.
+
+748
+00:16:19,240 --> 00:16:24,520
+这里举一个我们在 Score 项目中所做的实时检查的例子。
+
+749
+00:16:24,520 --> 00:16:30,600
+so, where we check okay, check me the stakeholder requirement for a platform one time determinism
+
+750
+00:16:24,520 --> 00:16:30,600
+我们会检查：好，帮我核对一下平台一次性确定性的相关利益方需求。
+
+751
+00:16:30,600 --> 00:16:32,960
+and this here is then the output.
+
+752
+00:16:30,600 --> 00:16:32,960
+那么这里就是输出结果。
+
+753
+00:16:32,960 --> 00:16:36,480
+you can see in this line that it's really query
+
+754
+00:16:32,960 --> 00:16:36,480
+你可以看到，这一行实际上是用来查询的
+
+755
+00:16:36,480 --> 00:16:38,960
+the ub code mcp server to get the information
+
+756
+00:16:36,480 --> 00:16:38,960
+UB Code MCP 服务器，以获取信息
+
+757
+00:16:38,960 --> 00:16:40,280
+for this specific need
+
+758
+00:16:38,960 --> 00:16:40,280
+来满足这一特定需求
+
+759
+00:16:40,280 --> 00:16:43,120
+and does not scan all the ast files to find this
+
+760
+00:16:40,280 --> 00:16:43,120
+它不会扫描所有的 AST 文件来查找这些
+
+761
+00:16:43,120 --> 00:16:44,640
+specific lines.
+
+762
+00:16:43,120 --> 00:16:44,640
+特定行。
+
+763
+00:16:44,640 --> 00:16:50,640
+and then it does certain tests for are all the fields set is are all the
+
+764
+00:16:44,640 --> 00:16:50,640
+然后它会进行一些测试，检查所有字段是否都已设置，以及所有
+
+765
+00:16:50,640 --> 00:16:54,880
+features which are linked fine and have a good valid status.
+
+766
+00:16:50,640 --> 00:16:54,880
+关联的功能是否正常，并且状态有效。
+
+767
+00:16:54,880 --> 00:16:58,440
+but for sure mostly ai find something.
+
+768
+00:16:54,880 --> 00:16:58,440
+不过可以肯定的是，大多数情况下，AI 会发现一些问题。
+
+769
+00:16:58,440 --> 00:17:02,440
+so, there are also some some findings where it's saying, "hey, every other
+
+770
+00:16:58,440 --> 00:17:02,440
+所以，也有一些发现会指出：“嘿，其他每项
+
+771
+00:17:02,440 --> 00:17:05,280
+stakeholder requirements have a field called valid form.
+
+772
+00:17:02,440 --> 00:17:05,280
+利益相关方需求都有一个名为 valid form 的字段。
+
+773
+00:17:05,280 --> 00:17:09,359
+this one does not have it." maybe it's a good idea to set it or not.
+
+774
+00:17:05,280 --> 00:17:09,359
+但这一项没有。”设置这个字段可能是个好主意，也可能不是。
+
+775
+00:17:09,359 --> 00:17:12,240
+it's it's it's up to you.
+
+776
+00:17:09,359 --> 00:17:12,240
+这完全由你决定。
+
+777
+00:17:12,240 --> 00:17:15,560
+another example is a change report.
+
+778
+00:17:12,240 --> 00:17:15,560
+另一个例子是变更报告。
+
+779
+00:17:15,560 --> 00:17:17,319
+there you get a lot of information out of it.
+
+780
+00:17:15,560 --> 00:17:17,319
+你可以从中获取很多信息。
+
+781
+00:17:17,319 --> 00:17:20,040
+i just have copy paste here the the summary
+
+782
+00:17:17,319 --> 00:17:20,040
+我这里只是把摘要复制粘贴过来了。
+
+783
+00:17:20,040 --> 00:17:23,439
+and they are simply ask, "hey, what if i change
+
+784
+00:17:20,040 --> 00:17:23,439
+他们只是问：“嘿，如果我把
+
+785
+00:17:23,439 --> 00:17:26,280
+the azd status to aslc
+
+786
+00:17:23,439 --> 00:17:26,280
+azd 状态改成 aslc
+
+787
+00:17:26,280 --> 00:17:27,439
+for this
+
+788
+00:17:26,280 --> 00:17:27,439
+来满足这个
+
+789
+00:17:27,439 --> 00:17:29,040
+requirement here?"
+
+790
+00:17:27,439 --> 00:17:29,040
+需求呢？”
+
+791
+00:17:29,040 --> 00:17:30,360
+and the output is,
+
+792
+00:17:29,040 --> 00:17:30,360
+输出是：
+
+793
+00:17:30,360 --> 00:17:33,560
+"yeah, it's it's not a good idea to do this because this feature
+
+794
+00:17:30,360 --> 00:17:33,560
+“是的，这么做不是个好主意，因为这个功能
+
+795
+00:17:33,560 --> 00:17:34,680
+is linked to a
+
+796
+00:17:33,560 --> 00:17:34,680
+关联到一位
+
+797
+00:17:34,680 --> 00:17:35,200
+stakeholder
+
+798
+00:17:34,680 --> 00:17:35,200
+利益相关者”
+
+799
+00:17:35,200 --> 00:17:35,840
+requirement
+
+800
+00:17:35,200 --> 00:17:35,840
+需求
+
+801
+00:17:35,840 --> 00:17:38,120
+which is aslb, so you have to change
+
+802
+00:17:35,840 --> 00:17:38,120
+是 aslb，因此你必须将
+
+803
+00:17:38,120 --> 00:17:39,240
+the stakeholder requirement
+
+804
+00:17:38,120 --> 00:17:39,240
+利益相关方需求
+
+805
+00:17:39,240 --> 00:17:39,800
+to aslc,
+
+806
+00:17:39,240 --> 00:17:39,800
+改为 aslc，
+
+807
+00:17:39,800 --> 00:17:42,680
+but if you do this, then there are links back to other features
+
+808
+00:17:39,800 --> 00:17:42,680
+但如果你这样做，就会出现指向其他功能的链接，
+
+809
+00:17:42,680 --> 00:17:44,000
+which are still aslb,
+
+810
+00:17:42,680 --> 00:17:44,000
+而这些功能仍然是 aslb，
+
+811
+00:17:44,000 --> 00:17:45,480
+so you also have to update
+
+812
+00:17:44,000 --> 00:17:45,480
+因此你还必须更新
+
+813
+00:17:45,480 --> 00:17:46,040
+them.
+
+814
+00:17:45,480 --> 00:17:46,040
+它们。
+
+815
+00:17:46,040 --> 00:17:50,400
+so, at the end you end up in at least reviewing over 20 objects
+
+816
+00:17:46,040 --> 00:17:50,400
+所以最后你至少得审核 20 多个对象
+
+817
+00:17:50,400 --> 00:17:52,800
+to be sure that this can be really be executed
+
+818
+00:17:50,400 --> 00:17:52,800
+以确保这确实可以执行
+
+819
+00:17:52,800 --> 00:17:53,520
+and meet."
+
+820
+00:17:52,800 --> 00:17:53,520
+并满足要求。”
+
+821
+00:17:53,520 --> 00:17:56,760
+and that's already quite quite helpful to get such information,
+
+822
+00:17:53,520 --> 00:17:56,760
+而这些信息已经相当有帮助了，
+
+823
+00:17:56,760 --> 00:17:59,560
+especially as a developer maybe who starts
+
+824
+00:17:56,760 --> 00:17:59,560
+尤其是对于刚开始
+
+825
+00:17:59,560 --> 00:18:03,760
+in such a project to really understands what the complexity is
+
+826
+00:17:59,560 --> 00:18:03,760
+参与这类项目的开发者来说，能够真正理解其中的复杂性
+
+827
+00:18:03,760 --> 00:18:08,880
+um and and what to do and maybe not to do.
+
+828
+00:18:03,760 --> 00:18:08,880
+嗯，以及该做什么，或许还有哪些事不该做。
+
+829
+00:18:10,640 --> 00:18:12,760
+um
+
+830
+00:18:10,640 --> 00:18:12,760
+嗯
+
+831
+00:18:12,760 --> 00:18:13,920
+ai is often the question,
+
+832
+00:18:12,760 --> 00:18:13,920
+AI 往往是大家会问到的问题，
+
+833
+00:18:13,920 --> 00:18:15,680
+"does it work or or does it not work?"
+
+834
+00:18:13,920 --> 00:18:15,680
+“它到底能不能用？”
+
+835
+00:18:15,680 --> 00:18:18,760
+and then you can have an agent and you ask yourself, "okay, that's a nice
+
+836
+00:18:15,680 --> 00:18:18,760
+然后你可以有一个智能体，并问自己：“好吧，这真是个不错的
+
+837
+00:18:18,760 --> 00:18:20,000
+play around
+
+838
+00:18:18,760 --> 00:18:20,000
+动手试试
+
+839
+00:18:20,000 --> 00:18:21,840
+nice examples."
+
+840
+00:18:20,000 --> 00:18:21,840
+和示例。”
+
+841
+00:18:21,840 --> 00:18:25,920
+um we have had a sphinx needs user group meeting last week
+
+842
+00:18:21,840 --> 00:18:25,920
+嗯，我们上周举办了一场 Sphinx-Needs 用户组会议，
+
+843
+00:18:25,920 --> 00:18:27,400
+where over 40 people came in.
+
+844
+00:18:25,920 --> 00:18:27,400
+来了 40 多人。
+
+845
+00:18:27,400 --> 00:18:30,280
+we have also there a workshop to build
+
+846
+00:18:27,400 --> 00:18:30,280
+我们还举办了一场工作坊，来制作
+
+847
+00:18:30,280 --> 00:18:33,720
+um some piece of hardware and i just show you the image what we have done.
+
+848
+00:18:30,280 --> 00:18:33,720
+嗯，一些硬件。我给你们看看我们做出来的东西。
+
+849
+00:18:33,720 --> 00:18:34,280
+we have
+
+850
+00:18:33,720 --> 00:18:34,280
+我们有
+
+851
+00:18:34,280 --> 00:18:36,400
+um created a park assistant.
+
+852
+00:18:34,280 --> 00:18:36,400
+嗯，创建了一个园区助手。
+
+853
+00:18:36,400 --> 00:18:43,440
+um and we just used pharaoh and ai and we only defined requirements.
+
+854
+00:18:36,400 --> 00:18:43,440
+嗯，我们只使用了 Pharaoh 和 AI，并定义了需求。
+
+855
+00:18:43,440 --> 00:18:46,840
+so, what this is doing it has here a
+
+856
+00:18:43,440 --> 00:18:46,840
+那么，它的工作方式是，这里有一个
+
+857
+00:18:46,840 --> 00:18:50,840
+time of light sensor which is measuring the distance to my hand
+
+858
+00:18:46,840 --> 00:18:50,840
+光学传感器，用来测量它与我手之间的距离
+
+859
+00:18:50,840 --> 00:18:52,640
+and as the car is
+
+860
+00:18:50,840 --> 00:18:52,640
+当小车
+
+861
+00:18:52,640 --> 00:18:53,680
+going to a wall,
+
+862
+00:18:52,640 --> 00:18:53,680
+驶向墙壁时，
+
+863
+00:18:53,680 --> 00:18:54,880
+that that's the scenario
+
+864
+00:18:53,680 --> 00:18:54,880
+这就是它的应用场景。
+
+865
+00:18:54,880 --> 00:18:57,880
+here, if it's getting closer then please change the color,
+
+866
+00:18:54,880 --> 00:18:57,880
+如果它正在靠近，请改变颜色，
+
+867
+00:18:57,880 --> 00:18:59,720
+make also some sounds.
+
+868
+00:18:57,880 --> 00:18:59,720
+也发出一些声音。
+
+869
+00:18:59,720 --> 00:19:01,000
+um
+
+870
+00:18:59,720 --> 00:19:01,000
+嗯
+
+871
+00:19:01,000 --> 00:19:01,560
+i have the hardware
+
+872
+00:19:01,000 --> 00:19:01,560
+我有硬件
+
+873
+00:19:01,560 --> 00:19:04,080
+with me, you can test it later if you want to see it.
+
+874
+00:19:01,560 --> 00:19:04,080
+在我这里，你之后如果想看的话可以测试一下。
+
+875
+00:19:04,080 --> 00:19:04,880
+and
+
+876
+00:19:04,080 --> 00:19:04,880
+还有
+
+877
+00:19:04,880 --> 00:19:06,280
+um in this workshop
+
+878
+00:19:04,880 --> 00:19:06,280
+嗯，在这个工作坊里，
+
+879
+00:19:06,280 --> 00:19:09,920
+we really started from scratch and just saying, "hey, we have a display here.
+
+880
+00:19:06,280 --> 00:19:09,920
+我们确实是从零开始的，只是说：“嘿，我们这里有一个显示屏。
+
+881
+00:19:09,920 --> 00:19:11,240
+this is of this type.
+
+882
+00:19:09,920 --> 00:19:11,240
+它是这种类型的。
+
+883
+00:19:11,240 --> 00:19:13,320
+please show me the information there.
+
+884
+00:19:11,240 --> 00:19:13,320
+请把那里的信息显示给我。
+
+885
+00:19:13,320 --> 00:19:16,960
+and there i was really capital to create from our requirements
+
+886
+00:19:13,320 --> 00:19:16,960
+而我当时确实能够根据我们的需求来创建内容
+
+887
+00:19:16,960 --> 00:19:19,920
+step by step the certain needs.
+
+888
+00:19:16,960 --> 00:19:19,920
+一步一步满足特定的需求。
+
+889
+00:19:19,920 --> 00:19:24,320
+um without yeah, writing one line of code from our own.
+
+890
+00:19:19,920 --> 00:19:24,320
+嗯，不用我们自己写一行代码。
+
+891
+00:19:24,320 --> 00:19:25,720
+so, it's all right coded for sure.
+
+892
+00:19:24,320 --> 00:19:25,720
+所以，肯定已经全部编码好了。
+
+893
+00:19:25,720 --> 00:19:29,480
+it's not based on the eclipse core, on a huge middleware.
+
+894
+00:19:25,720 --> 00:19:29,480
+它并非基于 Eclipse 核心或庞大的中间件。
+
+895
+00:19:29,480 --> 00:19:31,120
+that's too much for such a short
+
+896
+00:19:29,480 --> 00:19:31,120
+对于这么短的
+
+897
+00:19:31,120 --> 00:19:33,360
+um workshop.
+
+898
+00:19:31,120 --> 00:19:33,360
+嗯，工作坊来说，那就太复杂了。
+
+899
+00:19:33,360 --> 00:19:38,840
+but it was really amazed to see that requirements really change something in your real world.
+
+900
+00:19:33,360 --> 00:19:38,840
+不过，看到需求确实能在现实世界中改变一些事情，真的令人惊叹。
+
+901
+00:19:38,840 --> 00:19:43,680
+um get information of it and and and also show something there.
+
+902
+00:19:38,840 --> 00:19:43,680
+嗯，获取它的信息，并且展示一些相关内容。
+
+903
+00:19:43,680 --> 00:19:48,000
+um there was also a presentation by erwin roth from audi.
+
+904
+00:19:43,680 --> 00:19:48,000
+嗯，奥迪的 Erwin Roth 也做了一个演讲。
+
+905
+00:19:48,000 --> 00:19:53,480
+um he has tested pharaoh and other ai frameworks and approaches
+
+906
+00:19:48,000 --> 00:19:53,480
+嗯，他测试了 Pharaoh 以及其他 AI 框架和方法，
+
+907
+00:19:53,480 --> 00:19:56,360
+to figure out what is best for their use case.
+
+908
+00:19:53,480 --> 00:19:56,360
+以确定哪种最适合他们的使用场景。
+
+909
+00:19:56,360 --> 00:20:00,160
+um and for me also surprisingly
+
+910
+00:19:56,360 --> 00:20:00,160
+嗯，对我来说也很意外，
+
+911
+00:20:00,160 --> 00:20:02,040
+um it was pharaoh
+
+912
+00:20:00,160 --> 00:20:02,040
+嗯，当时是 Pharaoh
+
+913
+00:20:02,040 --> 00:20:03,400
+um in the moment.
+
+914
+00:20:02,040 --> 00:20:03,400
+嗯，脱颖而出。
+
+915
+00:20:03,400 --> 00:20:08,880
+um so, that he tested if every scenario with cloud code and superpowers
+
+916
+00:20:03,400 --> 00:20:08,880
+嗯，所以，他用 Cloud Code 和 Superpowers 测试了每种场景。
+
+917
+00:20:08,880 --> 00:20:11,520
+or you also tested if i think gets done
+
+918
+00:20:08,880 --> 00:20:11,520
+或者你也测试一下我觉得会完成的部分
+
+919
+00:20:11,520 --> 00:20:15,920
+um are really finding all the elements because missing some elements is
+
+920
+00:20:11,520 --> 00:20:15,920
+嗯，确实在找出所有要素，因为遗漏某些要素
+
+921
+00:20:15,920 --> 00:20:17,360
+um bad for safety.
+
+922
+00:20:15,920 --> 00:20:17,360
+嗯，会影响安全。
+
+923
+00:20:17,360 --> 00:20:20,560
+for sure, if you want to make an update and you forgot about some requirements
+
+924
+00:20:17,360 --> 00:20:20,560
+当然，如果你想进行更新，却忘了某些要求
+
+925
+00:20:20,560 --> 00:20:22,960
+or some architecture elements,
+
+926
+00:20:20,560 --> 00:20:22,960
+或者某些架构要素，
+
+927
+00:20:22,960 --> 00:20:24,440
+that's not good.
+
+928
+00:20:22,960 --> 00:20:24,440
+那可不好。
+
+929
+00:20:24,440 --> 00:20:27,160
+so, there were some tests and and pharaoh was the only one which
+
+930
+00:20:24,440 --> 00:20:27,160
+所以，做了一些测试，而 Pharaoh 是唯一一个
+
+931
+00:20:27,160 --> 00:20:29,240
+um triggers everything.
+
+932
+00:20:27,160 --> 00:20:29,240
+嗯，能触发所有内容的。
+
+933
+00:20:29,240 --> 00:20:32,520
+but at the end also he measured the tokens which were used.
+
+934
+00:20:29,240 --> 00:20:32,520
+但最后，他也统计了所使用的令牌数量。
+
+935
+00:20:32,520 --> 00:20:37,520
+so, as you can see, pharaoh he has used 11,000 tokens in his tests
+
+936
+00:20:32,520 --> 00:20:37,520
+所以，正如你所看到的，Pharaoh 在测试中使用了 11,000 个令牌
+
+937
+00:20:37,520 --> 00:20:42,480
+in this particular one and all the others has taken more up to nearly 70,000,
+
+938
+00:20:37,520 --> 00:20:42,480
+这个测试用了这么多，而其他所有测试用得更多，接近 70,000 个，
+
+939
+00:20:42,480 --> 00:20:44,600
+so six times more.
+
+940
+00:20:42,480 --> 00:20:44,600
+也就是多了六倍。
+
+941
+00:20:44,600 --> 00:20:46,920
+um with much
+
+942
+00:20:44,600 --> 00:20:46,920
+嗯，成本高得多，
+
+943
+00:20:46,920 --> 00:20:47,920
+um worse
+
+944
+00:20:46,920 --> 00:20:47,920
+嗯，结果却
+
+945
+00:20:47,920 --> 00:20:49,400
+um results at the end.
+
+946
+00:20:47,920 --> 00:20:49,400
+嗯，更差。
+
+947
+00:20:49,400 --> 00:20:52,440
+so, which is also a cost factor if you really use mcp
+
+948
+00:20:49,400 --> 00:20:52,440
+所以，如果你真的使用 MCP，这也是一个成本因素。
+
+949
+00:20:52,440 --> 00:20:56,560
+and then command line tools with your ai together.
+
+950
+00:20:52,440 --> 00:20:56,560
+然后让你的 AI 与命令行工具协同工作。
+
+951
+00:20:58,280 --> 00:21:00,240
+okay.
+
+952
+00:20:58,280 --> 00:21:00,240
+好的。
+
+953
+00:21:00,240 --> 00:21:02,800
+um but there is not only pharaoh.
+
+954
+00:21:00,240 --> 00:21:02,800
+嗯，不过不只有 Pharaoh。
+
+955
+00:21:02,800 --> 00:21:07,480
+so, there is already a small swings needs and ai ecosystem, i would say.
+
+956
+00:21:02,800 --> 00:21:07,480
+所以，我想说，已经有一个小型的 Windsurf 和 AI 生态系统了。
+
+957
+00:21:07,480 --> 00:21:08,120
+um
+
+958
+00:21:07,480 --> 00:21:08,120
+嗯
+
+959
+00:21:08,120 --> 00:21:12,560
+some similar is a sys pilot, which is also based on on on swings needs
+
+960
+00:21:08,120 --> 00:21:12,560
+类似的还有一个叫 Sys Pilot 的工具，它也是基于 Windsurf
+
+961
+00:21:12,560 --> 00:21:15,560
+to get some stuff and this is created by georg dolfon microsoft,
+
+962
+00:21:12,560 --> 00:21:15,560
+来获取一些内容的，由微软的 Georg Dolf 创建，
+
+963
+00:21:15,560 --> 00:21:17,320
+the cto of automotive there.
+
+964
+00:21:15,560 --> 00:21:17,320
+他是那里的汽车业务首席技术官。
+
+965
+00:21:17,320 --> 00:21:20,520
+it's a private project totally for testing stuff.
+
+966
+00:21:17,320 --> 00:21:20,520
+这完全是一个用于测试各种东西的个人项目。
+
+967
+00:21:20,520 --> 00:21:23,680
+so, nothing official by by microsoft, but you can also scan it.
+
+968
+00:21:20,520 --> 00:21:23,680
+所以，微软没有发布任何官方版本，但你也可以扫描它。
+
+969
+00:21:23,680 --> 00:21:24,480
+it's open source.
+
+970
+00:21:23,680 --> 00:21:24,480
+它是开源的。
+
+971
+00:21:24,480 --> 00:21:27,080
+you can play around with it and see
+
+972
+00:21:24,480 --> 00:21:27,080
+你可以试着玩玩，看看
+
+973
+00:21:27,080 --> 00:21:31,120
+how good it works and there's also an ai memory protocol
+
+974
+00:21:27,080 --> 00:21:31,120
+它的效果如何，而且还有一种 AI 记忆协议，
+
+975
+00:21:31,120 --> 00:21:33,440
+um available based on swings needs
+
+976
+00:21:31,120 --> 00:21:33,440
+嗯，可以根据 Swing 的需求来使用，
+
+977
+00:21:33,440 --> 00:21:35,320
+um by baratos.
+
+978
+00:21:33,440 --> 00:21:35,320
+嗯，由 Baratos 提供。
+
+979
+00:21:35,320 --> 00:21:38,840
+um which also works well and for sure there's our ubi code
+
+980
+00:21:35,320 --> 00:21:38,840
+嗯，它也运行得很好，当然还有我们的 UbiCode
+
+981
+00:21:38,840 --> 00:21:43,560
+tooling then, which really provides an mcp and and command line tools
+
+982
+00:21:38,840 --> 00:21:43,560
+工具套件，它确实提供了 MCP 和命令行工具。
+
+983
+00:21:43,560 --> 00:21:46,480
+to make ai
+
+984
+00:21:43,560 --> 00:21:46,480
+让人工智能
+
+985
+00:21:46,480 --> 00:21:48,520
+available.
+
+986
+00:21:46,480 --> 00:21:48,520
+变得触手可及。
+
+987
+00:21:48,520 --> 00:21:49,760
+good.
+
+988
+00:21:48,520 --> 00:21:49,760
+很好。
+
+989
+00:21:49,760 --> 00:21:53,720
+that's the current status how we have used ai together with swings needs
+
+990
+00:21:49,760 --> 00:21:53,720
+这就是目前的情况：我们如何将人工智能与 Swings Needs 结合使用
+
+991
+00:21:53,720 --> 00:21:55,520
+and what swings needs is.
+
+992
+00:21:53,720 --> 00:21:55,520
+以及 Swings Needs 的需求。
+
+993
+00:21:55,520 --> 00:21:59,880
+um doing the workshop, doing all the discussion we has had
+
+994
+00:21:55,520 --> 00:21:59,880
+嗯，举办研讨会，进行我们之前的所有讨论
+
+995
+00:21:59,880 --> 00:22:04,880
+um we ask ourselves certain questions because we have done so much
+
+996
+00:21:59,880 --> 00:22:04,880
+嗯，我们问自己一些问题，因为我们已经做了很多
+
+997
+00:22:04,880 --> 00:22:09,880
+um safety related discussion regarding requirements traceability
+
+998
+00:22:04,880 --> 00:22:09,880
+嗯，关于需求可追溯性的安全相关讨论
+
+999
+00:22:09,880 --> 00:22:13,800
+um that we ended up asking ourselves
+
+1000
+00:22:09,880 --> 00:22:13,800
+嗯，最终我们开始问自己
+
+1001
+00:22:13,800 --> 00:22:15,440
+do we need to treat
+
+1002
+00:22:13,800 --> 00:22:15,440
+我们是否需要像对待软件那样
+
+1003
+00:22:15,440 --> 00:22:18,880
+an agent definition the same way as we do it for software?
+
+1004
+00:22:15,440 --> 00:22:18,880
+对待智能体的定义？
+
+1005
+00:22:18,880 --> 00:22:22,840
+so, in the software the holy goal is that
+
+1006
+00:22:18,880 --> 00:22:22,840
+所以，在软件领域，终极目标是
+
+1007
+00:22:22,840 --> 00:22:26,880
+um each line of there can be mapped to a requirement at the end.
+
+1008
+00:22:22,840 --> 00:22:26,880
+嗯，最终每一行代码都能对应到一项需求。
+
+1009
+00:22:26,880 --> 00:22:27,960
+where you have the motivation
+
+1010
+00:22:26,880 --> 00:22:27,960
+你知道这行代码的动机，
+
+1011
+00:22:27,960 --> 00:22:29,800
+why this line is there, is it tested,
+
+1012
+00:22:27,960 --> 00:22:29,800
+知道它为什么会出现在这里，以及它是否经过测试，
+
+1013
+00:22:29,800 --> 00:22:31,320
+was the test successful,
+
+1014
+00:22:29,800 --> 00:22:31,320
+测试是否成功，
+
+1015
+00:22:31,320 --> 00:22:33,760
+everything like this you want to have
+
+1016
+00:22:31,320 --> 00:22:33,760
+诸如此类的一切信息，你都希望能够掌握。
+
+1017
+00:22:33,760 --> 00:22:34,760
+at the end.
+
+1018
+00:22:33,760 --> 00:22:34,760
+最后。
+
+1019
+00:22:34,760 --> 00:22:36,840
+the question is do we also need this for
+
+1020
+00:22:34,760 --> 00:22:36,840
+问题是，我们是否也需要为
+
+1021
+00:22:36,840 --> 00:22:38,440
+um an agent definition?
+
+1022
+00:22:36,840 --> 00:22:38,440
+嗯，一个智能体定义提供这个？
+
+1023
+00:22:38,440 --> 00:22:42,720
+if you have an agent defined in 500 or 1,000 lines
+
+1024
+00:22:38,440 --> 00:22:42,720
+如果你定义的智能体有 500 或 1,000 行
+
+1025
+00:22:42,720 --> 00:22:45,800
+and this is used by 500 people in your project
+
+1026
+00:22:42,720 --> 00:22:45,800
+而项目中有 500 个人在使用它
+
+1027
+00:22:45,800 --> 00:22:50,600
+who can make changes to it, who writes it, why is it there?
+
+1028
+00:22:45,800 --> 00:22:50,600
+谁可以修改它？谁编写它？它为什么存在？
+
+1029
+00:22:50,600 --> 00:22:53,720
+can i change something without maybe changing
+
+1030
+00:22:50,600 --> 00:22:53,720
+我能不能在不影响
+
+1031
+00:22:53,720 --> 00:22:57,000
+um destroying the use case of another team?
+
+1032
+00:22:53,720 --> 00:22:57,000
+嗯，破坏另一个团队的使用场景的情况下做些修改？
+
+1033
+00:22:57,000 --> 00:22:58,400
+that's all something
+
+1034
+00:22:57,000 --> 00:22:58,400
+那就是全部内容
+
+1035
+00:22:58,400 --> 00:23:00,840
+um we ask ourselves and we don't have a
+
+1036
+00:22:58,400 --> 00:23:00,840
+嗯，我们会问自己，但我们还没有
+
+1037
+00:23:00,840 --> 00:23:03,240
+um question yet.
+
+1038
+00:23:00,840 --> 00:23:03,240
+嗯，什么问题。
+
+1039
+00:23:03,240 --> 00:23:05,200
+and also what we want to know is
+
+1040
+00:23:03,240 --> 00:23:05,200
+另外，我们想知道的是
+
+1041
+00:23:05,200 --> 00:23:08,080
+um the execution itself.
+
+1042
+00:23:05,200 --> 00:23:08,080
+嗯，执行本身。
+
+1043
+00:23:08,080 --> 00:23:10,480
+does it need to be somehow
+
+1044
+00:23:08,080 --> 00:23:10,480
+它是否需要以某种方式
+
+1045
+00:23:10,480 --> 00:23:11,680
+fulfill any rules
+
+1046
+00:23:10,480 --> 00:23:11,680
+遵守一些规则，
+
+1047
+00:23:11,680 --> 00:23:15,600
+to to become at at least a little bit more safe as it is currently?
+
+1048
+00:23:11,680 --> 00:23:15,600
+才能至少比目前稍微安全一点？
+
+1049
+00:23:15,600 --> 00:23:17,840
+so, do i need to
+
+1050
+00:23:15,600 --> 00:23:17,840
+那么，我是否需要
+
+1051
+00:23:17,840 --> 00:23:20,520
+um define how the tools are used in the safe way?
+
+1052
+00:23:17,840 --> 00:23:20,520
+呃，定义如何安全地使用这些工具？
+
+1053
+00:23:20,520 --> 00:23:24,840
+do i need to restrict the scope which can be accessed?
+
+1054
+00:23:20,520 --> 00:23:24,840
+我是否需要限制可访问的范围？
+
+1055
+00:23:24,840 --> 00:23:27,520
+and when i restrict something like this,
+
+1056
+00:23:24,840 --> 00:23:27,520
+而且，当我像这样限制某些内容时，
+
+1057
+00:23:27,520 --> 00:23:29,920
+do i also need to monitor it at the end?
+
+1058
+00:23:27,520 --> 00:23:29,920
+最后还需要对其进行监控吗？
+
+1059
+00:23:29,920 --> 00:23:33,600
+and say really, okay, the tool usage which i have defined at the beginning
+
+1060
+00:23:29,920 --> 00:23:33,600
+并且明确说明，好的，我一开始定义的工具使用方式
+
+1061
+00:23:33,600 --> 00:23:39,520
+was also respected by the ai agent and i can prove it and can document this.
+
+1062
+00:23:33,600 --> 00:23:39,520
+也得到了 AI 代理的遵守，而且我能够证明这一点并将其记录下来。
+
+1063
+00:23:39,520 --> 00:23:43,240
+all open question, currently i would say not solved yet.
+
+1064
+00:23:39,520 --> 00:23:43,240
+这些都是尚待解决的问题；目前我认为还没有解决。
+
+1065
+00:23:43,240 --> 00:23:49,360
+and at the end, the question of all is who is responsible for the agent code?
+
+1066
+00:23:43,240 --> 00:23:49,360
+最后，大家最关心的问题是：谁来为智能体代码负责？
+
+1067
+00:23:50,240 --> 00:23:52,280
+currently i would say it's the engineer,
+
+1068
+00:23:50,240 --> 00:23:52,280
+目前我会说是工程师，
+
+1069
+00:23:52,280 --> 00:23:53,160
+i hear mostly,
+
+1070
+00:23:52,280 --> 00:23:53,160
+我听到的大多是这样的说法，
+
+1071
+00:23:53,160 --> 00:23:56,800
+because they say, "okay, agents are just helping you, but you are responsible
+
+1072
+00:23:53,160 --> 00:23:56,800
+因为他们会说：“好吧，智能体只是在帮你，但你要负责
+
+1073
+00:23:56,800 --> 00:23:59,280
+at the end for everything."
+
+1074
+00:23:56,800 --> 00:23:59,280
+最后的所有事情。”
+
+1075
+00:23:59,280 --> 00:24:04,240
+but i also had a discussion with engineers who are became already just reviewers,
+
+1076
+00:23:59,280 --> 00:24:04,240
+但我也和一些工程师讨论过，他们已经只负责审查了，
+
+1077
+00:24:04,240 --> 00:24:05,400
+getting a lot of
+
+1078
+00:24:04,240 --> 00:24:05,400
+接触了很多
+
+1079
+00:24:05,400 --> 00:24:06,840
+um ai stuff
+
+1080
+00:24:05,400 --> 00:24:06,840
+嗯，人工智能相关的东西
+
+1081
+00:24:06,840 --> 00:24:09,680
+and doing reviews of pull request
+
+1082
+00:24:06,840 --> 00:24:09,680
+还要审查拉取请求
+
+1083
+00:24:09,680 --> 00:24:12,080
+with thousand of lines of code,
+
+1084
+00:24:09,680 --> 00:24:12,080
+其中包含数千行代码，
+
+1085
+00:24:12,080 --> 00:24:16,640
+pushed by the management to integrate it, because they want to see new features
+
+1086
+00:24:12,080 --> 00:24:16,640
+管理层为了集成这些代码而施加压力，因为他们想看到新功能
+
+1087
+00:24:16,640 --> 00:24:21,280
+um and then suddenly the reviewer is is the the person which is
+
+1088
+00:24:16,640 --> 00:24:21,280
+嗯，然后审查者突然就成了那个
+
+1089
+00:24:21,280 --> 00:24:24,440
+reliable for the quality, but also
+
+1090
+00:24:21,280 --> 00:24:24,440
+既要对质量负责，又要
+
+1091
+00:24:24,440 --> 00:24:28,240
+stopping everything, the bottleneck in the company to get new stuff inside it.
+
+1092
+00:24:24,440 --> 00:24:28,240
+阻碍一切、成为公司引入新东西的瓶颈的人。
+
+1093
+00:24:28,240 --> 00:24:31,080
+and for sure this is job nobody wants to do more
+
+1094
+00:24:28,240 --> 00:24:31,080
+毫无疑问，没人想做这份工作超过
+
+1095
+00:24:31,080 --> 00:24:32,920
+than maybe two or three weeks.
+
+1096
+00:24:31,080 --> 00:24:32,920
+两三周。
+
+1097
+00:24:32,920 --> 00:24:34,720
+after that you will have a burnout
+
+1098
+00:24:32,920 --> 00:24:34,720
+之后你就会精疲力竭。
+
+1099
+00:24:34,720 --> 00:24:37,520
+um so this can be the solution.
+
+1100
+00:24:34,720 --> 00:24:37,520
+嗯，所以这可能就是解决方案。
+
+1101
+00:24:37,520 --> 00:24:41,640
+so, the question is will this move maybe one day to the it department who's
+
+1102
+00:24:37,520 --> 00:24:41,640
+所以，问题是，这项工作有一天会不会转到 IT 部门，由他们来
+
+1103
+00:24:41,640 --> 00:24:46,120
+defining all ai agent or can the ai ai agent be self be
+
+1104
+00:24:41,640 --> 00:24:46,120
+定义所有 AI 智能体，还是 AI 智能体本身能否
+
+1105
+00:24:46,120 --> 00:24:47,960
+um reliable for this?
+
+1106
+00:24:46,120 --> 00:24:47,960
+嗯，胜任这项工作？
+
+1107
+00:24:47,960 --> 00:24:50,200
+and at the end then also put
+
+1108
+00:24:47,960 --> 00:24:50,200
+最后还会把你
+
+1109
+00:24:50,200 --> 00:24:53,200
+in front of a court and go to jail, i don't know.
+
+1110
+00:24:50,200 --> 00:24:53,200
+送上法庭，让你坐牢，我也不知道。
+
+1111
+00:24:53,200 --> 00:24:56,880
+maybe that's the beginning of of a skynet and the terminator
+
+1112
+00:24:53,200 --> 00:24:56,880
+也许这就是天网和《终结者》的开端。
+
+1113
+00:24:56,880 --> 00:24:59,160
+stuff if it matched to us.
+
+1114
+00:24:56,880 --> 00:24:59,160
+如果它符合我们的情况。
+
+1115
+00:24:59,160 --> 00:25:02,960
+um and the question is also, do this change over time?
+
+1116
+00:24:59,160 --> 00:25:02,960
+嗯，问题还包括，这种情况会随着时间而改变吗？
+
+1117
+00:25:02,960 --> 00:25:08,600
+so, currently i would say the engineer is responsible, but how does it look in future?
+
+1118
+00:25:02,960 --> 00:25:08,600
+所以，目前我会说由工程师负责，但未来会是什么样呢？
+
+1119
+00:25:13,280 --> 00:25:15,240
+okay, good.
+
+1120
+00:25:13,280 --> 00:25:15,240
+好的，不错。
+
+1121
+00:25:15,240 --> 00:25:17,800
+um so, what we want to do
+
+1122
+00:25:15,240 --> 00:25:17,800
+嗯，所以我们想做的是
+
+1123
+00:25:17,800 --> 00:25:22,760
+and what we are already testing and planning is that we say, "hey, we have requirements.
+
+1124
+00:25:17,800 --> 00:25:22,760
+我们已经在测试和规划的是，我们会说：“嘿，我们有需求。
+
+1125
+00:25:22,760 --> 00:25:26,080
+we have the swings needs framework or possible framework
+
+1126
+00:25:22,760 --> 00:25:26,080
+我们有一个 Swings 需求框架，或者说可能的框架
+
+1127
+00:25:26,080 --> 00:25:30,520
+um which is able to to create requirements, architecture, everything in a visible way.
+
+1128
+00:25:26,080 --> 00:25:30,520
+嗯，它能够以可视化的方式创建需求、架构以及所有相关内容。
+
+1129
+00:25:30,520 --> 00:25:33,440
+why not define our agent there as well?
+
+1130
+00:25:30,520 --> 00:25:33,440
+为什么不也在那里定义我们的智能体呢？
+
+1131
+00:25:33,440 --> 00:25:35,840
+to have options for instructions
+
+1132
+00:25:33,440 --> 00:25:35,840
+为指令提供选项
+
+1133
+00:25:35,840 --> 00:25:36,800
+um for an agent.
+
+1134
+00:25:35,840 --> 00:25:36,800
+嗯，供代理使用。
+
+1135
+00:25:36,800 --> 00:25:39,440
+you will later see an example how this looks like
+
+1136
+00:25:36,800 --> 00:25:39,440
+稍后你会看到一个示例，了解它是什么样的。
+
+1137
+00:25:39,440 --> 00:25:41,360
+and then it's part of your documentation,
+
+1138
+00:25:39,440 --> 00:25:41,360
+然后它就会成为你的文档的一部分，
+
+1139
+00:25:41,360 --> 00:25:42,600
+of your swings documentation.
+
+1140
+00:25:41,360 --> 00:25:42,600
+成为你的 Swings 文档的一部分。
+
+1141
+00:25:42,600 --> 00:25:44,360
+and maybe in your swings documentation,
+
+1142
+00:25:42,600 --> 00:25:44,360
+也许在你的 Swings 文档中，
+
+1143
+00:25:44,360 --> 00:25:48,840
+you have all your requirements, architecture, test already defined like in score.
+
+1144
+00:25:44,360 --> 00:25:48,840
+你已经像在 Score 中一样，定义好了所有需求、架构和测试。
+
+1145
+00:25:48,840 --> 00:25:52,760
+maybe you also have defined your processes, how you work.
+
+1146
+00:25:48,840 --> 00:25:52,760
+也许你还定义了工作流程，即你们如何开展工作。
+
+1147
+00:25:52,760 --> 00:25:57,240
+maybe you're not using stages anymore, the famous tool for process definition,
+
+1148
+00:25:52,760 --> 00:25:57,240
+也许你们已经不再使用 Stages 了——这个用于流程定义的知名工具，
+
+1149
+00:25:57,240 --> 00:25:59,920
+but you have defined it also here the steps and roles.
+
+1150
+00:25:57,240 --> 00:25:59,920
+但你们也在这里定义了步骤和角色。
+
+1151
+00:25:59,920 --> 00:26:05,240
+and maybe you also have done the tool qualification here to say what i'm allowed
+
+1152
+00:25:59,920 --> 00:26:05,240
+也许你们还在这里进行了工具资格认定，说明我可以使用哪些工具，
+
+1153
+00:26:05,240 --> 00:26:10,720
+or yeah, how i'm allowed or forced to use certain tools like a compiler and maybe
+
+1154
+00:26:05,240 --> 00:26:10,720
+或者说，我可以或必须如何使用某些工具，比如编译器；也许
+
+1155
+00:26:10,720 --> 00:26:13,160
+don't use certain options there.
+
+1156
+00:26:10,720 --> 00:26:13,160
+还规定了不能使用某些选项。
+
+1157
+00:26:13,160 --> 00:26:15,760
+and if you have all this information available
+
+1158
+00:26:13,160 --> 00:26:15,760
+如果你们掌握了所有这些信息，
+
+1159
+00:26:15,760 --> 00:26:20,720
+in objects like by swings needs, we also can create a traceability between all of them.
+
+1160
+00:26:15,760 --> 00:26:20,720
+并将其存储在对象中，例如按需创建的对象，我们也可以在它们之间建立可追溯关系。
+
+1161
+00:26:20,720 --> 00:26:23,840
+so, that at the end we can say an agent then here,
+
+1162
+00:26:20,720 --> 00:26:23,840
+这样，最终我们就可以说，这里有一个智能体，
+
+1163
+00:26:23,840 --> 00:26:26,520
+"hey, we don't need to tell you how to do something.
+
+1164
+00:26:23,840 --> 00:26:26,520
+“嘿，我们不需要告诉你该怎么做。
+
+1165
+00:26:26,520 --> 00:26:30,440
+just look in the process we have written for humans and act like them.
+
+1166
+00:26:26,520 --> 00:26:30,440
+只要看看我们为人类编写的流程，然后像他们一样行事。
+
+1167
+00:26:30,440 --> 00:26:31,040
+there
+
+1168
+00:26:30,440 --> 00:26:31,040
+那里
+
+1169
+00:26:31,040 --> 00:26:32,040
+all the steps defined,
+
+1170
+00:26:31,040 --> 00:26:32,040
+定义了所有步骤，
+
+1171
+00:26:32,040 --> 00:26:32,960
+there are all the artifacts
+
+1172
+00:26:32,040 --> 00:26:32,960
+也定义了所有产物，
+
+1173
+00:26:32,960 --> 00:26:34,680
+defined how it needs to be looked at the end.
+
+1174
+00:26:32,960 --> 00:26:34,680
+以及最终需要检查的内容。
+
+1175
+00:26:34,680 --> 00:26:37,400
+and for some of them, we already have written tests.
+
+1176
+00:26:34,680 --> 00:26:37,400
+其中一些，我们已经编写了测试。
+
+1177
+00:26:37,400 --> 00:26:38,960
+just look into the tool qualification
+
+1178
+00:26:37,400 --> 00:26:38,960
+只要看看工具鉴定即可
+
+1179
+00:26:38,960 --> 00:26:42,360
+which tells you how to use a tool and what not to do.
+
+1180
+00:26:38,960 --> 00:26:42,360
+它会告诉你如何使用工具，以及哪些事不能做。
+
+1181
+00:26:42,360 --> 00:26:47,600
+and so, that you can really use all this data to make a somehow
+
+1182
+00:26:42,360 --> 00:26:47,600
+这样你就能真正利用所有这些数据，打造一个多少
+
+1183
+00:26:47,600 --> 00:26:50,520
+good agent which feels a little bit more safe.
+
+1184
+00:26:47,600 --> 00:26:50,520
+更可靠、让人更安心的智能体。
+
+1185
+00:26:50,520 --> 00:26:55,920
+it will never become safe for sure, but we go into the direction, hopefully.
+
+1186
+00:26:50,520 --> 00:26:55,920
+它肯定永远无法做到绝对安全，但希望我们能朝这个方向前进。
+
+1187
+00:26:55,920 --> 00:26:59,080
+and then, as everything is stored inside git, i forgot this.
+
+1188
+00:26:55,920 --> 00:26:59,080
+然后，由于所有内容都存储在 Git 中，我刚才忘了提这一点。
+
+1189
+00:26:59,080 --> 00:27:02,760
+um this information is available in certain tools, so that you can say, "hey,
+
+1190
+00:26:59,080 --> 00:27:02,760
+这些信息可以通过某些工具获取，所以你可以说：“嘿，
+
+1191
+00:27:02,760 --> 00:27:06,480
+the developer is using an ide to maybe invoke an agent,
+
+1192
+00:27:02,760 --> 00:27:06,480
+开发者正在使用 IDE，也许是为了调用一个智能体，
+
+1193
+00:27:06,480 --> 00:27:06,960
+but maybe
+
+1194
+00:27:06,480 --> 00:27:06,960
+不过也可能是这样。
+
+1195
+00:27:06,960 --> 00:27:07,400
+the system
+
+1196
+00:27:06,960 --> 00:27:07,400
+系统
+
+1197
+00:27:07,400 --> 00:27:07,800
+engineer
+
+1198
+00:27:07,400 --> 00:27:07,800
+工程师
+
+1199
+00:27:07,800 --> 00:27:09,160
+is using a web app or something
+
+1200
+00:27:07,800 --> 00:27:09,160
+正在使用某个网络应用，或者类似的东西
+
+1201
+00:27:09,160 --> 00:27:09,520
+else
+
+1202
+00:27:09,160 --> 00:27:09,520
+其他方式
+
+1203
+00:27:09,520 --> 00:27:09,960
+to invoke
+
+1204
+00:27:09,520 --> 00:27:09,960
+来调用
+
+1205
+00:27:09,960 --> 00:27:10,400
+the same
+
+1206
+00:27:09,960 --> 00:27:10,400
+同一个
+
+1207
+00:27:10,400 --> 00:27:11,920
+agent with the same rules
+
+1208
+00:27:10,400 --> 00:27:11,920
+遵循相同规则的智能体
+
+1209
+00:27:11,920 --> 00:27:15,360
+that can then be interchanged."
+
+1210
+00:27:11,920 --> 00:27:15,360
+然后就可以互换使用。”
+
+1211
+00:27:15,440 --> 00:27:17,720
+so, what we have done is
+
+1212
+00:27:15,440 --> 00:27:17,720
+所以，我们所做的是
+
+1213
+00:27:17,720 --> 00:27:18,960
+um
+
+1214
+00:27:17,720 --> 00:27:18,960
+嗯
+
+1215
+00:27:18,960 --> 00:27:20,160
+we have defined,
+
+1216
+00:27:18,960 --> 00:27:20,160
+我们定义了，
+
+1217
+00:27:20,160 --> 00:27:25,320
+just as a test, a model for agent where we say, "okay, instructions, skills, and tools."
+
+1218
+00:27:20,160 --> 00:27:25,320
+只是作为一个测试，我们为智能体建立了一个模型，并说：“好，指令、技能和工具。”
+
+1219
+00:27:25,320 --> 00:27:28,520
+this is what we currently describe in markdown files for an agent.
+
+1220
+00:27:25,320 --> 00:27:28,520
+这就是我们目前在智能体的 Markdown 文件中描述的内容。
+
+1221
+00:27:28,520 --> 00:27:31,360
+so, this is also what goes into the context.
+
+1222
+00:27:28,520 --> 00:27:31,360
+所以，这些内容也会进入上下文。
+
+1223
+00:27:31,360 --> 00:27:33,680
+but, we wanted to have the motivation out of it.
+
+1224
+00:27:31,360 --> 00:27:33,680
+但是，我们想从中提炼出动机。
+
+1225
+00:27:33,680 --> 00:27:36,280
+so, we say, "okay, we have also created a story
+
+1226
+00:27:33,680 --> 00:27:36,280
+所以，我们说：“好，我们还创作了一个故事，
+
+1227
+00:27:36,280 --> 00:27:37,040
+which describes
+
+1228
+00:27:36,280 --> 00:27:37,040
+它描述了
+
+1229
+00:27:37,040 --> 00:27:41,520
+why we want to have a certain line or certain feature into inside an agent."
+
+1230
+00:27:37,040 --> 00:27:41,520
+为什么我们希望在代理内部加入某条特定规则或某个特定功能。”
+
+1231
+00:27:41,520 --> 00:27:44,480
+we have this this linked then with a specification
+
+1232
+00:27:41,520 --> 00:27:44,480
+然后我们将其与一份规范关联起来
+
+1233
+00:27:44,480 --> 00:27:47,600
+to exactly describe what tool maybe to use for this
+
+1234
+00:27:44,480 --> 00:27:47,600
+准确描述可能会用到什么工具来完成这件事
+
+1235
+00:27:47,600 --> 00:27:51,320
+and roughly how, and then this is all linked then to those certain elements which
+
+1236
+00:27:47,600 --> 00:27:51,320
+以及大致的使用方法，然后这一切都会关联到那些特定的元素上，而这些元素
+
+1237
+00:27:51,320 --> 00:27:52,200
+getting really
+
+1238
+00:27:51,320 --> 00:27:52,200
+会变得非常
+
+1239
+00:27:52,200 --> 00:27:53,120
+important
+
+1240
+00:27:52,200 --> 00:27:53,120
+重要
+
+1241
+00:27:53,120 --> 00:27:54,600
+for an agent.
+
+1242
+00:27:53,120 --> 00:27:54,600
+对智能体来说。
+
+1243
+00:27:54,600 --> 00:27:56,040
+um
+
+1244
+00:27:54,600 --> 00:27:56,040
+嗯
+
+1245
+00:27:56,040 --> 00:27:56,520
+and then,
+
+1246
+00:27:56,040 --> 00:27:56,520
+然后，
+
+1247
+00:27:56,520 --> 00:27:57,800
+if you have done this like this,
+
+1248
+00:27:56,520 --> 00:27:57,800
+如果你已经这样做了，
+
+1249
+00:27:57,800 --> 00:27:58,320
+we can
+
+1250
+00:27:57,800 --> 00:27:58,320
+我们就可以
+
+1251
+00:27:58,320 --> 00:27:58,720
+create
+
+1252
+00:27:58,320 --> 00:27:58,720
+创建
+
+1253
+00:27:58,720 --> 00:27:59,040
+agent
+
+1254
+00:27:58,720 --> 00:27:59,040
+代理来做。
+
+1255
+00:27:59,040 --> 00:27:59,440
+families,
+
+1256
+00:27:59,040 --> 00:27:59,440
+家族，
+
+1257
+00:27:59,440 --> 00:28:00,080
+we call it.
+
+1258
+00:27:59,440 --> 00:28:00,080
+我们称之为。
+
+1259
+00:28:00,080 --> 00:28:05,760
+so, faro maybe one of those, maybe there will be an a space agent, trustable
+
+1260
+00:28:00,080 --> 00:28:05,760
+所以，Faro 可能是其中之一，也许会有一个 A 空间代理，值得信赖
+
+1261
+00:28:05,760 --> 00:28:10,360
+um framework software framework maybe be in another.
+
+1262
+00:28:05,760 --> 00:28:10,360
+嗯，框架软件框架也许会在另一个里面。
+
+1263
+00:28:10,360 --> 00:28:14,760
+it's it's independent because we have this model and we can define whatever we want.
+
+1264
+00:28:10,360 --> 00:28:14,760
+它是独立的，因为我们有这个模型，可以定义任何我们想要的东西。
+
+1265
+00:28:14,760 --> 00:28:15,600
+and then, what the user
+
+1266
+00:28:14,760 --> 00:28:15,600
+然后，用户
+
+1267
+00:28:15,600 --> 00:28:16,840
+is doing here in the end,
+
+1268
+00:28:15,600 --> 00:28:16,840
+最终在这里做的事情，
+
+1269
+00:28:16,840 --> 00:28:18,960
+saying, "okay, i want to have maybe faro.
+
+1270
+00:28:16,840 --> 00:28:18,960
+说：“好吧，我想要的可能是 Faro。
+
+1271
+00:28:18,960 --> 00:28:21,000
+here is my project repository
+
+1272
+00:28:18,960 --> 00:28:21,000
+这是我的项目仓库，
+
+1273
+00:28:21,000 --> 00:28:25,080
+with my source code, with my test, with my documentation containing requirements,
+
+1274
+00:28:21,000 --> 00:28:25,080
+里面有我的源代码、测试和包含需求的文档，
+
+1275
+00:28:25,080 --> 00:28:26,920
+processes, and whatever."
+
+1276
+00:28:25,080 --> 00:28:26,920
+还有流程之类的。”
+
+1277
+00:28:26,920 --> 00:28:28,800
+but, then you also get here
+
+1278
+00:28:26,920 --> 00:28:28,800
+不过，你还会在这里看到
+
+1279
+00:28:28,800 --> 00:28:33,840
+on under my ai the faro with all the agent definition and and ast files.
+
+1280
+00:28:28,800 --> 00:28:33,840
+在我的 AI 目录下的 Faro，以及所有智能体定义和 AST 文件。
+
+1281
+00:28:33,840 --> 00:28:40,520
+and and that's important that this gets really copied completely over to the user repository
+
+1282
+00:28:33,840 --> 00:28:40,520
+而且，重要的是，这些内容必须完整地复制到用户仓库中，
+
+1283
+00:28:40,520 --> 00:28:44,120
+because i never have seen a project using the same process
+
+1284
+00:28:40,520 --> 00:28:44,120
+因为我从未见过有项目采用相同的流程。
+
+1285
+00:28:44,120 --> 00:28:46,720
+and all the same workflow and everything like this.
+
+1286
+00:28:44,120 --> 00:28:46,720
+以及所有相同的工作流程和类似的内容。
+
+1287
+00:28:46,720 --> 00:28:47,720
+so, therefore,
+
+1288
+00:28:46,720 --> 00:28:47,720
+所以，因此，
+
+1289
+00:28:47,720 --> 00:28:51,200
+um you will make changes to this at the end.
+
+1290
+00:28:47,720 --> 00:28:51,200
+嗯，你会在最后修改它。
+
+1291
+00:28:51,200 --> 00:28:53,080
+so, therefore, you need to have complete
+
+1292
+00:28:51,200 --> 00:28:53,080
+所以，因此，你需要拥有完整的
+
+1293
+00:28:53,080 --> 00:28:56,440
+um access to it and be here.
+
+1294
+00:28:53,080 --> 00:28:56,440
+嗯，访问权限，并且要在这里。
+
+1295
+00:28:56,440 --> 00:28:59,640
+you have to complete control.
+
+1296
+00:28:56,440 --> 00:28:59,640
+你必须拥有完全的控制权。
+
+1297
+00:28:59,840 --> 00:29:02,440
+so, how does it look like in reality?
+
+1298
+00:28:59,840 --> 00:29:02,440
+那么，现实中它是什么样子的？
+
+1299
+00:29:02,440 --> 00:29:05,080
+um that's just really a prototype.
+
+1300
+00:29:02,440 --> 00:29:05,080
+嗯，那其实只是一个原型。
+
+1301
+00:29:05,080 --> 00:29:06,200
+so, it's
+
+1302
+00:29:05,080 --> 00:29:06,200
+所以，这只是
+
+1303
+00:29:06,200 --> 00:29:07,960
+um just the beginning.
+
+1304
+00:29:06,200 --> 00:29:07,960
+嗯，刚刚开始。
+
+1305
+00:29:07,960 --> 00:29:13,120
+but, i've created here an agent called it ruby flow as working title.
+
+1306
+00:29:07,960 --> 00:29:13,120
+不过，我在这里创建了一个智能体，暂定名称为 Ruby Flow。
+
+1307
+00:29:13,120 --> 00:29:15,000
+and then, i created here a description
+
+1308
+00:29:13,120 --> 00:29:15,000
+然后，我在这里创建了一段描述，
+
+1309
+00:29:15,000 --> 00:29:18,560
+of a roughly one, but the most important point are here the links.
+
+1310
+00:29:15,000 --> 00:29:18,560
+大致介绍了它，但最重要的是这里的链接。
+
+1311
+00:29:18,560 --> 00:29:22,440
+so, applies is linking to certain instructions
+
+1312
+00:29:18,560 --> 00:29:22,440
+所以，适用项会链接到特定的指令，
+
+1313
+00:29:22,440 --> 00:29:24,800
+um which this agent is pulling in.
+
+1314
+00:29:22,440 --> 00:29:24,800
+嗯，这个智能体会调用这些指令。
+
+1315
+00:29:24,800 --> 00:29:27,480
+so, there can be a second and a third agent pulling in
+
+1316
+00:29:24,800 --> 00:29:27,480
+所以，还可以再有第二个、第三个智能体来调用这些指令。
+
+1317
+00:29:27,480 --> 00:29:28,480
+different instructions,
+
+1318
+00:29:27,480 --> 00:29:28,480
+不同的指令，
+
+1319
+00:29:28,480 --> 00:29:29,640
+but also reuse
+
+1320
+00:29:28,480 --> 00:29:29,640
+但也会重复使用
+
+1321
+00:29:29,640 --> 00:29:31,760
+already existing instructions.
+
+1322
+00:29:29,640 --> 00:29:31,760
+已有的指令。
+
+1323
+00:29:31,760 --> 00:29:33,800
+and it employs certain
+
+1324
+00:29:31,760 --> 00:29:33,800
+它还运用某些
+
+1325
+00:29:33,800 --> 00:29:39,880
+um skills which then describes how to use certain tools and everything like this.
+
+1326
+00:29:33,800 --> 00:29:39,880
+嗯，技能，这些技能会描述如何使用特定工具以及类似的内容。
+
+1327
+00:29:39,880 --> 00:29:44,240
+and this link- linkage describes then how the agent really then interacts
+
+1328
+00:29:39,880 --> 00:29:44,240
+而这种链接关系则描述了智能体实际上如何进行交互，
+
+1329
+00:29:44,240 --> 00:29:46,120
+and what the content thanks and the description
+
+1330
+00:29:44,240 --> 00:29:46,120
+以及最终生成的内容和描述
+
+1331
+00:29:46,120 --> 00:29:48,040
+out of it is at the end.
+
+1332
+00:29:46,120 --> 00:29:48,040
+是什么。
+
+1333
+00:29:48,040 --> 00:29:48,640
+so, that
+
+1334
+00:29:48,040 --> 00:29:48,640
+所以，就是这样
+
+1335
+00:29:48,640 --> 00:29:53,120
+um here's an instruction which was linked for for guide you through an
+
+1336
+00:29:48,640 --> 00:29:53,120
+嗯，这里有一条指引，它会通过
+
+1337
+00:29:53,120 --> 00:29:57,320
+um with five steps through some kind of of workflow.
+
+1338
+00:29:53,120 --> 00:29:57,320
+嗯，五个步骤引导你完成某种工作流程。
+
+1339
+00:29:57,320 --> 00:30:01,040
+and there you can see also it implements a certain specification here.
+
+1340
+00:29:57,320 --> 00:30:01,040
+你也可以看到，它在这里实现了某项规范。
+
+1341
+00:30:01,040 --> 00:30:03,280
+here's the linkage for the traceability.
+
+1342
+00:30:01,040 --> 00:30:03,280
+这里是可追溯性的关联关系。
+
+1343
+00:30:03,280 --> 00:30:05,680
+and it is used by this agent here.
+
+1344
+00:30:03,280 --> 00:30:05,680
+这个智能体会使用它。
+
+1345
+00:30:05,680 --> 00:30:07,040
+um so, now
+
+1346
+00:30:05,680 --> 00:30:07,040
+嗯，那么现在
+
+1347
+00:30:07,040 --> 00:30:09,720
+when you have a second and a third agent, you would also see this here.
+
+1348
+00:30:07,040 --> 00:30:09,720
+当你有第二个和第三个智能体时，也会看到这里的内容。
+
+1349
+00:30:09,720 --> 00:30:10,720
+so, you know,
+
+1350
+00:30:09,720 --> 00:30:10,720
+所以，你知道，
+
+1351
+00:30:10,720 --> 00:30:11,720
+maybe as a developer,
+
+1352
+00:30:10,720 --> 00:30:11,720
+也许作为一名开发者，
+
+1353
+00:30:11,720 --> 00:30:14,080
+i want to change maybe this instruction a little bit,
+
+1354
+00:30:11,720 --> 00:30:14,080
+我想稍微修改一下这条指令，
+
+1355
+00:30:14,080 --> 00:30:16,360
+but suddenly i would organize it.
+
+1356
+00:30:14,080 --> 00:30:16,360
+但突然间，我想把它整理一下。
+
+1357
+00:30:16,360 --> 00:30:19,400
+architecture agent is using it, the testing agent is using it.
+
+1358
+00:30:16,360 --> 00:30:19,400
+架构智能体在用它，测试智能体也在用它。
+
+1359
+00:30:19,400 --> 00:30:21,920
+maybe i should talk with the teams
+
+1360
+00:30:19,400 --> 00:30:21,920
+也许我应该和团队聊聊
+
+1361
+00:30:21,920 --> 00:30:24,880
+if this is really something i should do or maybe make a copy
+
+1362
+00:30:21,920 --> 00:30:24,880
+看看这是否真的是我该做的，或者我是否应该复制一份
+
+1363
+00:30:24,880 --> 00:30:26,040
+of this instruction
+
+1364
+00:30:24,880 --> 00:30:26,040
+这条指令。
+
+1365
+00:30:26,040 --> 00:30:30,200
+and then pull this in and not the original one.
+
+1366
+00:30:26,040 --> 00:30:30,200
+然后把这个引入进来，而不是原来的那个。
+
+1367
+00:30:30,200 --> 00:30:34,200
+um and how does it look like really then in the source code?
+
+1368
+00:30:30,200 --> 00:30:34,200
+嗯，那么在源代码里，它具体看起来是什么样的呢？
+
+1369
+00:30:34,200 --> 00:30:36,000
+so, i've opened here vs code.
+
+1370
+00:30:34,200 --> 00:30:36,000
+所以，我在这里打开了 VS Code。
+
+1371
+00:30:36,000 --> 00:30:37,520
+you see here the ast code.
+
+1372
+00:30:36,000 --> 00:30:37,520
+你们可以在这里看到 AST 代码。
+
+1373
+00:30:37,520 --> 00:30:44,600
+this are our flow instructions we just have seen with all the linkage implementation, description, whatever.
+
+1374
+00:30:37,520 --> 00:30:44,600
+这些就是我们刚才看到的流程指令，包含所有链接实现、描述之类的内容。
+
+1375
+00:30:44,600 --> 00:30:49,200
+and on the right side, we already see the traceability tree provided here by ubicode.
+
+1376
+00:30:44,600 --> 00:30:49,200
+右侧我们已经可以看到 Ubicode 提供的可追溯性树。
+
+1377
+00:30:49,200 --> 00:30:52,200
+um where this is our instruction here,
+
+1378
+00:30:49,200 --> 00:30:52,200
+嗯，这就是我们的这条指令，
+
+1379
+00:30:52,200 --> 00:30:54,320
+which is the same here on this side,
+
+1380
+00:30:52,200 --> 00:30:54,320
+它和这一侧这里的是一样的，
+
+1381
+00:30:54,320 --> 00:30:58,600
+but you can already see, okay, it's got pulled in by our agent above here.
+
+1382
+00:30:54,320 --> 00:30:58,600
+但你们已经可以看到，好吧，它是由上面的代理引入的。
+
+1383
+00:30:58,600 --> 00:30:59,720
+um
+
+1384
+00:30:58,600 --> 00:30:59,720
+嗯
+
+1385
+00:30:59,720 --> 00:31:02,640
+it's implements here the the specification,
+
+1386
+00:30:59,720 --> 00:31:02,640
+它在这里实现了这份规范，
+
+1387
+00:31:02,640 --> 00:31:05,880
+but you also see the next level where it says, okay, this classification
+
+1388
+00:31:02,640 --> 00:31:05,880
+但你们也能看到下一层，上面写着，好吧，这个分类
+
+1389
+00:31:05,880 --> 00:31:07,440
+is linked against the story
+
+1390
+00:31:05,880 --> 00:31:07,440
+与该故事相关联，
+
+1391
+00:31:07,440 --> 00:31:09,000
+and therefore the motivation.
+
+1392
+00:31:07,440 --> 00:31:09,000
+因此也与其动机相关联。
+
+1393
+00:31:09,000 --> 00:31:14,320
+so, we have already here the complete traceability tree for this instruction
+
+1394
+00:31:09,000 --> 00:31:14,320
+所以，我们这里已经有了这条指令的完整可追溯性树
+
+1395
+00:31:14,320 --> 00:31:18,120
+used by by the specific agent.
+
+1396
+00:31:14,320 --> 00:31:18,120
+由特定代理使用。
+
+1397
+00:31:19,720 --> 00:31:20,440
+good.
+
+1398
+00:31:19,720 --> 00:31:20,440
+很好。
+
+1399
+00:31:20,440 --> 00:31:22,520
+so, that's all theory.
+
+1400
+00:31:20,440 --> 00:31:22,520
+好吧，以上都是理论。
+
+1401
+00:31:22,520 --> 00:31:25,600
+i mean, we can create it like this in swings needs, it's not a problem.
+
+1402
+00:31:22,520 --> 00:31:25,600
+我的意思是，我们可以在 Swings needs 里这样创建它，这没问题。
+
+1403
+00:31:25,600 --> 00:31:26,760
+we can get the trace
+
+1404
+00:31:25,600 --> 00:31:26,760
+我们可以获取追踪记录
+
+1405
+00:31:26,760 --> 00:31:30,520
+um the traceability tree and and all the data inside it.
+
+1406
+00:31:26,760 --> 00:31:30,520
+嗯，追溯树以及其中的所有数据。
+
+1407
+00:31:30,520 --> 00:31:31,760
+all doable.
+
+1408
+00:31:30,520 --> 00:31:31,760
+这些都能做到。
+
+1409
+00:31:31,760 --> 00:31:35,000
+the question is, are our
+
+1410
+00:31:31,760 --> 00:31:35,000
+问题是，我们的
+
+1411
+00:31:35,000 --> 00:31:41,520
+models or the co-pilots and then everything on the world able to deal with it?
+
+1412
+00:31:35,000 --> 00:31:41,520
+模型或副驾驶，以及世界上的一切，能否处理这些内容？
+
+1413
+00:31:41,520 --> 00:31:44,640
+so, what the current status is is that we say, okay, we put everything
+
+1414
+00:31:41,520 --> 00:31:44,640
+所以，目前的情况是，我们会说，好吧，我们把所有内容
+
+1415
+00:31:44,640 --> 00:31:46,560
+into an agent markdown file,
+
+1416
+00:31:44,640 --> 00:31:46,560
+都放进一个代理 Markdown 文件里，
+
+1417
+00:31:46,560 --> 00:31:50,280
+what poweruse currently doing in the the current version,
+
+1418
+00:31:46,560 --> 00:31:50,280
+PowerUse 在当前版本中正在做什么，
+
+1419
+00:31:50,280 --> 00:31:55,080
+and then co-pilot is is interpreting it it's it's it's calling it and everything like this.
+
+1420
+00:31:50,280 --> 00:31:55,080
+然后 Copilot 会对它进行解读，会调用它，诸如此类。
+
+1421
+00:31:55,080 --> 00:31:57,240
+it's it's great because it's easy to define.
+
+1422
+00:31:55,080 --> 00:31:57,240
+这很棒，因为它很容易定义。
+
+1423
+00:31:57,240 --> 00:32:01,800
+just one markdown file, paste everything inside it, agent acting like it.
+
+1424
+00:31:57,240 --> 00:32:01,800
+只需要一个 Markdown 文件，把所有内容都粘贴进去，让代理照着执行。
+
+1425
+00:32:01,800 --> 00:32:04,160
+um it's not so easy to maintain
+
+1426
+00:32:01,800 --> 00:32:04,160
+嗯，但维护起来并不容易
+
+1427
+00:32:04,160 --> 00:32:06,840
+if you know you are in a big project with a lot of developers
+
+1428
+00:32:04,160 --> 00:32:06,840
+如果你身处一个开发人员众多的大型项目中
+
+1429
+00:32:06,840 --> 00:32:09,360
+and you don't know who's responsible for what
+
+1430
+00:32:06,840 --> 00:32:09,360
+而且不知道谁负责什么
+
+1431
+00:32:09,360 --> 00:32:11,520
+and and also not to trace.
+
+1432
+00:32:09,360 --> 00:32:11,520
+也不容易追踪。
+
+1433
+00:32:11,520 --> 00:32:17,240
+and also problem is this file gets completely interpreted by the llm at the end.
+
+1434
+00:32:11,520 --> 00:32:17,240
+而且问题在于，这个文件最终会被 LLM 完全解读。
+
+1435
+00:32:17,240 --> 00:32:20,920
+so, this means it's it's reads it, it's tries to understand the context,
+
+1436
+00:32:17,240 --> 00:32:20,920
+所以，这意味着它会读取文件，并尝试理解上下文，
+
+1437
+00:32:20,920 --> 00:32:23,960
+it's tries to create a workflow out of it,
+
+1438
+00:32:20,920 --> 00:32:23,960
+尝试据此创建工作流，
+
+1439
+00:32:23,960 --> 00:32:26,920
+it's tries to understand what tools are allowed to
+
+1440
+00:32:23,960 --> 00:32:26,920
+尝试了解允许使用哪些工具
+
+1441
+00:32:26,920 --> 00:32:28,000
+to use,
+
+1442
+00:32:26,920 --> 00:32:28,000
+来执行操作，
+
+1443
+00:32:28,000 --> 00:32:31,840
+and then it may act like it or may not.
+
+1444
+00:32:28,000 --> 00:32:31,840
+然后它可能会照此行动，也可能不会。
+
+1445
+00:32:31,840 --> 00:32:33,680
+it mostly at the beginning,
+
+1446
+00:32:31,840 --> 00:32:33,680
+它大多在一开始，
+
+1447
+00:32:33,680 --> 00:32:36,680
+first time, second time, it's it's working like this,
+
+1448
+00:32:33,680 --> 00:32:36,680
+第一次、第二次都是这样运作的。
+
+1449
+00:32:36,680 --> 00:32:39,360
+but after a time you will recognize that instructions
+
+1450
+00:32:36,680 --> 00:32:39,360
+但过了一段时间，你会发现指令
+
+1451
+00:32:39,360 --> 00:32:41,920
+get lost, tools are used a different way,
+
+1452
+00:32:39,360 --> 00:32:41,920
+会丢失，工具的使用方式也会改变，
+
+1453
+00:32:41,920 --> 00:32:44,280
+stuff gets added magically.
+
+1454
+00:32:41,920 --> 00:32:44,280
+还会莫名其妙地添加一些东西。
+
+1455
+00:32:44,280 --> 00:32:47,160
+um, so that's not a good solution.
+
+1456
+00:32:44,280 --> 00:32:47,160
+嗯，所以这不是个好办法。
+
+1457
+00:32:47,160 --> 00:32:48,880
+so, what we tried here is
+
+1458
+00:32:47,160 --> 00:32:48,880
+所以，我们在这里尝试的是
+
+1459
+00:32:48,880 --> 00:32:52,400
+um to say, "hey, let's make it differently.
+
+1460
+00:32:48,880 --> 00:32:52,400
+嗯，就是说：“嘿，我们换种方式来做。
+
+1461
+00:32:52,400 --> 00:32:57,640
+let's say in our agent mdp, because this is the interface currently for all the co-pilots,
+
+1462
+00:32:52,400 --> 00:32:57,640
+就拿我们的 agent mdp 来说吧，因为它目前是所有副驾驶的接口，
+
+1463
+00:32:57,640 --> 00:32:59,040
+um there's only one rule.
+
+1464
+00:32:57,640 --> 00:32:59,040
+嗯，只有一条规则。
+
+1465
+00:32:59,040 --> 00:33:03,760
+and the rule is saying, please ask the mcp server for swing's needs
+
+1466
+00:32:59,040 --> 00:33:03,760
+规则是说，请向 MCP 服务器请求 Swing 所需的内容，
+
+1467
+00:33:03,760 --> 00:33:07,800
+to provide you with all the instructions and links elements for for your
+
+1468
+00:33:03,760 --> 00:33:07,800
+让它为你的智能体提供所有指令和链接元素，
+
+1469
+00:33:07,800 --> 00:33:12,480
+um for your agent." so, that this is one call.
+
+1470
+00:33:07,800 --> 00:33:12,480
+嗯，提供给你的智能体。”所以，这就是一次调用。
+
+1471
+00:33:12,480 --> 00:33:16,800
+the mcp server is filtering for the agent with with the linking from above,
+
+1472
+00:33:12,480 --> 00:33:16,800
+MCP 服务器会根据上面的链接为智能体筛选内容，
+
+1473
+00:33:16,800 --> 00:33:20,000
+and it returns all these elements back to co-pilot,
+
+1474
+00:33:16,800 --> 00:33:20,000
+然后将所有这些元素返回给 Copilot，
+
+1475
+00:33:20,000 --> 00:33:25,840
+and then it gets maybe 20 instructions and maybe five skills, and shall act like this.
+
+1476
+00:33:20,000 --> 00:33:25,840
+接着它可能会获得 20 条指令和 5 项技能，并按此行动。
+
+1477
+00:33:25,840 --> 00:33:29,000
+um, at the beginning it was looking
+
+1478
+00:33:25,840 --> 00:33:29,000
+嗯，一开始看起来
+
+1479
+00:33:29,000 --> 00:33:32,720
+really good, to be honest, or i was blinded a little bit.
+
+1480
+00:33:29,000 --> 00:33:32,720
+确实很不错，说实话，或者说我当时有点被蒙蔽了。
+
+1481
+00:33:32,720 --> 00:33:34,000
+um,
+
+1482
+00:33:32,720 --> 00:33:34,000
+嗯，
+
+1483
+00:33:34,000 --> 00:33:39,920
+and i was also able to say, "hey, for each task you execute somehow,
+
+1484
+00:33:34,000 --> 00:33:39,920
+我还可以说：“嘿，对于你执行的每项任务，
+
+1485
+00:33:39,920 --> 00:33:41,840
+please give me the reasoning."
+
+1486
+00:33:39,920 --> 00:33:41,840
+请告诉我你的推理过程。”
+
+1487
+00:33:41,840 --> 00:33:43,560
+saying, "hey, you are doing here
+
+1488
+00:33:41,840 --> 00:33:43,560
+也就是说：“嘿，你在这里做的是
+
+1489
+00:33:43,560 --> 00:33:45,280
+um a repository
+
+1490
+00:33:43,560 --> 00:33:45,280
+嗯，仓库
+
+1491
+00:33:45,280 --> 00:33:47,280
+um check.
+
+1492
+00:33:45,280 --> 00:33:47,280
+嗯，检查。
+
+1493
+00:33:47,280 --> 00:33:52,200
+um, why are you doing it?" and it's was referencing the instructions with the direct
+
+1494
+00:33:47,280 --> 00:33:52,200
+嗯，你为什么要这么做？”它指的是直接的指令
+
+1495
+00:33:52,200 --> 00:33:53,440
+um correct
+
+1496
+00:33:52,200 --> 00:33:53,440
+嗯，正确的。
+
+1497
+00:33:53,440 --> 00:33:56,120
+a location in the source code and also the skill,
+
+1498
+00:33:53,440 --> 00:33:56,120
+源代码中的一个位置，同时也是这项技能，
+
+1499
+00:33:56,120 --> 00:33:59,880
+where it was saying that based on this i am doing that.
+
+1500
+00:33:56,120 --> 00:33:59,880
+它当时说的是，我是基于这个才这么做的。
+
+1501
+00:33:59,880 --> 00:34:03,480
+um, that would be great, but it was not always the truth.
+
+1502
+00:33:59,880 --> 00:34:03,480
+嗯，那样当然很好，但事实并非总是如此。
+
+1503
+00:34:03,480 --> 00:34:06,040
+and it's also forgot a lot of stuff, to be honest.
+
+1504
+00:34:03,480 --> 00:34:06,040
+而且说实话，它也忘了很多东西。
+
+1505
+00:34:06,040 --> 00:34:12,560
+um, because reading information from here is not the same as reading information from there.
+
+1506
+00:34:06,040 --> 00:34:12,560
+嗯，因为从这里读取信息和从那里读取信息并不一样。
+
+1507
+00:34:12,560 --> 00:34:13,639
+um,
+
+1508
+00:34:12,560 --> 00:34:13,639
+嗯，
+
+1509
+00:34:13,639 --> 00:34:15,040
+that's part of co-pilot
+
+1510
+00:34:13,639 --> 00:34:15,040
+那是 Co-pilot 的一部分
+
+1511
+00:34:15,040 --> 00:34:15,840
+and all the others,
+
+1512
+00:34:15,040 --> 00:34:15,840
+以及其他所有人，
+
+1513
+00:34:15,840 --> 00:34:17,199
+because they say, "hey, the agent
+
+1514
+00:34:15,840 --> 00:34:17,199
+因为他们会说：“嘿，代理
+
+1515
+00:34:17,199 --> 00:34:19,280
+and the file is telling me what to do,
+
+1516
+00:34:17,199 --> 00:34:19,280
+和文件都在告诉我该做什么，
+
+1517
+00:34:19,280 --> 00:34:21,440
+and all the rest is somehow
+
+1518
+00:34:19,280 --> 00:34:21,440
+而其他所有内容不知为何
+
+1519
+00:34:21,440 --> 00:34:22,120
+content
+
+1520
+00:34:21,440 --> 00:34:22,120
+都是内容
+
+1521
+00:34:22,120 --> 00:34:24,639
+i need to interpret, i need to work with,
+
+1522
+00:34:22,120 --> 00:34:24,639
+我需要去解读、需要去处理的内容，
+
+1523
+00:34:24,639 --> 00:34:27,800
+but it should normally not contain instructions.
+
+1524
+00:34:24,639 --> 00:34:27,800
+但通常不应该包含指令。
+
+1525
+00:34:27,800 --> 00:34:32,480
+it can do, and it's working, but it does not have the same level of priority,
+
+1526
+00:34:27,800 --> 00:34:32,480
+它可以包含指令，而且确实能起作用，但优先级并没有那么高，
+
+1527
+00:34:32,480 --> 00:34:34,159
+and therefore your instructions
+
+1528
+00:34:32,480 --> 00:34:34,159
+因此，你的指令
+
+1529
+00:34:34,159 --> 00:34:38,159
+are have the same priority as maybe a text file it reads in or what whatever.
+
+1530
+00:34:34,159 --> 00:34:38,159
+它们的优先级可能和它读入的某个文本文件之类的相同，反正差不多。
+
+1531
+00:34:38,159 --> 00:34:40,840
+and therefore it has really forgotten a lot of stuff.
+
+1532
+00:34:38,159 --> 00:34:40,840
+因此，它确实忘记了很多东西。
+
+1533
+00:34:40,840 --> 00:34:41,600
+um
+
+1534
+00:34:40,840 --> 00:34:41,600
+嗯
+
+1535
+00:34:41,600 --> 00:34:44,639
+it was excusing a lot that it has forgotten a lot of stuff,
+
+1536
+00:34:41,600 --> 00:34:44,639
+它一直在为自己忘记了很多东西找借口，
+
+1537
+00:34:44,639 --> 00:34:47,800
+but it never learned and make it better.
+
+1538
+00:34:44,639 --> 00:34:47,800
+但它从来没有学会如何改进。
+
+1539
+00:34:47,800 --> 00:34:51,918
+um and now i come to the last slide
+
+1540
+00:34:47,800 --> 00:34:51,918
+嗯，现在我来到最后一张幻灯片。
+
+1541
+00:34:51,918 --> 00:34:55,600
+um and this is what we are currently testing in a prototype is
+
+1542
+00:34:51,918 --> 00:34:55,600
+嗯，这是我们目前正在原型中测试的内容：
+
+1543
+00:34:55,600 --> 00:34:59,560
+whenever we as tool developer has a problem, we make it more complex.
+
+1544
+00:34:55,600 --> 00:34:59,560
+每当我们这些工具开发者遇到问题，就会把它弄得更加复杂。
+
+1545
+00:34:59,560 --> 00:35:00,480
+but luckily
+
+1546
+00:34:59,560 --> 00:35:00,480
+但幸运的是。
+
+1547
+00:35:00,480 --> 00:35:02,760
+um we do it for ourselves
+
+1548
+00:35:00,480 --> 00:35:02,760
+嗯，我们是为自己做的。
+
+1549
+00:35:02,760 --> 00:35:06,760
+and we try to keep the user interface still be easy.
+
+1550
+00:35:02,760 --> 00:35:06,760
+而且我们尽量让用户界面保持简洁易用。
+
+1551
+00:35:06,760 --> 00:35:09,480
+so what we are currently are implementing is
+
+1552
+00:35:06,760 --> 00:35:09,480
+所以我们目前正在实现的是
+
+1553
+00:35:09,480 --> 00:35:11,840
+um we have still our user prompt.
+
+1554
+00:35:09,480 --> 00:35:11,840
+嗯，我们仍然保留用户提示。
+
+1555
+00:35:11,840 --> 00:35:16,920
+but for instance copilot has a mechanism called chat participant
+
+1556
+00:35:11,840 --> 00:35:16,920
+但比如说，Copilot 有一种叫作聊天参与者的机制
+
+1557
+00:35:16,920 --> 00:35:24,080
+um which is an extension and the chat participant allows us to call code.
+
+1558
+00:35:16,920 --> 00:35:24,080
+嗯，它是一种扩展，聊天参与者可以让我们调用代码。
+
+1559
+00:35:24,080 --> 00:35:27,680
+so copilot is not calling an agent directly on an llm.
+
+1560
+00:35:24,080 --> 00:35:27,680
+所以 Copilot 不会直接在 LLM 上调用代理。
+
+1561
+00:35:27,680 --> 00:35:33,520
+it's calling our code first and our code then decides what we want to do.
+
+1562
+00:35:27,680 --> 00:35:33,520
+它会先调用我们的代码，然后由我们的代码决定要做什么。
+
+1563
+00:35:33,520 --> 00:35:38,920
+um this means what we do with a deterministic code is when we get a prompt
+
+1564
+00:35:33,520 --> 00:35:38,920
+嗯，这意味着，当我们拿到一个提示词时，要用确定性代码做的事情是
+
+1565
+00:35:38,920 --> 00:35:43,080
+and we know it's an agent, we say hey via our code ask
+
+1566
+00:35:38,920 --> 00:35:43,080
+如果我们知道它是一个智能体，就通过代码询问：
+
+1567
+00:35:43,080 --> 00:35:47,560
+um things needs again maybe via an mcp, but also via a normal api
+
+1568
+00:35:43,080 --> 00:35:47,560
+嗯，它还需要什么，也许可以通过 MCP，也可以通过普通 API 来询问
+
+1569
+00:35:47,560 --> 00:35:50,600
+what are the needs, the instructions you want to have.
+
+1570
+00:35:47,560 --> 00:35:50,600
+你希望它具备哪些需求和指令？
+
+1571
+00:35:50,600 --> 00:35:55,560
+and this we get as as return back and then we call the agent.
+
+1572
+00:35:50,600 --> 00:35:55,560
+我们会收到返回结果，然后调用这个智能体。
+
+1573
+00:35:55,560 --> 00:36:01,000
+but also for the agent, the chat participant allows us to completely define the scope.
+
+1574
+00:35:55,560 --> 00:36:01,000
+不过，对于智能体来说，聊天参与者还允许我们完全定义其范围。
+
+1575
+00:36:01,000 --> 00:36:01,800
+um
+
+1576
+00:36:01,000 --> 00:36:01,800
+嗯
+
+1577
+00:36:01,800 --> 00:36:06,080
+which means we can say okay, what are the skills and instructions
+
+1578
+00:36:01,800 --> 00:36:06,080
+也就是说，我们可以说，好吧，我们要添加哪些技能和指令？
+
+1579
+00:36:06,080 --> 00:36:07,360
+we want to put in?
+
+1580
+00:36:06,080 --> 00:36:07,360
+我们想把它们放进去吗？
+
+1581
+00:36:07,360 --> 00:36:08,520
+do you have any history
+
+1582
+00:36:07,360 --> 00:36:08,520
+你有任何历史记录吗
+
+1583
+00:36:08,520 --> 00:36:09,720
+from from chats before
+
+1584
+00:36:08,520 --> 00:36:09,720
+比如之前的聊天记录
+
+1585
+00:36:09,720 --> 00:36:10,760
+or do we to completely
+
+1586
+00:36:09,720 --> 00:36:10,760
+还是我们要彻底
+
+1587
+00:36:10,760 --> 00:36:11,880
+wipe this out?
+
+1588
+00:36:10,760 --> 00:36:11,880
+清空这些记录？
+
+1589
+00:36:11,880 --> 00:36:14,800
+so to really focus on what we give you.
+
+1590
+00:36:11,880 --> 00:36:14,800
+这样才能真正专注于我们提供给你的内容。
+
+1591
+00:36:14,800 --> 00:36:19,240
+we can say what tools are you allowed for this specific task to have.
+
+1592
+00:36:14,800 --> 00:36:19,240
+我们可以指定你在这项特定任务中可以使用哪些工具。
+
+1593
+00:36:19,240 --> 00:36:24,640
+maybe a step for an architecture is using different tools as as for testing something.
+
+1594
+00:36:19,240 --> 00:36:24,640
+也许架构中的一个步骤就是使用不同的工具来测试某些东西。
+
+1595
+00:36:24,640 --> 00:36:29,440
+um and as we may have the link to tool qualification in the same
+
+1596
+00:36:24,640 --> 00:36:29,440
+嗯，而且我们可能会在同一个地方放上工具资格认证的链接
+
+1597
+00:36:29,440 --> 00:36:32,640
+um repository, we can also fetch this data via a deterministic
+
+1598
+00:36:29,440 --> 00:36:32,640
+对于代码仓库，我们也可以通过一种确定性的
+
+1599
+00:36:32,640 --> 00:36:35,080
+way and integrate it into the scope.
+
+1600
+00:36:32,640 --> 00:36:35,080
+方式获取这些数据，并将其纳入范围。
+
+1601
+00:36:35,080 --> 00:36:36,040
+the same for files.
+
+1602
+00:36:35,080 --> 00:36:36,040
+文件也是一样。
+
+1603
+00:36:36,040 --> 00:36:38,480
+we can also say, "okay, you as
+
+1604
+00:36:36,040 --> 00:36:38,480
+我们还可以说：“好吧，你在
+
+1605
+00:36:38,480 --> 00:36:44,720
+with this architecture-related call are only allowed to read and change architecture file.
+
+1606
+00:36:38,480 --> 00:36:44,720
+执行这个与架构相关的调用时，只能读取和修改架构文件。
+
+1607
+00:36:44,720 --> 00:36:46,200
+everything else don't do it.
+
+1608
+00:36:44,720 --> 00:36:46,200
+其他任何东西都不要动。
+
+1609
+00:36:46,200 --> 00:36:46,960
+don't touch it.
+
+1610
+00:36:46,200 --> 00:36:46,960
+别碰它。
+
+1611
+00:36:46,960 --> 00:36:52,440
+don't even look at it because it may confuse you." and the last thing is
+
+1612
+00:36:46,960 --> 00:36:52,440
+甚至别看它，因为它可能会让你困惑。”最后一点是
+
+1613
+00:36:52,440 --> 00:36:57,480
+um often agents are breaking down a task in in subtask.
+
+1614
+00:36:52,440 --> 00:36:57,480
+嗯，智能体通常会将一项任务拆分成若干子任务。
+
+1615
+00:36:57,480 --> 00:36:59,320
+so, we can also control this.
+
+1616
+00:36:57,480 --> 00:36:59,320
+所以，我们也可以对此进行控制。
+
+1617
+00:36:59,320 --> 00:37:04,000
+maybe also related to processes we have defined in our documentation.
+
+1618
+00:36:59,320 --> 00:37:04,000
+也许这还与我们在文档中定义的流程有关。
+
+1619
+00:37:04,000 --> 00:37:05,400
+and to say really what is step
+
+1620
+00:37:04,000 --> 00:37:05,400
+并明确说明步骤是什么
+
+1621
+00:37:05,400 --> 00:37:06,920
+a, b, and c in this order
+
+1622
+00:37:05,400 --> 00:37:06,920
+按 a、b、c 的顺序
+
+1623
+00:37:06,920 --> 00:37:07,480
+and don't
+
+1624
+00:37:06,920 --> 00:37:07,480
+不要
+
+1625
+00:37:07,480 --> 00:37:07,840
+skip
+
+1626
+00:37:07,480 --> 00:37:07,840
+跳过
+
+1627
+00:37:07,840 --> 00:37:08,400
+any step.
+
+1628
+00:37:07,840 --> 00:37:08,400
+任何步骤。
+
+1629
+00:37:08,400 --> 00:37:11,280
+don't order it a different way.
+
+1630
+00:37:08,400 --> 00:37:11,280
+别换个方式下单。
+
+1631
+00:37:11,280 --> 00:37:12,960
+just execute it.
+
+1632
+00:37:11,280 --> 00:37:12,960
+直接执行。
+
+1633
+00:37:12,960 --> 00:37:16,720
+and so that at the end we have full control
+
+1634
+00:37:12,960 --> 00:37:16,720
+这样，最终我们就能完全掌控
+
+1635
+00:37:16,720 --> 00:37:20,800
+about 100% of the input data which really goes to an llm.
+
+1636
+00:37:16,720 --> 00:37:20,800
+真正传给 LLM 的 100% 输入数据。
+
+1637
+00:37:20,800 --> 00:37:25,560
+which does not make it safe, but again, it's hopefully brings us a little step nearer
+
+1638
+00:37:20,800 --> 00:37:25,560
+这并不能让它变得安全，但希望能让我们离实现这一点更近一步
+
+1639
+00:37:25,560 --> 00:37:28,080
+so that this is possible.
+
+1640
+00:37:25,560 --> 00:37:28,080
+这样就能做到这一点。
+
+1641
+00:37:28,080 --> 00:37:29,640
+and the good thing is
+
+1642
+00:37:28,080 --> 00:37:29,640
+好在
+
+1643
+00:37:29,640 --> 00:37:33,080
+also the output from the llm is not directly going to the user.
+
+1644
+00:37:29,640 --> 00:37:33,080
+LLM 的输出也不会直接发给用户。
+
+1645
+00:37:33,080 --> 00:37:38,400
+it's again going to our little chat participant script with all of our code.
+
+1646
+00:37:33,080 --> 00:37:38,400
+而是会再次交给我们自己的小型聊天参与者脚本，其中包含我们的所有代码。
+
+1647
+00:37:38,400 --> 00:37:41,720
+so, as we know what tools are going in here and also instructions
+
+1648
+00:37:38,400 --> 00:37:41,720
+所以，我们知道这里会用到哪些工具，以及有哪些指令。
+
+1649
+00:37:41,720 --> 00:37:43,960
+and all the files, we can check for instance,
+
+1650
+00:37:41,720 --> 00:37:43,960
+以及所有文件，例如，我们可以检查，
+
+1651
+00:37:43,960 --> 00:37:47,920
+have you really only touched architecture files or have you done something else?
+
+1652
+00:37:43,960 --> 00:37:47,920
+你是否确实只修改了架构文件，还是还做了其他事情？
+
+1653
+00:37:47,920 --> 00:37:50,840
+have you invoked tools which were not on the allow list?
+
+1654
+00:37:47,920 --> 00:37:50,840
+你是否调用了不在允许列表中的工具？
+
+1655
+00:37:50,840 --> 00:37:55,080
+or have you invoked them differently with flags which are not allowed?
+
+1656
+00:37:50,840 --> 00:37:55,080
+或者你是否使用了不允许的标志，以不同方式调用了这些工具？
+
+1657
+00:37:55,080 --> 00:37:57,440
+so, this we can all monitor.
+
+1658
+00:37:55,080 --> 00:37:57,440
+所以，这些我们都可以监控。
+
+1659
+00:37:57,440 --> 00:37:59,720
+we can check against an ontology
+
+1660
+00:37:57,440 --> 00:37:59,720
+我们可以根据本体进行检查，
+
+1661
+00:37:59,720 --> 00:38:00,880
+if for instance
+
+1662
+00:37:59,720 --> 00:38:00,880
+例如，
+
+1663
+00:38:00,880 --> 00:38:01,640
+requirements
+
+1664
+00:38:00,880 --> 00:38:01,640
+需求
+
+1665
+00:38:01,640 --> 00:38:02,560
+were created
+
+1666
+00:38:01,640 --> 00:38:02,560
+已创建
+
+1667
+00:38:02,560 --> 00:38:05,640
+with sphinx needs in the same way following all the rules.
+
+1668
+00:38:02,560 --> 00:38:05,640
+按照所有规则，以同样的方式满足 Sphinx 的需求。
+
+1669
+00:38:05,640 --> 00:38:07,280
+we can do this automatically
+
+1670
+00:38:05,640 --> 00:38:07,280
+我们可以自动完成这件事
+
+1671
+00:38:07,280 --> 00:38:10,920
+so that at the end then we decide what really gets back
+
+1672
+00:38:07,280 --> 00:38:10,920
+这样最后我们就能决定最终返回什么内容
+
+1673
+00:38:10,920 --> 00:38:13,720
+as an answer to the user prompt
+
+1674
+00:38:10,920 --> 00:38:13,720
+作为对用户提示的回答
+
+1675
+00:38:13,720 --> 00:38:15,280
+so that we can somehow
+
+1676
+00:38:13,720 --> 00:38:15,280
+这样我们就能以某种方式
+
+1677
+00:38:15,280 --> 00:38:19,320
+validate a little bit that the input really was respected by the
+
+1678
+00:38:15,280 --> 00:38:19,320
+稍微验证一下输入是否确实得到了
+
+1679
+00:38:19,320 --> 00:38:20,800
+llm call.
+
+1680
+00:38:19,320 --> 00:38:20,800
+LLM 调用的遵循。
+
+1681
+00:38:20,800 --> 00:38:27,680
+and that maybe the answer and the result somehow trustable a little bit more is just
+
+1682
+00:38:20,800 --> 00:38:27,680
+而想让答案和结果稍微更可信一点，方法其实就是
+
+1683
+00:38:27,680 --> 00:38:31,200
+throwing a prompt at an l&m.
+
+1684
+00:38:27,680 --> 00:38:31,200
+给 L&M 发一个提示词。
+
+1685
+00:38:32,960 --> 00:38:34,720
+and that's it.
+
+1686
+00:38:32,960 --> 00:38:34,720
+就这样。
+
+1687
+00:38:34,720 --> 00:38:41,560
+so i'm really happy to maybe discuss more ideas or problems you see with this approach.
+
+1688
+00:38:34,720 --> 00:38:41,560
+我很乐意继续探讨更多想法，或者你们觉得这种方法有什么问题。
+
+1689
+00:38:41,880 --> 00:38:45,800
+you can contact me via email or just here and spend you a coffee.
+
+1690
+00:38:41,880 --> 00:38:45,800
+你可以通过邮件联系我，也可以就在这里请我喝杯咖啡。
+
+1691
+00:38:45,800 --> 00:38:48,400
+shall be great.
+
+1692
+00:38:45,800 --> 00:38:48,400
+那就太好了。
+
+1693
+00:38:48,760 --> 00:38:50,200
+so thanks for having me.
+
+1694
+00:38:48,760 --> 00:38:50,200
+感谢邀请我来。
+
+1695
+00:38:50,200 --> 00:38:50,640
+thank you.
+
+1696
+00:38:50,200 --> 00:38:50,640
+谢谢。
+
+1697
+00:38:50,640 --> 00:38:51,600
+thank you so much daniel.
+
+1698
+00:38:50,640 --> 00:38:51,600
+非常感谢你，丹尼尔。
+
+1699
+00:38:51,600 --> 00:38:53,136
+really.
+
+1700
+00:38:51,600 --> 00:38:53,136
+真的。
+
+1701
+00:38:53,136 --> 00:38:59,560
+i will just give you the the mic just one one minute.
+
+1702
+00:38:53,136 --> 00:38:59,560
+我把麦克风交给你，你讲一分钟就好。
+
+1703
+00:38:59,560 --> 00:39:03,880
+i love the work that you are doing and i have one question for you.
+
+1704
+00:38:59,560 --> 00:39:03,880
+我很喜欢你正在做的工作，有一个问题想问你。
+
+1705
+00:39:03,880 --> 00:39:09,040
+sam shilais from microsoft calls it too many mental calories.
+
+1706
+00:39:03,880 --> 00:39:09,040
+微软的山姆·希莱斯称之为消耗太多脑力。
+
+1707
+00:39:09,040 --> 00:39:12,720
+so you you have now thinks needs is amazing, right?
+
+1708
+00:39:09,040 --> 00:39:12,720
+所以你现在有了 Thinks Needs，真是太棒了，对吧？
+
+1709
+00:39:12,720 --> 00:39:14,560
+for organizing requirements.
+
+1710
+00:39:12,720 --> 00:39:14,560
+用来整理需求。
+
+1711
+00:39:14,560 --> 00:39:19,160
+you now have an ai generating 500 requirements perfectly.
+
+1712
+00:39:14,560 --> 00:39:19,160
+现在你有了一个能完美生成 500 条需求的 AI。
+
+1713
+00:39:19,160 --> 00:39:24,760
+how does the human in the loop manage the 500 requirements of for safety standards
+
+1714
+00:39:19,160 --> 00:39:24,760
+人在回路中如何管理安全标准的 500 项要求
+
+1715
+00:39:24,760 --> 00:39:28,760
+with so many so many speed that the ai can generate?
+
+1716
+00:39:24,760 --> 00:39:28,760
+面对人工智能能生成的如此多、如此快的内容呢？
+
+1717
+00:39:28,760 --> 00:39:31,000
+ever are you thinking about that?
+
+1718
+00:39:28,760 --> 00:39:31,000
+你有没有想过这个问题？
+
+1719
+00:39:31,000 --> 00:39:32,240
+yeah.
+
+1720
+00:39:31,000 --> 00:39:32,240
+有。
+
+1721
+00:39:32,240 --> 00:39:33,680
+i have no answer for this.
+
+1722
+00:39:32,240 --> 00:39:33,680
+我对此没有答案。
+
+1723
+00:39:33,680 --> 00:39:35,600
+this is totally under discussion.
+
+1724
+00:39:33,680 --> 00:39:35,600
+这仍在讨论之中。
+
+1725
+00:39:35,600 --> 00:39:36,640
+so we also call
+
+1726
+00:39:35,600 --> 00:39:36,640
+所以我们也称
+
+1727
+00:39:36,640 --> 00:39:37,640
+it the dark factory
+
+1728
+00:39:36,640 --> 00:39:37,640
+它为“暗工厂”
+
+1729
+00:39:37,640 --> 00:39:38,600
+for software creation
+
+1730
+00:39:37,640 --> 00:39:38,600
+用于软件开发
+
+1731
+00:39:38,600 --> 00:39:40,080
+where we say there's no human
+
+1732
+00:39:38,600 --> 00:39:40,080
+我们说没有人类
+
+1733
+00:39:40,080 --> 00:39:41,160
+more involved
+
+1734
+00:39:40,080 --> 00:39:41,160
+参与其中
+
+1735
+00:39:41,160 --> 00:39:43,360
+and this maybe eventually will
+
+1736
+00:39:41,160 --> 00:39:43,360
+而这或许最终会
+
+1737
+00:39:43,360 --> 00:39:46,400
+happen one day that you just write requirements
+
+1738
+00:39:43,360 --> 00:39:46,400
+有一天实现：你只需编写需求
+
+1739
+00:39:46,400 --> 00:39:47,120
+review
+
+1740
+00:39:46,400 --> 00:39:47,120
+审核
+
+1741
+00:39:47,120 --> 00:39:50,560
+the plan what the ai will do and what changes it will will do
+
+1742
+00:39:47,120 --> 00:39:50,560
+AI 将要执行的计划，以及它将要进行的更改
+
+1743
+00:39:50,560 --> 00:39:52,040
+but at the end then you
+
+1744
+00:39:50,560 --> 00:39:52,040
+但最后你会 Then
+
+1745
+00:39:52,040 --> 00:39:54,120
+trust just your automatically testing
+
+1746
+00:39:52,040 --> 00:39:54,120
+只相信你们的自动化测试
+
+1747
+00:39:54,120 --> 00:39:56,560
+and and and your ontology test and whatever
+
+1748
+00:39:54,120 --> 00:39:56,560
+还有还有还有你们的本体测试以及其他各种测试
+
+1749
+00:39:56,560 --> 00:39:58,880
+but never take a look on the software again.
+
+1750
+00:39:56,560 --> 00:39:58,880
+但之后再也不检查软件了。
+
+1751
+00:39:58,880 --> 00:40:00,720
+maybe that's not the case for all the software.
+
+1752
+00:39:58,880 --> 00:40:00,720
+也许并非所有软件都如此。
+
+1753
+00:40:00,720 --> 00:40:04,040
+maybe safety is special or sld only.
+
+1754
+00:40:00,720 --> 00:40:04,040
+也许安全领域比较特殊，或者只有 SLD 是这样。
+
+1755
+00:40:04,040 --> 00:40:08,200
+i don't know but i know already white coding is a lot used
+
+1756
+00:40:04,040 --> 00:40:08,200
+我不知道，但我已经知道，白盒编码被大量使用
+
+1757
+00:40:08,200 --> 00:40:11,840
+in in tool development for where you just want to have small scripts.
+
+1758
+00:40:08,200 --> 00:40:11,840
+在工具开发中，适用于只需要编写一些小脚本的场景。
+
+1759
+00:40:11,840 --> 00:40:14,360
+maybe a quick dashboard about company data
+
+1760
+00:40:11,840 --> 00:40:14,360
+也许是一个展示公司数据的快速仪表盘。
+
+1761
+00:40:14,360 --> 00:40:19,040
+and nobody's taking their look into the code anymore and i think this will grow.
+
+1762
+00:40:14,360 --> 00:40:19,040
+而且现在已经没人再查看代码了，我认为这种趋势会继续发展。
+
+1763
+00:40:19,040 --> 00:40:19,600
+and
+
+1764
+00:40:19,040 --> 00:40:19,600
+还有
+
+1765
+00:40:19,600 --> 00:40:21,720
+um i think you have more trust the
+
+1766
+00:40:19,600 --> 00:40:21,720
+嗯，我觉得你应该更信任……
+
+1767
+00:40:21,720 --> 00:40:23,680
+trust the process and your testing
+
+1768
+00:40:21,720 --> 00:40:23,680
+相信流程和你的测试
+
+1769
+00:40:23,680 --> 00:40:27,840
+and not to the manual reviews anymore.
+
+1770
+00:40:23,680 --> 00:40:27,840
+而不是再依赖人工审查。
+
+1771
+00:40:30,920 --> 00:40:34,680
+yeah, thank you very much for your presentation.
+
+1772
+00:40:30,920 --> 00:40:34,680
+好的，非常感谢你的演讲。
+
+1773
+00:40:34,680 --> 00:40:37,720
+we are also having havingly using
+
+1774
+00:40:34,680 --> 00:40:37,720
+我们也一直在使用……
+
+1775
+00:40:37,720 --> 00:40:43,280
+things needs in our proprietary solution as well as an s-core.
+
+1776
+00:40:37,720 --> 00:40:43,280
+我们专有解决方案以及 S-Core 中所需的功能。
+
+1777
+00:40:43,280 --> 00:40:47,360
+one thing i do not know, maybe you have some answers.
+
+1778
+00:40:43,280 --> 00:40:47,360
+有一件事我不太清楚，也许你能解答一下。
+
+1779
+00:40:47,360 --> 00:40:53,720
+we have several initiatives like open sovd, like s-core, like other things.
+
+1780
+00:40:47,360 --> 00:40:53,720
+我们有多个倡议，比如 Open SOVD、S-Core 以及其他项目。
+
+1781
+00:40:53,720 --> 00:40:56,160
+how can we combine them together?
+
+1782
+00:40:53,720 --> 00:40:56,160
+我们如何才能把它们整合起来？
+
+1783
+00:40:56,160 --> 00:41:00,960
+because at the moment we are focusing, let's say, on one github organization,
+
+1784
+00:40:56,160 --> 00:41:00,960
+因为目前我们关注的是，比如说，某个 GitHub 组织，
+
+1785
+00:41:00,960 --> 00:41:04,120
+yeah, then you have all the traceability done and so on.
+
+1786
+00:41:00,960 --> 00:41:04,120
+这样一来，所有可追溯性工作等等就都完成了。
+
+1787
+00:41:04,120 --> 00:41:09,560
+and then you have another initiative like open sovd has also the same thing.
+
+1788
+00:41:04,120 --> 00:41:09,560
+而另一个倡议，比如 Open SOVD，也有同样的情况。
+
+1789
+00:41:09,560 --> 00:41:11,720
+how can we bring these things together?
+
+1790
+00:41:09,560 --> 00:41:11,720
+我们如何才能把这些事情整合起来？
+
+1791
+00:41:11,720 --> 00:41:16,320
+is there an answer from your side?
+
+1792
+00:41:11,720 --> 00:41:16,320
+你们这边有答案吗？
+
+1793
+00:41:17,000 --> 00:41:18,360
+no, it isn't.
+
+1794
+00:41:17,000 --> 00:41:18,360
+没有。
+
+1795
+00:41:18,360 --> 00:41:21,360
+i mean, this is a question for me is also what is the motivation
+
+1796
+00:41:18,360 --> 00:41:21,360
+我是想说，这对我来说也是个问题：促使大家聚在一起的动机是什么？
+
+1797
+00:41:21,360 --> 00:41:22,480
+to bring them together.
+
+1798
+00:41:21,360 --> 00:41:22,480
+把他们聚在一起。
+
+1799
+00:41:22,480 --> 00:41:26,480
+does it mean that they need to follow certain templates and the same process?
+
+1800
+00:41:22,480 --> 00:41:26,480
+这是否意味着他们需要遵循某些模板和相同的流程？
+
+1801
+00:41:26,480 --> 00:41:29,560
+or is it just to learn from each other so that it's more a community
+
+1802
+00:41:26,480 --> 00:41:29,560
+还是说，这只是为了互相学习，让它更像是一个社区活动，
+
+1803
+00:41:29,560 --> 00:41:33,120
+event where you invite everybody and to just talk about the tools you are using.
+
+1804
+00:41:29,560 --> 00:41:33,120
+邀请所有人来聊聊你们正在使用的工具。
+
+1805
+00:41:33,120 --> 00:41:35,120
+yeah, at the end of the day you have a product
+
+1806
+00:41:33,120 --> 00:41:35,120
+是啊，说到底，你有一个产品
+
+1807
+00:41:35,120 --> 00:41:36,680
+which is then shipped to
+
+1808
+00:41:35,120 --> 00:41:36,680
+然后把它交付给
+
+1809
+00:41:36,680 --> 00:41:37,520
+somebody,
+
+1810
+00:41:36,680 --> 00:41:37,520
+某个人，
+
+1811
+00:41:37,520 --> 00:41:39,720
+and then at the end of the day you have to
+
+1812
+00:41:37,520 --> 00:41:39,720
+然后到一天结束时，你必须
+
+1813
+00:41:39,720 --> 00:41:40,800
+be
+
+1814
+00:41:39,720 --> 00:41:40,800
+成为
+
+1815
+00:41:40,800 --> 00:41:43,920
+or show evidence that everything is fine, yeah.
+
+1816
+00:41:40,800 --> 00:41:43,920
+或拿出证据证明一切都没问题，是吧。
+
+1817
+00:41:43,920 --> 00:41:45,440
+so.
+
+1818
+00:41:43,920 --> 00:41:45,440
+所以。
+
+1819
+00:41:45,440 --> 00:41:46,080
+okay, good.
+
+1820
+00:41:45,440 --> 00:41:46,080
+好的，不错。
+
+1821
+00:41:46,080 --> 00:41:47,520
+so, this means that
+
+1822
+00:41:46,080 --> 00:41:47,520
+所以，这意味着
+
+1823
+00:41:47,520 --> 00:41:51,440
+the meta model which is used in all the projects needs to be somehow mapped together
+
+1824
+00:41:47,520 --> 00:41:51,440
+所有项目中使用的元模型需要以某种方式整合起来
+
+1825
+00:41:51,440 --> 00:41:57,040
+so that you can make an overall statement about the traceability and everything like this.
+
+1826
+00:41:51,440 --> 00:41:57,040
+这样你才能对可追溯性之类的情况做出整体判断。
+
+1827
+00:41:57,040 --> 00:42:02,120
+i don't have a answer for this because i also have made the experience
+
+1828
+00:41:57,040 --> 00:42:02,120
+我对此没有答案，因为我也有过这样的经历
+
+1829
+00:42:02,120 --> 00:42:04,720
+that our users and then customers are always
+
+1830
+00:42:02,120 --> 00:42:04,720
+我们的用户以及后来的客户总是在
+
+1831
+00:42:04,720 --> 00:42:06,680
+asking for a reference implementation
+
+1832
+00:42:04,720 --> 00:42:06,680
+索要一个参考实现
+
+1833
+00:42:06,680 --> 00:42:09,240
+to start with something quite fast.
+
+1834
+00:42:06,680 --> 00:42:09,240
+先从速度很快的东西开始。
+
+1835
+00:42:09,240 --> 00:42:12,320
+but also already after 2 weeks they start to
+
+1836
+00:42:09,240 --> 00:42:12,320
+但仅仅两周后，他们就开始
+
+1837
+00:42:12,320 --> 00:42:15,600
+evolve from it, how they call it and they change it for their own needs
+
+1838
+00:42:12,320 --> 00:42:15,600
+对它进行改进——他们称之为改进，并根据自己的需求进行修改。
+
+1839
+00:42:15,600 --> 00:42:20,160
+and suddenly they have created their own meta model which is not any more compatible
+
+1840
+00:42:15,600 --> 00:42:20,160
+突然间，他们就创建了自己的元模型，不再兼容任何
+
+1841
+00:42:20,160 --> 00:42:21,640
+to something
+
+1842
+00:42:20,160 --> 00:42:21,640
+东西
+
+1843
+00:42:21,640 --> 00:42:24,000
+um yeah, it's it's a discussion.
+
+1844
+00:42:21,640 --> 00:42:24,000
+嗯，是的，这是个讨论话题。
+
+1845
+00:42:24,000 --> 00:42:28,440
+if this is okay and and needed much more than a standardized
+
+1846
+00:42:24,000 --> 00:42:28,440
+这是否可行？而且，它是否比标准化的方案更必要？
+
+1847
+00:42:28,440 --> 00:42:32,760
+maybe the trustable software framework is a solution for this is really have a strong
+
+1848
+00:42:28,440 --> 00:42:32,760
+也许可信赖的软件框架可以解决这个问题，关键是要有一个强大的框架。
+
+1849
+00:42:32,760 --> 00:42:35,000
+mythology there.
+
+1850
+00:42:32,760 --> 00:42:35,000
+那里的神话。
+
+1851
+00:42:35,000 --> 00:42:39,400
+we have to see what what really if if yeah.
+
+1852
+00:42:35,000 --> 00:42:39,400
+我们得看看究竟是什么，如果……是的话。
+
+1853
+00:42:39,680 --> 00:42:43,880
+which means any more questions?
+
+1854
+00:42:39,680 --> 00:42:43,880
+也就是说，还有什么问题吗？
+
+1855
+00:42:43,880 --> 00:42:44,280
+no?
+
+1856
+00:42:43,880 --> 00:42:44,280
+没有吗？
+
+1857
+00:42:44,280 --> 00:42:46,080
+so, thank you again daniel.
+
+1858
+00:42:44,280 --> 00:42:46,080
+那么，再次感谢你，丹尼尔。
+
+1859
+00:42:46,080 --> 00:42:48,400
+amazing amazing work and amazing session.
+
+1860
+00:42:46,080 --> 00:42:48,400
+精彩，精彩的工作，还有精彩的讲座。
+
+1861
+00:42:48,400 --> 00:42:49,200
+thank you.
+
+1862
+00:42:48,400 --> 00:42:49,200
+谢谢。
+
+1863
+00:42:49,200 --> 00:42:50,249
+thanks.
+
+1864
+00:42:49,200 --> 00:42:50,249
+谢谢。
+

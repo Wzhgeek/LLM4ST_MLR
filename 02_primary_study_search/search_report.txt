@@ -1,0 +1,47 @@
+Primary-source search and selection
+===================================
+
+Scope: English sources published from August 1, 2022 through June 30, 2026, inclusive. Published and grey literature use the same conceptual scope and publication window.
+
+Bibliographic search
+--------------------
+The query was frozen on July 18, 2026. Bibliographic searches were run on July 20, 2026 in ACM Digital Library, arXiv, Engineering Village, Google Scholar, IEEE Xplore, ScienceDirect, Scopus, SpringerLink, Wiley Online Library, and Web of Science.
+
+Common conceptual query:
+("software traceability" OR "software development traceability" OR "software engineering" OR "requirements traceability" OR "requirements engineering" OR "requirement-to-code" OR "requirements-code" OR "issue-commit" OR "issue commit")
+AND
+(traceab* OR "traceability link*" OR "trace link*" OR "artifact link*" OR "traceability recovery" OR "trace goal*" OR "issue-commit link*" OR "issue commit link*")
+AND
+("large language model*" OR LLM OR LLMs OR "generative AI" OR ChatGPT OR GPT OR Codex OR Llama OR Claude OR Gemini OR "foundation model*" OR "retrieval-augmented generation")
+
+The database_exports/ subfolders contain the consolidated export and retained search screenshots for each source. ScienceDirect used four subqueries; their results are consolidated in database_exports/ScienceDirect/ScienceDirect.bib and their text is in queries.txt in the same folder.
+
+The Google Scholar primary-source query was:
+("software traceability" OR "software development traceability" OR "requirements traceability" OR "traceability link" OR "trace link" OR "artifact link" OR "requirement to code" OR "requirements to code" OR "issue commit") ("large language model" OR LLM OR "generative AI" OR ChatGPT OR GPT OR Codex OR Llama OR Claude OR Gemini OR "foundation model" OR "retrieval augmented generation")
+Google Scholar results were ranked by relevance, with the first 100 retained and a 2022–2026 year filter. Exact date eligibility was checked during screening.
+
+Retrieved records by source: ACM 1110; arXiv 45; Engineering Village 184; Google Scholar 100; IEEE Xplore 69; ScienceDirect 115; Scopus 129; SpringerLink 612; Wiley 189; Web of Science 20. Total exported records: 2573. Consolidated exports and deduplication records distinguish raw retrieval counts from within-source duplicates.
+
+Database screening: 2573 exported records -> 2217 deduplicated records -> 289 after title/keyword screening -> 274 after date/version verification -> 63 after abstract screening -> 51 after full-text screening. A bidirectional snowballing round identified 251 unique candidates and added 3 studies. The resulting 54 candidates proceeded to quality assessment; one was excluded, leaving 53 indexed sources.
+
+Web and video search
+--------------------
+Searches were run on July 23, 2026 using Google, Bing, Yahoo, and YouTube. Web engines used:
+("large language model" OR LLM OR ChatGPT OR "generative AI" OR GPT-4)
+AND
+("requirements traceability" OR "software traceability" OR "traceability matrix" OR "traceability link" OR "traceability recovery")
+
+YouTube keyword adaptations and retained records:
+software traceability large language model: 20
+requirements traceability LLM: 19
+requirement to code traceability ChatGPT: 14
+traceability link recovery generative AI: 1
+traceability matrix GPT: 20
+
+Google returned 66 retained records, Bing 100, Yahoo 70, and YouTube 74. The 310 records yielded 283 unique records, 18 title/keyword candidates, 15 date-eligible candidates, and 9 complete-content candidates. Quality assessment excluded EX2 and retained G1–G8. Records already covered by the bibliographic search were routed to that branch and counted once.
+
+The retained raw and title-screening records are in screening/06_web_video/. The candidate register, content extraction, archived evidence, and independent quality scores are in grey_literature_sources.csv, grey_literature_content.csv, grey_literature_evidence/, and quality_assessment/.
+
+Final corpus
+------------
+Quality assessment considered 63 candidates: 44 published and 19 grey-literature sources. The final corpus contains 61 sources: 43 published and 18 grey-literature sources. The latter comprise ten preprints, one report, and seven videos. Four sources are retained as weak evidence: S26, S32, G3, and G4. Independent reviewer scores are retained; final evidence-maturity classifications are in the combined extraction workbook.

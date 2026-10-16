@@ -1,0 +1,61 @@
+﻿title,year,fine_category,theme_category,theme_mapping_rule,theme_rationale
+Software traceability: a roadmap,2005,ST研究议程与领域定位,ST基础、知识体系与领域发展,ST研究议程与领域定位 -> ST基础、知识体系与领域发展,以ST领域路线图、核心问题和未来研究方向为主要对象
+A Survey of Traceability in Requirements Engineering and Model-Driven Development,2010,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于需求工程与模型驱动开发中的追溯
+Model-driven engineering as a new landscape for traceability management: A systematic literature review,2012,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于模型驱动工程中的追溯管理
+The quest for ubiquity: A roadmap for software and systems traceability research,2012,ST研究议程与领域定位,ST基础、知识体系与领域发展,ST研究议程与领域定位 -> ST基础、知识体系与领域发展,以普适追溯愿景和软件与系统追溯研究议程为主要对象
+Traceability-Why Do It?,2012,ST知识体系与概念综述,ST基础、知识体系与领域发展,ST知识体系与概念综述 -> ST基础、知识体系与领域发展,讨论实施追溯的动机、价值和基础问题
+Requirements Traceability: A Systematic Review and Industry Case Study,2012,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,综合需求追溯研究并结合工业案例，提供领域总体证据
+The Grand Challenge of Traceability (v1.0),2012,ST研究议程与领域定位,ST基础、知识体系与领域发展,ST研究议程与领域定位 -> ST基础、知识体系与领域发展,以ST领域重大挑战和研究议程为主要对象
+Factors Impacting the Inputs of Traceability Recovery Approaches,2012,ST知识体系与概念综述,ST基础、知识体系与领域发展,ST知识体系与概念综述 -> ST基础、知识体系与领域发展,概括影响追溯恢复方法输入的关键因素
+IR in software traceability: From a bird's eye view,2013,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射IR在ST中的应用
+A Review of Traceability Research at the Requirements Engineering Conference RE@21,2013,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,回顾RE会议中的追溯研究，刻画领域发展
+Software traceability: trends and future directions,2014,ST研究议程与领域定位,ST基础、知识体系与领域发展,ST研究议程与领域定位 -> ST基础、知识体系与领域发展,概括ST研究趋势和未来方向
+Recovering from a decade: a systematic mapping of information retrieval approaches to software traceability,2014,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射IR-based ST恢复方法
+Achievements and challenges in state-of-the-art software traceability between test and code artifacts,2014,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于测试制品与代码之间的追溯
+A comparison of software product line traceability approaches from end-to-end traceability perspectives,2014,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于SPL端到端追溯
+A Systematic Literature Review of Traceability Approaches between Software Architecture and Source Code,2014,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于软件架构与源代码之间的追溯
+Guidelines for benchmarking automated software traceability techniques,2015,ST基准与评价规范,自动ST技术、数据与评价,ST基准与评价规范 -> 自动ST技术、数据与评价,提出自动ST技术的基准与评价指南
+A Systematic Mapping on Supporting Approaches for Requirements Traceability in the Context of Software Projects,2015,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,映射软件项目语境中的需求追溯支持方法，提供总体证据版图
+TraceBoK: Toward a software requirements traceability body of knowledge,2016,ST知识体系与概念综述,ST基础、知识体系与领域发展,ST知识体系与概念综述 -> ST基础、知识体系与领域发展,以构建需求追溯知识体系为主要目标
+"Datasets from Fifteen Years of Automated Requirements Traceability Research: Current State, Characteristics, and Quality",2017,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合自动需求追溯研究所使用数据集的特征与质量
+A systematic review of requirement traceability techniques and tools,2017,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合需求追溯技术与工具
+Software product lines traceability: A systematic mapping study,2017,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于SPL追溯
+The need for traceability in heterogeneous systems: a systematic literature review,2017,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于异构系统中的追溯需求
+Preliminary Systematic Literature Review of Software and Systems Traceability,2017,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,对软件与系统追溯研究开展总体性综述
+Software traceability in the automotive domain: Challenges and solutions,2018,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于汽车领域的ST挑战与解决方案
+Requirements traceability technologies and technology transfer decision support: A systematic review,2018,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合需求追溯技术及其技术转移决策支持
+A Systematic Review of Tracing Solutions in Software Product Lines,2018,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于SPL追溯解决方案
+Information retrieval based requirement traceability recovery approaches-a systematic literature review,2018,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合IR-based需求追溯恢复方法
+Traceability establishment and visualization of Software Artefacts in DevOps Practice: A survey,2019,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于DevOps中的制品追溯建立与可视化
+Comparative Study of Requirements Traceability in Facing Requirements Change: Systematic Literature Study and Survey,2019,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于需求变更情境中的需求追溯
+A literature review of automatic traceability links recovery for software change impact analysis,2020,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于变更影响分析中的自动链接恢复
+The Impact of Traceability on Software Maintenance and Evolution: A Mapping Study,2021,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于软件维护与演化中的追溯影响
+Empirical studies on software traceability: A mapping study,2021,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,映射ST实证研究的总体分布与证据特征
+What have we learnt from the challenges of (semi‐) automated requirements traceability? A discussion on blockchain applicability,2021,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合半自动需求追溯的挑战及相关技术讨论
+A Survey-driven Feature Model for Software Traceability Approaches,2022,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,以特征模型组织ST方法的共同特征和差异
+A Systematic Mapping Study on Quality Attribute Traceability,2022,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于质量属性追溯
+A systematic mapping study of information retrieval approaches applied to requirements trace recovery.,2022,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射IR在需求追溯恢复中的应用
+Mapping Study on Traceability Between BPMN Models and Source Code,2022,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于BPMN模型与源代码之间的追溯
+From Descriptive to Predictive: Forecasting Emerging Research Areas in Software Traceability Using NLP from Systematic Studies,2023,ST二次分析与趋势预测,ST基础、知识体系与领域发展,ST二次分析与趋势预测 -> ST基础、知识体系与领域发展,基于既有系统研究分析和预测ST新兴主题
+A Systematic Literature Review of Software Traceability Links Automation Techniques; [软件跟踪链自动化技术研究综述],2023,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合软件追溯链接自动化技术
+Applications of natural language processing in software traceability: A systematic mapping study?,2023,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射NLP在ST中的应用
+A Systematic Mapping Study of Machine Learning Techniques Applied to Software Traceability,2023,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射ML在ST中的应用
+A systematic literature review of issue-based requirement traceability,2023,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于issue-based需求追溯
+Applications of Machine Learning in Requirements Traceability: A Systematic Mapping Study (S).,2023,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射ML在需求追溯中的应用
+Requirements Traceability Tools and Issues in Very Small Entities: A Systematic Literature Review and a Tool Proposal,2023,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于小微软件组织中的需求追溯工具与问题
+Analyzing Tools and Techniques for Evaluating Requirements Traceability,2023,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,综合需求追溯工具、技术及其评价
+Beyond the Systematic: Forecasting Importance and Emergence of Research Areas in Applications of Software Traceability Using NLP,2024,ST二次分析与趋势预测,ST基础、知识体系与领域发展,ST二次分析与趋势预测 -> ST基础、知识体系与领域发展,基于既有ST研究分析主题重要性和新兴趋势
+A systematic literature review of pre-requirements specification traceability,2024,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于需求规格形成前的追溯
+Advancements in bug traceability: A systematic mapping study,2024,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于缺陷追溯
+Software Traceability Across SDLC: A Comprehensive Survey,2024,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,跨SDLC综合ST研究，提供领域整体概览
+An empirical study on the state-of-the-art methods for requirement-to-code traceability link recovery,2024,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于需求到代码的链接恢复方法与基准比较
+Machine learning approaches for automated software traceability: A systematic literature review,2025,广义自动ST的ML技术,自动ST技术、数据与评价,广义自动ST的ML技术 -> 自动ST技术、数据与评价,综合ML-based自动ST方法、数据和评价
+A Systematic Mapping Review: Tracking the Relationships Between Software Artifacts using NLP,2025,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射NLP对软件制品关系的追踪方法
+A Multivocal Mapping Study on Artifact Traceability Complexities in Practice.,2025,广义ST知识综合,ST基础、知识体系与领域发展,广义ST知识综合 -> ST基础、知识体系与领域发展,综合学术与实践资料中的制品追溯复杂性
+Auxiliary Artifacts in Requirements Traceability: A Systematic Mapping Study,2025,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于需求追溯中的辅助制品
+Unlocking the Potential of the Prompt Engineering Paradigm in Software Engineering: A Systematic Literature Review,2025,邻近SE的LLM提示工程,邻近LLM4SE综合,邻近SE的LLM提示工程 -> 邻近LLM4SE综合,以跨任务SE提示工程为边界，ST只是多个SE任务之一
+A systematic mapping study of information retrieval-based requirements traceability methods,2025,自动ST技术与评价,自动ST技术、数据与评价,自动ST技术与评价 -> 自动ST技术、数据与评价,系统映射IR-based需求追溯方法
+Natural Language Processing for Requirements Traceability,2025,需求追溯的NLP技术,自动ST技术、数据与评价,需求追溯的NLP技术 -> 自动ST技术、数据与评价,综合需求追溯中的NLP任务、技术和评价
+PLM Traceability Approaches Along the V-Model - A Systematic Literature Review,2025,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于V模型中的PLM追溯
+"SoK: Systematizing Software Artifacts Traceability via Associations, Techniques, and Applications",2026,跨制品ST关联与恢复,ST基础、知识体系与领域发展,跨制品ST关联与恢复 -> ST基础、知识体系与领域发展,系统化跨制品关联、恢复技术和应用情境的整体ST知识
+Tracing Safety- and Security-Critical Artifacts and Where to Find Them,2026,特定制品、阶段或应用领域,特定制品、生命周期阶段与应用领域,特定制品、阶段或应用领域 -> 特定制品、生命周期阶段与应用领域,研究范围限定于安全与安保关键制品及其追溯

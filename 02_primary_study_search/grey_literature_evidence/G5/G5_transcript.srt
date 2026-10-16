@@ -1,0 +1,2760 @@
+1
+00:00:00,960 --> 00:00:02,639
+hello.
+
+2
+00:00:00,960 --> 00:00:02,639
+你好。
+
+3
+00:00:02,639 --> 00:00:05,600
+today i'm here to discuss how
+
+4
+00:00:02,639 --> 00:00:05,600
+今天，我想在这里讨论一下
+
+5
+00:00:05,600 --> 00:00:11,200
+large language models can assist in the generation of test cases and connecting
+
+6
+00:00:05,600 --> 00:00:11,200
+大型语言模型如何协助生成测试用例，并将
+
+7
+00:00:11,200 --> 00:00:13,679
+those test cases to requirements
+
+8
+00:00:11,200 --> 00:00:13,679
+这些测试用例与长期
+
+9
+00:00:13,679 --> 00:00:19,680
+for long duration nasa space flight.
+
+10
+00:00:13,679 --> 00:00:19,680
+NASA 太空飞行任务的需求联系起来。
+
+11
+00:00:19,680 --> 00:00:23,680
+to begin with, let's start with an agenda.
+
+12
+00:00:19,680 --> 00:00:23,680
+首先，我们先来看一下议程。
+
+13
+00:00:23,680 --> 00:00:29,199
+i'm going to talk a little bit about the state-of-the-art of llm o generation.
+
+14
+00:00:23,680 --> 00:00:29,199
+我将简要介绍一下 LLM 生成技术的最新进展。
+
+15
+00:00:29,199 --> 00:00:36,719
+and i say very specifically in february 2026 because this is continuing to change rapidly.
+
+16
+00:00:29,199 --> 00:00:36,719
+我特别指出这是截至 2026 年 2 月的情况，因为相关技术仍在快速发展。
+
+17
+00:00:36,719 --> 00:00:39,760
+i'll talk about how mcps
+
+18
+00:00:36,719 --> 00:00:39,760
+我将介绍 MCP 如何
+
+19
+00:00:39,760 --> 00:00:44,320
+and command line interfaces can be used to drive test tools
+
+20
+00:00:39,760 --> 00:00:44,320
+以及命令行界面如何用于驱动测试工具
+
+21
+00:00:44,320 --> 00:00:47,600
+which are a very powerful way to add determinism
+
+22
+00:00:44,320 --> 00:00:47,600
+这些工具是为
+
+23
+00:00:47,600 --> 00:00:51,200
+into a process that is probabilistically
+
+24
+00:00:47,600 --> 00:00:51,200
+概率性生成的流程
+
+25
+00:00:51,200 --> 00:00:52,640
+generated.
+
+26
+00:00:51,200 --> 00:00:52,640
+增加确定性的非常有力的方式。
+
+27
+00:00:52,640 --> 00:00:55,760
+i will then talk about how requirement traceability
+
+28
+00:00:52,640 --> 00:00:55,760
+接下来，我将介绍需求可追溯性
+
+29
+00:00:55,760 --> 00:01:00,160
+is particularly important and how that requirement traceability
+
+30
+00:00:55,760 --> 00:01:00,160
+为何尤为重要，以及如何利用需求可追溯性
+
+31
+00:01:00,160 --> 00:01:02,800
+can be used to generate test cases
+
+32
+00:01:00,160 --> 00:01:02,800
+来生成测试用例。
+
+33
+00:01:02,800 --> 00:01:07,920
+from the requirements all the way to mcdc code coverage.
+
+34
+00:01:02,800 --> 00:01:07,920
+从需求一直到 MC/DC 代码覆盖率。
+
+35
+00:01:07,920 --> 00:01:18,320
+this fits in the context of standards such as nasa's npr 7150.2d for human space flight.
+
+36
+00:01:07,920 --> 00:01:18,320
+这符合 NASA《NPR 7150.2D》等标准的要求，适用于载人航天飞行。
+
+37
+00:01:18,320 --> 00:01:22,960
+and i'll talk about how all of this is coming together in 2026
+
+38
+00:01:18,320 --> 00:01:22,960
+我还会谈谈这些工作如何在 2026 年汇聚起来
+
+39
+00:01:22,960 --> 00:01:25,920
+and how this might look in a year or two
+
+40
+00:01:22,960 --> 00:01:25,920
+以及一两年后可能会是什么样子
+
+41
+00:01:25,920 --> 00:01:30,000
+and where humans will be in the loop.
+
+42
+00:01:25,920 --> 00:01:30,000
+还有人在其中会发挥什么作用。
+
+43
+00:01:30,000 --> 00:01:32,079
+first, a little bit about myself.
+
+44
+00:01:30,000 --> 00:01:32,079
+首先，简单介绍一下我自己。
+
+45
+00:01:32,079 --> 00:01:37,200
+i am a senior director of engineering at ldr/tasking.
+
+46
+00:01:32,079 --> 00:01:37,200
+我是 LDR/Tasking 的工程高级总监。
+
+47
+00:01:37,200 --> 00:01:43,439
+i've been in the verification and validation space for a long time at companies such as
+
+48
+00:01:37,200 --> 00:01:43,439
+我长期从事验证与确认工作，曾在以下公司任职：
+
+49
+00:01:43,439 --> 00:01:46,079
+spacex, maxar, aerospace corp.
+
+50
+00:01:43,439 --> 00:01:46,079
+SpaceX、Maxar、航空航天公司
+
+51
+00:01:46,079 --> 00:01:49,119
+and i have been at lra for a long time
+
+52
+00:01:46,079 --> 00:01:49,119
+我在 LRA 工作很久了
+
+53
+00:01:49,119 --> 00:01:52,240
+where i've worked with large global teams
+
+54
+00:01:49,119 --> 00:01:52,240
+期间与大型全球团队合作
+
+55
+00:01:52,240 --> 00:01:53,759
+in aerospace,
+
+56
+00:01:52,240 --> 00:01:53,759
+从事航空航天、
+
+57
+00:01:53,759 --> 00:01:54,960
+automotive,
+
+58
+00:01:53,759 --> 00:01:54,960
+汽车、
+
+59
+00:01:54,960 --> 00:02:00,479
+industrial control projects, all of which have standards around safety.
+
+60
+00:01:54,960 --> 00:02:00,479
+工业控制项目，这些领域都有安全标准。
+
+61
+00:02:00,479 --> 00:02:04,320
+and so i've helped our customers through many
+
+62
+00:02:00,479 --> 00:02:04,320
+因此，我帮助客户应对了许多
+
+63
+00:02:04,320 --> 00:02:06,560
+um certification challenges
+
+64
+00:02:04,320 --> 00:02:06,560
+嗯，认证方面的挑战
+
+65
+00:02:06,560 --> 00:02:10,160
+and now i'm excited at where we are in terms of ai
+
+66
+00:02:06,560 --> 00:02:10,160
+现在，看到我们在 AI 领域取得的进展，我感到很兴奋。
+
+67
+00:02:10,160 --> 00:02:14,000
+and i hope to trust ai and llms
+
+68
+00:02:10,160 --> 00:02:14,000
+我希望能够信任 AI 和 LLMs，
+
+69
+00:02:14,000 --> 00:02:19,840
+to improve the reliability of complex missions.
+
+70
+00:02:14,000 --> 00:02:19,840
+让它们提高复杂任务的可靠性。
+
+71
+00:02:19,840 --> 00:02:20,560
+who are we?
+
+72
+00:02:19,840 --> 00:02:20,560
+我们是谁？
+
+73
+00:02:20,560 --> 00:02:21,680
+who do i represent?
+
+74
+00:02:20,560 --> 00:02:21,680
+我代表谁？
+
+75
+00:02:21,680 --> 00:02:27,040
+so tasking is a company that sells compilers and tools.
+
+76
+00:02:21,680 --> 00:02:27,040
+Tasking 是一家销售编译器和工具的公司。
+
+77
+00:02:27,040 --> 00:02:29,840
+so these tools include certified compilers
+
+78
+00:02:27,040 --> 00:02:29,840
+这些工具包括经过认证的编译器
+
+79
+00:02:29,840 --> 00:02:32,480
+and what that means is that you know
+
+80
+00:02:29,840 --> 00:02:32,480
+这意味着，你知道
+
+81
+00:02:32,480 --> 00:02:37,519
+that the code that you put into the the compiler will produce a certain
+
+82
+00:02:32,480 --> 00:02:37,519
+你输入编译器的代码会生成特定的
+
+83
+00:02:37,519 --> 00:02:38,720
+designated
+
+84
+00:02:37,519 --> 00:02:38,720
+指定的
+
+85
+00:02:38,720 --> 00:02:44,319
+output object code and that will operate as expected on on a target
+
+86
+00:02:38,720 --> 00:02:44,319
+输出目标代码，并且会在目标平台上按预期运行
+
+87
+00:02:44,319 --> 00:02:48,239
+certified libraries debuggers test automation software
+
+88
+00:02:44,319 --> 00:02:48,239
+经过认证的库、调试器、测试自动化软件
+
+89
+00:02:48,239 --> 00:02:51,200
+analyzers and that combines with ldr
+
+90
+00:02:48,239 --> 00:02:51,200
+分析器，并与 LDR 相结合
+
+91
+00:02:51,200 --> 00:02:54,959
+where we've been doing requirement traceability for a long time
+
+92
+00:02:51,200 --> 00:02:54,959
+我们长期以来一直在这里进行需求可追溯性工作
+
+93
+00:02:54,959 --> 00:02:58,720
+built on top of static dynamic code analysis,
+
+94
+00:02:54,959 --> 00:02:58,720
+基于静态和动态代码分析构建，
+
+95
+00:02:58,720 --> 00:03:05,120
+unit and system test and pulling it all together for standards compliance reporting
+
+96
+00:02:58,720 --> 00:03:05,120
+单元测试和系统测试，并将所有内容整合起来，用于标准符合性报告。
+
+97
+00:03:05,120 --> 00:03:06,720
+in all sorts of domains.
+
+98
+00:03:05,120 --> 00:03:06,720
+涉及各种领域。
+
+99
+00:03:06,720 --> 00:03:07,440
+primarily
+
+100
+00:03:06,720 --> 00:03:07,440
+主要是
+
+101
+00:03:07,440 --> 00:03:11,680
+automotive and aerospace are our our two largest areas
+
+102
+00:03:07,440 --> 00:03:11,680
+汽车和航空航天是我们最大的两个领域，
+
+103
+00:03:11,680 --> 00:03:14,640
+where we do a lot of work in high performance
+
+104
+00:03:11,680 --> 00:03:14,640
+我们在高性能方面做了很多工作，
+
+105
+00:03:14,640 --> 00:03:16,319
+safety and security
+
+106
+00:03:14,640 --> 00:03:16,319
+以及安全和安保
+
+107
+00:03:16,319 --> 00:03:19,319
+tools.
+
+108
+00:03:16,319 --> 00:03:19,319
+工具。
+
+109
+00:03:19,760 --> 00:03:25,760
+now today, maybe this wasn't always true, but it's definitely been true for the last year.
+
+110
+00:03:19,760 --> 00:03:25,760
+如今，情况可能并非一直如此，但过去一年确实如此。
+
+111
+00:03:25,760 --> 00:03:28,800
+every month in software engineering has been a lifetime
+
+112
+00:03:25,760 --> 00:03:28,800
+软件工程领域的每个月都像一辈子一样漫长。
+
+113
+00:03:28,800 --> 00:03:31,200
+from 2025 to 2026.
+
+114
+00:03:28,800 --> 00:03:31,200
+从 2025 年到 2026 年。
+
+115
+00:03:31,200 --> 00:03:34,000
+every month there's been a sea of change.
+
+116
+00:03:31,200 --> 00:03:34,000
+每个月都发生了翻天覆地的变化。
+
+117
+00:03:34,000 --> 00:03:37,840
+i presented something in in 2025 where
+
+118
+00:03:34,000 --> 00:03:37,840
+我在 2025 年展示过一些内容，当时
+
+119
+00:03:37,840 --> 00:03:39,200
+i i i i
+
+120
+00:03:37,840 --> 00:03:39,200
+我……我……我……
+
+121
+00:03:39,200 --> 00:03:40,159
+said that
+
+122
+00:03:39,200 --> 00:03:40,159
+说过
+
+123
+00:03:40,159 --> 00:03:41,120
+you know
+
+124
+00:03:40,159 --> 00:03:41,120
+你知道
+
+125
+00:03:41,120 --> 00:03:43,920
+there's really no thought to testing
+
+126
+00:03:41,120 --> 00:03:43,920
+根本没考虑过测试
+
+127
+00:03:43,920 --> 00:03:45,680
+in the context of
+
+128
+00:03:43,920 --> 00:03:45,680
+在……的背景下
+
+129
+00:03:45,680 --> 00:03:47,840
+llm based code generation.
+
+130
+00:03:45,680 --> 00:03:47,840
+基于 LLM 的代码生成。
+
+131
+00:03:47,840 --> 00:03:53,200
+but i think that's changed and the reason is hallucination.
+
+132
+00:03:47,840 --> 00:03:53,200
+但我认为情况已经变了，原因在于幻觉。
+
+133
+00:03:53,200 --> 00:03:57,760
+if you don't give llms enough information to understand
+
+134
+00:03:53,200 --> 00:03:57,760
+如果你没有提供足够的信息让 LLMs 理解
+
+135
+00:03:57,760 --> 00:04:02,640
+what the problem context is and what the expected results are,
+
+136
+00:03:57,760 --> 00:04:02,640
+问题的背景以及预期结果，
+
+137
+00:04:02,640 --> 00:04:04,239
+u they they'll hallucinate.
+
+138
+00:04:02,640 --> 00:04:04,239
+呃，他们就会产生幻觉。
+
+139
+00:04:04,239 --> 00:04:07,599
+they'll make up whatever it takes to get in in the middle.
+
+140
+00:04:04,239 --> 00:04:07,599
+他们会编造各种内容，只为插手其中。
+
+141
+00:04:07,599 --> 00:04:11,760
+but if we emphasize engineering
+
+142
+00:04:07,599 --> 00:04:11,760
+但如果我们强调工程
+
+143
+00:04:11,760 --> 00:04:15,200
+versus coding and asking questions
+
+144
+00:04:11,760 --> 00:04:15,200
+而不是编写代码，并提出问题
+
+145
+00:04:15,200 --> 00:04:15,920
+and
+
+146
+00:04:15,200 --> 00:04:15,920
+还有
+
+147
+00:04:15,920 --> 00:04:18,639
+what and looking at what results we'd expect,
+
+148
+00:04:15,920 --> 00:04:18,639
+以及查看我们预期会得到什么结果，
+
+149
+00:04:18,639 --> 00:04:22,639
+we can pull that vnv loop into the context of
+
+150
+00:04:18,639 --> 00:04:22,639
+我们可以将这个 VNV 循环引入
+
+151
+00:04:22,639 --> 00:04:23,680
+llm
+
+152
+00:04:22,639 --> 00:04:23,680
+LLM
+
+153
+00:04:23,680 --> 00:04:24,960
+generated code.
+
+154
+00:04:23,680 --> 00:04:24,960
+生成的代码中。
+
+155
+00:04:24,960 --> 00:04:26,639
+and so we can take that llm
+
+156
+00:04:24,960 --> 00:04:26,639
+这样，我们就可以把 LLM
+
+157
+00:04:26,639 --> 00:04:27,759
+generated code
+
+158
+00:04:26,639 --> 00:04:27,759
+生成的代码
+
+159
+00:04:27,759 --> 00:04:30,240
+and do something useful for with it,
+
+160
+00:04:27,759 --> 00:04:30,240
+用于一些有价值的用途，
+
+161
+00:04:30,240 --> 00:04:32,160
+use it as part of our certified
+
+162
+00:04:30,240 --> 00:04:32,160
+将其作为我们认证流程的一部分
+
+163
+00:04:32,160 --> 00:04:35,120
+applications.
+
+164
+00:04:32,160 --> 00:04:35,120
+应用。
+
+165
+00:04:35,120 --> 00:04:37,520
+and that's what we've been doing at tasking
+
+166
+00:04:35,120 --> 00:04:37,520
+这正是我们在 Tasking Array 一直在做的事情
+
+167
+00:04:37,520 --> 00:04:43,680
+array with our work with compilers, debuggers, testing tools in a variety of standards.
+
+168
+00:04:37,520 --> 00:04:43,680
+我们通过编译器、调试器和测试工具开展工作，涵盖多种标准。
+
+169
+00:04:43,680 --> 00:04:46,080
+and as i mentioned, we don't just do this in aerospace
+
+170
+00:04:43,680 --> 00:04:46,080
+正如我提到的，我们不仅在航空航天领域开展这项工作
+
+171
+00:04:46,080 --> 00:04:48,000
+and defense, but we do this in automotive,
+
+172
+00:04:46,080 --> 00:04:48,000
+以及国防领域，也应用于汽车行业、
+
+173
+00:04:48,000 --> 00:04:50,560
+medical device, and other arenas.
+
+174
+00:04:48,000 --> 00:04:50,560
+医疗器械及其他领域。
+
+175
+00:04:50,560 --> 00:04:54,320
+ldr has been widely used on nasa programs
+
+176
+00:04:50,560 --> 00:04:54,320
+LDR 已广泛应用于 NASA 项目
+
+177
+00:04:54,320 --> 00:04:55,360
+on on
+
+178
+00:04:54,320 --> 00:04:55,360
+在……上面
+
+179
+00:04:55,360 --> 00:05:02,720
+basically every plane that's flown has used ldr as part of their verification tool set.
+
+180
+00:04:55,360 --> 00:05:02,720
+基本上，每一架投入飞行的飞机都将 LDR 作为验证工具集的一部分。
+
+181
+00:05:02,720 --> 00:05:05,520
+and where does that take us in 2026?
+
+182
+00:05:02,720 --> 00:05:05,520
+那么，到 2026 年，我们将发展到什么程度？
+
+183
+00:05:05,520 --> 00:05:08,880
+we support the entire v model.
+
+184
+00:05:05,520 --> 00:05:08,880
+我们支持整个 V 模型。
+
+185
+00:05:08,880 --> 00:05:16,160
+we have tools that go from the planning process to the acceptance process and trace.
+
+186
+00:05:08,880 --> 00:05:16,160
+我们的工具覆盖从规划流程到验收流程和追溯的各个环节。
+
+187
+00:05:16,160 --> 00:05:21,680
+the focus on ld array is not just the low-level parts but the arrows
+
+188
+00:05:16,160 --> 00:05:21,680
+LDRA 的重点不仅在于底层部分，也在于其中的箭头
+
+189
+00:05:21,680 --> 00:05:22,960
+making sure that
+
+190
+00:05:21,680 --> 00:05:22,960
+确保
+
+191
+00:05:22,960 --> 00:05:23,600
+your
+
+192
+00:05:22,960 --> 00:05:23,600
+你的
+
+193
+00:05:23,600 --> 00:05:27,440
+requirements are connected to detailed design which is connected to code
+
+194
+00:05:23,600 --> 00:05:27,440
+需求与详细设计相关联，而详细设计又与代码相关联
+
+195
+00:05:27,440 --> 00:05:29,759
+and followed through the other way.
+
+196
+00:05:27,440 --> 00:05:29,759
+并通过另一种方式跟进。
+
+197
+00:05:29,759 --> 00:05:33,120
+unit testing, integration, and acceptance.
+
+198
+00:05:29,759 --> 00:05:33,120
+单元测试、集成测试和验收测试。
+
+199
+00:05:33,120 --> 00:05:38,400
+and these are all parts in which you know what we're talking about
+
+200
+00:05:33,120 --> 00:05:38,400
+这些都是其中的组成部分，你知道我们在说什么
+
+201
+00:05:38,400 --> 00:05:44,000
+using llms can help, but they can't be the only source of truth here
+
+202
+00:05:38,400 --> 00:05:44,000
+使用 LLMs 会有帮助，但它们不能成为这里唯一的信息来源
+
+203
+00:05:44,000 --> 00:05:47,280
+because llms can do this in a probabilistic
+
+204
+00:05:44,000 --> 00:05:47,280
+因为 LLMs 的工作方式具有概率性
+
+205
+00:05:47,280 --> 00:05:48,240
+fashion.
+
+206
+00:05:47,280 --> 00:05:48,240
+。
+
+207
+00:05:48,240 --> 00:05:53,039
+so it is important to incorporate tools that operate deterministically
+
+208
+00:05:48,240 --> 00:05:53,039
+因此，采用以确定性方式运行的工具至关重要
+
+209
+00:05:53,039 --> 00:05:56,560
+to apply things such as static analysis
+
+210
+00:05:53,039 --> 00:05:56,560
+以便应用静态分析等方法
+
+211
+00:05:56,560 --> 00:06:01,840
+to make sure that the items that we've generated probabilistically
+
+212
+00:05:56,560 --> 00:06:01,840
+确保我们以概率方式生成的内容
+
+213
+00:06:01,840 --> 00:06:04,560
+don't have bugs, don't have faults
+
+214
+00:06:01,840 --> 00:06:04,560
+没有漏洞，也没有缺陷
+
+215
+00:06:04,560 --> 00:06:06,880
+as we ship them out into the world
+
+216
+00:06:04,560 --> 00:06:06,880
+从而在将其发布到世界各地时确保万无一失
+
+217
+00:06:06,880 --> 00:06:08,479
+and then follow through
+
+218
+00:06:06,880 --> 00:06:08,479
+然后继续执行下去
+
+219
+00:06:08,479 --> 00:06:12,960
+with test process and make sure we have a way to run those tests automatically
+
+220
+00:06:08,479 --> 00:06:12,960
+采用测试流程，并确保有办法自动运行这些测试
+
+221
+00:06:12,960 --> 00:06:15,759
+and and look at the results in a qualified
+
+222
+00:06:12,960 --> 00:06:15,759
+并以合适的方式查看结果
+
+223
+00:06:15,759 --> 00:06:16,880
+way.
+
+224
+00:06:15,759 --> 00:06:16,880
+。
+
+225
+00:06:16,880 --> 00:06:18,080
+all of that
+
+226
+00:06:16,880 --> 00:06:18,080
+所有这些
+
+227
+00:06:18,080 --> 00:06:23,840
+allows us to make sure our code does what it is supposed to do.
+
+228
+00:06:18,080 --> 00:06:23,840
+都能帮助我们确保代码实现了预期功能。
+
+229
+00:06:23,840 --> 00:06:28,319
+now, let's talk a little bit more about that llm code generation state-of-the-art.
+
+230
+00:06:23,840 --> 00:06:28,319
+现在，让我们再深入聊聊 LLM 代码生成领域的最新进展。
+
+231
+00:06:28,319 --> 00:06:31,280
+and again, i don't i you know, i don't have a crystal ball.
+
+232
+00:06:28,319 --> 00:06:31,280
+再说一次，我没有水晶球，也无法预知未来。
+
+233
+00:06:31,280 --> 00:06:33,840
+this could be a lot different next year,
+
+234
+00:06:31,280 --> 00:06:33,840
+明年情况可能会大不一样，
+
+235
+00:06:33,840 --> 00:06:37,440
+but i suspect that we're kind of approaching the the
+
+236
+00:06:33,840 --> 00:06:37,440
+但我觉得我们正逐渐接近
+
+237
+00:06:37,440 --> 00:06:42,240
+um you know, the pinnacle here that you can use ai
+
+238
+00:06:37,440 --> 00:06:42,240
+嗯，你知道，人工智能可以达到的巅峰：用 AI
+
+239
+00:06:42,240 --> 00:06:45,440
+models to generate very good code.
+
+240
+00:06:42,240 --> 00:06:45,440
+模型生成非常优秀的代码。
+
+241
+00:06:45,440 --> 00:06:47,840
+i would say in many cases today
+
+242
+00:06:45,440 --> 00:06:47,840
+我想说，今天在很多情况下，
+
+243
+00:06:47,840 --> 00:06:51,680
+that code is better than what humans would have written by hand.
+
+244
+00:06:47,840 --> 00:06:51,680
+生成的代码比人类手写的还要好。
+
+245
+00:06:51,680 --> 00:06:56,080
+but if you don't give it enough context, you'll have hallucinations,
+
+246
+00:06:51,680 --> 00:06:56,080
+但如果你不给它足够的上下文，它就会产生幻觉，
+
+247
+00:06:56,080 --> 00:07:01,199
+fabricated apis, deprecated methods, invented libraries.
+
+248
+00:06:56,080 --> 00:07:01,199
+编造 API、使用已弃用的方法、杜撰库。
+
+249
+00:07:01,199 --> 00:07:03,680
+so how do we eliminate that?
+
+250
+00:07:01,199 --> 00:07:03,680
+那么我们该如何消除这一问题？
+
+251
+00:07:03,680 --> 00:07:06,000
+the answer is context.
+
+252
+00:07:03,680 --> 00:07:06,000
+答案就在于上下文。
+
+253
+00:07:06,000 --> 00:07:09,280
+vague prompts are the number one driver.
+
+254
+00:07:06,000 --> 00:07:09,280
+模糊的提示是首要诱因。
+
+255
+00:07:09,280 --> 00:07:12,160
+the model will guess whatever is in the middle.
+
+256
+00:07:09,280 --> 00:07:12,160
+模型会自行猜测中间缺失的内容。
+
+257
+00:07:12,160 --> 00:07:18,400
+but the flip side is if we document everything we need to do in detail,
+
+258
+00:07:12,160 --> 00:07:18,400
+但反过来说，如果我们把需要做的所有事情都详细记录下来，
+
+259
+00:07:18,400 --> 00:07:22,000
+tell the llm what are our what this is what our functions are.
+
+260
+00:07:18,400 --> 00:07:22,000
+告诉 LLM 我们的……我们的函数是什么。
+
+261
+00:07:22,000 --> 00:07:25,759
+this is what we expect them to input and output.
+
+262
+00:07:22,000 --> 00:07:25,759
+这是我们期望它们输入和输出的内容。
+
+263
+00:07:25,759 --> 00:07:28,880
+these are the frameworks that we expect to to use.
+
+264
+00:07:25,759 --> 00:07:28,880
+这些是我们期望它们使用的框架。
+
+265
+00:07:28,880 --> 00:07:33,840
+we can dramatically reduce the the hallucination risk.
+
+266
+00:07:28,880 --> 00:07:33,840
+我们可以大幅降低幻觉风险。
+
+267
+00:07:33,840 --> 00:07:38,400
+we can't take it to zero because llms are fundamentally probabilistic.
+
+268
+00:07:33,840 --> 00:07:38,400
+我们无法将其降至零，因为 LLM 从根本上说是概率性的。
+
+269
+00:07:38,400 --> 00:07:44,080
+so even when we do that we still need to do verification and validation.
+
+270
+00:07:38,400 --> 00:07:44,080
+所以，即使我们这样做了，仍然需要进行验证和确认。
+
+271
+00:07:44,080 --> 00:07:49,440
+reducing hallucinations is part of it but applying determinition determinism
+
+272
+00:07:44,080 --> 00:07:49,440
+减少幻觉是其中的一部分，但应用确定性
+
+273
+00:07:49,440 --> 00:07:53,280
+v andv is the ultimate solution
+
+274
+00:07:49,440 --> 00:07:53,280
+V&V 是最终解决方案
+
+275
+00:07:53,280 --> 00:07:54,080
+and
+
+276
+00:07:53,280 --> 00:07:54,080
+还有
+
+277
+00:07:54,080 --> 00:07:54,720
+techniques
+
+278
+00:07:54,080 --> 00:07:54,720
+技术
+
+279
+00:07:54,720 --> 00:07:57,039
+such as rag and vector databases
+
+280
+00:07:54,720 --> 00:07:57,039
+例如 RAG 和向量数据库
+
+281
+00:07:57,039 --> 00:08:01,199
+they all help everything that gets us a little bit more context
+
+282
+00:07:57,039 --> 00:08:01,199
+它们都有帮助，凡是能让我们获得更多上下文的东西都有帮助
+
+283
+00:08:01,199 --> 00:08:07,680
+is useful but the most important concept is this idea of spec driven workflow.
+
+284
+00:08:01,199 --> 00:08:07,680
+很有用，但最重要的概念是这种规范驱动的工作流程。
+
+285
+00:08:07,680 --> 00:08:13,840
+keeping a human in the loop, but having the human determine the spec, determine what's expected,
+
+286
+00:08:07,680 --> 00:08:13,840
+让人在流程中参与其中，但由人来制定规范，确定预期结果，
+
+287
+00:08:13,840 --> 00:08:19,520
+and then following through to make sure the output does what is expected as well.
+
+288
+00:08:13,840 --> 00:08:19,520
+然后跟进，确保输出也符合预期。
+
+289
+00:08:19,520 --> 00:08:24,400
+not just let the llm do everything that it needs to do on its own.
+
+290
+00:08:19,520 --> 00:08:24,400
+而不是只让 LLM 自己完成所有需要做的事情。
+
+291
+00:08:24,400 --> 00:08:26,960
+oneshotting doesn't work when you're writing flight software.
+
+292
+00:08:24,400 --> 00:08:26,960
+编写飞行软件时，一次性生成行不通。
+
+293
+00:08:26,960 --> 00:08:28,080
+you need to define
+
+294
+00:08:26,960 --> 00:08:28,080
+你需要明确
+
+295
+00:08:28,080 --> 00:08:30,720
+these are the parts that i want to write and then
+
+296
+00:08:28,080 --> 00:08:30,720
+你想编写哪些部分，然后
+
+297
+00:08:30,720 --> 00:08:33,360
+and then write them and make sure that they they operate
+
+298
+00:08:30,720 --> 00:08:33,360
+再把它们编写出来，并确保它们能够正常运行。
+
+299
+00:08:33,360 --> 00:08:35,440
+correctly.
+
+300
+00:08:33,360 --> 00:08:35,440
+正确地。
+
+301
+00:08:35,440 --> 00:08:36,958
+so, what does that mean in real life?
+
+302
+00:08:35,440 --> 00:08:36,958
+那么，这在现实生活中意味着什么？
+
+303
+00:08:36,958 --> 00:08:39,519
+well, in aerospace, we've always
+
+304
+00:08:36,958 --> 00:08:39,519
+嗯，在航空航天领域，我们一直
+
+305
+00:08:39,519 --> 00:08:41,839
+found system engineering is very important,
+
+306
+00:08:39,519 --> 00:08:41,839
+发现系统工程非常重要，
+
+307
+00:08:41,839 --> 00:08:43,360
+but now our software system
+
+308
+00:08:41,839 --> 00:08:43,360
+但现在我们的软件系统
+
+309
+00:08:43,360 --> 00:08:43,839
+engineers,
+
+310
+00:08:43,360 --> 00:08:43,839
+工程师，
+
+311
+00:08:43,839 --> 00:08:44,240
+our
+
+312
+00:08:43,839 --> 00:08:44,240
+我们的
+
+313
+00:08:44,240 --> 00:08:48,480
+our system engineers with the software background are now a superstar.
+
+314
+00:08:44,240 --> 00:08:48,480
+我们那些拥有软件背景的系统工程师如今成了明星。
+
+315
+00:08:48,480 --> 00:08:54,959
+they can now produce code much faster and more reliable than ever before.
+
+316
+00:08:48,480 --> 00:08:54,959
+如今，他们能够以前所未有的速度和可靠性编写代码。
+
+317
+00:08:54,959 --> 00:08:55,920
+because
+
+318
+00:08:54,959 --> 00:08:55,920
+因为
+
+319
+00:08:55,920 --> 00:09:00,480
+they're the ones who think about those system engineering activities and make sure that
+
+320
+00:08:55,920 --> 00:09:00,480
+他们负责考虑这些系统工程活动，并确保
+
+321
+00:09:00,480 --> 00:09:04,480
+they're they're done and they're they're followed up with with results.
+
+322
+00:09:00,480 --> 00:09:04,480
+这些活动得以落实，并且跟进结果。
+
+323
+00:09:04,480 --> 00:09:08,640
+so by applying those processes and defining those goalposts,
+
+324
+00:09:04,480 --> 00:09:08,640
+因此，通过应用这些流程并明确目标，
+
+325
+00:09:08,640 --> 00:09:12,560
+we can not only generate code, but it's something that we can use.
+
+326
+00:09:08,640 --> 00:09:12,560
+我们不仅能生成代码，还能生成可供使用的代码。
+
+327
+00:09:12,560 --> 00:09:18,000
+it's something that we can verify and use in flight.
+
+328
+00:09:12,560 --> 00:09:18,000
+这些代码可以经过验证，并在飞行过程中使用。
+
+329
+00:09:18,000 --> 00:09:18,720
+mcp
+
+330
+00:09:18,000 --> 00:09:18,720
+MCP
+
+331
+00:09:18,720 --> 00:09:23,839
+and command line are two equally important tools to to fit into into part of this.
+
+332
+00:09:18,720 --> 00:09:23,839
+命令行也是同样重要的两种工具，它们都是其中不可或缺的一部分。
+
+333
+00:09:23,839 --> 00:09:25,040
+now, what does that mean?
+
+334
+00:09:23,839 --> 00:09:25,040
+那么，这意味着什么？
+
+335
+00:09:25,040 --> 00:09:32,640
+so ultimately, we need to test the code that we're running on the target.
+
+336
+00:09:25,040 --> 00:09:32,640
+所以归根结底，我们需要测试在目标设备上运行的代码。
+
+337
+00:09:32,640 --> 00:09:34,000
+and so how do we do that?
+
+338
+00:09:32,640 --> 00:09:34,000
+那我们该怎么做呢？
+
+339
+00:09:34,000 --> 00:09:36,959
+well, we need to connect to a debugger and then
+
+340
+00:09:34,000 --> 00:09:36,959
+我们需要连接到调试器，然后
+
+341
+00:09:36,959 --> 00:09:38,560
+send the information
+
+342
+00:09:36,959 --> 00:09:38,560
+发送信息
+
+343
+00:09:38,560 --> 00:09:39,040
+from
+
+344
+00:09:38,560 --> 00:09:39,040
+来自
+
+345
+00:09:39,040 --> 00:09:39,519
+the
+
+346
+00:09:39,040 --> 00:09:39,519
+将
+
+347
+00:09:39,519 --> 00:09:41,600
+from the target back to the host, analyze
+
+348
+00:09:39,519 --> 00:09:41,600
+目标设备上的信息发回主机进行分析，
+
+349
+00:09:41,600 --> 00:09:44,640
+it and make sure the tool does what it's supposed to do.
+
+350
+00:09:41,600 --> 00:09:44,640
+并确保工具按预期工作。
+
+351
+00:09:44,640 --> 00:09:50,560
+now, a human can do that by pressing the buttons, by following the procedure.
+
+352
+00:09:44,640 --> 00:09:50,560
+现在，人类可以通过按下按钮、遵循流程来完成这件事。
+
+353
+00:09:50,560 --> 00:09:53,680
+but in fact, an llm can as well.
+
+354
+00:09:50,560 --> 00:09:53,680
+但实际上，LLM 也可以。
+
+355
+00:09:53,680 --> 00:09:56,880
+and there's two basic ways an llm can do that.
+
+356
+00:09:53,680 --> 00:09:56,880
+LLM 有两种基本方式可以做到这一点。
+
+357
+00:09:56,880 --> 00:09:57,839
+one is
+
+358
+00:09:56,880 --> 00:09:57,839
+一种是
+
+359
+00:09:57,839 --> 00:09:58,560
+mcp
+
+360
+00:09:57,839 --> 00:09:58,560
+MCP
+
+361
+00:09:58,560 --> 00:10:00,560
+protocols which is a you know an http
+
+362
+00:09:58,560 --> 00:10:00,560
+协议，它是一种基于 HTTP 的协议，你知道，
+
+363
+00:10:00,560 --> 00:10:04,640
+based protocol that allows llms to access local tools.
+
+364
+00:10:00,560 --> 00:10:04,640
+可以让 LLM 访问本地工具。
+
+365
+00:10:04,640 --> 00:10:10,080
+but i actually find the more compelling case can be made for using
+
+366
+00:10:04,640 --> 00:10:10,080
+不过，我觉得更有说服力的做法是使用
+
+367
+00:10:10,080 --> 00:10:12,480
+command line driven tools.
+
+368
+00:10:10,080 --> 00:10:12,480
+命令行驱动的工具。
+
+369
+00:10:12,480 --> 00:10:15,760
+and what this means is using
+
+370
+00:10:12,480 --> 00:10:15,760
+这意味着要使用
+
+371
+00:10:15,760 --> 00:10:21,040
+um making sure your test tools can be driven by a command line to output
+
+372
+00:10:15,760 --> 00:10:21,040
+嗯，确保你的测试工具可以通过命令行驱动，以便输出
+
+373
+00:10:21,040 --> 00:10:26,000
+um to both input and output data on the target.
+
+374
+00:10:21,040 --> 00:10:26,000
+嗯，在目标上输入和输出数据。
+
+375
+00:10:26,000 --> 00:10:26,959
+and
+
+376
+00:10:26,000 --> 00:10:26,959
+还有
+
+377
+00:10:26,959 --> 00:10:27,920
+thus
+
+378
+00:10:26,959 --> 00:10:27,920
+因此
+
+379
+00:10:27,920 --> 00:10:29,680
+those that command line execution
+
+380
+00:10:27,920 --> 00:10:29,680
+那些命令行执行
+
+381
+00:10:29,680 --> 00:10:33,680
+can can make sure that your code does what it is supposed to do
+
+382
+00:10:29,680 --> 00:10:33,680
+可以确保你的代码按预期运行
+
+383
+00:10:33,680 --> 00:10:39,680
+and and we have results that we can verify in our our verification and validation reports.
+
+384
+00:10:33,680 --> 00:10:39,680
+而且我们会得到结果，可以在我们的验证与确认报告中进行核查。
+
+385
+00:10:39,680 --> 00:10:43,519
+so ai workflow is particularly important
+
+386
+00:10:39,680 --> 00:10:43,519
+因此，人工智能工作流尤为重要
+
+387
+00:10:43,519 --> 00:10:45,120
+um in this context.
+
+388
+00:10:43,519 --> 00:10:45,120
+嗯，在这种情况下。
+
+389
+00:10:45,120 --> 00:10:48,079
+but for that ai workflow to be effective,
+
+390
+00:10:45,120 --> 00:10:48,079
+但要让人工智能工作流发挥作用，
+
+391
+00:10:48,079 --> 00:10:49,760
+you need to make sure that
+
+392
+00:10:48,079 --> 00:10:49,760
+你需要确保
+
+393
+00:10:49,760 --> 00:10:56,079
+your ai tools have the ability to access things on the target.
+
+394
+00:10:49,760 --> 00:10:56,079
+你的人工智能工具能够访问目标上的内容。
+
+395
+00:10:56,079 --> 00:10:58,880
+test case generation to mcdc.
+
+396
+00:10:56,079 --> 00:10:58,880
+从测试用例生成到修正条件/判定覆盖（MCDC）。
+
+397
+00:10:58,880 --> 00:11:01,680
+the other part which i've illustrated with some of our partners
+
+398
+00:10:58,880 --> 00:11:01,680
+我与一些合作伙伴共同展示的另一部分
+
+399
+00:11:01,680 --> 00:11:02,560
+such as visure
+
+400
+00:11:01,680 --> 00:11:02,560
+例如 Visure
+
+401
+00:11:02,560 --> 00:11:05,519
+software and which many of you might do with doors
+
+402
+00:11:02,560 --> 00:11:05,519
+软件，以及你们中的许多人可能会用门禁系统来处理的软件
+
+403
+00:11:05,519 --> 00:11:06,399
+is
+
+404
+00:11:05,519 --> 00:11:06,399
+是
+
+405
+00:11:06,399 --> 00:11:10,640
+again going back to that command line that allows you to access that that data
+
+406
+00:11:06,399 --> 00:11:10,640
+再次回到那个命令行，它让你能够访问那些数据
+
+407
+00:11:10,640 --> 00:11:12,480
+in doors and visure
+
+408
+00:11:10,640 --> 00:11:12,480
+在 DOORS 和 Visure 中
+
+409
+00:11:12,480 --> 00:11:13,440
+and polarian
+
+410
+00:11:12,480 --> 00:11:13,440
+以及 Polarion 中
+
+411
+00:11:13,440 --> 00:11:18,240
+and jamba whatever requirement management system you have.
+
+412
+00:11:13,440 --> 00:11:18,240
+还有 Jamba，无论你使用什么需求管理系统。
+
+413
+00:11:18,240 --> 00:11:22,320
+you can pull that data and then
+
+414
+00:11:18,240 --> 00:11:22,320
+你都可以提取这些数据，然后
+
+415
+00:11:22,320 --> 00:11:27,839
+extract the requirement information that has to do with specific
+
+416
+00:11:22,320 --> 00:11:27,839
+提取与特定内容相关的需求信息
+
+417
+00:11:27,839 --> 00:11:30,320
+test cases and then
+
+418
+00:11:27,839 --> 00:11:30,320
+测试用例，然后
+
+419
+00:11:30,320 --> 00:11:31,600
+feed that test cases.
+
+420
+00:11:30,320 --> 00:11:31,600
+输入这些测试用例。
+
+421
+00:11:31,600 --> 00:11:35,200
+we typically do this as as json data into
+
+422
+00:11:31,600 --> 00:11:35,200
+通常我们会将其作为 JSON 数据输入
+
+423
+00:11:35,200 --> 00:11:39,200
+tools such as ldr to execute that on on the target.
+
+424
+00:11:35,200 --> 00:11:39,200
+ldr 等工具，以便在目标上执行。
+
+425
+00:11:39,200 --> 00:11:41,680
+so you can extract that information
+
+426
+00:11:39,200 --> 00:11:41,680
+这样你就可以提取这些信息
+
+427
+00:11:41,680 --> 00:11:43,040
+by combining
+
+428
+00:11:41,680 --> 00:11:43,040
+通过结合
+
+429
+00:11:43,040 --> 00:11:48,399
+information from the requirement scope to information in the code scope from the static analysis
+
+430
+00:11:43,040 --> 00:11:48,399
+来自需求范围的信息与静态分析得出的代码范围信息，
+
+431
+00:11:48,399 --> 00:11:53,120
+and be able to execute on the target with
+
+432
+00:11:48,399 --> 00:11:53,120
+并能够在目标上执行。
+
+433
+00:11:53,120 --> 00:11:54,640
+um with accuracy
+
+434
+00:11:53,120 --> 00:11:54,640
+嗯，确保准确性
+
+435
+00:11:54,640 --> 00:11:56,800
+and and make sure you get the
+
+436
+00:11:54,640 --> 00:11:56,800
+并且确保将
+
+437
+00:11:56,800 --> 00:12:00,480
+traceability and compliance in the loop for do 178c
+
+438
+00:11:56,800 --> 00:12:00,480
+DO-178C 的可追溯性和合规性纳入流程
+
+439
+00:12:00,480 --> 00:12:02,560
+for iso26262
+
+440
+00:12:00,480 --> 00:12:02,560
+适用于 ISO 26262
+
+441
+00:12:02,560 --> 00:12:05,519
+for npr 7150.
+
+442
+00:12:02,560 --> 00:12:05,519
+适用于 NPR 7150。
+
+443
+00:12:05,519 --> 00:12:07,760
+this is a a great capability
+
+444
+00:12:05,519 --> 00:12:07,760
+这是一项非常出色的能力
+
+445
+00:12:07,760 --> 00:12:14,079
+that you can implement by using llms to access and read your requirements.
+
+446
+00:12:07,760 --> 00:12:14,079
+你可以通过使用 LLMs 访问并读取需求来实现。
+
+447
+00:12:14,079 --> 00:12:18,000
+historically, this was just about impossible because there's so much
+
+448
+00:12:14,079 --> 00:12:18,000
+过去，这几乎是不可能的，因为内容实在太多了。
+
+449
+00:12:18,000 --> 00:12:22,079
+data and requirements data is never really unstructured,
+
+450
+00:12:18,000 --> 00:12:22,079
+数据和需求数据从来都不是真正无结构的，
+
+451
+00:12:22,079 --> 00:12:24,480
+but it's always structured in its own way.
+
+452
+00:12:22,079 --> 00:12:24,480
+而是始终以各自的方式呈现结构。
+
+453
+00:12:24,480 --> 00:12:28,800
+and tests and source code is also always structured in its own way.
+
+454
+00:12:24,480 --> 00:12:28,800
+测试和源代码也始终以各自的方式呈现结构。
+
+455
+00:12:28,800 --> 00:12:34,079
+and so now we have the ability to combine all those scopes and translate
+
+456
+00:12:28,800 --> 00:12:34,079
+因此，现在我们能够整合所有这些范围，并转换
+
+457
+00:12:34,079 --> 00:12:37,920
+the the information so that we can follow the requirement
+
+458
+00:12:34,079 --> 00:12:37,920
+这些信息，以便我们能够追踪需求
+
+459
+00:12:37,920 --> 00:12:40,480
+to the source code to the test
+
+460
+00:12:37,920 --> 00:12:40,480
+到源代码，再到测试
+
+461
+00:12:40,480 --> 00:12:46,160
+and make sure that our tests do what they're they're supposed to do.
+
+462
+00:12:40,480 --> 00:12:46,160
+并确保我们的测试确实按照预期运行。
+
+463
+00:12:46,160 --> 00:12:51,519
+this pulls through for standards such as npr7150.2d
+
+464
+00:12:46,160 --> 00:12:51,519
+这也适用于 NPR 7150.2D 等标准
+
+465
+00:12:51,519 --> 00:12:59,279
+2d which has a lot of emphasis on requirements requirements traceability and and code coverage.
+
+466
+00:12:51,519 --> 00:12:59,279
+2D，它非常强调需求、需求可追溯性和代码覆盖率。
+
+467
+00:12:59,279 --> 00:13:04,959
+so all of these can be implemented at levels such as a b c and d
+
+468
+00:12:59,279 --> 00:13:04,959
+因此，所有这些都可以在 A、B、C 和 D 等级别上实现
+
+469
+00:13:04,959 --> 00:13:06,800
+by using
+
+470
+00:13:04,959 --> 00:13:06,800
+通过使用
+
+471
+00:13:06,800 --> 00:13:13,440
+llm's requirement management tools in conjunction with
+
+472
+00:13:06,800 --> 00:13:13,440
+LLM 的需求管理工具，并结合
+
+473
+00:13:13,440 --> 00:13:16,639
+with test tools that can execute on on the target.
+
+474
+00:13:13,440 --> 00:13:16,639
+能够在目标平台上执行的测试工具。
+
+475
+00:13:16,639 --> 00:13:20,160
+that gets you a definitive scope of
+
+476
+00:13:16,639 --> 00:13:20,160
+这样你就能明确界定
+
+477
+00:13:20,160 --> 00:13:22,720
+of the how qualified
+
+478
+00:13:20,160 --> 00:13:22,720
+软件的合格程度
+
+479
+00:13:22,720 --> 00:13:26,720
+the software is to to run in in its operating environment
+
+480
+00:13:22,720 --> 00:13:26,720
+也就是软件在其运行环境中运行的适格性。
+
+481
+00:13:26,720 --> 00:13:30,560
+and allows you to make sure that when you fly your mission,
+
+482
+00:13:26,720 --> 00:13:30,560
+并让你确保在执行任务飞行时，
+
+483
+00:13:30,560 --> 00:13:33,600
+you're confident it will it will run through its
+
+484
+00:13:30,560 --> 00:13:33,600
+你确信它能够顺利完成
+
+485
+00:13:33,600 --> 00:13:36,320
+duration.
+
+486
+00:13:33,600 --> 00:13:36,320
+整个任务时长。
+
+487
+00:13:36,320 --> 00:13:38,560
+and where do humans fit in the loop here?
+
+488
+00:13:36,320 --> 00:13:38,560
+那么，人类在这个过程中扮演什么角色呢？
+
+489
+00:13:38,560 --> 00:13:39,279
+well, yeah.
+
+490
+00:13:38,560 --> 00:13:39,279
+嗯，是的。
+
+491
+00:13:39,279 --> 00:13:42,160
+i mean the the most important
+
+492
+00:13:39,279 --> 00:13:42,160
+我是说，人类最重要的
+
+493
+00:13:42,160 --> 00:13:45,360
+role of humans here now that we're having more of these dots
+
+494
+00:13:42,160 --> 00:13:45,360
+作用在于，如今我们有了更多这些自动化的无人机，
+
+495
+00:13:45,360 --> 00:13:46,720
+that are automated
+
+496
+00:13:45,360 --> 00:13:46,720
+它们能够自动运行。
+
+497
+00:13:46,720 --> 00:13:50,800
+by llms and i would say in many cases they're not fully
+
+498
+00:13:46,720 --> 00:13:50,800
+由 LLMs 完成，我想说，在很多情况下，它们并没有完全
+
+499
+00:13:50,800 --> 00:13:51,760
+automated
+
+500
+00:13:50,800 --> 00:13:51,760
+自动化
+
+501
+00:13:51,760 --> 00:13:54,959
+but llms can accelerate these
+
+502
+00:13:51,760 --> 00:13:54,959
+但 LLMs 可以加快这些
+
+503
+00:13:54,959 --> 00:13:56,160
+processes.
+
+504
+00:13:54,959 --> 00:13:56,160
+流程。
+
+505
+00:13:56,160 --> 00:13:59,199
+the most important role of humans here is
+
+506
+00:13:56,160 --> 00:13:59,199
+人类在这里最重要的作用是
+
+507
+00:13:59,199 --> 00:14:00,320
+to verify
+
+508
+00:13:59,199 --> 00:14:00,320
+进行验证
+
+509
+00:14:00,320 --> 00:14:01,120
+traceability
+
+510
+00:14:00,320 --> 00:14:01,120
+可追溯性
+
+511
+00:14:01,120 --> 00:14:02,560
+to make sure that
+
+512
+00:14:01,120 --> 00:14:02,560
+以确保
+
+513
+00:14:02,560 --> 00:14:03,600
+those requirements
+
+514
+00:14:02,560 --> 00:14:03,600
+这些需求
+
+515
+00:14:03,600 --> 00:14:05,920
+actually do map to the detailed
+
+516
+00:14:03,600 --> 00:14:05,920
+确实会映射到详细的
+
+517
+00:14:05,920 --> 00:14:10,480
+software design to the code and and to the unit test and and so on.
+
+518
+00:14:05,920 --> 00:14:10,480
+软件设计、代码、单元测试等等。
+
+519
+00:14:10,480 --> 00:14:12,639
+we can look at this by
+
+520
+00:14:10,480 --> 00:14:12,639
+我们可以通过
+
+521
+00:14:12,639 --> 00:14:14,160
+looking at traceability
+
+522
+00:14:12,639 --> 00:14:14,160
+查看可追溯性
+
+523
+00:14:14,160 --> 00:14:14,880
+reports
+
+524
+00:14:14,160 --> 00:14:14,880
+报告
+
+525
+00:14:14,880 --> 00:14:17,519
+that show how these elements come together.
+
+526
+00:14:14,880 --> 00:14:17,519
+来了解这些元素是如何联系起来的。
+
+527
+00:14:17,519 --> 00:14:20,720
+but eventually there is a lot of value to a human
+
+528
+00:14:17,519 --> 00:14:20,720
+但最终，这对人来说有很大的价值。
+
+529
+00:14:20,720 --> 00:14:27,839
+to get in the loop and make sure all of the parts fit together as expected.
+
+530
+00:14:20,720 --> 00:14:27,839
+参与其中，并确保所有部分都能按预期配合运行。
+
+531
+00:14:27,839 --> 00:14:33,279
+and by providing reports for regul regulatory body is in certification.
+
+532
+00:14:27,839 --> 00:14:33,279
+并通过向监管机构提供报告来获得认证。
+
+533
+00:14:33,279 --> 00:14:36,240
+this gives us a great high-level overview
+
+534
+00:14:33,279 --> 00:14:36,240
+这为我们提供了一个很棒的高层概览
+
+535
+00:14:36,240 --> 00:14:37,199
+that
+
+536
+00:14:36,240 --> 00:14:37,199
+它
+
+537
+00:14:37,199 --> 00:14:37,600
+allows
+
+538
+00:14:37,199 --> 00:14:37,600
+使
+
+539
+00:14:37,600 --> 00:14:43,639
+us to make sure our our code is doing what what it is supposed to do.
+
+540
+00:14:37,600 --> 00:14:43,639
+我们能够确保我们的代码确实按预期运行。
+
+541
+00:14:43,680 --> 00:14:49,760
+ci/cdcv continuous integration delivery and verification.
+
+542
+00:14:43,680 --> 00:14:49,760
+CI/CDCV：持续集成、交付与验证。
+
+543
+00:14:49,760 --> 00:14:55,440
+so we also need to think about what parts of the loop can be done automatically
+
+544
+00:14:49,760 --> 00:14:55,440
+因此，我们还需要考虑循环中的哪些部分可以自动完成
+
+545
+00:14:55,440 --> 00:15:01,680
+and make sure that those verification elements are also put into a ci/cd loop
+
+546
+00:14:55,440 --> 00:15:01,680
+并确保这些验证环节也纳入 CI/CD 流程
+
+547
+00:15:01,680 --> 00:15:05,360
+so that when you're doing code changes
+
+548
+00:15:01,680 --> 00:15:05,360
+这样，在进行代码更改时
+
+549
+00:15:05,360 --> 00:15:09,199
+you can apply sas and gas
+
+550
+00:15:05,360 --> 00:15:09,199
+你就可以采用 SAS 和 GAS
+
+551
+00:15:09,199 --> 00:15:10,320
+processes
+
+552
+00:15:09,199 --> 00:15:10,320
+流程
+
+553
+00:15:10,320 --> 00:15:16,720
+such as static analysis and fuzz testing to your code as it is being developed
+
+554
+00:15:10,320 --> 00:15:16,720
+例如静态分析和模糊测试，在代码开发过程中对其进行测试
+
+555
+00:15:16,720 --> 00:15:19,360
+so that when it gets integrated
+
+556
+00:15:16,720 --> 00:15:19,360
+这样，当代码集成时
+
+557
+00:15:19,360 --> 00:15:25,120
+you have a a very high chance that the parts will work together successfully.
+
+558
+00:15:19,360 --> 00:15:25,120
+各个部分就很有可能顺利协同工作。
+
+559
+00:15:25,120 --> 00:15:32,399
+so ai also gives us great capabilities in terms of making sure those parts fit together
+
+560
+00:15:25,120 --> 00:15:32,399
+因此，AI 也赋予我们强大的能力，帮助确保这些部分能够彼此契合[[END]]
+
+561
+00:15:32,399 --> 00:15:33,360
+because
+
+562
+00:15:32,399 --> 00:15:33,360
+因为
+
+563
+00:15:33,360 --> 00:15:35,360
+before
+
+564
+00:15:33,360 --> 00:15:35,360
+之前
+
+565
+00:15:35,360 --> 00:15:37,839
+llms a lot of this data
+
+566
+00:15:35,360 --> 00:15:37,839
+LLM 很多这类数据
+
+567
+00:15:37,839 --> 00:15:42,320
+while it wasn't unstructured it was hard to compare the structures
+
+568
+00:15:37,839 --> 00:15:42,320
+虽然这些数据并非非结构化，但很难比较其结构
+
+569
+00:15:42,320 --> 00:15:45,600
+of the requirements of the build of the test.
+
+570
+00:15:42,320 --> 00:15:45,600
+以及构建测试所需的要求。
+
+571
+00:15:45,600 --> 00:15:50,000
+now we have the ability to pull those disparate
+
+572
+00:15:45,600 --> 00:15:50,000
+现在，我们能够提取这些不同类型的
+
+573
+00:15:50,000 --> 00:15:54,079
+types of data and integrate with your custom
+
+574
+00:15:50,000 --> 00:15:54,079
+数据，并将其集成到你的定制
+
+575
+00:15:54,079 --> 00:15:57,839
+systems as well such as maybe you have a custom test system
+
+576
+00:15:54,079 --> 00:15:57,839
+系统中，例如，你可能有一个定制的测试系统
+
+577
+00:15:57,839 --> 00:16:01,519
+and pull it all together in a way that you can visualize
+
+578
+00:15:57,839 --> 00:16:01,519
+并将所有数据整合起来，以便进行可视化呈现。
+
+579
+00:16:01,519 --> 00:16:07,440
+compliance and make sure that you're you're confident when you're you're ready to ship your code.
+
+580
+00:16:01,519 --> 00:16:07,440
+确保符合合规要求，并且在准备发布代码时，你有足够的信心。
+
+581
+00:16:07,440 --> 00:16:13,040
+the overall message here is that you know compliance
+
+582
+00:16:07,440 --> 00:16:13,040
+这里的核心意思是，你知道，合规
+
+583
+00:16:13,040 --> 00:16:14,639
+is important
+
+584
+00:16:13,040 --> 00:16:14,639
+很重要。
+
+585
+00:16:14,639 --> 00:16:20,720
+is you know, we we can't fly our code on our long duration spaceflight missions
+
+586
+00:16:14,639 --> 00:16:20,720
+也就是说，在执行长期太空飞行任务时，我们不能运行这些代码，
+
+587
+00:16:20,720 --> 00:16:21,199
+without
+
+588
+00:16:20,720 --> 00:16:21,199
+除非
+
+589
+00:16:21,199 --> 00:16:25,519
+making sure that we're confident that it will keep working without us having to to
+
+590
+00:16:21,199 --> 00:16:25,519
+我们确信它们能够持续运行，而不需要我们
+
+591
+00:16:25,519 --> 00:16:26,079
+manually
+
+592
+00:16:25,519 --> 00:16:26,079
+手动
+
+593
+00:16:26,079 --> 00:16:27,920
+patch it from time to time.
+
+594
+00:16:26,079 --> 00:16:27,920
+时不时地打补丁。
+
+595
+00:16:27,920 --> 00:16:31,199
+um, but the flip side is that,
+
+596
+00:16:27,920 --> 00:16:31,199
+嗯，但另一方面，
+
+597
+00:16:31,199 --> 00:16:33,680
+you know, we need to be be aware that
+
+598
+00:16:31,199 --> 00:16:33,680
+你知道，我们需要意识到
+
+599
+00:16:33,680 --> 00:16:38,720
+we're in a time in which we're doing a lot of things in space
+
+600
+00:16:33,680 --> 00:16:38,720
+我们正处于一个在太空中开展大量活动的时代
+
+601
+00:16:38,720 --> 00:16:39,440
+and
+
+602
+00:16:38,720 --> 00:16:39,440
+还有
+
+603
+00:16:39,440 --> 00:16:43,440
+to be able to accomplish all of the tasks that we want to do in
+
+604
+00:16:39,440 --> 00:16:43,440
+为了能够完成我们想要完成的所有任务
+
+605
+00:16:43,440 --> 00:16:47,440
+human space flight and in space flight in general in the next years.
+
+606
+00:16:43,440 --> 00:16:47,440
+无论是载人航天，还是未来几年整体的太空飞行。
+
+607
+00:16:47,440 --> 00:16:51,360
+we need to make sure we're able to do that compliance element as well.
+
+608
+00:16:47,440 --> 00:16:51,360
+我们还需要确保能够落实合规这一环节。
+
+609
+00:16:51,360 --> 00:16:55,519
+and that compliance element needs to run at the speed of innovation.
+
+610
+00:16:51,360 --> 00:16:55,519
+而且，合规环节必须跟上创新的速度。
+
+611
+00:16:55,519 --> 00:17:00,399
+we can't necessarily slow down just for compliance
+
+612
+00:16:55,519 --> 00:17:00,399
+我们不能为了合规而一味放慢脚步。
+
+613
+00:17:00,399 --> 00:17:03,040
+if we can make our compliance
+
+614
+00:17:00,399 --> 00:17:03,040
+如果我们能把合规
+
+615
+00:17:03,040 --> 00:17:07,760
+part of our process so that we know that our code will work successfully
+
+616
+00:17:03,040 --> 00:17:07,760
+纳入流程，这样我们就能确保代码在部署到现场和航天系统中时
+
+617
+00:17:07,760 --> 00:17:14,760
+when we deploy it in the field and in our space systems.
+
+618
+00:17:07,760 --> 00:17:14,760
+能够正常运行。
+
+619
+00:17:14,799 --> 00:17:17,599
+so a little a little some conclusions here.
+
+620
+00:17:14,799 --> 00:17:17,599
+所以这里有一些小小的结论。
+
+621
+00:17:17,599 --> 00:17:27,919
+i believe in 2026 we can write good software better with llms than with with humans.
+
+622
+00:17:17,599 --> 00:17:27,919
+我相信，到 2026 年，我们用 LLMs 编写优质软件，会比依靠人类做得更好。
+
+623
+00:17:27,919 --> 00:17:29,919
+but that's just part of the overall picture.
+
+624
+00:17:27,919 --> 00:17:29,919
+但这只是整体情况的一部分。
+
+625
+00:17:29,919 --> 00:17:31,280
+good software
+
+626
+00:17:29,919 --> 00:17:31,280
+优质软件
+
+627
+00:17:31,280 --> 00:17:33,840
+still begins with good requirements
+
+628
+00:17:31,280 --> 00:17:33,840
+仍然始于良好的需求
+
+629
+00:17:33,840 --> 00:17:35,280
+and those requirements
+
+630
+00:17:33,840 --> 00:17:35,280
+而这些需求
+
+631
+00:17:35,280 --> 00:17:38,720
+need to be reviewed by humans
+
+632
+00:17:35,280 --> 00:17:38,720
+需要由人类审核
+
+633
+00:17:38,720 --> 00:17:44,160
+to make sure that they they actually accomplish the goals that we intended them to.
+
+634
+00:17:38,720 --> 00:17:44,160
+以确保它们确实实现了我们预期的目标。
+
+635
+00:17:44,160 --> 00:17:44,640
+sometimes
+
+636
+00:17:44,160 --> 00:17:44,640
+有时候
+
+637
+00:17:44,640 --> 00:17:46,080
+i i ask an llm
+
+638
+00:17:44,640 --> 00:17:46,080
+我会让 LLM
+
+639
+00:17:46,080 --> 00:17:47,679
+to do something and it just says, "hey,
+
+640
+00:17:46,080 --> 00:17:47,679
+做点什么，它却只说：“嘿，
+
+641
+00:17:47,679 --> 00:17:48,160
+i'm i'm
+
+642
+00:17:47,679 --> 00:17:48,160
+我已经
+
+643
+00:17:48,160 --> 00:17:48,480
+done."
+
+644
+00:17:48,160 --> 00:17:48,480
+做完了。”
+
+645
+00:17:48,480 --> 00:17:51,039
+because it thinks that all i want is the message that says, "hey,
+
+646
+00:17:48,480 --> 00:17:51,039
+因为它以为我只想要这条消息：“嘿，
+
+647
+00:17:51,039 --> 00:17:52,320
+i'm i'm done."
+
+648
+00:17:51,039 --> 00:17:52,320
+我已经做完了。”
+
+649
+00:17:52,320 --> 00:17:54,080
+uh, but obviously
+
+650
+00:17:52,320 --> 00:17:54,080
+呃，但显然
+
+651
+00:17:54,080 --> 00:17:55,840
+we need to in the middle,
+
+652
+00:17:54,080 --> 00:17:55,840
+我们需要在中间
+
+653
+00:17:55,840 --> 00:17:57,120
+you know, put add some checks
+
+654
+00:17:55,840 --> 00:17:57,120
+你知道，添加一些检查项，
+
+655
+00:17:57,120 --> 00:17:58,400
+to make sure that it actually
+
+656
+00:17:57,120 --> 00:17:58,400
+以确保它确实
+
+657
+00:17:58,400 --> 00:18:01,120
+did the task that we wanted it to do.
+
+658
+00:17:58,400 --> 00:18:01,120
+完成了我们希望它完成的任务。
+
+659
+00:18:01,120 --> 00:18:06,640
+and that putting those tasks in the middle is all about traceability.
+
+660
+00:18:01,120 --> 00:18:06,640
+而把这些任务放在中间，关键在于可追溯性。
+
+661
+00:18:06,640 --> 00:18:08,240
+traceability
+
+662
+00:18:06,640 --> 00:18:08,240
+可追溯性
+
+663
+00:18:08,240 --> 00:18:12,160
+and in this case humans defining traceability
+
+664
+00:18:08,240 --> 00:18:12,160
+在这个例子中，由人来定义可追溯性
+
+665
+00:18:12,160 --> 00:18:17,360
+allows us to verify that the software is really doing what it is supposed to do
+
+666
+00:18:12,160 --> 00:18:17,360
+能让我们验证软件是否真的按预期运行，
+
+667
+00:18:17,360 --> 00:18:24,640
+and it allows us to also pull data from disparate systems to create test cases
+
+668
+00:18:17,360 --> 00:18:24,640
+还让我们能够从不同的系统中提取数据来创建测试用例。
+
+669
+00:18:24,640 --> 00:18:28,799
+and have those test cases drive our our code execution
+
+670
+00:18:24,640 --> 00:18:28,799
+并让这些测试用例驱动我们的代码执行
+
+671
+00:18:28,799 --> 00:18:33,600
+and make sure that it it shows that we have verified our code appropriately.
+
+672
+00:18:28,799 --> 00:18:33,600
+并确保它能证明我们已经适当地验证了代码。
+
+673
+00:18:33,600 --> 00:18:42,320
+so this allows us to accelerate standards compliance and in this space nasa npr7150.2d
+
+674
+00:18:33,600 --> 00:18:42,320
+因此，这使我们能够加快标准合规进程。在这一领域，NASA NPR 7150.2D
+
+675
+00:18:42,320 --> 00:18:44,559
+is particularly important
+
+676
+00:18:42,320 --> 00:18:44,559
+尤为重要
+
+677
+00:18:44,559 --> 00:18:48,480
+which allows us to make sure that not only we're writing good software
+
+678
+00:18:44,559 --> 00:18:48,480
+它使我们能够确保我们编写的不只是优质软件
+
+679
+00:18:48,480 --> 00:18:49,760
+but we're confident
+
+680
+00:18:48,480 --> 00:18:49,760
+而且我们有信心
+
+681
+00:18:49,760 --> 00:18:51,120
+that we'll operate
+
+682
+00:18:49,760 --> 00:18:51,120
+软件将
+
+683
+00:18:51,120 --> 00:18:51,840
+correctly
+
+684
+00:18:51,120 --> 00:18:51,840
+正确运行。
+
+685
+00:18:51,840 --> 00:18:53,120
+in the field
+
+686
+00:18:51,840 --> 00:18:53,120
+在这一领域
+
+687
+00:18:53,120 --> 00:18:58,120
+not just now but for years to come.
+
+688
+00:18:53,120 --> 00:18:58,120
+不只是现在，而是未来多年。
+
+689
+00:18:58,160 --> 00:18:59,919
+thank you and i'll pause for questions.
+
+690
+00:18:58,160 --> 00:18:59,919
+谢谢，接下来我会暂停一下，回答大家的问题。
+

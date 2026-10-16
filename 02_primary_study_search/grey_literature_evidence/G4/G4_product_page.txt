@@ -1,0 +1,140 @@
+Products
+Industries
+Services
+Company
+VectorCAST + AI
+AI-Powered Unit Test Generation from Requirements
+Try VectorCAST
+Watch VectorCAST AI in Action
+Key Capabilities
+How Reqs2x Works
+Built for Safety-Critical Environments
+Bring Your Own Model
+Watch a Demo
+Frequently Asked Questions
+
+Writing unit tests from requirements is necessary. It is also time-consuming, repetitive, and easy to get wrong. Reqs2x, the AI-powered Requirements-Based Test Creator in VectorCAST 2026, automates the steps between a requirement and an executable, traceable test case, while keeping your engineers in control of every artifact that enters the verification workflow.
+
+Reqs2x uses program slicing and large language models to map requirements to the functions that implement them, generate aligned test cases, and present both for engineer review. Requirements traceability is built in from the start, not added later.
+
+ 
+
+Key Capabilities
+
+Reqs2x does not lock you into a specific AI provider. You select the large language model that fits your infrastructure, data privacy requirements, and compliance obligations. On-premises, cloud, and hybrid deployments are all supported, giving your organization full control over where data goes and how the model is governed.
+
+Requirements import
+
+Import from DOORS, Polarion, or CSV via the Requirements Gateway
+
+Automatic requirement-to-function mapping
+
+Program slicing identifies which functions implement each requirement
+
+AI-generated executable test cases
+
+Test cases are aligned with requirement specifications and ready for review
+
+Human-in-the-loop review
+
+All generated artifacts are reviewed by engineers before entering the verification workflow
+
+Standards alignment
+
+Designed with MISRA C:2025, ISO/IEC AI frameworks, and EU AI Act requirements in mind
+
+Bring Your Own Model
+
+Choose your preferred LLM. On-premises, cloud, and hybrid deployments supported
+
+ 
+
+How Reqs2x Works
+
+Reqs2x automates three steps that typically require significant manual effort.
+
+Step 1: Automatic Requirement Mapping
+
+Reqs2x maps requirements to the functions that implement them. Requirements are imported from DOORS, Polarion, or CSV files via the Requirements Gateway. The mapping is generated automatically, giving engineers a clear starting point without manual cross-referencing.
+
+Step 2: AI-Assisted Test Generation
+
+Using program slicing and large language models, VectorCAST generates executable test cases aligned with your requirement specifications. The result is a set of traceable, ready-to-review test cases that reduce manual authoring effort without removing engineer judgment from the process.
+
+Step 3: Human-in-the-Loop Review
+
+Generated mappings and test cases are presented for engineer review before they enter any verification workflow. Nothing is accepted automatically. This keeps AI-generated artifacts subject to the same review and quality controls as human-written test code.
+
+Built for Safety-Critical Environments
+
+AI tools in safety-critical development require controlled processes, transparent traceability, and effective human oversight. Without these, AI-generated artifacts can increase review burden and undermine software quality rather than improve it.
+
+Vector's approach is based on modular, task-specific micro-agents designed for precisely defined use cases within controlled contexts. This enables predictable behavior, simplifies validation, and supports alignment with industry standards including MISRA C:2025, ISO/IEC AI frameworks, and the EU AI Act.
+
+Reqs2x integrates into automated quality monitoring pipelines, enabling test automation results to be enriched with advanced analysis and reporting. This supports step-level metrics, process-level coverage, and lifecycle-wide traceability.
+
+Bring Your Own Model
+
+Reqs2x does not lock you into a specific AI provider. You select the large language model that fits your infrastructure, data privacy requirements, and compliance obligations. On-premises, cloud, and hybrid deployments are all supported, giving your organization full control over where data goes and how the model is governed.
+
+Watch: AI-Powered Requirements-Based Testing in VectorCAST
+
+A recorded webinar covers how Reqs2x integrates into the VectorCAST unit testing workflow to support requirements analysis, test creation, and traceability in safety-critical environments.
+
+Topics Covered
+
+How AI supports requirements-driven unit testing inside VectorCAST
+How to improve traceability between requirements, tests, and code
+Ways AI reduces manual test creation effort while keeping engineers in control
+A walkthrough of AI-enabled workflows within the VectorCAST ecosystem
+Watch Recording
+Frequently Asked Questions
+What does Reqs2x actually do?
+Does AI-generated test code bypass the verification process?
+Which requirements management tools does Reqs2x support?
+Can I choose which AI model Reqs2x uses?
+How does Vector's AI approach align with safety standards?
+Related Pages
+VectorCAST Product Suite
+Automate unit, integration, and coverage testing for safety-critical embedded software in C, C++, and Ada.
+VectorCAST/C++
+Automated unit and integration testing for C and C++ embedded software, with built-in MC/DC coverage, automatic harness generation, and host-to-target test execution.
+VectorCAST/Ada
+Automated unit and integration testing for Ada software components, covering Ada 83 through Ada 2012 with automatic driver and stub generation and on-target execution support.
+VectorCAST/QA
+Collect code coverage and quality metrics across C, C++, and Ada codebases without changing your build process.
+Intelligent Ecosystem for Complex System Development
+Discover how our Intelligent Ecosystem connects development, validation, and operation - bringing structure, visibility, and real progress into system development.
+
+We build the intelligent foundation teams need to develop and operate the software-defined systems of tomorrow.
+
+Products
+Intelligent Ecosystem
+Portfolio Overview
+Software Platform
+Testing, Validation & Diagnostics
+Industries
+Automotive
+MedTech
+Aerospace
+Agriculture
+Railway
+Services
+Support
+Download-Center
+Enablement
+Engineering
+Cloud and IT Services
+Company
+About Vector
+Career
+Events
+Get Info
+Press
+Newsletter
+Contact
+2010 - 2026 Vector Informatik GmbH
+Privacy Policy
+Legal Notice
+Trust Center
+Cookie settings

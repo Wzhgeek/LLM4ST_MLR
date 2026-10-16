@@ -1,0 +1,916 @@
+﻿
+@article{ WOS:001623362200001,
+Author = {Zheng, Tao and Zhao, Yangyang and Guo, Jiamin and Nie, Liming and Jiang,
+   Mingyue and Zhou, Yuming},
+Title = {SELink: A semantic-enhanced modular framework for issue-commit link
+   recovery},
+Journal = {INFORMATION AND SOFTWARE TECHNOLOGY},
+Year = {2026},
+Volume = {190},
+Month = {FEB},
+Abstract = {Context: Issue-commit link recovery (ICLR) is a fundamental task in
+   software traceability that aims to reconstruct missing or incomplete
+   links between issue reports and code commits. Accurate link recovery
+   supports downstream tasks such as bug localization, defect prediction,
+   and change impact analysis. However, existing approaches often suffer
+   from input truncation and limited semantic discrimination, which reduce
+   their effectiveness in real-world settings. Objective: This study aims
+   to improve the robustness and precision of issue-commit link recovery by
+   addressing two key challenges: (1) the loss of semantic information
+   caused by token truncation in long textual inputs, and (2) the
+   difficulty of accurately ranking semantically similar candidate commits.
+   Methods: We propose SELink, a Semantic-Enhanced framework that
+   integrates large language models into the ICLR pipeline. SELink
+   comprises three key components: a semantic summarization module that
+   compresses verbose texts while preserving core semantics; a prediction
+   module based on a pre-trained encoder, with flexibility to adopt various
+   backbone models; and a semantic re-ranking module that refines the top-K
+   candidate links through decoder-only LLM inference. In our
+   implementation, the prediction module is instantiated using the EALink
+   framework, though it can be substituted with other compatible encoders.
+   Results: Experimental results show that SELink significantly outperforms
+   state-of-the-art baseline models across most evaluation metrics and
+   projects. In particular, it achieves notable improvements in Hit@1,
+   NDCG@1, Recall@1 and LAG, highlighting its effectiveness in top-rank
+   prediction accuracy. Ablation studies confirm the contribution of each
+   module, and additional experiments across three different LLMs
+   demonstrate the framework's adaptability. Conclusion: SELink effectively
+   addresses two long-standing limitations in issue-commit link recovery by
+   leveraging LLM-based semantic compression and re-ranking. Its modular
+   design and superior performance suggest that semantic-enhanced
+   frameworks hold significant potential for advancing traceability tasks
+   in software engineering.},
+DOI = {10.1016/j.infsof.2025.107973},
+EarlyAccessDate = {NOV 2025},
+Article-Number = {107973},
+ISSN = {0950-5849},
+EISSN = {1873-6025},
+Unique-ID = {WOS:001623362200001},
+}
+
+@article{ WOS:001177103100001,
+Author = {Deng, Yang and Wang, Bangchao and Zhu, Qiang and Liu, Junping and Kuang,
+   Jiewen and Li, Xingfu},
+Title = {MTLink: Adaptive multi-task learning based pre-trained language model
+   for traceability link recovery between issues and commits},
+Journal = {JOURNAL OF KING SAUD UNIVERSITY-COMPUTER AND INFORMATION SCIENCES},
+Year = {2024},
+Volume = {36},
+Number = {2},
+Month = {FEB},
+Abstract = {Traceability links between issues and commits (issue-commit links
+   recovery (ILR)) play a significant role in software maintenance tasks by
+   enhancing developers' observability in practice. Recent advancements in
+   large language models, particularly pre-trained models, have improved
+   the effectiveness of automated ILR. However, these models' large
+   parameter sizes and extended training time pose challenges in large
+   software projects. Besides, existing methods often overlook the
+   association and distinction among artifacts, leading to the generation
+   of erroneous links. To mitigate these problems, this paper proposes a
+   novel link recovery method called MTLink. It utilizes multi-teacher
+   knowledge distillation (MTKD) to compress the model and employs an
+   adaptive multi-task strategy to reduce information loss and improve link
+   accuracy. Experiments are conducted on four open-source projects. The
+   results show that (i) MTLink outperforms state-of-the-art methods; (ii)
+   The multi-teacher knowledge distillation maintains accuracy despite
+   model size reduction; (iii) The adaptive multi-task tracing method
+   effectively handles confusion caused by similar artifacts and balances
+   each task. In conclusion, MTLink offers an efficient solution for ILR in
+   software traceability. The code is available at
+   https://zenodo.org/records/10321150.},
+DOI = {10.1016/j.jksuci.2024.101958},
+EarlyAccessDate = {FEB 2024},
+Article-Number = {101958},
+ISSN = {1319-1578},
+EISSN = {2213-1248},
+ResearcherID-Numbers = {Junping, Liu/JYP-2801-2024},
+ORCID-Numbers = {Wang, Bangchao/0000-0001-6920-1810
+   },
+Unique-ID = {WOS:001177103100001},
+}
+
+@article{ WOS:001770076400001,
+Author = {Alturayeif, Nouf and Ahmad, Irfan and Hassine, Jameleddine},
+Title = {TraceLLM: leveraging large language models with prompt engineering for
+   enhanced requirements traceability},
+Journal = {REQUIREMENTS ENGINEERING},
+Year = {2026},
+Volume = {31},
+Number = {1},
+Month = {MAY 19},
+Abstract = {Requirements traceability, the process of establishing and maintaining
+   relationships between requirements and various software development
+   artifacts, is paramount for ensuring system integrity and fulfilling
+   requirements throughout the Software Development Life Cycle (SDLC).
+   Traditional methods, including manual and information retrieval models,
+   are labor-intensive, error-prone, and limited by low precision.
+   Recently, Large Language Models (LLMs) have demonstrated potential for
+   supporting software engineering tasks through advanced language
+   comprehension. However, a substantial gap exists in the systematic
+   design and evaluation of prompts tailored to extract accurate trace
+   links. This paper introduces TraceLLM, a systematic framework for
+   enhancing requirements traceability through prompt engineering and
+   demonstration selection. Our approach incorporates rigorous dataset
+   splitting, iterative prompt refinement, enrichment with contextual roles
+   and domain knowledge, and evaluation across zero-and few-shot settings.
+   We assess prompt generalization and robustness using eight
+   state-of-the-art LLMs on four benchmark datasets representing diverse
+   domains (aerospace, healthcare) and artifact types (requirements, design
+   elements, test cases, regulations). TraceLLM achieves state-of-the-art
+   F2 scores, outperforming traditional IR baselines, fine-tuned models,
+   and prior LLM-based methods. We also explore the impact of demonstration
+   selection strategies, identifying label-aware, diversity-based sampling
+   as particularly effective. Overall, our findings highlight that
+   traceability performance depends not only on model capacity but also
+   critically on the quality of prompt engineering. In addition, the
+   achieved performance suggests that TraceLLM can support semi-automated
+   traceability workflows in which candidate links are reviewed and
+   validated by human analysts.},
+DOI = {10.1007/s00766-026-00460-1},
+EarlyAccessDate = {MAY 2026},
+Article-Number = {6},
+ISSN = {0947-3602},
+EISSN = {1432-010X},
+ResearcherID-Numbers = {Alturayeif, Nora/ABD-1882-2021},
+Unique-ID = {WOS:001770076400001},
+}
+
+@article{ WOS:001679804300001,
+Author = {Zhang, Jianzhang and Zhou, Jialong and Niu, Nan and Hua, Jinping and
+   Liu, Chuang},
+Title = {Synergistic enhancement of requirement-to-code traceability: A framework
+   combining large language model based data augmentation and an advanced
+   encoder},
+Journal = {INFORMATION AND SOFTWARE TECHNOLOGY},
+Year = {2026},
+Volume = {193},
+Month = {MAY},
+Abstract = {Context: Automated requirement-to-code traceability link recovery,
+   essential for industrial system quality and safety, is critically
+   hindered by the scarcity of labeled data, especially for methods relying
+   on supervised fine-tuning. Objective: To address this bottleneck, this
+   paper proposes and validates a synergistic framework that integrates
+   large language model (LLM)-driven data augmentation with an advanced
+   encoder. Methods: We first optimize data augmentation through a
+   systematic evaluation of bi-directional and zero/fewshot prompting
+   strategies. Building on the augmented data, we enhance an established
+   state-of-the-art pre-trained language model based method by
+   incorporating an encoder distinguished by a broader pre-training corpus
+   and an extended context window. We conduct experiments on four public
+   datasets, including rigorous validity checks and cross-project
+   evaluations, to quantify the distinct contributions of our framework's
+   components. Results: We demonstrate that the choice among leading LLMs
+   is not a significant performance factor, whereas the prompting strategy
+   is effective. Data augmentation on its own consistently improves the
+   baseline method, providing substantial performance gains of up to
+   26.66\% in average F2 score, while applying it to the advanced encoder
+   unlocks a further maximum 10.00\% lift in recall. This synergy
+   culminates in a fully optimized framework that decisively outperforms
+   ten established baselines with maximum improvements of 23.13\% on F1
+   score and 21.37\% on F2 score, and achieves a recall of 50.70\% in
+   strict cross-project evaluations, significantly surpassing the 21.82\%
+   recall of a state-of-the-art RAG approach. Conclusion: This work
+   contributes a pragmatic and scalable methodology to overcome the data
+   scarcity bottleneck, paving the way for broader industrial adoption of
+   data-driven requirement-to-code traceability.},
+DOI = {10.1016/j.infsof.2026.108045},
+EarlyAccessDate = {JAN 2026},
+Article-Number = {108045},
+ISSN = {0950-5849},
+EISSN = {1873-6025},
+ResearcherID-Numbers = {chuang, liu/AAH-1377-2021},
+Unique-ID = {WOS:001679804300001},
+}
+
+@article{ WOS:001531750100005,
+Author = {Ge, Chuyan and Wang, Tiantian and Yang, Xiaotian and Treude, Christoph},
+Title = {Cross-Level Requirements Tracing Based on Large Language Models},
+Journal = {IEEE TRANSACTIONS ON SOFTWARE ENGINEERING},
+Year = {2025},
+Volume = {51},
+Number = {7},
+Pages = {2044-2066},
+Month = {JUL},
+Abstract = {Cross-level requirements traceability, linking high-level requirements
+   (HLRs) and low-level requirements (LLRs), is essential for maintaining
+   relationships and consistency in software development. However, the
+   manual creation of requirements links necessitates a profound
+   understanding of the project and entails a complex and laborious
+   process. Existing machine learning and deep learning methods often fail
+   to fully understand semantic information, leading to low accuracy and
+   unstable performance. This paper presents the first approach for
+   cross-level requirements tracing based on large language models (LLMs)
+   and introduces a data augmentation strategy (such as synonym
+   replacement, machine translation, and noise introduction) to enhance
+   model robustness. We compare three fine-tuning strategies-LoRA,
+   P-Tuning, and Prompt-Tuning-on different scales of LLaMA models (1.1B,
+   7B, and 13B). The fine-tuned LLMs exhibit superior performance across
+   various datasets, including six single-project datasets, three
+   cross-project datasets within the same domain, and one cross-domain
+   dataset. Experimental results show that fine-tuned LLMs outperform
+   traditional information retrieval, machine learning, and deep learning
+   methods on various datasets. Furthermore, we compare the performance of
+   GPT and DeepSeek LLMs under different prompt templates, revealing their
+   high sensitivity to prompt design and relatively poor result stability.
+   Our approach achieves superior performance, outperforming GPT-4o and
+   DeepSeek-r1 by 16.27\% and 16.8\% in F-measure on cross-domain datasets.
+   Compared to the baseline method that relies on prompt engineering, it
+   achieves a maximum improvement of 13.8\%.},
+DOI = {10.1109/TSE.2025.3572094},
+ISSN = {0098-5589},
+EISSN = {1939-3520},
+ResearcherID-Numbers = {Wang, Tiantian/OAJ-0957-2025
+   Treude, Christoph/AAZ-6257-2021},
+ORCID-Numbers = {Chuyan, Ge/0009-0008-6604-1717
+   Yang, Xiaotian/0009-0004-8882-0210
+   Wang, Tiantian/0000-0003-2958-8066
+   },
+Unique-ID = {WOS:001531750100005},
+}
+
+@article{ WOS:001574203300042,
+Author = {Shafikuzzaman, Md and Islam, Md Rakibul and Zaman, Shuaib and Ma, Andrew
+   and Islam Sifat, Anwarul},
+Title = {On the Effectiveness of Zero-Shot and Few-Shot Pretrained Language
+   Models for Software Requirement Classification},
+Journal = {IEEE ACCESS},
+Year = {2025},
+Volume = {13},
+Pages = {159439-159453},
+Abstract = {Accurate classification of software requirements, particularly
+   distinguishing between fun- ctional and non-functional requirements, is
+   essential for enabling traceability, guiding system design, and ensuring
+   project success. Traditional supervised machine learning methods have
+   shown promise in this domain but suffer from limited generalizability,
+   high labeling costs, and overfitting. Recent advances in pretrained
+   language models (PLMs) offer new opportunities for effective requirement
+   classification through zero-shot (ZS) and few-shot (FS) learning. This
+   study investigates the effectiveness of ZS and FS PLMs, including
+   prompt-based generative large language models (e.g., GPT-4o and Llama3),
+   in classifying functional vs. non-functional requirements and
+   non-functional subtypes, such as usability, security, operational, and
+   performance requirements. We conduct a comprehensive empirical
+   evaluation across five classification tasks using two widely adopted
+   datasets: PROMISE and SecReq. The study compares six PLMs, including two
+   ZS, two FS transformer models, and two generative Large Language Models
+   under both ZS and FS settings. We benchmark these models against
+   state-of-the-art and domain-specific baselines, and complement the
+   quantitative analysis with a detailed qualitative error analysis. FS
+   models, such as All-MPNET, All-DistilRoBERTa, and GPT-4o in the FS
+   setting, consistently outperform ZS models across all tasks, achieving
+   superior performance in multi-class NFR and security requirement
+   classification. While NoRBERT remains superior in binary FR/NFR
+   classification, our FS models outperform or match its performance in
+   other scenarios. ZS models, such as GPT-4o, also demonstrate strong
+   results without requiring training data, highlighting their practical
+   utility. Error analysis reveals that annotation issues and lack of
+   context are major sources of misclassification. Our findings establish
+   that ZS and FS PLMs, especially prompt-based generative large language
+   models, offer viable and scalable alternatives to traditional supervised
+   approaches. This study lays the foundation for the broader adoption of
+   prompt-based PLMs in requirement engineering.},
+DOI = {10.1109/ACCESS.2025.3607813},
+ISSN = {2169-3536},
+ResearcherID-Numbers = {Sifat, Annur/NXB-8516-2025
+   },
+ORCID-Numbers = {Shafikuzzaman/0009-0007-2623-5034
+   Islam, Rakibul/0009-0009-9104-874X},
+Unique-ID = {WOS:001574203300042},
+}
+
+@article{ WOS:001560244000014,
+Author = {Woesle, Christian and Fischer-Brandies, Leopold and Buettner, Ricardo},
+Title = {A Systematic Literature Review of Hallucinations in Large Language
+   Models},
+Journal = {IEEE ACCESS},
+Year = {2025},
+Volume = {13},
+Pages = {148231-148253},
+Abstract = {This review systematically maps research on hallucinations in large
+   language models using a descriptive scheme that links model outputs to
+   four system architectures: unaugmented generation, post-hoc reactive
+   validation, proactive detection-and-mitigation, and fully integrated
+   detection-and-mitigation designs. Our methodology for this systematic
+   review follows the PRISMA guidelines to ensure transparency and
+   reproducibility. We searched IEEE Xplore, ACM Digital Library, and
+   ScienceDirect for studies published between 2015 and January 2025 and
+   extracted 125 peer-reviewed papers across nine application domains.
+   Quantitative analysis shows that question answering and multimodal tasks
+   account for 48\% of all papers, whereas software engineering,
+   educational technology, and autonomous systems are underexplored.
+   Although 87.5\% of the studies rely on additional reactive or proactive
+   defenses, only 8.8\% implement integrated architecture-level safeguards,
+   revealing a critical gap in unified and dynamic architectures. The
+   resulting classification matrix and domain map provide a diagnostic tool
+   for locating blind spots and comparing architectural maturity. Three
+   actionable priorities emerge: develop integrated
+   reasoning-and-verification loops that pre-empt hallucinations; transfer
+   proven causal-intervention and multi-agent validation pipelines to
+   high-stakes, under-represented domains and benchmark them under real
+   conditions; and build modular, cross-domain evaluation frameworks that
+   isolate the contribution of individual mitigation components and support
+   ablation studies. By consolidating fragmented evidence and quantifying
+   architecture-domain imbalances, this review establishes a traceable
+   foundation for engineering reliable, explainable, and domain-adaptable
+   countermeasures to hallucinations in generative language technology.},
+DOI = {10.1109/ACCESS.2025.3601206},
+ISSN = {2169-3536},
+ResearcherID-Numbers = {Fischer-Brandies, Leopold/KIG-2768-2024
+   Buettner, Ricardo/B-3334-2018},
+ORCID-Numbers = {Fischer-Brandies, Leopold/0009-0001-2810-590X
+   Buettner, Ricardo/0000-0003-2263-6408},
+Unique-ID = {WOS:001560244000014},
+}
+
+@article{ WOS:001670124000001,
+Author = {Rotaru, Oana and Orhei, Ciprian and Vasiu, Radu},
+Title = {Hybrid Usability Evaluation of an Automotive REM Tool: Human and
+   LLM-Based Heuristic Assessment of IBM Doors Next},
+Journal = {APPLIED SCIENCES-BASEL},
+Year = {2026},
+Volume = {16},
+Number = {2},
+Month = {JAN 9},
+Abstract = {Requirements Engineering and Management (REM) tools play a significant
+   role in ensuring project compliance and efficiency. Automotive
+   engineering must comply with regulatory standards, requiring detailed
+   documentation, rigorous testing, and solid traceability. Despite their
+   importance, REM tools are underexplored from the usability and user
+   experience perspective (UX), even though poor usability can hinder
+   development workflows across stakeholder teams. This study presents a
+   case study of heuristic usability evaluation of IBM DOORS Next
+   Generation, conducted with expert evaluators, using Nielsen's 10
+   Usability Heuristics as an evaluation framework. The identified issues
+   were analyzed in terms of impacted heuristics and severity ratings.
+   Additionally, we underwent a Large Language Model (LLM)-based heuristic
+   evaluation, using ChatGPT-5, prompted with the same heuristic set and
+   static screenshots. The LLM detected several issues overlapping with
+   human findings (32\%), as well as new ones (23\%); therefore, 55\% of
+   its outputs are considered valid and 45\% are unconfirmed. This
+   highlights both the potential and limitations of AI-driven usability
+   assessment. Overall, the findings underscore the usability challenges of
+   REM tools and suggest that LLMs may serve as complementary evaluators,
+   accelerating early-stage heuristic inspections in safety-critical
+   engineering environments.},
+DOI = {10.3390/app16020723},
+Article-Number = {723},
+EISSN = {2076-3417},
+ResearcherID-Numbers = {Vasiu, Radu/F-9870-2016
+   Orhei, Ciprian/AAU-5701-2021
+   Rotaru, Oana/AAE-5108-2022},
+Unique-ID = {WOS:001670124000001},
+}
+
+@article{ WOS:001432846600001,
+Author = {Kim, Dae-Kyoo},
+Title = {Improving Software Development Traceability with Structured Prompting},
+Journal = {JOURNAL OF COMPUTER INFORMATION SYSTEMS},
+Year = {2025},
+Month = {2025 FEB 26},
+Abstract = {Generative large language models (LLMs) are increasingly integrated into
+   software development to enhance efficiency across various phases, from
+   requirements analysis to testing. However, the design of effective
+   prompts for leveraging these AI capabilities in software development
+   remains underexplored. This study aims to bridge this gap by developing
+   prompt designs that enhance the traceability of software artifacts
+   created by AI models. Employing design principles adapted from social
+   sciences, the study introduces structured prompting that significantly
+   improves traceability measures compared to unstructured prompting.
+   Structured prompts were notably effective in the Design Modeling and
+   Testing phases, showing improvements of 32.21 and 26.35 respectively
+   with an overall average improvement of 23.92. Despite these advances,
+   challenges persist, such as ensuring AI models adhere strictly to
+   structured prompts, which can sometimes lead to outputs being overly
+   specific or not fully compliant with the prompt instructions.},
+DOI = {10.1080/08874417.2025.2470919},
+EarlyAccessDate = {FEB 2025},
+ISSN = {0887-4417},
+EISSN = {2380-2057},
+ResearcherID-Numbers = {Kim, Daekyoo/HGE-1133-2022},
+Unique-ID = {WOS:001432846600001},
+}
+
+@article{ WOS:001634028800001,
+Author = {Yang, Geunseok},
+Title = {CTQRS-Based Reinforcement Learning Framework for Reliable Bug Report
+   Generation Using Open-Source Large Language Models},
+Journal = {APPLIED SCIENCES-BASEL},
+Year = {2025},
+Volume = {15},
+Number = {23},
+Month = {NOV 26},
+Abstract = {The advancement of Large Language Models (LLMs) has opened new
+   possibilities for automating bug report generation in software
+   engineering. However, a fundamental limitation remains: the generated
+   reports often fail to maintain both consistent structure and reliable
+   semantic quality. To address this issue, this study proposes a
+   Reinforcement Learning (RL) framework that integrates the CTQRS
+   (Completeness, Traceability, Quality, Reproducibility, Specificity)
+   metric as a reward signal. The proposed method aims to enhance both the
+   structural completeness and semantic coherence of generated reports,
+   enabling the automatic creation of reliable bug reports based on
+   open-source LLMs. The training process consists of three stages:
+   Supervised Fine-Tuning (SFT), Reinforcement Learning (RL), and
+   Refinement. In the SFT stage, the model learns the formal structure of
+   bug reports, reducing the loss from 1.9 to 1.3 and achieving initial
+   CTQRS and SBERT scores of 0.46 and 0.68, respectively. In the RL stage,
+   a multi-reward function centered on CTQRS is combined with the Proximal
+   Policy Optimization (PPO) algorithm, increasing the reward value from
+   0.42 to 0.63 with stable convergence confirmed through the Exponential
+   Moving Average (EMA). During this process, the CTQRS and SBERT scores
+   improved to 0.72 and 0.84, demonstrating that the model simultaneously
+   enhanced structural completeness and semantic consistency. In the final
+   Refinement stage, the outcomes of SFT and RL are integrated, and a
+   critic-based fine-grained feedback adjustment strategy is applied to
+   stabilize the final outputs. The refined reports maintained a reward
+   value of approximately 0.65, achieving peak CTQRS and SBERT scores of
+   0.76 and 0.85, respectively. Throughout the entire training process, the
+   stability of the reward gradients was preserved, and the adjustments to
+   length rewards and repetition penalties effectively prevented excessive
+   verbosity. Experimental results show that the proposed CTQRS-based
+   reinforcement learning framework improves the structural completeness,
+   contextual accuracy, and evaluation stability of bug reports, thereby
+   quantitatively enhancing the reliability of LLM-based
+   (v.Qwen2.5-7B-Instruct) software quality assurance documentation. Future
+   work will focus on further improving formal precision and evaluation
+   consistency by fine-tuning the number of critic iterations
+   (critic\_iters) and adjusting detailed reward weights.},
+DOI = {10.3390/app152312545},
+Article-Number = {12545},
+EISSN = {2076-3417},
+Unique-ID = {WOS:001634028800001},
+}
+
+@article{ WOS:001264062600001,
+Author = {Binder, Mario and Mezhuyev, Vitaliy},
+Title = {A framework for creating an IoT system specification with ChatGPT},
+Journal = {INTERNET OF THINGS},
+Year = {2024},
+Volume = {27},
+Month = {OCT},
+Abstract = {The Internet of Things (IoT) is a core concern for the digital
+   transformation of the industry. However, the development of IoT systems,
+   starting from creating specifications, is a serious and time-consuming
+   effort, which requires high levels of expertise. This paper introduces a
+   novel approach leveraging large language models, specifically ChatGPT,
+   to streamline the generation of IoT system specifications from initial,
+   unstructured customer requirements. A framework, adapting the ISO
+   IEC/IEEE 12,207:2017 standard, is developed for this purpose. The
+   utility of this framework is validated through the development and
+   expert evaluation of a specification for a campus laboratory IoT use
+   case. The findings demonstrate ChatGPT `s effectiveness in producing
+   specifications that are understandable, complete, and unambiguous, thus
+   offering a substantial aid to the industry in overcoming the
+   complexities of IoT system specification development. At the same time,
+   the study identified specific tasks within the requirements engineering
+   process for IoT systems that ChatGPT could not effectively perform, such
+   as verification, obtaining agreements, and maintaining traceability of
+   requirements between stakeholders. The findings offer valuable insights
+   into the practical applications of AI in the domain of IoT development,
+   particularly in automating the specification generation process. These
+   contributions not only advance the understanding of AI `s role in IoT
+   development but also open pathways for further research on refining AI
+   -assisted methodologies for system specification and beyond.},
+DOI = {10.1016/j.iot.2024.101218},
+EarlyAccessDate = {JUL 2024},
+Article-Number = {101218},
+ISSN = {2543-1536},
+EISSN = {2542-6605},
+ResearcherID-Numbers = {Mezhuyev, Vitaliy/Y-7156-2019},
+ORCID-Numbers = {Mezhuyev, Vitaliy/0000-0002-9335-6131},
+Unique-ID = {WOS:001264062600001},
+}
+
+@article{ WOS:001681701000002,
+Author = {Zarebski, Sebastian and Rusek, Krzysztof and Cholda, Piotr},
+Title = {Regression test optimization for software of the cellular network base
+   stations: A language-based approach},
+Journal = {EXPERT SYSTEMS WITH APPLICATIONS},
+Year = {2026},
+Volume = {311},
+Month = {MAY 15},
+Abstract = {This paper introduces Linear Model of Latent Dirichlet Allocation
+   (LMLDA), a novel methodology for software test optimization that
+   directly addresses the gap between computationally-prohibitive large
+   language models (LLMs) and semantically-shallow heuristics. Our primary
+   contribution is a lightweight, interpretable, and costefficient model
+   specifically designed for high-stakes industrial Continuous Integration
+   and Continuous Development (CI/CD) environments where security and
+   traceability are essential. The novelty of LMLDA lies in its integration
+   of Latent Dirichlet Allocation (LDA) for the semantic analysis of code
+   modifications and test content, with a classifier based on logistic
+   regression concepts for the training phase, yet offering prediction
+   capabilities that align with the computational simplicity of linear
+   regression. This approach uniquely predicts the probability of test
+   failure based on semantic interactions, enabling precise, bug-centric
+   prioritization rather than relying on indirect diversity proxies. A
+   large-scale industrial case study at NOKIA demonstrates LMLDA's
+   practical effectiveness, achieving an average 64\% reduction in test
+   suite size while maintaining 88\% precision in bug detection and
+   accelerating critical bug discovery by an average of 8 h per cycle.},
+DOI = {10.1016/j.eswa.2026.131225},
+EarlyAccessDate = {JAN 2026},
+Article-Number = {131225},
+ISSN = {0957-4174},
+EISSN = {1873-6793},
+ResearcherID-Numbers = {Rusek, Krzysztof/H-6694-2012
+   Cholda, Piotr/C-3243-2011},
+ORCID-Numbers = {Rusek, Krzysztof/0000-0003-4336-7841
+   },
+Unique-ID = {WOS:001681701000002},
+}
+
+@article{ WOS:001521499800002,
+Author = {Alturayeif, Nouf and Hassine, Jameleddine and Ahmad, Irfan},
+Title = {Machine learning approaches for automated software traceability: A
+   systematic literature review},
+Journal = {JOURNAL OF SYSTEMS AND SOFTWARE},
+Year = {2025},
+Volume = {230},
+Month = {DEC},
+Abstract = {Software traceability is the process of tracking and managing
+   relationships between software artifacts throughout the Software
+   Development Life-Cycle (SDLC). It ensures that all software artifacts
+   are correctly linked, facilitating change management, impact analysis,
+   and regulatory compliance. Automated traceability can be achieved using
+   Information Retrieval (IR) and Machine Learning (ML) approaches. This
+   systematic literature review summarizes and synthesizes ML-based
+   automated traceability studies. Considering the rapid ML advancements,
+   analyzing current research is crucial for progress in the field. We
+   identified 59 studies published between 2014 and June 2024. We found an
+   increase in the publications, particularly in 2023 and continuing into
+   2024, with sustained citation impact. Around 170 datasets from different
+   domains are used, covering natural and programming languages artifacts.
+   Common artifacts include use cases and source code, focusing on
+   Requirements Analysis and Implementation phases. Existing solutions
+   mostly use classification and supervised learning, with the emerging use
+   of deep learning and Large Language Models (LLMs), showing superior
+   performance. We identified challenges and gaps with future trends to
+   guide researchers. Challenges include imbalanced datasets, data
+   scarcity, and limited real-world data, while gaps include handling
+   missing true links, lack of benchmark datasets, and limited exploration
+   of LLMs. Lastly, we provide recommendations for researchers based on the
+   findings.},
+DOI = {10.1016/j.jss.2025.112536},
+EarlyAccessDate = {JUN 2025},
+Article-Number = {112536},
+ISSN = {0164-1212},
+EISSN = {1873-1228},
+ResearcherID-Numbers = {Alturayeif, Nouf/ABD-1882-2021
+   Hassine, Jameleddine/E-5940-2015
+   Ahmad, Irfan/D-7254-2015},
+ORCID-Numbers = {Alturayeif, Nouf/0000-0002-2761-8420
+   Hassine, Jameleddine/0000-0001-8170-9860
+   Ahmad, Irfan/0000-0001-8311-1731},
+Unique-ID = {WOS:001521499800002},
+}
+
+@article{ WOS:001705029500003,
+Author = {Etezadi, Romina and Abualhaija, Sallam and Arora, Chetan and Briand,
+   Lionel},
+Title = {Classifier or prompt: A case study on legal requirements traceability},
+Journal = {EMPIRICAL SOFTWARE ENGINEERING},
+Year = {2026},
+Volume = {31},
+Number = {4},
+Month = {MAR 2},
+Abstract = {New regulations are continually introduced to ensure that software
+   development complies with ethical concerns and prioritizes public
+   safety. A prerequisite for demonstrating compliance involves tracing
+   software requirements to legal provisions. Requirements traceability is
+   a fundamental task where requirements engineers are supposed to analyze
+   technical requirements against target artifacts, often under a limited
+   time budget. Doing this analysis manually for complex systems with
+   hundreds of requirements is infeasible. The legal dimension introduces
+   additional challenges that increase manual effort. In this paper, we
+   investigate two automated solutions based on language models, including
+   large ones (LLMs). The first solution,
+   \textbackslash{}documentclass{[}12pt]\{minimal\}
+   \textbackslash{}usepackage\{amsmath\}
+   \textbackslash{}usepackage\{wasysym\}
+   \textbackslash{}usepackage\{amsfonts\}
+   \textbackslash{}usepackage\{amssymb\}
+   \textbackslash{}usepackage\{amsbsy\}
+   \textbackslash{}usepackage\{mathrsfs\}
+   \textbackslash{}usepackage\{upgreek\}
+   \textbackslash{}setlength\{\textbackslash{}oddsidemargin\}\{-69pt\}
+   \textbackslash{}begin\{document\}\$\$\textbackslash{}mathcal
+   \{K\}\$\$\textbackslash{}end\{document\}ashif, is a classifier that
+   leverages sentence transformers and semantic similarity. The second
+   solution, Rice\_LRT, prompts a recent LLM based on Rice, a prompt
+   engineering framework. Using a publicly available benchmark dataset, we
+   empirically evaluate \textbackslash{}documentclass{[}12pt]\{minimal\}
+   \textbackslash{}usepackage\{amsmath\}
+   \textbackslash{}usepackage\{wasysym\}
+   \textbackslash{}usepackage\{amsfonts\}
+   \textbackslash{}usepackage\{amssymb\}
+   \textbackslash{}usepackage\{amsbsy\}
+   \textbackslash{}usepackage\{mathrsfs\}
+   \textbackslash{}usepackage\{upgreek\}
+   \textbackslash{}setlength\{\textbackslash{}oddsidemargin\}\{-69pt\}
+   \textbackslash{}begin\{document\}\$\$\textbackslash{}mathcal
+   \{K\}\$\$\textbackslash{}end\{document\}ashif and compare it against
+   seven baseline classifiers from the literature (LSI, LDA, GloVe,
+   TraceBERT, RoBERTa, and LLaMa).
+   \textbackslash{}documentclass{[}12pt]\{minimal\}
+   \textbackslash{}usepackage\{amsmath\}
+   \textbackslash{}usepackage\{wasysym\}
+   \textbackslash{}usepackage\{amsfonts\}
+   \textbackslash{}usepackage\{amssymb\}
+   \textbackslash{}usepackage\{amsbsy\}
+   \textbackslash{}usepackage\{mathrsfs\}
+   \textbackslash{}usepackage\{upgreek\}
+   \textbackslash{}setlength\{\textbackslash{}oddsidemargin\}\{-69pt\}
+   \textbackslash{}begin\{document\}\$\$\textbackslash{}mathcal
+   \{K\}\$\$\textbackslash{}end\{document\}ashif can identify trace links
+   with F2 score of \textbackslash{}documentclass{[}12pt]\{minimal\}
+   \textbackslash{}usepackage\{amsmath\}
+   \textbackslash{}usepackage\{wasysym\}
+   \textbackslash{}usepackage\{amsfonts\}
+   \textbackslash{}usepackage\{amssymb\}
+   \textbackslash{}usepackage\{amsbsy\}
+   \textbackslash{}usepackage\{mathrsfs\}
+   \textbackslash{}usepackage\{upgreek\}
+   \textbackslash{}setlength\{\textbackslash{}oddsidemargin\}\{-69pt\}
+   \textbackslash{}begin\{document\}\$\$\textbackslash{}approx\$\$\textback
+   slash{}end\{document\}63\%, outperforming the best baseline by a
+   substantial margin of 21 percentage points (pp) in F2 score. On a newly
+   created and more complex requirements document traced to the European
+   general data protection regulation (GDPR), Rice\_LRT outperforms
+   \textbackslash{}documentclass{[}12pt]\{minimal\}
+   \textbackslash{}usepackage\{amsmath\}
+   \textbackslash{}usepackage\{wasysym\}
+   \textbackslash{}usepackage\{amsfonts\}
+   \textbackslash{}usepackage\{amssymb\}
+   \textbackslash{}usepackage\{amsbsy\}
+   \textbackslash{}usepackage\{mathrsfs\}
+   \textbackslash{}usepackage\{upgreek\}
+   \textbackslash{}setlength\{\textbackslash{}oddsidemargin\}\{-69pt\}
+   \textbackslash{}begin\{document\}\$\$\textbackslash{}mathcal
+   \{K\}\$\$\textbackslash{}end\{document\}ashif and baseline prompts in
+   the literature by achieving an average recall of 84\% and F2 score of
+   61\%, improving the F2 score by 34 pp compared to the best baseline
+   prompt. Our results indicate that requirements traceability in legal
+   contexts cannot be adequately addressed by techniques proposed in the
+   literature that are not specifically designed for legal artifacts.
+   Furthermore, we demonstrate that our engineered prompt outperforms both
+   classifier-based approaches and baseline prompts.},
+DOI = {10.1007/s10664-026-10827-1},
+Article-Number = {85},
+ISSN = {1382-3256},
+EISSN = {1573-7616},
+ResearcherID-Numbers = {Abualhaija, Sallam/KYQ-9260-2024
+   Etezadi, Romina/HLQ-3470-2023},
+ORCID-Numbers = {Abualhaija, Sallam/0000-0001-6095-447X
+   },
+Unique-ID = {WOS:001705029500003},
+}
+
+@article{ WOS:001357869500001,
+Author = {Ramos, Tafline and Dean, Amanda and Mcgregor, David},
+Title = {AI-Augmented Software Engineering: Revolutionizing or Challenging
+   Software Quality and Testing?},
+Journal = {JOURNAL OF SOFTWARE-EVOLUTION AND PROCESS},
+Year = {2025},
+Volume = {37},
+Number = {2},
+Month = {FEB},
+Abstract = {With organizations seeking faster, cheaper, and smarter ways of
+   delivering higher quality software, many are looking towards generative
+   artificial intelligence (AI) to drive efficiencies and innovation
+   throughout the software development lifecycle. However, generative AI
+   can suffer from several fundamental issues, including a lack of
+   traceability in concept generation and decision-making, the potential
+   for making incorrect inferences (hallucinations), shortcomings in
+   response quality, and bias. Quality engineering (QE) has long been
+   utilized to enable more efficient and effective delivery of higher
+   quality software. A core aspect of QE is adopting quality models to
+   support various lifecycle practices, including requirements definition,
+   quality risk assessments, and testing. In this position paper, we
+   introduce the application of QE to AI systems, consider shortcomings in
+   existing AI quality models from the International Organization for
+   Standardization (ISO), and propose extensions to ISO models based on the
+   results of a survey. We also reflect on skills that IT graduates may
+   need in the future, to support delivery of better-quality AI.},
+DOI = {10.1002/smr.2741},
+EarlyAccessDate = {NOV 2024},
+Article-Number = {e2741},
+ISSN = {2047-7473},
+EISSN = {2047-7481},
+Unique-ID = {WOS:001357869500001},
+}
+
+@article{ WOS:001327270600001,
+Author = {Kuhail, Mohammad Amin and Berengueres, Jose and Taher, Fatma and Khan,
+   Sana Zeb and Siddiqui, Ansah},
+Title = {Designing a Haptic Boot for Space With Prompt Engineering: Process,
+   Insights, and Implications},
+Journal = {IEEE ACCESS},
+Year = {2024},
+Volume = {12},
+Pages = {134235-134255},
+Abstract = {Recent literature indicates the potential of applying Artificial
+   Intelligence (AI) tools to enhance ideation outcomes and optimize
+   functionality across various engineering disciplines. However, a
+   comprehensive understanding of applying AI in the design process is
+   lacking, particularly regarding projects involving innovative design.
+   Here, we address the integration of AI in a case study project. The
+   project goal is to design a haptic boot to be used on Mars. We apply a
+   popular AI tool, ChatGPT-3.5, to each design step, from the requirement
+   gathering phase to the prototyping and testing phase. To assess the
+   merit of the AI contributions, we asked eight domain experts to give
+   qualitative feedback. The results indicate that current AI tools can
+   provide a valuable starting point in the requirements and design phases.
+   However, we noted instances of hallucinations and poor traceability.
+   Finally, the experts' evaluation points out that the AI-proposed
+   requirements and design are missing key elements expected as an outcome
+   in an engineering design process. This study offers insight into the
+   practical application of AI through a specific engineering design
+   process.},
+DOI = {10.1109/ACCESS.2024.3449396},
+ISSN = {2169-3536},
+ResearcherID-Numbers = {Kuhail, Mohammad Amin/AAS-6745-2020
+   Berengueres, Jose/ABD-6698-2020
+   Taher, Fatma/AAA-2912-2021},
+ORCID-Numbers = {Khan, Sana Zeb/0000-0001-5391-9051
+   Siddiqui, Ansah/0009-0001-7396-1545
+   Kuhail, Mohammad Amin/0000-0002-0000-0989
+   Berengueres, Jose/0000-0001-8572-7898
+   Taher, Fatma/0000-0001-8358-9081},
+Unique-ID = {WOS:001327270600001},
+}
+
+@article{ WOS:001511008100001,
+Author = {Du, Yiyang and Yang, Xingguang and Shu, Zhenyu and Huang, Zijie and
+   Wang, Gang and Xu, Libo},
+Title = {RESEARCH NOTES: Multiclass Classification for Self-Admitted Technical
+   Debt via Large Pre-Trained Language Model},
+Journal = {INTERNATIONAL JOURNAL OF SOFTWARE ENGINEERING AND KNOWLEDGE ENGINEERING},
+Year = {2025},
+Volume = {35},
+Number = {06},
+Pages = {835-860},
+Month = {JUN},
+Abstract = {Technical debt refers to suboptimal solutions adopted for short-term
+   goals. Self-admitted technical debt (SATD) is the debt that is
+   explicitly marked through comments or documentation, making it
+   traceable. Multi-classification of SATD helps developers understand
+   different debt types and improve efficiency. This paper proposes a SATD
+   multi-classification method based on Fine-Tuning the GPT-3.5-turbo model
+   for SATD prediction. This study uses a public dataset containing 10
+   projects with code comments. We classify design debt, requirement debt,
+   and defect debt and evaluate our method's performance. The experimental
+   results show that compared to the best baseline model, our method
+   achieves average improvements of 11.41\%, 1.72\% and 3.72\% in MacroF,
+   MacroP and MacroR metrics, respectively, in the MTO scenario. In the OTO
+   scenario, improvements are 2.33\%, 3.70\% and 2.18\%, respectively.
+   These results indicate that our method has a strong generalization
+   ability in SATD multi-classification and offers a new approach to
+   managing technical debt.},
+DOI = {10.1142/S0218194025500238},
+ISSN = {0218-1940},
+EISSN = {1793-6403},
+ResearcherID-Numbers = {Huang, Zijie/JUF-4746-2023
+   },
+ORCID-Numbers = {, DYy/0009-0000-9666-1994
+   Huang, Zijie/0000-0002-8911-9889
+   wang, gang/0000-0001-5283-7126
+   Yang, Xingguang/0000-0001-7489-2265
+   libo, xu/0000-0002-7779-5011
+   shu, zhenyu/0000-0001-5733-6638},
+Unique-ID = {WOS:001511008100001},
+}
+
+@article{ WOS:001596883500011,
+Author = {Jang, Woosung and Young Chul Kim, R.},
+Title = {Automatic Test Case Generation Mechanism With Natural Language-Based
+   Korean Requirement Specifications},
+Journal = {IEEE ACCESS},
+Year = {2025},
+Volume = {13},
+Pages = {177305-177317},
+Abstract = {In the software industry, software testers are forced to make test cases
+   with informal or formal requirements. From a software perspective, to
+   conduct user acceptance testing, we should manually create numerous test
+   cases to achieve the desired test coverage based on a precise analysis
+   of clear and unstructured requirements. Until now, defining and
+   analyzing the meaning of natural language-based requirements has been
+   challenging, and automating this process has also been complex. In
+   software engineering, rare research generates test cases with natural
+   language requirement sentences, especially in Korea. To solve this
+   problem, we propose a mechanism for automatically generating test cases
+   from natural language requirements, as used by software engineers. This
+   approach involves 1) simplifying unstructured Korean requirements, 2)
+   normalizing requirement sentences, 3) modeling the requirement
+   simplification process (C3Tree modeling), 4) automatically generating
+   cause-effect graph model, and then test cases via decision table model
+   with the graph models through metamodel transformation methods, 5)
+   semi-automatic generation of test scripts, 6) generating test result
+   reports, and 7) finally automatic generation of requirement traceability
+   matrices. Ultimately, simplifying unstructured Korean requirements
+   sentences facilitates understanding of requirements among stakeholders
+   and reduces testing costs. At this moment, we will compare the exact way
+   in which the test case generation approach and generative AI-based test
+   case generation are created.},
+DOI = {10.1109/ACCESS.2025.3620431},
+ISSN = {2169-3536},
+Unique-ID = {WOS:001596883500011},
+}
+
+@article{ WOS:001742623200001,
+Author = {Berger, Thorsten and Mahmood, Wardah and Abu Zahra, Ramzi and
+   Vassilevski, Igor and Burger, Andreas and Ji, Wenbin and Antkiewicz,
+   Michal and Czarnecki, Krzysztof},
+Title = {Cost and Benefit of Tracing Features with Embedded Annotations},
+Journal = {ACM TRANSACTIONS ON SOFTWARE ENGINEERING AND METHODOLOGY},
+Year = {2026},
+Volume = {35},
+Number = {4},
+Month = {APR},
+Abstract = {Features are commonly used to describe the functional and non-functional
+   characteristics of software. Especially agile development methods, such
+   as SCRUM, FDD, or XP, use features to plan and manage software
+   development. Features are often the main units of software reuse,
+   communication, and configuration, abstracting over code details.
+   Especially in the age of generative AI, where feature requirements are
+   specified as prompts and substantial code is cloned, codebases are
+   becoming increasingly complex and redundant. This requires raising the
+   level of abstraction at which we manage and evolve software systems.
+   However, effectively using features requires knowing their precise
+   locations within codebases, which is especially challenging when they
+   are scattered across the codebase. Once implemented, the knowledge about
+   a feature's location quickly deteriorates when the software evolves or
+   development teams change, requiring expensive recovery of features. This
+   decades-old problem is known as the feature-location or concept
+   assignment problem in software engineering, which researchers
+   have-unsuccessfully over decades-tried to address with automated
+   feature-location recovery techniques. The problem lies in the common
+   belief that recording and maintaining feature locations during
+   development is laborious and error-prone. In this study, we argue to the
+   contrary. We hypothesize that such information can be effectively
+   embedded into codebases, and that the arising costs will be amortized by
+   the benefits ofthis information. We validated this hypothesis in a
+   simulation study with three subjects systems: a smalleropen source
+   system, a large commercial firmware system, and an open source mobile
+   app. We designed alightweight code annotation technique and simulated
+   its use as if annotations had been added, maintained,and exploited
+   during the original development. We identified evolution patterns and
+   measured the cost andbenefit of these annotations. Our results show that
+   not only the cost of adding annotations, but also thatof maintaining
+   them is negligible compared to the development and maintenance costs of
+   the actual code.Embedding the annotations into the codebase
+   significantly reduced their maintenance effort, because theynaturally
+   co-evolved with the code. The annotations provided a benefit for
+   feature-related maintenance tasks,such as feature cloning or merging the
+   clones into an integrated codebase, that exceeded the costs of
+   usingthem.},
+DOI = {10.1145/3746060},
+Article-Number = {109},
+ISSN = {1049-331X},
+EISSN = {1557-7392},
+Unique-ID = {WOS:001742623200001},
+}
+
+@article{ WOS:001791538200001,
+Author = {Liao, Guozhao and Hou, Yang and Chai, Lujia and Yue, Qiuling and Zhang,
+   Qionglu and Han, Wenbao and Ou, Wei},
+Title = {The dual-encoder detector for AI-generated go code},
+Journal = {JOURNAL OF KING SAUD UNIVERSITY COMPUTER AND INFORMATION SCIENCES},
+Year = {2026},
+Volume = {38},
+Number = {5},
+Month = {MAR 11},
+Abstract = {Recently, the technological iteration of our method has played a
+   significant role in promoting the automation of software engineering,
+   especially in code generation. However, the increasing prevalence of
+   Al-generated code also poses potential risks to code quality, security,
+   intellectual property, and academic integrity. Although existing
+   research has focused on AI-generated code detection, current methods
+   have not paid sufficient attention to the Go programming language.
+   Furthermore, most methods rely on a single model or homogeneous
+   features, limiting the capacity to capture the features of AI-generated
+   code in multiple dimensions, including semantics and syntax. To tackle
+   these issues, this paper proposes a Dual-Encoder detector for
+   AI-generated Go code. This method constructs a Dual-Encoder feature
+   fusion framework, utilizing encoders from two code models, CodeBERT and
+   UniXcoder, to extract complementary features from the semantic and
+   syntactic dimensions of the code, thereby more effectively identifying
+   Al-generated code. Extensive experimental results show that in terms of
+   the F1 indicator, our method outperforms other baseline methods.
+   Compared with the strongest baselines on each dataset, this model
+   outperforms by approximately 7.6\% in average F1 score on the Go
+   language datasets generated by GPT-3.5-Turbo, CodeLlama-34B, and
+   WizardCoder-34B. It also performs well on the dataset generated by
+   WizardCoder-15B. This research helps identify AI-generated code in
+   codebases, thereby supporting code review and security policy
+   development. It can also enhance code traceability and the clarity of
+   intellectual property, contributing to maintaining fairness and academic
+   integrity in educational and research environments. Moreover, it also
+   provides a new framework for detecting AI-generated code.},
+DOI = {10.1007/s44443-026-00626-5},
+EarlyAccessDate = {MAR 2026},
+Article-Number = {221},
+ISSN = {1319-1578},
+EISSN = {2213-1248},
+Unique-ID = {WOS:001791538200001},
+}
